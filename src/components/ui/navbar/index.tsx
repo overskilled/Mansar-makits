@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { Button } from '../button';
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from '../navigation-menu';
 import { Popover, PopoverContent, PopoverTrigger } from '../popover';
+import LanguageSelector from '@/components/custom/LanguageSelector';
 
 // Simple logo component for the navbar
 const Logo = (props: React.SVGAttributes<SVGElement>) => {
@@ -377,6 +378,7 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
           </div>
           {/* Right side */}
           <div className="flex items-center gap-3">
+            <LanguageSelector />
             <Button
               variant="ghost"
               size="sm"

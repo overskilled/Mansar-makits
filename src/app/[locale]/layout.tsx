@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Jost, Poppins } from "next/font/google";
 import { Navbar } from "@/components/ui/navbar";
+import { I18nProviderClient } from "@/locales/client";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -26,11 +27,15 @@ export const metadata: Metadata = {
   }
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+interface AdminLayoutProps {
+  params: Promise<{ locale: string }>;
   children: React.ReactNode;
-}>) {
+}
+
+export default async function RootLayout({ params, children }: AdminLayoutProps) {
+
+  const { locale } = await params;
+  
   return (
     <html lang="en">
       <head>
@@ -41,11 +46,12 @@ export default function RootLayout({
       <body
         className={`${jost.className} ${poppins.className} antialiased w-full bg-gray-50`}
       >
-        {/* <Navbar1 /> */}
-        <div className="relative w-full">
-          <Navbar />
-        </div>
-        {children}
+        <I18nProviderClient locale={locale}>
+          <div className="relative w-full">
+            <Navbar />
+          </div>
+          {children}
+        </I18nProviderClient>
       </body>
     </html>
   );
