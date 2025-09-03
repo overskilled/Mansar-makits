@@ -138,3 +138,14 @@ h5,
 h6 {
   font-family: 'Jost', sans-serif;
 }
+
+.lith {
+  font-weight: 300;
+}
+.borders {
+  border: 1px solid #e5e7eb,
+}
+
+.linear {
+  background-image: linear-gradient(rgba(13,14,18,0) 0px,rgb(13,14,18) 400px);
+}
