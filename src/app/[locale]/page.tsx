@@ -125,11 +125,10 @@ export default function Home() {
     ],
   };
   const EnteteData = {
-    SPAN:'Use case',
-    H3:'We partner with innovative companies to grow investingopportunities across Europe',
-    p:'',
-
-  }
+    SPAN: "Use case",
+    H3: "We partner with innovative companies to grow investingopportunities across Europe",
+    p: "",
+  };
   return (
     <div className="flex h-screen flex-col relative">
       <div className="flex pb-20 pt-48 relative mb-20">
@@ -157,9 +156,14 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col relative mt-10 mb-30">
+        <Entete
+          SPAN={EnteteData.SPAN}
+          H3={EnteteData.H3}
+          P={EnteteData.p}
+          TEXT="text-blue-500"
+          BG="bg-blue-300"
+        />
 
-        <Entete SPAN={EnteteData.SPAN} H3={EnteteData.H3} P={EnteteData.p} TEXT="text-blue-500" BG="bg-blue-300" />
-        
         <div className="flex flex-col gap-30">
           <div className="flex">
             <div className="flex flex-col justify-between">

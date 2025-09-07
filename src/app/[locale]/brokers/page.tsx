@@ -3,6 +3,7 @@ import DoubleBlockWithImage from "@/components/custom/DoubleBlockWithImage";
 import FlexWrapRight from "@/components/custom/FlexWrapRight";
 import Footer from "@/components/custom/Footer";
 import GetInTouchBlock from "@/components/custom/GetInTouchBlock";
+import Hero from "@/components/custom/Hero";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { MoveUpRight } from "lucide-react";
 
@@ -114,9 +115,15 @@ export default function page() {
       },
     ],
   };
+  const heroData = {
+    H2:'Brokers and Wealth Managers',
+    P:"ocus all your efforts on building a unique product and attracting theright customers.We'll handle all the technical, operational, andregulatory complexities in the background.",
+    B:' Start building'
+  }
+  
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="w-full h-[calc(100vh-15vh)] flex flex-col justify-center items-center ">
+      {/* <div className="w-full h-screen flex flex-col justify-center items-center ">
         <div className="w-1/2 gap-8 mt-30 bg-transparent justify-center flex flex-col items-center *:text-center">
           <h2 className="text-5xl font-seibold mb-2">
             Brokers and Wealth Managers
@@ -130,7 +137,8 @@ export default function page() {
             Start building
           </button>
         </div>
-      </div>
+      </div> */}
+      <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} />
 
       <div className="flex flex-col w-full my-20 relative">
         <span className="bg-blue-300 text-blue-500 py-0.5 px-4 w-35 font-medium text-md text-center rounded-3xl">
