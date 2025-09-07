@@ -146,6 +146,15 @@ h6 {
   border: 1px solid #e5e7eb,
 }
 
-.linear {
-  background-image: linear-gradient(rgba(13,14,18,0) 0px,rgb(13,14,18) 400px);
+.chadowX:hover {
+  box-shadow: rgb(17, 20, 24) 9px -9px 0px 0px;
+  border: 1px solid rgb(39, 52, 68);
+  /* box-sizing: border-box; */
+}
+/* .chadowX:hover {
+  box-shadow: 9px -9px 0 0 #111418, 9px -9px 0 1.5px #25282d
+} */
+
+.bg-image {
+  background-image: url('https://images.prismic.io/lemonmarkets2/ZrIKvEaF0TcGIttW_gradient-beatvest.png?auto=format,compress');
 }
