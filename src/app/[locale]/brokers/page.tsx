@@ -7,10 +7,10 @@ import Hero from "@/components/custom/Hero";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { MoveUpRight } from "lucide-react";
 
-interface Liste {
-  soustitre: string;
-  texte: string;
-}
+// interface Liste {
+//   soustitre: string;
+//   texte: string;
+// }
 export default function page() {
   const liste = [
     {
