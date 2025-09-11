@@ -5,6 +5,7 @@ import Footer from "@/components/custom/Footer";
 import Hero from "@/components/custom/Hero";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { useI18n } from "@/locales/client";
 import { Separator } from "@radix-ui/react-dropdown-menu";
 import { MoveUpRight } from "lucide-react";
 import { useState } from "react";
@@ -21,6 +22,8 @@ interface FormData {
 }
 
 export default function page() {
+  const t = useI18n();
+
   const [formData, setFormData] = useState<FormData>({
     name: "",
     responsability: "",
@@ -32,9 +35,9 @@ export default function page() {
     planned: "",
   });
   const DataHero = {
-    H2: "Get started with lemon.markets",
-    P: "Do you have questions about building the next generation of brokerage experience? Fill out the contact form below and one of our experts will reach out to you.",
-    B: "",
+    H2: t("contactUs.DataHero.H2"),
+    P: t("contactUs.DataHero.P"),
+    B: t("contactUs.DataHero.B"),
   };
   const handleChange = (
     e: React.ChangeEvent<
@@ -52,45 +55,42 @@ export default function page() {
     console.log("Form submitted ✅", formData);
   };
   const EnteteData = {
-    SPAN:"In the media",
-    H3:"Well-known in the financial services ecosystem",
-    P:"",
+    SPAN: t("contactUs.section2.EnteteData.SPAN"),
+    H3: t("contactUs.section2.EnteteData.H3"),
+    P: t("contactUs.section2.EnteteData.P"),
   }
   return (
     <div className="min-h-screen flex-col flex *:w-full bg-white">
       <Hero H2={DataHero.H2} P={DataHero.P} B={DataHero.B} />
 
-      <div className="my-10 flex justify-between w-full *:w-1/2">
+      <section className="my-10 flex justify-between w-full *:w-1/2">
         <div className="pr-10 pl-5">
           <Card className="p-0 pr-6 shadow-none bg-gray-50">
             <Card className="p-20 mt-6 -mb-6 -ml-6 shadow-none bg-gray-50">
               <div className="">
-                <h4 className="text-2xl mb-4">
-                  What to expect from a call with us
-                </h4>
+                <h4 className="text-2xl mb-4">{t("contactUs.section1.H4_1")}</h4>
                 <ul className="list-disc ml-4">
-                  <li>Clear focus on understanding your problem</li>
-                  <li>Deep expertise in the brokerage domain</li>
-                  <li>Guidance on all compliance topics</li>
-                  <li>The beginning of a long-term partnership</li>
+                  <li>{t("contactUs.section1.UL.0")}</li>
+                  <li>{t("contactUs.section1.UL.1")}</li>
+                  <li>{t("contactUs.section1.UL.2")}</li>
+                  <li>{t("contactUs.section1.UL.3")}</li>
                 </ul>
               </div>
               <Separator />
               <div className="">
-                <h4 className="text-2xl mb-4">Explore developer hub</h4>
+                <h4 className="text-2xl mb-4">{t("contactUs.section1.H4_2")}</h4>
                 <p>
-                  Learn more about our investment infrastructure by exploring
-                  our developer hub. Find an extensive documentation, clear
-                  guides and all the support you need to get going right away!
+                  {t("contactUs.section1.P2")}
                 </p>
               </div>
             </Card>
           </Card>
         </div>
-        <div className="pt-4 pl-20">
+
+        <div className="pt-8 pl-20">
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">{t("contactUs.section1.Label.0")}</label>
               <input
                 type="text"
                 id="name"
@@ -103,7 +103,7 @@ export default function page() {
               />
             </div>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="email">email</label>
+              <label htmlFor="email">{t("contactUs.section1.Label.1")}</label>
               <input
                 type="email"
                 id="email"
@@ -116,7 +116,7 @@ export default function page() {
               />
             </div>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="responsability">responsability</label>
+              <label htmlFor="responsability">{t("contactUs.section1.Label.2")}</label>
               <input
                 type="text"
                 id="responsability"
@@ -129,7 +129,7 @@ export default function page() {
               />
             </div>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="companyStage">company Stage</label>
+              <label htmlFor="companyStage">{t("contactUs.section1.Label.3")}</label>
               <input
                 type="text"
                 id="companyStage"
@@ -142,7 +142,7 @@ export default function page() {
               />
             </div>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="description">description</label>
+              <label htmlFor="description">{t("contactUs.section1.Label.4")}</label>
               <input
                 type="text"
                 id="description"
@@ -155,7 +155,7 @@ export default function page() {
               />
             </div>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="license">license</label>
+              <label htmlFor="license">{t("contactUs.section1.Label.5")}</label>
               <input
                 type="text"
                 id="license"
@@ -168,7 +168,7 @@ export default function page() {
               />
             </div>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="country">country</label>
+              <label htmlFor="country">{t("contactUs.section1.Label.6")}</label>
               <input
                 type="select"
                 id="country"
@@ -181,7 +181,7 @@ export default function page() {
               />
             </div>
             <div className="flex flex-col border-b mb-4 pb-4">
-              <label htmlFor="planned">planned</label>
+              <label htmlFor="planned">{t("contactUs.section1.Label.7")}</label>
               <input
                 type="text"
                 id="planned"
@@ -194,19 +194,19 @@ export default function page() {
               />
             </div>
             <div className="py-10">
-                <h4 className="flex gap-2 items-center">Privacy Policy for contact forms  <MoveUpRight width={14} /></h4>
+                <h4 className="flex gap-2 items-center"> {t("contactUs.section1.H4_3")} <MoveUpRight width={14} /></h4>
             </div>
             <div className="px-2">
-              <Button className="w-full" >submit form  <MoveUpRight /></Button>
+              <Button className="w-full" >{t("contactUs.section1.B")} <MoveUpRight /></Button>
             </div>
           </form>
         </div>
-      </div>
+      </section>
       
-      <div className="my-10">
+      <section className="my-10">
         <Entete SPAN={EnteteData.SPAN} H3={EnteteData.H3} P={EnteteData.P} BG="bg-indigo-300" TEXT="text-indigo-500" />
-        <div className="h-40 bg-black my-10">nos medias</div>
-      </div>
+        <div className="h-40 bg-black my-10 text-white">nos medias</div>
+      </section>
 
       <Footer />
     </div>
