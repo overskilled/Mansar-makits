@@ -16,7 +16,7 @@ export default {
     EnteteData: {
       SPAN: "Cas d'utilisation",
       H3: "Nous collaborons avec des entreprises innovantes pour développer les opportunités d'investissement à travers l'Europe",
-      p: "",
+      P: " ",
     },
     section1: {
       h4: "Courtiers & Gestionnaires de Patrimoine",
@@ -762,4 +762,5 @@ export default {
       },
     },
   },
+  
 } as const;

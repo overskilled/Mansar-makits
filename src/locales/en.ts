@@ -17,7 +17,7 @@ export default {
     EnteteData: {
       SPAN: "Use case",
       H3: "We partner with innovative companies to grow investingopportunities across Europe",
-      p: "",
+      p: " ",
     },
     section1: {
       h4: "Brokers & Wealth Managers",
@@ -147,7 +147,7 @@ export default {
   brokers: {
     hero: {
       H2: "Brokers and Wealth Managers",
-      P: "ocus all your efforts on building a unique product and attracting theright customers.We'll handle all the technical, operational, andregulatory complexities in the background.",
+      P: "Focus all your efforts on building a unique product and attracting theright customers.We'll handle all the technical, operational, andregulatory complexities in the background.",
       B: " Start building",
     },
     liste: [
