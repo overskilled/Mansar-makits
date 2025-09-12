@@ -8,13 +8,13 @@ export default function GetInTouchBlock() {
   const t = useI18n();
   return (
     <div className="w-full flex *:w-1/2 bg-black linear min-h-screen items-center mb-20 mt-10">
-      <div className="flex flex-col pl-4">
-        <span className="py-1 px-2 bg-blue-600/20 text-indigo-700 rounded-2xl w-40 text-center">
+      <div className="pl-4">
+        <span className="py-1 px-4 bg-indigo-500/40 text-indigo-500 rounded-2xl text-center">
           {t("GetInTouch.SPAN")}
         </span>
         <h1 className="text-6xl text-white mt-5">{t("GetInTouch.H1")}</h1>
         <p className="text-gray-200 mb-10 mt-5">{t("GetInTouch.P")}</p>
-        <button className="py-3 px-6 rounded-lg bg-white w-50">
+        <button className="py-3 px-6 rounded-lg bg-white w-">
           {t("GetInTouch.B")}
         </button>
       </div>

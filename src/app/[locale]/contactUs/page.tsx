@@ -59,6 +59,12 @@ export default function page() {
     H3: t("contactUs.section2.EnteteData.H3"),
     P: t("contactUs.section2.EnteteData.P"),
   }
+  const list = [
+    "/p1.avif",
+    "/p2.avif",
+    "/p3.avif",
+    "/p4.png",
+  ]
   return (
     <div className="min-h-screen flex-col flex *:w-full bg-white">
       <Hero H2={DataHero.H2} P={DataHero.P} B={DataHero.B} />
@@ -205,7 +211,11 @@ export default function page() {
       
       <section className="my-10">
         <Entete SPAN={EnteteData.SPAN} H3={EnteteData.H3} P={EnteteData.P} BG="bg-indigo-300" TEXT="text-indigo-500" />
-        <div className="h-40 bg-black my-10 text-white">nos medias</div>
+        <div className="h-40 bg-black my-10 flex text-white">
+          {list.map((img,index) => (
+            <img key={index} src={img} alt="partenaire" className="h-20 w-60 mx-10 inline-block my-10 object-contain" />
+          ))}
+        </div>
       </section>
 
       <Footer />

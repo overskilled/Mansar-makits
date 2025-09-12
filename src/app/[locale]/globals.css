@@ -157,6 +157,7 @@ h6 {
 
 .bg-image {
   background-image: url('https://images.prismic.io/lemonmarkets2/ZrIKvEaF0TcGIttW_gradient-beatvest.png?auto=format,compress');
+  background-size: contain;
 }
 
 .scrollBar-none {

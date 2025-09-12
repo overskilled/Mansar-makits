@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "../ui/card";
+import Entete from "./Entete";
 
 interface Block {
   title: string;
@@ -24,30 +25,29 @@ export default function DoubleBlockWithImage({
   LEGEND,
   BLOCK,
 }: Receive) {
-  const [limage, setLtmage] = useState<string>(BLOCK[0].image);
+  const [limage, setLImage] = useState<string>(BLOCK[0].image);
   const handleImage = (index:number) => {
-    setLtmage(BLOCK[index].image);
+    setLImage(BLOCK[index].image);
+    console.log(index)
   };
   return (
-    <div className="flex w-full flex-col minh-screen min-h-screen my-30">
-      <span className="py-1 px-2 bg-blue-600/20 rounded-2xl min-w-40 w-40 max-w-70 text-center">{SPAN}</span>
-      <h3 className="text-4xl font-semibold text-shadow-xl my-10">{H3}</h3>
-      <p className="text-xl">{P}</p>
+    <div className="w-full min-h-screen my-30">
+      <Entete SPAN={SPAN} H3={H3} P={P} BG="bg-blue-200" TEXT="text-blue-500" />
       <div className="flex flex-col">
-        <div className="flex items-center min-h-screen overflow-hidden mt-10">
+        <div className="flex items-center min-h-screen overflow-hidden bg-[url('/background.svg')]">
           <div className="flex flex-col w-3/7">
             <p className="text-center">{LEGEND}</p>
             {BLOCK.map((el, index) => (
               <Card
-                onMouseEnter={() => handleImage(index + 1)}
+                onMouseEnter ={() => handleImage(index)}
                 key={index}
-                className=" border shadow-none p-1 bg-gray-100 duration-500 hover:bg-gray-200 rounded-md my-5"
+                className=" border shadow-none p-1 bg-gray-100 duration-500 hover:bg-gray-200 rounded-md my-5 ml-3"
               >
                 <Card className="-ml-6 -mb-6 rounded-md h-45 bg-gray-100 duration-500 shadow-none hover:bg-amber-100">
                   <CardHeader className="m-0">
                     <h3 className="text-md font-semibold">{el.title}</h3>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="overflow-y-scroll">
                     <p className="text-sm">{el.content}</p>
                   </CardContent>
                 </Card>

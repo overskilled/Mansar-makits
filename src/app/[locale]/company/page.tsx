@@ -89,14 +89,14 @@ export default function page() {
       <section className="w-full my-10">
         <div className="w-full flex my-15 max-h-80 ">
           <div className="float-left w-1/2">
-            <div className="h-full pr-30">
-              <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl">
+            <div className="h-full pr-30 group *:group-hover:ml-4">
+              <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl duration-150">
                 {t("company.section1.SPAN1")}
               </span>
-              <h3 className="my-8 text-3xl text-shadow-lg">
+              <h3 className="my-8 text-3xl text-shadow-lg duration-300">
                 {t("company.section1.H13")}
               </h3>
-              <p>{t("company.section1.P1")}</p>
+              <p className="duration-500 w-full">{t("company.section1.P1")}</p>
             </div>
           </div>
           <div className="float-right w-1/2 flex justify-end ">
@@ -116,27 +116,27 @@ export default function page() {
             />
           </div>
           <div className="float-left w-1/2 flex flex-col items-center pl-30">
-            <div className="h-full">
-              <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl">
+            <div className="h-full group *:group-hover:-ml-4">
+              <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl duration-150">
                 {t("company.section1.SPAN2")}
               </span>
-              <h3 className="my-8 text-3xl text-shadow-lg">
+              <h3 className="my-8 text-3xl text-shadow-lg duration-300">
                 {t("company.section1.H23")}
               </h3>
-              <p>{t("company.section1.P2")}</p>
+              <p className="duration-500">{t("company.section1.P2")}</p>
             </div>
           </div>
         </div>
         <div className="w-full flex my-15 max-h-80">
           <div className="float-left w-1/2 flex flex-col items-center pr-30">
-            <div className="h-full">
-              <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl">
+            <div className="h-full group *:group-hover:ml-4">
+              <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl duration-150">
                 {t("company.section1.SPAN3")}
               </span>
-              <h3 className="my-8 text-3xl text-shadow-lg">
+              <h3 className="my-8 text-3xl text-shadow-lg duration-300">
                 {t("company.section1.H33")}
               </h3>
-              <p>{t("company.section1.P3")}</p>
+              <p className="duration-500">{t("company.section1.P3")}</p>
             </div>
           </div>
           <div className="float-right w-1/2 flex justify-end ">
@@ -174,7 +174,7 @@ export default function page() {
                     className="object-cover w-40 h-full"
                   />
                 </CardContent>
-                <CardFooter className="justify-center mb-2">
+                <CardFooter className="justify-center text-center mb-2">
                   {el.text}
                 </CardFooter>
               </Card>
@@ -226,25 +226,25 @@ export default function page() {
         </Carousel>
       </section>
 
-      <div className="flex flex-col w-full my-10">
-        <div className="flex w-full justify-between">
+      <div className="flex flex-col w-full my-10 relative">
+        <div className="flex w-full justify-between h-full">
           <div className="w-1/2">
             <span className="bg-indigo-300 text-indigo-600 px-4 py-0.5 rounded-3xl">
               {t("company.section5.SPAN")}
             </span>
-            <h3 className="my-5 text-4xl text-shadow-sm">
+            <h3 className="my-5 text-5xl text-shadow-sm">
               {t("company.section5.H3.0")}
               <br /> {t("company.section5.H3.1")}
             </h3>
-            <p></p>
+            <p>{t("company.section5.P")}</p>
             <button className="px-6 py-3 mt-15 bg-black text-white rounded-2xl">
-              {t("company.section5.P")}
+              {t("company.section5.B")}
             </button>
           </div>
           <img
-            src="https://images.prismic.io/lemonmarkets2/31011c9d-6…ffice+1.png?auto=compress%2Cformat&fit=max&w=3840"
+            src="/andy.jpg"
             alt="image"
-            className="object-cover w-1/2 h-full"
+            className="object-cover w-1/2 h-90 rounded-md"
           />
         </div>
         <div className="flex justify-around mt-10">
@@ -270,7 +270,7 @@ export default function page() {
         </div>
       </div>
       
-      <div className="w-full">
+      <div className="w-full mt-20">
         <Entete
           SPAN={EnteteData.SPAN}
           H3={EnteteData.H3}
@@ -280,7 +280,7 @@ export default function page() {
         />
 
         {/* section 4 */}
-        <div className="bg-gray-100 w-1/2 border rounded-2xl items-center p-4 flex justify-around *:w-1/3 *:hover:bg-white *:py-2 *:rounded-md *:text-center">
+        <div className="bg-gray-100 w2 max-w-3/5 wauto border rounded-2xl items-center p-4 flex justify-around *:w-1/3 *:px2 *:hover:bg-white *:py-2 *:rounded-md *:text-center">
           <p>{t("company.section4.P1")}</p>
           <p>{t("company.section4.P2")}</p>
           <p>{t("company.section4.P3")}</p>

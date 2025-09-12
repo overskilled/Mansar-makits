@@ -16,7 +16,7 @@ export default {
     EnteteData: {
       SPAN: "Cas d'utilisation",
       H3: "Nous collaborons avec des entreprises innovantes pour développer les opportunités d'investissement à travers l'Europe",
-      P: " ",
+      P: "",
     },
     section1: {
       h4: "Courtiers & Gestionnaires de Patrimoine",
@@ -388,13 +388,11 @@ export default {
     },
   },
 
-
-
   contactUs: {
     DataHero: {
       H2: "Commencez avec lemon.markets",
       P: "Vous avez des questions sur la construction de la prochaine génération d'expérience de courtage ? Remplissez le formulaire de contact ci-dessous et l'un de nos experts vous contactera.",
-      B: "",
+      B: " ",
     },
     section1: {
       H4_1: "À quoi s'attendre d'un appel avec nous",
@@ -711,6 +709,11 @@ export default {
     ],
   },
 
+  CooperationBlock: {
+    SPAN: "Collaborations",
+    H3: "Travailler ensemble avec des institutions de confiance",
+  },
+
   GetInTouch: {
     SPAN: "Entrer en Contact",
     H1: "Partenariat avec nous",
@@ -762,5 +765,4 @@ export default {
       },
     },
   },
-  
 } as const;

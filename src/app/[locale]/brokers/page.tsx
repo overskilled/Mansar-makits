@@ -2,6 +2,7 @@
 
 import CooperationBlock from "@/components/custom/CooperationBlock";
 import DoubleBlockWithImage from "@/components/custom/DoubleBlockWithImage";
+import Entete from "@/components/custom/Entete";
 import FlexWrapRight from "@/components/custom/FlexWrapRight";
 import Footer from "@/components/custom/Footer";
 import GetInTouchBlock from "@/components/custom/GetInTouchBlock";
@@ -42,28 +43,28 @@ export default function page() {
     ],
   };
   const flexWrapRightData = {
-    Image: t("brokers.flexWrapRightData.Image"),
+    Image: "/gauche.svg",
     SPAN: t("brokers.flexWrapRightData.SPAN"),
     H3: t("brokers.flexWrapRightData.H3"),
     P: t("brokers.flexWrapRightData.P"),
     BLOCK: [
       {
-        icone: t("brokers.flexWrapRightData.BLOCK.0.icone"),
+        icone: '/user.svg',
         title: t("brokers.flexWrapRightData.BLOCK.0.title"),
         content: t("brokers.flexWrapRightData.BLOCK.0.content"),
       },
       {
-        icone: t("brokers.flexWrapRightData.BLOCK.1.icone"),
+        icone: '/dashboard.svg',
         title: t("brokers.flexWrapRightData.BLOCK.1.title"),
         content: t("brokers.flexWrapRightData.BLOCK.1.content"),
       },
       {
-        icone: t("brokers.flexWrapRightData.BLOCK.2.icone"),
+        icone: '/balise.svg',
         title: t("brokers.flexWrapRightData.BLOCK.2.title"),
         content: t("brokers.flexWrapRightData.BLOCK.2.content"),
       },
       {
-        icone: t("brokers.flexWrapRightData.BLOCK.3.icone"),
+        icone: '/bank-checkmark.svg',
         title: t("brokers.flexWrapRightData.BLOCK.3.title"),
         content: t("brokers.flexWrapRightData.BLOCK.3.content"),
       },
@@ -103,29 +104,23 @@ const liste = [
     <div className="flex flex-col min-h-screen">
       <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} />
 
-      <section className="flex flex-col w-full my-20 relative">
-        <span className="bg-blue-300 text-blue-500 py-0.5 px-4 w-35 font-medium text-md text-center rounded-3xl">
-          {t("brokers.section1.SPAN")}
-        </span>
-        <h1 className="text-4xl mt-6 font-light mb-10 leading-headlines3">
-          {t("brokers.section1.h1")}
-        </h1>
-        <p className="font-light">{t("brokers.section1.P")}</p>
-        <div className="mt-10 flex w-full pl-6 mb-20">
-          <div className="flex flex-col w-5/8 gap-">
-            <nav className="flex w-full justify-between -ml-6">
+      <section className="w-full my-20 relative">
+        <Entete  SPAN={t("brokers.section1.SPAN")} H3={t("brokers.section1.h1")} P={t("brokers.section1.P")} TEXT="text-blue-500" BG="bg-blue-300" />
+        <div className="mt-10 flex w-full pl6">
+          <div className="flex flex-col w-5/8 gap- bg-green500 py-4">
+            <nav className="flex w-full justify-center gap2 flex-wrap">
               {titleListe.map((el, index) => (
                 <button
                   key={index}
-                  className="py-1 px-4 hover:border-gray-400 border text-sm bg-gray-100 rounded-3xl"
+                  className="py-1 hover:border-gray-400 border w-1/5 text-sm bg-gray-100 rounded-3xl"
                 >
                   {el.titre}
                 </button>
               ))}
             </nav>
-            <div className="pt-6 border-gray-200 border mt-4 bg-gray-100 rounded-xl relative h-40 ">
-              <div className="-ml-6 border-gray-200 border bg-gray-100 p-8 rounded-xl absolute h50 w-full z-10">
-                <div className="w-full h-full gap-6">
+            <div className="bg-white border pt-4 ml-4 pr-4 mt-4 rounded-lg">
+              <div className="bg-white border hover:bg-amber-50 -ml-4 px-8 py-7 -mb-4 rounded-lg">
+                <div className="w-full h-full">
                   <h2 className="text-xl font-semibold mb-6">
                     {items.smallTitle}
                   </h2>
@@ -134,19 +129,19 @@ const liste = [
               </div>
             </div>
           </div>
-          <div className="flex flex-col pl-10">
-            <span className="w-35 bg-amber-200 mb-2 mt-10 rounded-3xl text-center">
+          <div className="pl-10 pt-6 ">
+            <span className="w-35 bg-amber-200 px-2 mb-2 mt-10 rounded-3xl text-center">
               {t("brokers.section2.SPAN1")}
             </span>
-            <ul className="*:list-dict *:text-sm">
+            <ul className="*:list-dict *:text-sm *:my-2 mt-2">
               <li>{t("brokers.section2.UL1.0")}</li>
               <li>{t("brokers.section2.UL1.1")}</li>
               <li>{t("brokers.section2.UL1.2")}</li>
             </ul>
-            <span className="w-35 bg-amber-200 mb-2 mt-5 rounded-3xl text-center">
+            <span className="w-35 bg-amber-200 px-2 mb-5 mt-5 rounded-3xl text-center">
               {t("brokers.section2.SPAN2")}
             </span>
-            <ul className="*:list-dict *:text-sm">
+            <ul className="list-dict *:text-sm *:my-2 mt-2">
               <li>{t("brokers.section2.UL2.0")}</li>
               <li>{t("brokers.section2.UL2.1")}</li>
               <li>{t("brokers.section2.UL2.2")}</li>
@@ -155,15 +150,15 @@ const liste = [
         </div>
       </section>
 
-      <div className="flex w-full h-100 ">
+      <div className="flex items-center w-full min-h-screen bg-[url('/background.svg')] bg-cover">
         <img
-          src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…0XnndAxsiBwN4r_image-use-cases.svg?fit=max&w=3840"
+          src="/investment2.svg"
           alt="image"
-          className="w-full h-50"
+          className="w-full h-full object-cover"
         />
       </div>
 
-      <div className="flex flex-col h-[130vh] bg-black justify-center">
+      <div className="flex flex-col min-h-screen bg-black justify-center">
         <span className="bg-violet-800/40 text-violet-700 w-45 text-center rounded-3xl py-1 px-2">
           {t("brokers.section3.SPAN")}
         </span>
@@ -177,11 +172,11 @@ const liste = [
       </div>
 
       <div className="flex flex-col h-[130vh] my-20">
-        <span className="bg-blue-800/40 text-blue-500 w-45 text-center rounded-3xl py-1 px-2">
+        <span className="bg-blue-300 text-blue-500 w-45 text-center rounded-3xl py-1 px-2">
           {t("brokers.section4.SPAN")}
         </span>
         <h2 className="text-4xl my-10">{t("brokers.section4.H2")}</h2>
-        <p className="text-sm">{t("brokers.section4.P")}</p>
+        <p>{t("brokers.section4.P")}</p>
         <div className="flex w-full my-10">
           <div className="flex flex-col w-2/5 gap-4 ">
             <div className="flex py-2 px-4 justify-between w-full *:cursor-pointer">

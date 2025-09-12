@@ -17,7 +17,7 @@ interface Liste {
 
 export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
   return (
-    <div className="flex flex-col my-30 w-full ">
+    <div className="flex flex-col mb-0 w-full ">
       <Entete
         SPAN={SPAN}
         H3={H3}
@@ -26,7 +26,7 @@ export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
         BG="bg-indigo-300"
       />
 
-      <div className="flex flex-wrap justify-between my-20">
+      <div className="flex flex-wrap justify-between mb-20">
         {BLOCK.map((el, index) => (
           <Card
             className=" border-none borders shadow-none p-2 rounded-md my-4 w-[32%]"

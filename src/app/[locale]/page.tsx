@@ -39,7 +39,7 @@ export default function Home() {
         content: t("home.flexWrapRight.BLOCK.0.content"),
       },
       {
-        icone:"/dashboard.svg",
+        icone: "/dashboard.svg",
         title: t("home.flexWrapRight.BLOCK.1.title"),
         content: t("home.flexWrapRight.BLOCK.1.content"),
       },
@@ -61,32 +61,32 @@ export default function Home() {
     P: t("home.FunctionnalityBlockData.P"),
     BLOCK: [
       {
-        image: t("home.FunctionnalityBlockData.BLOCK.0.image"),
+        image: '/userText.svg',
         title: t("home.FunctionnalityBlockData.BLOCK.0.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.0.descript"),
       },
       {
-        image: t("home.FunctionnalityBlockData.BLOCK.1.image"),
+        image: '/doubleCamera.svg',
         title: t("home.FunctionnalityBlockData.BLOCK.1.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.1.descript"),
       },
       {
-        image: t("home.FunctionnalityBlockData.BLOCK.2.image"),
+        image: '/programming.svg',
         title: t("home.FunctionnalityBlockData.BLOCK.2.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.2.descript"),
       },
       {
-        image: t("home.FunctionnalityBlockData.BLOCK.3.image"),
+        image: '/table-edit-chart.svg',
         title: t("home.FunctionnalityBlockData.BLOCK.3.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.3.descript"),
       },
       {
-        image: t("home.FunctionnalityBlockData.BLOCK.4.image"),
+        image: '/list.svg',
         title: t("home.FunctionnalityBlockData.BLOCK.4.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.4.descript"),
       },
       {
-        image: t("home.FunctionnalityBlockData.BLOCK.5.image"),
+        image: '/dashboard.svg',
         title: t("home.FunctionnalityBlockData.BLOCK.5.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.5.descript"),
       },
@@ -101,12 +101,12 @@ export default function Home() {
       {
         title: t("home.ListeDoubleBlock.BLOCK.0.title"),
         content: t("home.ListeDoubleBlock.BLOCK.0.content"),
-        image: t("home.ListeDoubleBlock.BLOCK.0.image"),
+        image: "/investment.svg",
       },
       {
         title: t("home.ListeDoubleBlock.BLOCK.1.title"),
         content: t("home.ListeDoubleBlock.BLOCK.1.content"),
-        image: t("home.ListeDoubleBlock.BLOCK.1.image"),
+        image: "/neoBanck.svg",
       },
     ],
   };
@@ -114,7 +114,7 @@ export default function Home() {
   //  const blocks = t("home.flexWrapRight.BLOCK", { returnobject: true })
   return (
     <div className="flex h-screen flex-col relative">
-      <div className="flex pb-20 pt-48 relative mb-20">
+      <div className="flex pb-20 pt-40 relative mb-20">
         <div className="w-3/7">
           <h1 className="text-6xl font-light mb-2.5 md:mb-6">
             {t("home.hero.H1.0")} <br /> {t("home.hero.H1.1")} <br />{" "}
@@ -147,84 +147,91 @@ export default function Home() {
         <div className="flex flex-col relative gap-30 bg-[url('/background.svg')] bg-cover min-h-[800px] mb-40">
           <div className=" bg-[url('/background-marche.svg')] bg-center bg-auto w-full h-[750px]">
             {/* <div className="absolut  w-full h-full"> */}
-              <div className="flex">
-                <div className="flex flex-col justify-between group *:group-hover:ml-4">
+            <div className="flex">
+              <div className="flex flex-col justify-between group *:group-hover:ml-4">
+                <h4 className="text-3xl duration-150">
+                  {t("home.section1.h4")}
+                </h4>
+                <p className="w-3/4 textmd duration-300">
+                  {t("home.section1.P")}
+                </p>
+                <span className="flex gap-2 group hover:text-yellow-400 duration-500 cursor-pointer">
+                  {t("learn_more")}{" "}
+                  <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
+                </span>
+              </div>
+              <img
+                src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
+                alt="image"
+              />
+            </div>
+            <div className="flex">
+              <div className="w-4/7">
+                <img
+                  src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45Z0MqNJQqIJW__image-banks.svg?fit=max&w=1200"
+                  alt="image"
+                />
+              </div>
+              <div className="flex justify-center items-center my-20 w-3/7">
+                <div className="flex flex-col justify-between gap-10 right-0 group *:group-hover:pl-4 w-auto ">
                   <h4 className="text-3xl duration-150">
-                    {t("home.section1.h4")}
+                    {t("home.section2.h4")}
                   </h4>
-                  <p className="w-3/4 text-lg duration-300">
-                    {t("home.section1.P")}
+                  <p className="textlg lith duration-300">
+                    {t("home.section2.P")}
                   </p>
-                  <span className="flex gap-2 group hover:text-yellow-400 duration-500 cursor-pointer">
+                  <span className="flex gap-2 hover:text-yellow-400 cursor-pointer duration-500">
+                    {" "}
                     {t("learn_more")}{" "}
                     <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
                   </span>
                 </div>
-                <img
-                  src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
-                  alt="image"
-                />
               </div>
-              <div className="flex">
-                <div className="w-4/7">
-                  <img
-                    src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45Z0MqNJQqIJW__image-banks.svg?fit=max&w=1200"
-                    alt="image"
-                  />
-                </div>
-                <div className="flex justify-center items-center my-20 w-3/7">
-                  <div className="flex flex-col justify-between gap-10 right-0 group *:group-hover:pl-4 w-auto ">
-                    <h4 className="text-3xl duration-150">{t("home.section2.h4")}</h4>
-                    <p className="text-lg lith duration-300">{t("home.section2.P")}</p>
-                    <span className="flex gap-2 hover:text-yellow-400 cursor-pointer duration-500">
-                      {" "}
-                      {t("learn_more")}{" "}
-                      <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
-                    </span>
-                  </div>
-                </div>
+            </div>
+            <div className="flex">
+              <div className="flex flex-col justify-between w-4/7 group *:group-hover:pl-4">
+                <h4 className="text-3xl duration-150">
+                  {t("home.section3.h4")}
+                </h4>
+                <p className="w-4/5 textlg duration-300">
+                  {t("home.section3.P")}
+                </p>
+                <span className="flex gap-2 group duration-500 hover:text-yellow-400 cursor-pointer">
+                  {t("learn_more")}{" "}
+                  <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
+                </span>
               </div>
-              <div className="flex">
-                <div className="flex flex-col justify-between w-4/7 group *:group-hover:pl-4">
-                  <h4 className="text-3xl duration-150">{t("home.section3.h4")}</h4>
-                  <p className="w-4/5 text-lg duration-300">{t("home.section3.P")}</p>
-                  <span className="flex gap-2 group duration-500 hover:text-yellow-400 cursor-pointer">
-                    {t("learn_more")}{" "}
-                    <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
-                  </span>
-                </div>
-                {/* <div className="w-3/7"> */}
-                <img
-                  src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
-                  alt="image"
-                />
-                {/* </div> */}
-              </div>
+              {/* <div className="w-3/7"> */}
+              <img
+                src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
+                alt="image"
+              />
+              {/* </div> */}
+            </div>
             {/* </div> */}
           </div>
         </div>
       </div>
 
       <div className="">
-      <FlexWrapRight
-        SPAN={flexWrapRight.SPAN}
-        H3={flexWrapRight.H3}
-        P={flexWrapRight.P}
-        BLOCK={flexWrapRight.BLOCK}
-        Image={flexWrapRight.Image}
+        <FlexWrapRight
+          SPAN={flexWrapRight.SPAN}
+          H3={flexWrapRight.H3}
+          P={flexWrapRight.P}
+          BLOCK={flexWrapRight.BLOCK}
+          Image={flexWrapRight.Image}
         />
 
-      <CooperationBlock />
+        <CooperationBlock />
 
-      <DoubleBlockWithImage
-        SPAN={ListeDoubleBlock.SPAN}
-        H3={ListeDoubleBlock.H3}
-        P={ListeDoubleBlock.P}
-        LEGEND={ListeDoubleBlock.LEGEND}
-        BLOCK={ListeDoubleBlock.BLOCK}
+        <DoubleBlockWithImage
+          SPAN={ListeDoubleBlock.SPAN}
+          H3={ListeDoubleBlock.H3}
+          P={ListeDoubleBlock.P}
+          LEGEND={ListeDoubleBlock.LEGEND}
+          BLOCK={ListeDoubleBlock.BLOCK}
         />
-        
-              </div>
+      </div>
 
       <FunctionnalityBlock
         SPAN={FunctionnalityBlockData.SPAN}

@@ -27,9 +27,11 @@ export default function page() {
 
       <h2 className="font-semibold text-3xl my-4">{t("thermsOfUse.H2")}</h2>
 
-      {Data.map((el, index) => (
-        <p key={index} className="my-4">{el}</p>
+      <div className="*:w-[95%] ">
+        {Data.map((el, index) => (
+        <p key={index} className="my-4 hover:ml-2 hover:shadow duration-500 hover:bg-amber-50 ">{el}</p>
       ))}
+      </div>
 
     <GetInTouchBlock />
 

@@ -17,7 +17,7 @@ export default function page() {
     SPAN: t("product.dataEntete.SPAN"),
     H3: t("product.dataEntete.H3"),
     P: t("product.dataEntete.P"),
-  }
+  };
   const ListeDoubleBlock = {
     SPAN: t("product.ListeDoubleBlock.SPAN"),
     H3: t("product.ListeDoubleBlock.H3"),
@@ -27,13 +27,13 @@ export default function page() {
       {
         title: t("product.ListeDoubleBlock.BLOCK.0.title"),
         content: t("product.ListeDoubleBlock.BLOCK.0.content"),
-        image: t("product.ListeDoubleBlock.BLOCK.0.image"),
+        image: "/investment2.svg",
       },
-          // "You want to bring your own cash accounts or use a third-party? No problem. We will help you integrate 
+      // "You want to bring your own cash accounts or use a third-party? No problem. We will help you integrate
       {
         title: t("product.ListeDoubleBlock.BLOCK.1.title"),
         content: t("product.ListeDoubleBlock.BLOCK.1.content"),
-        image: t("product.ListeDoubleBlock.BLOCK.1.image"),
+        image: "/investment.svg",
       },
     ],
   };
@@ -93,14 +93,12 @@ export default function page() {
         descript: t("product.FunctionnalityBlockData.BLOCK.0.descript"),
       },
       {
-        image:
-          "		https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…b386e1f9_money-banknote-exchange.svg?fit=max&w=96",
+        image: "/balise.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.1.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.1.descript"),
       },
       {
-        image:
-          "	https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…ing-code-document-list-checkmark.svg?fit=max&w=96",
+        image: "/dashboard.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.2.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.2.descript"),
       },
@@ -111,22 +109,19 @@ export default function page() {
         descript: t("product.FunctionnalityBlockData.BLOCK.3.descript"),
       },
       {
-        image:
-          "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…dfc0a2ce32_documents-list-shield.svg?fit=max&w=96",
+        image: "/doubleCamera.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.4.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.4.descript"),
       },
       {
-        image:
-          "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…programming-code-window-terminal.svg?fit=max&w=96",
+        image: "/bank-checkmark.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.5.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.5.descript"),
       },
     ],
   };
   const dataBlock1 = {
-    Image:
-      "https://www.lemon.markets/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
+    Image:'/gauche.svg',
     SPAN: t("product.dataBlock1.SPAN"),
     H3: t("product.dataBlock1.H3"),
     P: t("product.dataBlock1.P"),
@@ -135,13 +130,13 @@ export default function page() {
         icone:
           "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…c22e_user-profile-change-refresh.svg?fit=max&w=96",
         title: t("product.dataBlock1.BLOCK.0.title"),
-        content: t("product.dataBlock1.BLOCK.0.content")
+        content: t("product.dataBlock1.BLOCK.0.content"),
       },
       {
         icone:
           "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…c9d530_programming-code-terminal.svg?fit=max&w=96",
         title: t("product.dataBlock1.BLOCK.1.title"),
-        content: t("product.dataBlock1.BLOCK.1.content")
+        content: t("product.dataBlock1.BLOCK.1.content"),
       },
       {
         icone:
@@ -161,12 +156,8 @@ export default function page() {
     <div className="flex flex-col min-h-screen">
       <div className="w-full h-[calc(100vh-15vh)] flex flex-col justify-center items-center ">
         <div className="w-1/2 gap-8 mt-30 bg-transparent justify-center flex flex-col items-center *:text-center">
-          <h2 className="text-5xl font-seibold mb-2">
-            {t("product.hero.H2")}
-          </h2>
-          <p>
-            {t("product.hero.P")}
-          </p>
+          <h2 className="text-5xl font-seibold mb-2">{t("product.hero.H2")}</h2>
+          <p>{t("product.hero.P")}</p>
           <button className="bg-black rounded-xl py-3 px-6 mt-4 text-white text-lg">
             {t("product.hero.B")}
           </button>
@@ -183,15 +174,10 @@ export default function page() {
 
       <div className="my-10 pl-1">
         <span className="bg-blue-800/30 text-blue-500 px-4 py-0.5 rounded-3xl">
-          
           {t("product.section1.SPAN")}
         </span>
-        <h3 className="my-10 text-4xl ">
-          {t("product.section1.H3")}
-        </h3>
-        <p className="text-md ">
-          {t("product.section1.P")}
-        </p>
+        <h3 className="my-10 text-4xl ">{t("product.section1.H3")}</h3>
+        <p className="text-md ">{t("product.section1.P")}</p>
         <div className="pt-10 pb-10">
           {ListeOtherManagerSystem.map((el, index) => (
             <div className="my-10 py-5" key={index}>
@@ -226,36 +212,29 @@ export default function page() {
         />
 
         <div className="flex lg:flex-col flex-col-reverse ">
-          <div className="w-full flex">
+          <div className="w-full flex gap-4">
             <div className="w-1/4 lg:flex hidden">
               <img
-                src="https://images.prismic.io/lemonmarkets2/ZrIKvEaF0TcGIttW_gradient-beatvest.png?auto=format,compress"
+                src="/stimulation.png"
                 alt="image"
-                className="w-full h-full"
+                className="w-full h-full bg-cover bg-no-repeat"
               />
             </div>
-            <Card className="p-0 lg:w-3/4 w-full mx-4 shadow-none rounded-md pt-2">
-              <div className="bg-image flex flex-col -ml-4 border mr-2 rounded-md bg-white p-8">
-                <div className="w-1/2 *:my-5">
-                  <img
-                    src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…st-white.svg?auto=compress%2Cformat&fit=max&w=384"
-                    alt="image"
-                  />
+            <div className="p-0 lg:w-3/4 flex w-full flex-row bg-no-repeat bg-contain mx-4 shadow-none rounded-md pt-2">
+              <div className="w-full h-full bg-image flex items-center justify-between">
+                <div className="w-1/2 pl-5 *:my-5">
+                  <img src="/p4.png" alt="image" />
                   <p>{t("product.section2.P")}</p>
                   <span>{t("product.section2.SPAN")}</span>
                   <button className="p-2 flex items-center gap-3 bg-white rounded-2xl border my-4">
                     {t("product.section2.B")} <ChevronRight />
                   </button>
                 </div>
-                <div className="flex h-20">
-                  <img
-                    src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…st-white.svg?auto=compress%2Cformat&fit=max&w=384"
-                    alt="image"
-                    className="w-1/4"
-                  />
+                <div className="flex h-full rounded-tr-md rounded-br-md">
+                  <img src="/phone.png" alt="image" className="object-cover" />
                 </div>
               </div>
-            </Card>
+            </div>
           </div>
         </div>
       </div>
