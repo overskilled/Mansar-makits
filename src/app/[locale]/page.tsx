@@ -17,10 +17,12 @@ import {
 import { useI18n } from "@/locales/client";
 import { MoveUpRight } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { use, useTransition } from "react";
 
 export default function Home() {
   const t = useI18n();
+  const router = useRouter()
 
   const EnteteData = {
     SPAN: t("home.EnteteData.SPAN"),
@@ -115,14 +117,20 @@ export default function Home() {
   return (
     <div className="flex h-screen flex-col relative">
       <div className="flex pb-20 pt-40 px-8 relative mb-20">
-        <div className="w-3/7">
+        <div className="w-3/7 ">
           <h1 className="text-6xl font-light mb-2.5 md:mb-6">
             {t("home.hero.H1.0")} <br /> {t("home.hero.H1.1")} <br />{" "}
             {t("home.hero.H1.2")}
           </h1>
-          <p className="text-lg">{t("home.hero.P")}</p>
+          <p className="text-md text-gray-600 font-thin">{t("home.hero.P")}</p>
           {/* <button className="bg-black rounded-2xl"></button> */}
-          <Button className="mt-10 md:mt-12"> start building</Button>
+          <Button
+            size="lg"
+            className="text-sm font-medium rounded-xl mt-8 hover:cursor-pointer bg-black border border-gray-600 text-white"
+            onClick={() => router.push("/contact")}
+          >
+            {t('home.hero.B')}
+          </Button>
         </div>
         <div className="w-4/7 absolute right-0 top-0 h-full flex">
           <div className="w-full flex justify-center items-center">

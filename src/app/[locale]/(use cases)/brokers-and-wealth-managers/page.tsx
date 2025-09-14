@@ -66,36 +66,36 @@ export default function page() {
 
   const hoverItems: HoverItem[] = [
     {
-      label: "brokers.section4.SPANS.0",
+      label: t("brokers.section4.SPANS.0"),
       icon: "icon-etf.svg",
-      header: "brokers.section4.CARDS.0.CardHeader",
-      h5: "brokers.section4.CARDS.0.H5",
+      header: t("brokers.section4.CARDS.0.CardHeader"),
+      h5: t("brokers.section4.CARDS.0.H5"),
       ul: [
-        "brokers.section4.CARDS.0.UL.0",
-        "brokers.section4.CARDS.0.UL.1",
-        "brokers.section4.CARDS.0.UL.2"
+        t("brokers.section4.CARDS.0.UL.0"),
+        t("brokers.section4.CARDS.0.UL.1"),
+        t("brokers.section4.CARDS.0.UL.2")
       ]
     },
     {
-      label: "brokers.section4.SPANS.1",
+      label: t("brokers.section4.SPANS.1"),
       icon: "icon-stocks.svg",
-      header: "brokers.section4.CARDS.1.CardHeader",
-      h5: "brokers.section4.CARDS.1.H5",
+      header: t("brokers.section4.CARDS.1.CardHeader"),
+      h5: t("brokers.section4.CARDS.1.H5"),
       ul: [
-        "brokers.section4.CARDS.1.UL.0",
-        "brokers.section4.CARDS.1.UL.1",
-        "brokers.section4.CARDS.1.UL.2"
+        t("brokers.section4.CARDS.1.UL.0"),
+        t("brokers.section4.CARDS.1.UL.1"),
+        t("brokers.section4.CARDS.1.UL.2")
       ]
     },
     {
-      label: "brokers.section4.SPANS.2",
+      label: t("brokers.section4.SPANS.2"),
       icon: "icon-funds.svg",
-      header: "brokers.section4.CARDS.2.CardHeader",
-      h5: "brokers.section4.CARDS.2.H5",
+      header: t("brokers.section4.CARDS.2.CardHeader"),
+      h5: t("brokers.section4.CARDS.2.H5"),
       ul: [
-        "brokers.section4.CARDS.2.UL.0",
-        "brokers.section4.CARDS.2.UL.1",
-        "brokers.section4.CARDS.2.UL.2"
+        t("brokers.section4.CARDS.2.UL.0"),
+        t("brokers.section4.CARDS.2.UL.1"),
+        t("brokers.section4.CARDS.2.UL.2")
       ]
     }
   ];
@@ -228,14 +228,14 @@ export default function page() {
         <div className="mt-10 flex w-full pl6">
           <div className="flex flex-col w-3/5 gap-4 py-4 rounded-lg">
             {/* Navigation */}
-            <nav className="flex w-full justify-center gap-2 flex-wrap lg:flex-nowrap ">
+            <nav className="flex w-[90%] justify-center gap-2 ml-5 mr-5 flex-wrap lg:flex-nowrap ">
               {titleListe.map((el, index) => (
                 <button
                   key={index}
                   onClick={() => setActiveIndex(index)}
-                  className={`py-2 border w-1/5 text-sm rounded-lg transition hover:cursor-pointer
+                  className={`py-2  w-1/5 text-sm rounded-lg transition hover:cursor-pointer
               ${index === activeIndex
-                      ? "bg-[#f9fafb] border-gray-400 font-semibold"
+                      ? "bg-[#f9fafb] border border-gray-400 font-semibold"
                       : "bg-transaparent hover:bg-[#f9fafb]"
                     }`}
                 >
@@ -249,7 +249,7 @@ export default function page() {
               <div className="bg-[#f9fafb] border -ml-4 px-8 py-7 -mb-4 rounded-lg">
                 <div className="w-full h-full">
                   <h2 className="text-3xl font-meduim mb-6">{activeItem.smallTitle}</h2>
-                  <p className="text-md font-thin text-gray-600">{activeItem.texte}</p>
+                  <p className="text-md font-thin leading-8 text-gray-600">{activeItem.texte}</p>
                 </div>
               </div>
             </div>
@@ -336,7 +336,7 @@ export default function page() {
                     height={10}
                     src={`/${item.icon}`}
                   />
-                  {t(item.label)}
+                  {item.label}
                 </span>
               ))}
             </div>
@@ -345,12 +345,12 @@ export default function page() {
             <div className="w-full h-full pl-0 py-2 ml-4">
               <Card className="p-0 pt-4 shadow-none relative bg-gray-50 h-60">
                 <Card className="shadow-none w-full -ml-4 bg-gray-50 hover:bg-amber-50 absolute duration-500 h-60">
-                  <CardHeader>{t(activeItem1.header)}</CardHeader>
+                  <CardHeader>{activeItem1.header}</CardHeader>
                   <CardContent className="gap-4">
-                    <h5>{t(activeItem1.h5)}</h5>
+                    <h5>{activeItem1.h5}</h5>
                     <ul className="list-disc pl-4 mt-2">
                       {activeItem1.ul.map((u, i) => (
-                        <li key={i}>{t(u)}</li>
+                        <li key={i}>{u}</li>
                       ))}
                     </ul>
                   </CardContent>

@@ -12,7 +12,7 @@ export default {
         2: " investment products",
       },
       P: "Enable your customers to invest in the stock market. Use the lemon.markets API to launch a customer-centric and compliant investment product.",
-      B: "start building",
+      B: "Start Building",
     },
     EnteteData: {
       SPAN: "Use case",
@@ -816,4 +816,44 @@ export default {
       },
     },
   },
+  "navbar": {
+    "product": "Product",
+    "productItems": {
+      "investmentInfrastructure": "Investment Infrastructure",
+      "investmentInfrastructureDesc": "API first investment infrastructure"
+    },
+    "useCases": "Use Cases",
+    "useCasesItems": {
+      "brokersWealthManagers": "Brokers & Wealth Managers",
+      "brokersWealthManagersDesc": "Running the backend of your investment experience",
+      "banksEmis": "Banks & EMIs",
+      "banksEmisDesc": "Powering investing embedded into your product",
+      "softwareCompanies": "Software Companies",
+      "softwareCompaniesDesc": "Bringing investing into your context"
+    },
+    "developers": "Developers",
+    "developersItems": {
+      "developerHub": "Developer Hub",
+      "developerHubDesc": "Browse all our technical resources",
+      "guides": "Guides",
+      "guidesDesc": "Demonstrative use cases in top of our API",
+      "documentation": "Documentation",
+      "documentationDesc": "Details of our platform's API endpoints"
+    },
+    "company": "Company",
+    "companyItems": {
+      "company": "Company",
+      "companyDesc": "Driven by growing investing opportunities",
+      "careers": "Careers",
+      "careersDesc": "All you need to know to become a Mansar builder",
+      "media": "PR/Media",
+      "mediaDesc": "Media coverage and assets for your story",
+      "blog": "Blog",
+      "blogDesc": "Get the latest news from Mansar"
+    },
+    "signIn": "Sign In",
+    "getInTouch": "Get in Touch",
+    "getStarted": "Get Started",
+    "tagline": "We bring to you quality investment assets"
+  }
 } as const;
