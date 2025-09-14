@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useTransition } from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ArrowDown, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
     DropdownMenu,
@@ -42,7 +42,7 @@ const LanguageSelector = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant="outline" size="icon">
+                <Button variant="outline" size="lg" className='rounded-xl hover:bg-black hover:text-white'>
                     {locale === "en" ?
                         (
                             <>
@@ -65,12 +65,14 @@ const LanguageSelector = () => {
                             </>
                         )
                     }
+
+                    <ChevronDown className="w-6 h-6 font-bold" />
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
                 {languages.map((lang) => (
                     <DropdownMenuItem key={lang.code} onSelect={() => onLanguageChange(lang)}>
-                        <img src={lang.flag} alt={lang.name} className="h-4 w-6 mr-2" />
+                        {/* <img src={lang.flag} alt={lang.name} className="h-4 w-6 mr-2" /> */}
                         {lang.name}
                     </DropdownMenuItem>
                 ))}
