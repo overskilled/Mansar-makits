@@ -114,7 +114,7 @@ export default function Home() {
   //  const blocks = t("home.flexWrapRight.BLOCK", { returnobject: true })
   return (
     <div className="flex h-screen flex-col relative">
-      <div className="flex pb-20 pt-40 relative mb-20">
+      <div className="flex pb-20 pt-40 px-8 relative mb-20">
         <div className="w-3/7">
           <h1 className="text-6xl font-light mb-2.5 md:mb-6">
             {t("home.hero.H1.0")} <br /> {t("home.hero.H1.1")} <br />{" "}
@@ -135,13 +135,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col relative mt-10 mb-30">
+      <div className="flex flex-col px-8 relative mt-10 mb-30">
         <Entete
           SPAN={EnteteData.SPAN}
           H3={EnteteData.H3}
           P={EnteteData.p}
-          TEXT="text-blue-500"
-          BG="bg-blue-300"
+          TEXT="text-[#6583d2]"
+          BG="bg-[#e9e7db]"
         />
 
         <div className="flex flex-col relative gap-30 bg-[url('/background.svg')] bg-cover min-h-[800px] mb-40">

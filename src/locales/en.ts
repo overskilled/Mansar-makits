@@ -184,11 +184,31 @@ export default {
       h1: "Offer investing in ETFs, Funds, and Stocks to your customers",
       P: "Whether you're looking to scale your existing offering or build something new: lemon.markets supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
       titleListe: [
-        { titre: "neobrockers" },
-        { titre: "invesment Apps" },
-        { titre: "robo Advisors" },
-        { titre: "Wealth Managers" },
-        { titre: "Treasury Platforms" },
+        {
+          titre: "Neobrokers",
+          smallTitle: "Create a next-generation brokerage experience",
+          texte: "Customers desire a mobile-first brokerage experience that enables investing through a seamless and intuitive user interface. They value a quick and simple onboarding process, empowering them to achieve their long-term financial goals with ease."
+        },
+        {
+          titre: "Invesment Apps",
+          smallTitle: "Make investment data and research actionable",
+          texte: "Customers seek an intuitive platform that not only provides the insights they need to make informed investment decisions but also the tools to act on those insights seamlessly."
+        },
+        {
+          titre: "Robo Advisors",
+          smallTitle: "Streamline automated investments with advanced infrastructure",
+          texte: "Customers seek an investment experience seamlessly integrated into their automated portfolio manager, helping them achieve their financial goals with minimal complexity."
+        },
+        {
+          titre: "Wealth Managers",
+          smallTitle: "Simplify wealth creation with comprehensive investment solutions",
+          texte: "Customers want a straightforward path to grow their wealth through investments in ETFs, Funds, and Stocks. They look for expert-built strategies and automated portfolio management, which integrates with investment offerings tailored to their financial goals."
+        },
+        {
+          titre: "Treasury Platforms",
+          smallTitle: "Optimize corporate treasury management",
+          texte: "Corporate clients seek efficient strategies to enhance their financial health and manage their assets. Beyond tools for liquidity management, diversification, and comprehensive reporting, they require integrated investment solutions to effectively manage idle cash and optimize cash flow."
+        },
       ],
     },
     section2: {
@@ -198,7 +218,7 @@ export default {
         1: "Quick and seamless go-to-market via API integration",
         2: "Cutting-edge tech infrastructure that scales with you",
       },
-      SPAN2: "Benefits for you",
+      SPAN2: "Benefits for your customers",
       UL2: {
         0: "Access to a broad universe of assets",
         1: "QSmooth and efficient onboarding",
@@ -208,28 +228,50 @@ export default {
     section3: {
       SPAN: "Customer Journey",
       H2: {
-        0: "One infrastructure to give you all the",
+        0: "One infrastructure to give you all the building blocks along your customer journey",
         1: "building blocks along",
         2: " your customer",
         3: " journey",
       },
     },
     section4: {
-      SPAN: "Asset Classes",
-      H2: "Global asset coverage ranging from ETFs to Stocks",
-      P: "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
-      SPANS: {
-        0: "ETFs",
-        1: "Stocks",
-        2: "Funds",
-      },
-      CardHeader: "Funds",
-      H5: "Offer bespoke investment strategies to your customers",
-      UL: {
-        0: "Access to mutual funds, MMFs, & more",
-        1: "Professionally managed & diversified portfolios",
-        2: "Flexible investment minimums & schedules",
-      },
+      "SPAN": "Asset Classes",
+      "H2": "Global asset coverage ranging from ETFs to Stocks",
+      "P": "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
+      "SPANS": [
+        "ETFs",
+        "Stocks",
+        "Funds"
+      ],
+      "CARDS": [
+        {
+          "CardHeader": "ETFs",
+          "H5": "Offer your customers the opportunity to diversify their investments",
+          "UL": [
+            "Market hours from 8am to 10pm",
+            "From sector focus to global coverage",
+            "Over 1000+ ETFs"
+          ]
+        },
+        {
+          "CardHeader": "Stocks",
+          "H5": "Offer access to a wide range of global stocks through an exchange",
+          "UL": [
+            "Market hours from 8am to 10pm",
+            "From small caps to blue chips",
+            ">3000 Stocks"
+          ]
+        },
+        {
+          "CardHeader": "Funds",
+          "H5": "Offer bespoke investment strategies to your customers",
+          "UL": [
+            "Access to mutual funds, MMFs, & more",
+            "Professionally managed & diversified portfolios",
+            "Flexible investment minimums & schedules"
+          ]
+        }
+      ]
     },
     ListeDoubleBlock: {
       SPAN: "Regulatory",
@@ -727,12 +769,12 @@ export default {
     SPAN: "Get in Touch",
     H1: "Partner with us",
     P: "Use the lemon.markets API to launch a customer-centric and compliant investment product.",
-    B: "start building",
+    B: "Start building",
     section1: {
       H3_1: "About us",
-      content_1: "discover the vision and principles of MANSAR.MAKITS",
+      content_1: "Discover the vision and principles of MANSAR.MAKITS",
       H3_2: "Carrer",
-      content_2: "unclock your full potential and grow with us",
+      content_2: "Unclock your full potential and grow with us",
     },
   },
 

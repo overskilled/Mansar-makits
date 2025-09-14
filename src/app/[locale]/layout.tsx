@@ -44,7 +44,7 @@ export default async function RootLayout({ params, children }: AdminLayoutProps)
         {/* <link rel="apple-touch-icon" href="/icon-192x192.png" /> */}
       </head>
       <body
-        className={`${jost.className} ${poppins.className} antialiased w-full bg-gray-50`}
+        className={`${jost.className} ${poppins.className} antialiased w-full bg-[#ffffff]`}
       >
         <I18nProviderClient locale={locale}>
           <div className="relative w-full">

@@ -184,11 +184,31 @@ export default {
       h1: "Proposez l'investissement en ETF, Fonds et Actions à vos clients",
       P: "Que vous cherchiez à faire évoluer votre offre existante ou à construire quelque chose de nouveau : lemon.markets prend en charge un large éventail de cas d'utilisation de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client best-in-class.",
       titleListe: [
-        { titre: "neobrokers" },
-        { titre: "Applications d'investissement" },
-        { titre: "Robo Advisors" },
-        { titre: "Gestionnaires de Patrimoine" },
-        { titre: "Plateformes de Trésorerie" },
+        {
+          titre: "Néobrokers",
+          smallTitle: "Créer une expérience de courtage nouvelle génération",
+          texte: "Les clients souhaitent une expérience de courtage mobile-first qui leur permette d’investir via une interface fluide et intuitive. Ils valorisent un processus d’intégration rapide et simple, leur donnant les moyens d’atteindre facilement leurs objectifs financiers à long terme."
+        },
+        {
+          titre: "Applications d’investissement",
+          smallTitle: "Rendre les données et recherches d’investissement exploitables",
+          texte: "Les clients recherchent une plateforme intuitive qui non seulement leur fournisse les informations nécessaires pour prendre des décisions éclairées, mais aussi les outils pour agir facilement sur ces informations."
+        },
+        {
+          titre: "Roboconseillers",
+          smallTitle: "Optimiser les investissements automatisés avec une infrastructure avancée",
+          texte: "Les clients souhaitent une expérience d’investissement parfaitement intégrée à leur gestionnaire de portefeuille automatisé, les aidant à atteindre leurs objectifs financiers avec un minimum de complexité."
+        },
+        {
+          titre: "Gestionnaires de patrimoine",
+          smallTitle: "Simplifier la création de patrimoine avec des solutions d’investissement complètes",
+          texte: "Les clients veulent une voie simple pour faire croître leur patrimoine grâce à des investissements dans des ETF, des fonds et des actions. Ils recherchent des stratégies conçues par des experts et une gestion de portefeuille automatisée, intégrées à des offres adaptées à leurs objectifs financiers."
+        },
+        {
+          titre: "Plateformes de trésorerie",
+          smallTitle: "Optimiser la gestion de trésorerie d’entreprise",
+          texte: "Les clients entreprises recherchent des stratégies efficaces pour améliorer leur santé financière et gérer leurs actifs. Au-delà des outils de gestion de liquidité, de diversification et de reporting complet, ils ont besoin de solutions d’investissement intégrées pour gérer efficacement les liquidités disponibles et optimiser les flux de trésorerie."
+        },
       ],
     },
     section2: {
@@ -718,12 +738,12 @@ export default {
     SPAN: "Entrer en Contact",
     H1: "Partenariat avec nous",
     P: "Utilisez l'API de MANSAR.MAKITS pour lancer un produit d'investissement centré sur le client et conforme.",
-    B: "commencer à développer",
+    B: "Commencer à développer",
     section1: {
       H3_1: "À propos de nous",
-      content_1: "découvrez la vision et les principes de MANSAR.MAKITS",
+      content_1: "Découvrez la vision et les principes de MANSAR.MAKITS",
       H3_2: "Carrière",
-      content_2: "libérez votre plein potentiel et grandissez avec nous",
+      content_2: "Libérez votre plein potentiel et grandissez avec nous",
     },
   },
 

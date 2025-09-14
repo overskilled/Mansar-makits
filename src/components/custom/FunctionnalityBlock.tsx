@@ -17,13 +17,13 @@ interface Liste {
 
 export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
   return (
-    <div className="flex flex-col mb-0 w-full ">
+    <div className="flex flex-col px-8 mb-0 w-full ">
       <Entete
         SPAN={SPAN}
         H3={H3}
         P={P}
-        TEXT="text-blue-500"
-        BG="bg-indigo-300"
+        TEXT="text-[#6583d2]"
+        BG="bg-[#e9e7db]"
       />
 
       <div className="flex flex-wrap justify-between mb-20">
@@ -39,7 +39,7 @@ export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
               </CardHeader>
               <CardContent>{el.descript}</CardContent>
               <CardFooter className="bottom-0 ">
-                <span className="flex gap-4 group hover:text-amber-400 duration-500">
+                <span className="flex gap-4 group hover:text-amber-400 hover:cursor-pointer duration-500">
                   learn more{" "}
                   <MoveUpRight className="w-12 duration-500 group-hover:w-14" />
                 </span>
