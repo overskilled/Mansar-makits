@@ -10,6 +10,8 @@ import { Button } from '../button';
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from '../navigation-menu';
 import { Popover, PopoverContent, PopoverTrigger } from '../popover';
 import LanguageSelector from '@/components/custom/LanguageSelector';
+import { useI18n } from '@/locales/client';
+import { useRouter } from 'next/navigation';
 
 // Simple logo component for the navbar
 const Logo = (props: React.SVGAttributes<SVGElement>) => {
@@ -78,63 +80,13 @@ export interface NavbarProps extends React.HTMLAttributes<HTMLElement> {
   onCtaClick?: () => void;
 }
 
-// Default navigation links
-const defaultNavigationLinks: NavbarNavItem[] = [
-  { href: '#', label: 'Home' },
-  {
-    label: 'Features',
-    submenu: true,
-    // type: 'description',
-    type: 'icon',
-    items: [
-      {
-        href: '#components',
-        label: 'Components',
-        description: 'Browse all components in the library.',
-      },
-      {
-        href: '#documentation',
-        label: 'Documentation',
-        description: 'Learn how to use the library.',
-      },
-      {
-        href: '#templates',
-        label: 'Templates',
-        description: 'Pre-built layouts for common use cases.',
-      },
-    ],
-  },
-  {
-    label: 'Pricing',
-    submenu: true,
-    // type: 'simple',
-    type: 'icon',
-    items: [
-      { href: '#product-a', label: 'Product A' },
-      { href: '#product-b', label: 'Product B' },
-      { href: '#product-c', label: 'Product C' },
-      { href: '#product-d', label: 'Product D' },
-    ],
-  },
-  {
-    label: 'About',
-    submenu: true,
-    type: 'icon',
-    items: [
-      { href: '#getting-started', label: 'Getting Started', icon: 'BookOpenIcon' },
-      { href: '#tutorials', label: 'Tutorials', icon: 'LifeBuoyIcon' },
-      { href: '#about-us', label: 'About Us', icon: 'InfoIcon' },
-    ],
-  },
-];
-
 export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
   (
     {
       className,
       logo = <Logo />,
       logoHref = '#',
-      navigationLinks = defaultNavigationLinks,
+      navigationLinks,
       signInText = 'Sign In',
       signInHref = '#signin',
       ctaText = 'Get Started',
@@ -147,6 +99,109 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
   ) => {
     const [isMobile, setIsMobile] = useState(false);
     const containerRef = useRef<HTMLElement>(null);
+
+    const t = useI18n();
+
+    // Default navigation links with translations
+    const defaultNavigationLinks: NavbarNavItem[] = [
+      {
+        href: '#',
+        type: "icon",
+        submenu: true,
+        label: t('navbar.product'),
+        items: [
+          {
+            href: "/investement-infrastructure",
+            label: t('navbar.productItems.investmentInfrastructure'),
+            description: t('navbar.productItems.investmentInfrastructureDesc'),
+            icon: "/nav/infrastructure.svg"
+          }
+        ]
+      },
+      {
+        label: t('navbar.useCases'),
+        submenu: true,
+        type: 'icon',
+        items: [
+          {
+            href: '/brokers-and-wealth-managers',
+            label: t('navbar.useCasesItems.brokersWealthManagers'),
+            description: t('navbar.useCasesItems.brokersWealthManagersDesc'),
+            icon: '/nav/broker.svg'
+          },
+          {
+            href: '/banks-emis',
+            label: t('navbar.useCasesItems.banksEmis'),
+            description: t('navbar.useCasesItems.banksEmisDesc'),
+            icon: '/nav/bank.svg'
+          },
+          {
+            href: '/software-companies',
+            label: t('navbar.useCasesItems.softwareCompanies'),
+            description: t('navbar.useCasesItems.softwareCompaniesDesc'),
+            icon: '/nav/companies.svg'
+          },
+        ],
+      },
+      {
+        label: t('navbar.developers'),
+        submenu: true,
+        type: 'icon',
+        items: [
+          {
+            href: '#',
+            label: t('navbar.developersItems.developerHub'),
+            description: t('navbar.developersItems.developerHubDesc'),
+            icon: '/nav/dev.svg'
+          },
+          {
+            href: '#',
+            label: t('navbar.developersItems.guides'),
+            description: t('navbar.developersItems.guidesDesc'),
+            icon: '/nav/hub.svg'
+          },
+          {
+            href: '#',
+            label: t('navbar.developersItems.documentation'),
+            description: t('navbar.developersItems.documentationDesc'),
+            icon: '/nav/doc.svg'
+          },
+        ],
+      },
+      {
+        label: t('navbar.company'),
+        submenu: true,
+        type: 'icon',
+        items: [
+          {
+            href: '/company',
+            label: t('navbar.companyItems.company'),
+            description: t('navbar.companyItems.companyDesc'),
+            icon: '/nav/company.svg'
+          },
+          {
+            href: '/careers',
+            label: t('navbar.companyItems.careers'),
+            description: t('navbar.companyItems.careersDesc'),
+            icon: '/nav/careers.svg'
+          },
+          {
+            href: '/media',
+            label: t('navbar.companyItems.media'),
+            description: t('navbar.companyItems.mediaDesc'),
+            icon: '/nav/media.svg'
+          },
+          {
+            href: '/blog',
+            label: t('navbar.companyItems.blog'),
+            description: t('navbar.companyItems.blogDesc'),
+            icon: '/nav/blog.svg'
+          },
+        ],
+      },
+    ];
+
+    const navLinks = navigationLinks || defaultNavigationLinks;
 
     useEffect(() => {
       const checkWidth = () => {
@@ -195,14 +250,139 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
       <header
         ref={combinedRef}
         className={cn(
-          'sticky h-[15vh] top-3 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 md:px-6 [&_*]:no-underline',
+          'sticky h-[15vh] top-3 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 md:px-6 [&_*]:no-underline',
           className
         )}
         {...props}
       >
-        <div className="container mx-auto flex h-24 max-w-screen-2xl items-center justify-between gap-4">
-          {/* Left side */}
-          <div className="flex items-center gap-2">
+        <div className="container mx-auto flex h-28 max-w-screen-2xl items-center justify-between gap-4">
+          {/* Left side - Logo */}
+          <div className="flex items-center">
+            <button
+              onClick={(e) => e.preventDefault()}
+              className="flex items-center space-x-2 py-5  hover:text-primary/90 transition-colors cursor-pointer"
+            >
+              <div className="text-2xl">
+                {logo}
+              </div>
+              <span className="hidden font-meduim text-xl text-black sm:inline-block">Mansar.Makits</span>
+            </button>
+          </div>
+
+          {/* Center - Navigation menu */}
+          {!isMobile && (
+            <div className="flex-1 flex justify-center">
+              <NavigationMenu className="flex">
+                <NavigationMenuList className="gap-1">
+                  {navLinks.map((link, index) => (
+                    <NavigationMenuItem key={index}>
+                      {link.submenu ? (
+                        <>
+                          <NavigationMenuTrigger>
+                            {link.label}
+                          </NavigationMenuTrigger>
+                          <NavigationMenuContent>
+                            {link.type === 'description' && link.label === 'Features' ? (
+                              <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                                <div className="row-span-3">
+                                  <NavigationMenuLink asChild>
+                                    <button
+                                      onClick={(e) => e.preventDefault()}
+                                      className="flex h-full w-full select-none flex-col justify-center items-center text-center rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md cursor-pointer"
+                                    >
+                                      <div className="mb-3 text-xl font-medium">
+                                        Mansar.Makits
+                                      </div>
+                                      <p className="text-sm leading-tight text-muted-foreground">
+                                        {t('navbar.tagline')}
+                                      </p>
+                                    </button>
+                                  </NavigationMenuLink>
+                                </div>
+                                {link.items?.map((item, itemIndex) => (
+                                  <ListItem
+                                    key={itemIndex}
+                                    title={item.label}
+                                    href={item.href}
+                                    type={link.type}
+                                  >
+                                    {item.description}
+                                  </ListItem>
+                                ))}
+                              </div>
+                            ) : link.type === 'simple' ? (
+                              <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                                {link.items?.map((item, itemIndex) => (
+                                  <ListItem
+                                    key={itemIndex}
+                                    title={item.label}
+                                    href={item.href}
+                                    type={link.type}
+                                  >
+                                    {item.description}
+                                  </ListItem>
+                                ))}
+                              </div>
+                            ) : link.type === 'icon' ? (
+                              <div className="grid w-[400px] gap-3 p-4">
+                                {link.items?.map((item, itemIndex) => (
+                                  <ListItem
+                                    key={itemIndex}
+                                    title={item.label}
+                                    href={item.href}
+                                    icon={item.icon}
+                                    type={link.type}
+                                  >
+                                    {item.description}
+                                  </ListItem>
+                                ))}
+                              </div>
+                            ) : (
+                              <div className="grid gap-3 p-4">
+                                {link.items?.map((item, itemIndex) => (
+                                  <ListItem
+                                    key={itemIndex}
+                                    title={item.label}
+                                    href={item.href}
+                                    type={link.type}
+                                  >
+                                    {item.description}
+                                  </ListItem>
+                                ))}
+                              </div>
+                            )}
+                          </NavigationMenuContent>
+                        </>
+                      ) : (
+                        <NavigationMenuLink
+                          href={link.href}
+                          className={cn(navigationMenuTriggerStyle(), 'cursor-pointer')}
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          {link.label}
+                        </NavigationMenuLink>
+                      )}
+                    </NavigationMenuItem>
+                  ))}
+                </NavigationMenuList>
+              </NavigationMenu>
+            </div>
+          )}
+
+          {/* Right side - Buttons */}
+          <div className="flex items-center gap-3">
+            <Button
+              size="lg"
+              className="text-sm font-medium rounded-xl hover:bg-black hover:text-white hover:cursor-pointer bg-white border border-gray-600 text-black"
+              onClick={(e) => {
+                e.preventDefault();
+                if (onSignInClick) onSignInClick();
+              }}
+            >
+              {t('navbar.getInTouch')}
+            </Button>
+            <LanguageSelector />
+
             {/* Mobile menu trigger */}
             {isMobile && (
               <Popover>
@@ -218,7 +398,7 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
                 <PopoverContent align="start" className="w-64 p-1">
                   <NavigationMenu className="max-w-none">
                     <NavigationMenuList className="flex-col items-start gap-0">
-                      {navigationLinks.map((link, index) => (
+                      {navLinks.map((link, index) => (
                         <NavigationMenuItem key={index} className="w-full">
                           {link.submenu ? (
                             <>
@@ -247,12 +427,12 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
                             </button>
                           )}
                           {/* Add separator between different types of items */}
-                          {index < navigationLinks.length - 1 &&
-                            ((!link.submenu && navigationLinks[index + 1].submenu) ||
-                              (link.submenu && !navigationLinks[index + 1].submenu) ||
+                          {index < navLinks.length - 1 &&
+                            ((!link.submenu && navLinks[index + 1].submenu) ||
+                              (link.submenu && !navLinks[index + 1].submenu) ||
                               (link.submenu &&
-                                navigationLinks[index + 1].submenu &&
-                                link.type !== navigationLinks[index + 1].type)) && (
+                                navLinks[index + 1].submenu &&
+                                link.type !== navLinks[index + 1].type)) && (
                               <div
                                 role="separator"
                                 aria-orientation="horizontal"
@@ -266,140 +446,6 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
                 </PopoverContent>
               </Popover>
             )}
-            {/* Main nav */}
-            <div className="flex items-center  gap-6">
-              <button
-                onClick={(e) => e.preventDefault()}
-                className="flex items-center space-x-4 py-5 text-primary hover:text-primary/90 transition-colors cursor-pointer"
-              >
-                <div className="text-2xl">
-                  {logo}
-                </div>
-                <span className="hidden font-bold text-xl sm:inline-block">Mansar.Makits</span>
-              </button>
-              {/* Navigation menu */}
-              {!isMobile && (
-                <NavigationMenu className="flex">
-                  <NavigationMenuList className="gap-1">
-                    {navigationLinks.map((link, index) => (
-                      <NavigationMenuItem key={index}>
-                        {link.submenu ? (
-                          <>
-                            <NavigationMenuTrigger>
-                              {link.label}
-                            </NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                              {link.type === 'description' && link.label === 'Features' ? (
-                                <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                                  <div className="row-span-3">
-                                    <NavigationMenuLink asChild>
-                                      <button
-                                        onClick={(e) => e.preventDefault()}
-                                        className="flex h-full w-full select-none flex-col justify-center items-center text-center rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md cursor-pointer"
-                                      >
-                                        <div className="mb-3 text-xl font-medium">
-                                          Mansar.Makits
-                                        </div>
-                                        <p className="text-sm leading-tight text-muted-foreground">
-                                          We bring to you quality investement assets
-                                        </p>
-                                      </button>
-                                    </NavigationMenuLink>
-                                  </div>
-                                  {link.items?.map((item, itemIndex) => (
-                                    <ListItem
-                                      key={itemIndex}
-                                      title={item.label}
-                                      href={item.href}
-                                      type={link.type}
-                                    >
-                                      {item.description}
-                                    </ListItem>
-                                  ))}
-                                </div>
-                              ) : link.type === 'simple' ? (
-                                <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                  {link.items?.map((item, itemIndex) => (
-                                    <ListItem
-                                      key={itemIndex}
-                                      title={item.label}
-                                      href={item.href}
-                                      type={link.type}
-                                    >
-                                      {item.description}
-                                    </ListItem>
-                                  ))}
-                                </div>
-                              ) : link.type === 'icon' ? (
-                                <div className="grid w-[400px] gap-3 p-4">
-                                  {link.items?.map((item, itemIndex) => (
-                                    <ListItem
-                                      key={itemIndex}
-                                      title={item.label}
-                                      href={item.href}
-                                      icon={item.icon}
-                                      type={link.type}
-                                    >
-                                      {item.description}
-                                    </ListItem>
-                                  ))}
-                                </div>
-                              ) : (
-                                <div className="grid gap-3 p-4">
-                                  {link.items?.map((item, itemIndex) => (
-                                    <ListItem
-                                      key={itemIndex}
-                                      title={item.label}
-                                      href={item.href}
-                                      type={link.type}
-                                    >
-                                      {item.description}
-                                    </ListItem>
-                                  ))}
-                                </div>
-                              )}
-                            </NavigationMenuContent>
-                          </>
-                        ) : (
-                          <NavigationMenuLink
-                            href={link.href}
-                            className={cn(navigationMenuTriggerStyle(), 'cursor-pointer')}
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            {link.label}
-                          </NavigationMenuLink>
-                        )}
-                      </NavigationMenuItem>
-                    ))}
-                  </NavigationMenuList>
-                </NavigationMenu>
-              )}
-            </div>
-          </div>
-          {/* Right side */}
-          <div className="flex items-center gap-3">
-            <LanguageSelector />
-            <Button
-              variant="ghost"
-              size="sm"
-              className="text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-              onClick={(e) => {
-                e.preventDefault();
-                if (onSignInClick) onSignInClick();
-              }}
-            >
-              {signInText}
-            </Button>
-            <Button
-              size="sm"
-              className="text-sm font-medium px-4 h-9 rounded-md shadow-sm"
-              onClick={(e) => {
-                e.preventDefault();
-                if (onCtaClick) onCtaClick();
-              }}
-            >
-              {ctaText}
-            </Button>
           </div>
         </div>
       </header>
@@ -419,9 +465,24 @@ const ListItem = React.forwardRef<
     type?: 'description' | 'simple' | 'icon';
     children?: React.ReactNode;
   }
->(({ className, title, children, icon, type, ...props }, ref) => {
+>(({ className, title, children, icon, href,  type, ...props }, ref) => {
+  const router = useRouter()
+
   const renderIconComponent = (iconName?: string) => {
     if (!iconName) return null;
+
+    // Check if it's an image path (ends with .svg, .png, .jpg, etc.)
+    if (iconName.match(/\.(svg|png|jpg|jpeg|gif|webp)$/i)) {
+      return (
+        <img
+          src={iconName}
+          alt=""
+          className="h-8 w-8 object-contain"
+        />
+      );
+    }
+
+    // Handle Lucide icons
     switch (iconName) {
       case 'BookOpenIcon':
         return <BookOpenIcon className="h-5 w-5" />;
@@ -438,7 +499,7 @@ const ListItem = React.forwardRef<
     <NavigationMenuLink asChild>
       <a
         ref={ref}
-        onClick={(e) => e.preventDefault()}
+        onClick={() => router.push(href || "#")}
         className={cn(
           'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground cursor-pointer',
           className

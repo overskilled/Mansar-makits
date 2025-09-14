@@ -42,7 +42,7 @@ const LanguageSelector = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant="outline" size="lg" className='rounded-xl hover:bg-black hover:text-white'>
+                <Button variant="outline" size="lg" className='rounded-xl hover:bg-black hover:text-white hover:cursor-pointer'>
                     {locale === "en" ?
                         (
                             <>

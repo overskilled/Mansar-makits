@@ -785,4 +785,44 @@ export default {
       },
     },
   },
+  "navbar": {
+    "product": "Produit",
+    "productItems": {
+      "investmentInfrastructure": "Infrastructure d'Investissement",
+      "investmentInfrastructureDesc": "Infrastructure d'investissement axée sur l'API"
+    },
+    "useCases": "Cas d'Utilisation",
+    "useCasesItems": {
+      "brokersWealthManagers": "Courtiers & Gestionnaires de Patrimoine",
+      "brokersWealthManagersDesc": "Gérer le backend de votre expérience d'investissement",
+      "banksEmis": "Banques & EMIs",
+      "banksEmisDesc": "Alimenter l'investissement intégré dans votre produit",
+      "softwareCompanies": "Sociétés de Logiciels",
+      "softwareCompaniesDesc": "Intégrer l'investissement dans votre contexte"
+    },
+    "developers": "Développeurs",
+    "developersItems": {
+      "developerHub": "Centre de Développement",
+      "developerHubDesc": "Parcourez toutes nos ressources techniques",
+      "guides": "Guides",
+      "guidesDesc": "Cas d'utilisation démonstratifs basés sur notre API",
+      "documentation": "Documentation",
+      "documentationDesc": "Détails des endpoints API de notre plateforme"
+    },
+    "company": "Entreprise",
+    "companyItems": {
+      "company": "Entreprise",
+      "companyDesc": "Motivé par les opportunités d'investissement croissantes",
+      "careers": "Carrières",
+      "careersDesc": "Tout ce que vous devez savoir pour devenir un constructeur Mansar",
+      "media": "RP/Médias",
+      "mediaDesc": "Couverture médiatique et ressources pour votre histoire",
+      "blog": "Blog",
+      "blogDesc": "Obtenez les dernières nouvelles de Mansar"
+    },
+    "signIn": "Se Connecter",
+    "getInTouch": "Prendre contact",
+    "getStarted": "Commencer",
+    "tagline": "Nous vous apportons des actifs d'investissement de qualité"
+  }
 } as const;
