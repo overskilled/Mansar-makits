@@ -620,44 +620,44 @@ export default {
       {
         title: "Buy & Sell Stocks",
         descript:
-          "Allow your customers to place market and limit orders indiversified ETFs",
-        statut: "in progress",
+          "Allow your customers to place market and limit orders for their favorite stocks",
+        statut: "Go-Live Scope",
       },
       {
         title: "Buy & Sell ETFs",
         descript:
           "Allow your customers to place market and limit orders in diversified ETFs",
-        statut: "go-Live scope",
+        statut: "Go-Live Scope",
       },
       {
         title: "Buy & Sell Funds",
         descript:
           "Provide your customers with access to mutual funds, index funds, & more",
-        statut: "go-Live scope",
+        statut: "Go-Live Scope",
       },
       {
         title: "ETF savings plans",
         descript:
           "Allow your customers to make investing a habit by setting up recurring savings plans for ETFs",
-        statut: "go-Live scope",
+        statut: "Go-Live Scope",
       },
       {
         title: "Stock saving plans",
         descript:
           "Allow your customers to make investing a habit by setting up recurring savings plans for their favorite stocks",
-        statut: "go-Live scope",
+        statut: "In progress",
       },
       {
         title: "Fractional trading",
         descript:
           "Allow your customers to invest in their favorites stocks starting with 1€",
-        statut: "in progress",
+        statut: "In progress",
       },
       {
         title: "Options, Derivatives and Certificates",
         descript:
           "Allow your customers to go short, hedge their portfolio or trade commodities",
-        statut: "in progress",
+        statut: "In progress",
       },
     ],
 
@@ -712,7 +712,7 @@ export default {
     section2: {
       P: "The partnership with lemon.markets accelerated our growth. They accompanied us through the different lifecycle stages and their comprehensive hub for developers, product managers, and operations specialists provided us with the resources we needed to work faster and with greater focus.",
       SPAN: "Julia Kruslin, CEO & Co-Founder, beatvest",
-      B: "real the full story",
+      B: "Real the full story",
     },
 
     dataBlock1: {
