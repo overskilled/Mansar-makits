@@ -23,6 +23,7 @@ import { use, useTransition } from "react";
 export default function Home() {
   const t = useI18n();
   const router = useRouter()
+  
 
   const EnteteData = {
     SPAN: t("home.EnteteData.SPAN"),
