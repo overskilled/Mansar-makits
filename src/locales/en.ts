@@ -187,27 +187,34 @@ export default {
         {
           titre: "Neobrokers",
           smallTitle: "Create a next-generation brokerage experience",
-          texte: "Customers desire a mobile-first brokerage experience that enables investing through a seamless and intuitive user interface. They value a quick and simple onboarding process, empowering them to achieve their long-term financial goals with ease."
+          texte:
+            "Customers desire a mobile-first brokerage experience that enables investing through a seamless and intuitive user interface. They value a quick and simple onboarding process, empowering them to achieve their long-term financial goals with ease.",
         },
         {
           titre: "Invesment Apps",
           smallTitle: "Make investment data and research actionable",
-          texte: "Customers seek an intuitive platform that not only provides the insights they need to make informed investment decisions but also the tools to act on those insights seamlessly."
+          texte:
+            "Customers seek an intuitive platform that not only provides the insights they need to make informed investment decisions but also the tools to act on those insights seamlessly.",
         },
         {
           titre: "Robo Advisors",
-          smallTitle: "Streamline automated investments with advanced infrastructure",
-          texte: "Customers seek an investment experience seamlessly integrated into their automated portfolio manager, helping them achieve their financial goals with minimal complexity."
+          smallTitle:
+            "Streamline automated investments with advanced infrastructure",
+          texte:
+            "Customers seek an investment experience seamlessly integrated into their automated portfolio manager, helping them achieve their financial goals with minimal complexity.",
         },
         {
           titre: "Wealth Managers",
-          smallTitle: "Simplify wealth creation with comprehensive investment solutions",
-          texte: "Customers want a straightforward path to grow their wealth through investments in ETFs, Funds, and Stocks. They look for expert-built strategies and automated portfolio management, which integrates with investment offerings tailored to their financial goals."
+          smallTitle:
+            "Simplify wealth creation with comprehensive investment solutions",
+          texte:
+            "Customers want a straightforward path to grow their wealth through investments in ETFs, Funds, and Stocks. They look for expert-built strategies and automated portfolio management, which integrates with investment offerings tailored to their financial goals.",
         },
         {
           titre: "Treasury Platforms",
           smallTitle: "Optimize corporate treasury management",
-          texte: "Corporate clients seek efficient strategies to enhance their financial health and manage their assets. Beyond tools for liquidity management, diversification, and comprehensive reporting, they require integrated investment solutions to effectively manage idle cash and optimize cash flow."
+          texte:
+            "Corporate clients seek efficient strategies to enhance their financial health and manage their assets. Beyond tools for liquidity management, diversification, and comprehensive reporting, they require integrated investment solutions to effectively manage idle cash and optimize cash flow.",
         },
       ],
     },
@@ -235,43 +242,39 @@ export default {
       },
     },
     section4: {
-      "SPAN": "Asset Classes",
-      "H2": "Global asset coverage ranging from ETFs to Stocks",
-      "P": "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
-      "SPANS": [
-        "ETFs",
-        "Stocks",
-        "Funds"
-      ],
-      "CARDS": [
+      SPAN: "Asset Classes",
+      H2: "Global asset coverage ranging from ETFs to Stocks",
+      P: "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
+      SPANS: ["ETFs", "Stocks", "Funds"],
+      CARDS: [
         {
-          "CardHeader": "ETFs",
-          "H5": "Offer your customers the opportunity to diversify their investments",
-          "UL": [
+          CardHeader: "ETFs",
+          H5: "Offer your customers the opportunity to diversify their investments",
+          UL: [
             "Market hours from 8am to 10pm",
             "From sector focus to global coverage",
-            "Over 1000+ ETFs"
-          ]
+            "Over 1000+ ETFs",
+          ],
         },
         {
-          "CardHeader": "Stocks",
-          "H5": "Offer access to a wide range of global stocks through an exchange",
-          "UL": [
+          CardHeader: "Stocks",
+          H5: "Offer access to a wide range of global stocks through an exchange",
+          UL: [
             "Market hours from 8am to 10pm",
             "From small caps to blue chips",
-            ">3000 Stocks"
-          ]
+            ">3000 Stocks",
+          ],
         },
         {
-          "CardHeader": "Funds",
-          "H5": "Offer bespoke investment strategies to your customers",
-          "UL": [
+          CardHeader: "Funds",
+          H5: "Offer bespoke investment strategies to your customers",
+          UL: [
             "Access to mutual funds, MMFs, & more",
             "Professionally managed & diversified portfolios",
-            "Flexible investment minimums & schedules"
-          ]
-        }
-      ]
+            "Flexible investment minimums & schedules",
+          ],
+        },
+      ],
     },
     ListeDoubleBlock: {
       SPAN: "Regulatory",
@@ -428,6 +431,75 @@ export default {
       H3: "Our backing",
       P: "We are excited to be entering a second phase in our growth, having joined forces with dwpbank. While we are undergoing our transition, you can read more on the latest news in our Media section.",
     },
+  },
+
+  banks: {
+    hero: {
+      H2: "Banks & EMIs",
+      P: "Leverage the lemon.markets infrastructure to integrate Stock and ETF investing on your terms. We work alongside your operating model to create a convenient customer experience.",
+      B: "start building",
+    },
+    section1: {
+      entete: {
+        SPAN: "Use Cases",
+        H3: "Offer investing in ETFs, Funds, and Stocks to your customers",
+        P: "Whether you're looking to scale your existing offering or build something new: lemon.markets supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
+      },
+      left: [
+        {legend: 'B2C Neobank',h2:'Add investing as a product feature',p:'Customers seek a comprehensive, mobile-first banking experience allowing them to manage their finances in one place — where investing money is as simple as spending it.'},
+        {legend: 'B2B Neobank',h2:'Empower corporate clients with integrated investment solutions',p:'Corporate clients seek platforms that offer integrated services, allowing them to handle everything from payments to investments in one place. They value seamless, secure experiences that help them optimize their financial operations while reducing complexity and administrative overhead.'},
+        {legend: 'Traditional Bank',h2:'Integrate cutting-edge API technology into legacy systems',p:'Customers of traditional banks are increasingly seeking modern, digital-first solutions - offering the convenience of newer financial technologies while maintaining the trust and reliability of established institutions. They want a seamless banking experience that allows them to grow their wealth and achieve their financial goals within a single, integrated financial hub.'},
+        {legend: 'Private Bank',h2:'Tailor advanced investment solutions',p:'High-net-worth individuals seek bespoke investment solutions that meet their sophisticated financial needs. They desire personalized portfolio management and a comprehensive suite of financial products to grow their wealth.'},
+        {legend: 'Payment Wallet',h2:'Embed ETFs, Funds, and Stocks directly into your wallet app',p:'Tech-savvy customers are looking for comprehensive financial tools that integrate spending and investing into their daily lives. They seek intuitive ways to invest spare change or rewards directly within their wallet app, promoting passive investment and long-term financial growth.'},
+      ],
+      right:[
+        {span:'Benefits for you',first:'Increase product stickiness, encouraging long-term loyalty',second:'Gain a competitive edge and expand market share',third:'Target a wider customer base seeking both banking and investment solutions'},
+        {span:'Benefits for your customers',first:'All banking and investment needs in one app',second:'Holistic financial overview for making informed decisions',third:'Synergizing daily transactions with wealth building'},
+      ]
+    },
+    section3: {
+      span: 'Customer Journey',
+      title: 'One infrastructure to give you all the building blocks along your customer journey',
+      block:[
+        {legend:'Account opening',p:'End-to-end digital onboarding for your new customers with comprehensive KYC and security checks (PEP/Sanction Screening & Risk checks). Already have KYC’ed customers? No worries - we support KYC-sharing, so your customers don’t have to start another authentication process. '},
+        {legend:'Account funding',p:'Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.'},
+        {legend:'Order management',p:'Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.'},
+        {legend:'Settlement & Custody',p:"We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing stock splits and mergers, and handling shareholder voting."},
+        {legend:'Taxation and Reporting',p:'Our comprehensive tax and reporting services include the automatic calculation and deduction of settlement and withholding tax, making it easier for you and your customers to stay compliant with tax regulations. We create the tax documents for end customers, and deliver all relevant information to the financial authorities.'}
+      ]
+    },
+    section4: {
+      span: 'Asset Classes',
+      h2: 'Global asset coverage ranging from ETFs to Stocks',
+      p: 'lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.',
+      liste: [
+        {title:'ETFs',h5:'Offer your customers the opportunity to diversify their investments',liste:{first:'Market hours from 8am to 10pm',second:'From sector focus to global coverage',third:'Over 1000+ ETFs'}},
+        {title:'Stocks',h5:'Offer access to a wide range of global stocks through an exchange',liste:{first:'Market hours from 8am to 10pm',second:'From small caps to blue chips',third:'>3000 Stocks'}},
+        {title:'Funds',h5:'Offer bespoke investment strategies to your customers',liste:{first:'Access to mutual funds, MMFs, & more',second:'Professionally managed & diversified portfolios',third:'Flexible investment minimums & schedules'}},
+      ]
+    },
+    doubleBlock: {
+      span:'Regulatory',
+      h3:'Find the right setup with our regulatory & compliance experts',
+      p:'As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.',
+      legend:'Select the right regulatory setup',
+      block: [
+        {title:'Full brokerage service',p:'lemon.markets covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.'},
+        {title:'Modular brokerage service',p:'Partnering with wealth managers, introducing brokers and portfolio managers we cooperate to fulfill all regulatory responsibilities.'},
+        {title:'Brokerage outsourcing service',p:'You maintain full control over the customer relationship, while lemon.markets handles the technical and operational details.'},
+      ]
+    },
+    flexWrap: {
+      span:'Why work with us',
+      h3:'Offering an investment product finally becomes easy',
+      p:'Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.',
+      block: [
+        {title:'Customer centricity',content:'Building on our core principles, we always put you first. Leverage our expertise in technology, regulation, and financial services to deliver investment products that consistently exceed expectations.'},
+        {title:'Platform modularity',content:'Our modular platform not only provides 24/7 availability and a high degree of automation, but also adapts to your operating model, empowering you to build what you want, how you want it, securely and reliably.'},
+        {title:'Developer friendly',content:'Offering comprehensive documentation and a ready-to-test sandbox, our API-first infrastructure streamlines development for your team, shortening your build time from months to weeks.'},
+        {title:'Regulatory coverage',content:'Our team, combining deep brokerage and regulatory knowledge, works closely with you, allowing you to scale efficiently without regulatory overhead slowing you down.'},
+      ]
+    }
   },
 
   contactUs: {
@@ -816,44 +888,46 @@ export default {
       },
     },
   },
-  "navbar": {
-    "product": "Product",
-    "productItems": {
-      "investmentInfrastructure": "Investment Infrastructure",
-      "investmentInfrastructureDesc": "API first investment infrastructure"
+
+  navbar: {
+    product: "Product",
+    productItems: {
+      investmentInfrastructure: "Investment Infrastructure",
+      investmentInfrastructureDesc: "API first investment infrastructure",
     },
-    "useCases": "Use Cases",
-    "useCasesItems": {
-      "brokersWealthManagers": "Brokers & Wealth Managers",
-      "brokersWealthManagersDesc": "Running the backend of your investment experience",
-      "banksEmis": "Banks & EMIs",
-      "banksEmisDesc": "Powering investing embedded into your product",
-      "softwareCompanies": "Software Companies",
-      "softwareCompaniesDesc": "Bringing investing into your context"
+    useCases: "Use Cases",
+    useCasesItems: {
+      brokersWealthManagers: "Brokers & Wealth Managers",
+      brokersWealthManagersDesc:
+        "Running the backend of your investment experience",
+      banksEmis: "Banks & EMIs",
+      banksEmisDesc: "Powering investing embedded into your product",
+      softwareCompanies: "Software Companies",
+      softwareCompaniesDesc: "Bringing investing into your context",
     },
-    "developers": "Developers",
-    "developersItems": {
-      "developerHub": "Developer Hub",
-      "developerHubDesc": "Browse all our technical resources",
-      "guides": "Guides",
-      "guidesDesc": "Demonstrative use cases in top of our API",
-      "documentation": "Documentation",
-      "documentationDesc": "Details of our platform's API endpoints"
+    developers: "Developers",
+    developersItems: {
+      developerHub: "Developer Hub",
+      developerHubDesc: "Browse all our technical resources",
+      guides: "Guides",
+      guidesDesc: "Demonstrative use cases in top of our API",
+      documentation: "Documentation",
+      documentationDesc: "Details of our platform's API endpoints",
     },
-    "company": "Company",
-    "companyItems": {
-      "company": "Company",
-      "companyDesc": "Driven by growing investing opportunities",
-      "careers": "Careers",
-      "careersDesc": "All you need to know to become a Mansar builder",
-      "media": "PR/Media",
-      "mediaDesc": "Media coverage and assets for your story",
-      "blog": "Blog",
-      "blogDesc": "Get the latest news from Mansar"
+    company: "Company",
+    companyItems: {
+      company: "Company",
+      companyDesc: "Driven by growing investing opportunities",
+      careers: "Careers",
+      careersDesc: "All you need to know to become a Mansar builder",
+      media: "PR/Media",
+      mediaDesc: "Media coverage and assets for your story",
+      blog: "Blog",
+      blogDesc: "Get the latest news from Mansar",
     },
-    "signIn": "Sign In",
-    "getInTouch": "Get in Touch",
-    "getStarted": "Get Started",
-    "tagline": "We bring to you quality investment assets"
-  }
+    signIn: "Sign In",
+    getInTouch: "Get in Touch",
+    getStarted: "Get Started",
+    tagline: "We bring to you quality investment assets",
+  },
 } as const;

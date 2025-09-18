@@ -7,7 +7,10 @@ import FlexWrapRight from "@/components/custom/FlexWrapRight";
 import Footer from "@/components/custom/Footer";
 import GetInTouchBlock from "@/components/custom/GetInTouchBlock";
 import Hero from "@/components/custom/Hero";
-import { ProgressiveTimeline, TimelineSection } from "@/components/custom/progressive-timeline";
+import {
+  ProgressiveTimeline,
+  TimelineSection,
+} from "@/components/custom/progressive-timeline";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { useI18n } from "@/locales/client";
 import Image from "next/image";
@@ -15,7 +18,7 @@ import { useState } from "react";
 
 interface HoverItem {
   label: string;
-  icon: string
+  icon: string;
   header: string;
   h5: string;
   ul: string[];
@@ -24,166 +27,159 @@ interface HoverItem {
 export default function page() {
   const t = useI18n();
 
-
   const timelineSections: TimelineSection[] = [
     {
-      id: "account-opening",
+      id: t("banks.section3.block.0.legend"),
       number: "01",
-      title: "Account opening",
-      description:
-        "End-to-end digital onboarding for your new customers with comprehensive KYC and security checks (PEP/Sanction Screening & Risk checks). Already have KYC’ed customers? No worries - we support KYC-sharing, so your customers don’t have to start another authentication process.",
+      title: t("banks.section3.block.0.legend"),
+      description: t("banks.section3.block.0.p"),
     },
     {
-      id: "account-funding",
+      id: t("banks.section3.block.1.legend"),
       number: "02",
-      title: "Account funding",
-      description:
-        "Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
+      title: t("banks.section3.block.1.legend"),
+      description: t("banks.section3.block.1.p"),
     },
     {
-      id: "order-management",
+      id: t("banks.section3.block.2.legend"),
       number: "03",
-      title: "Order management",
-      description:
-        "Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
+      title: t("banks.section3.block.2.legend"),
+      description: t("banks.section3.block.2.p"),
     },
     {
-      id: "settlement-custody",
+      id: t("banks.section3.block.3.legend"),
       number: "04",
-      title: "Settlement & Custody",
-      description:
-        "We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing stock splits and mergers, and handling shareholder voting.",
+      title: t("banks.section3.block.3.legend"),
+      description: t("banks.section3.block.3.p"),
     },
     {
-      id: "taxation-reporting",
+      id: t("banks.section3.block.4.legend"),
       number: "05",
-      title: "Taxation and Reporting",
-      description:
-        "Our comprehensive tax and reporting services include the automatic calculation and deduction of settlement and withholding tax, making it easier for you and your customers to stay compliant with tax regulations. We create the tax documents for end customers, and deliver all relevant information to the financial authorities.",
+      title: t("banks.section3.block.4.legend"),
+      description: t("banks.section3.block.4.p"),
     },
-  ]
-
+  ];
 
   const hoverItems: HoverItem[] = [
     {
-      label: t("brokers.section4.SPANS.0"),
+      label: t("banks.section4.liste.0.title"),
       icon: "icon-etf.svg",
-      header: t("brokers.section4.CARDS.0.CardHeader"),
-      h5: t("brokers.section4.CARDS.0.H5"),
+      header: t("banks.section4.liste.0.title"),
+      h5: t("banks.section4.liste.0.h5"),
       ul: [
-        t("brokers.section4.CARDS.0.UL.0"),
-        t("brokers.section4.CARDS.0.UL.1"),
-        t("brokers.section4.CARDS.0.UL.2")
-      ]
+        t("banks.section4.liste.0.liste.first"),
+        t("banks.section4.liste.0.liste.second"),
+        t("banks.section4.liste.0.liste.third"),
+      ],
     },
     {
-      label: t("brokers.section4.SPANS.1"),
+      label: t("banks.section4.liste.1.title"),
       icon: "icon-stocks.svg",
-      header: t("brokers.section4.CARDS.1.CardHeader"),
-      h5: t("brokers.section4.CARDS.1.H5"),
+      header: t("banks.section4.liste.1.title"),
+      h5: t("banks.section4.liste.1.h5"),
       ul: [
-        t("brokers.section4.CARDS.1.UL.0"),
-        t("brokers.section4.CARDS.1.UL.1"),
-        t("brokers.section4.CARDS.1.UL.2")
-      ]
+        t("banks.section4.liste.1.liste.first"),
+        t("banks.section4.liste.1.liste.second"),
+        t("banks.section4.liste.1.liste.third"),
+      ],
     },
     {
-      label: t("brokers.section4.SPANS.2"),
+      label: t("banks.section4.liste.2.title"),
       icon: "icon-funds.svg",
-      header: t("brokers.section4.CARDS.2.CardHeader"),
-      h5: t("brokers.section4.CARDS.2.H5"),
+      header: t("banks.section4.liste.2.title"),
+      h5: t("banks.section4.liste.2.h5"),
       ul: [
-        t("brokers.section4.CARDS.2.UL.0"),
-        t("brokers.section4.CARDS.2.UL.1"),
-        t("brokers.section4.CARDS.2.UL.2")
-      ]
-    }
+        t("banks.section4.liste.2.liste.first"),
+        t("banks.section4.liste.2.liste.second"),
+        t("banks.section4.liste.2.liste.third"),
+      ],
+    },
   ];
-
 
   const titleListe = [
     {
-      titre: t("brokers.section1.titleListe.0.titre"),
-      smallTitle: t("brokers.section1.titleListe.0.smallTitle"),
-      texte: t("brokers.section1.titleListe.0.texte"),
+      titre: t("banks.section1.left.0.legend"),
+      smallTitle: t("banks.section1.left.0.h2"),
+      texte: t("banks.section1.left.0.p"),
     },
     {
-      titre: t("brokers.section1.titleListe.1.titre"),
-      smallTitle: t("brokers.section1.titleListe.1.smallTitle"),
-      texte: t("brokers.section1.titleListe.1.texte"),
+      titre: t("banks.section1.left.1.legend"),
+      smallTitle: t("banks.section1.left.1.h2"),
+      texte: t("banks.section1.left.1.p"),
     },
     {
-      titre: t("brokers.section1.titleListe.2.titre"),
-      smallTitle: t("brokers.section1.titleListe.2.smallTitle"),
-      texte: t("brokers.section1.titleListe.2.texte"),
+      titre: t("banks.section1.left.2.legend"),
+      smallTitle: t("banks.section1.left.2.h2"),
+      texte: t("banks.section1.left.2.p"),
     },
     {
-      titre: t("brokers.section1.titleListe.3.titre"),
-      smallTitle: t("brokers.section1.titleListe.3.smallTitle"),
-      texte: t("brokers.section1.titleListe.3.texte"),
+      titre: t("banks.section1.left.3.legend"),
+      smallTitle: t("banks.section1.left.3.h2"),
+      texte: t("banks.section1.left.3.p"),
     },
     {
-      titre: t("brokers.section1.titleListe.4.titre"),
-      smallTitle: t("brokers.section1.titleListe.4.smallTitle"),
-      texte: t("brokers.section1.titleListe.4.texte"),
+      titre: t("banks.section1.left.4.legend"),
+      smallTitle: t("banks.section1.left.4.h2"),
+      texte: t("banks.section1.left.4.p"),
     },
   ];
 
   const ListeDoubleBlock = {
-    SPAN: t("brokers.ListeDoubleBlock.SPAN"),
-    H3: t("brokers.ListeDoubleBlock.H3"),
-    P: t("brokers.ListeDoubleBlock.P"),
-    LEGEND: t("brokers.ListeDoubleBlock.LEGEND"),
+    SPAN: t("banks.doubleBlock.span"),
+    H3: t("banks.doubleBlock.h3"),
+    P: t("banks.doubleBlock.p"),
+    LEGEND: t("banks.doubleBlock.legend"),
     BLOCK: [
       {
-        title: t("brokers.ListeDoubleBlock.BLOCK.0.title"),
-        content: t("brokers.ListeDoubleBlock.BLOCK.0.content"),
+        title: t("banks.doubleBlock.block.0.title"),
+        content: t("banks.doubleBlock.block.0.p"),
         image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
       },
       {
-        title: t("brokers.ListeDoubleBlock.BLOCK.1.title"),
-        content: t("brokers.ListeDoubleBlock.BLOCK.1.content"),
-        image: t("brokers.ListeDoubleBlock.BLOCK.1.image"),
+        title: t("banks.doubleBlock.block.1.title"),
+        content: t("banks.doubleBlock.block.1.p"),
+        image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
       },
       {
-        title: t("brokers.ListeDoubleBlock.BLOCK.2.title"),
-        content: t("brokers.ListeDoubleBlock.BLOCK.2.content"),
-        image: t("brokers.ListeDoubleBlock.BLOCK.2.image"),
+        title: t("banks.doubleBlock.block.2.title"),
+        content: t("banks.doubleBlock.block.2.p"),
+        image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
       },
     ],
   };
+
   const flexWrapRightData = {
     Image: "/gauche.svg",
-    SPAN: t("brokers.flexWrapRightData.SPAN"),
-    H3: t("brokers.flexWrapRightData.H3"),
-    P: t("brokers.flexWrapRightData.P"),
+    SPAN: t("banks.flexWrap.span"),
+    H3: t("banks.flexWrap.h3"),
+    P: t("banks.flexWrap.p"),
     BLOCK: [
       {
-        icone: '/user.svg',
-        title: t("brokers.flexWrapRightData.BLOCK.0.title"),
-        content: t("brokers.flexWrapRightData.BLOCK.0.content"),
+        icone: "/user.svg",
+        title: t("banks.flexWrap.block.0.title"),
+        content: t("banks.flexWrap.block.0.content"),
       },
       {
-        icone: '/dashboard.svg',
-        title: t("brokers.flexWrapRightData.BLOCK.1.title"),
-        content: t("brokers.flexWrapRightData.BLOCK.1.content"),
+        icone: "/dashboard.svg",
+        title: t("banks.flexWrap.block.1.title"),
+        content: t("banks.flexWrap.block.1.content"),
       },
       {
-        icone: '/balise.svg',
-        title: t("brokers.flexWrapRightData.BLOCK.2.title"),
-        content: t("brokers.flexWrapRightData.BLOCK.2.content"),
+        icone: "/balise.svg",
+        title: t("banks.flexWrap.block.2.title"),
+        content: t("banks.flexWrap.block.2.content"),
       },
       {
-        icone: '/bank-checkmark.svg',
-        title: t("brokers.flexWrapRightData.BLOCK.3.title"),
-        content: t("brokers.flexWrapRightData.BLOCK.3.content"),
+        icone: "/bank-checkmark.svg",
+        title: t("banks.flexWrap.block.3.title"),
+        content: t("banks.flexWrap.block.3.content"),
       },
     ],
   };
   const heroData = {
-    H2: t("brokers.hero.H2"),
-    P: t("brokers.hero.P"),
-    B: t("brokers.hero.B"),
+    H2: t("banks.hero.H2"),
+    P: t("banks.hero.P"),
+    B: t("banks.hero.B"),
   };
   const liste = [
     {
@@ -210,21 +206,24 @@ export default function page() {
 
   const items = liste[0];
 
-
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeIndex1, setActiveIndex1] = useState(0);
 
   const activeItem = titleListe[activeIndex];
   const activeItem1 = hoverItems[activeIndex];
 
-
-
   return (
     <div className="flex flex-col min-h-screen">
       <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} />
 
       <section className="w-full my-20 px-8 relative">
-        <Entete SPAN={t("brokers.section1.SPAN")} H3={t("brokers.section1.h1")} P={t("brokers.section1.P")} TEXT="text-[#3a5af9]" BG="bg-[#eff2ff]" />
+        <Entete
+          SPAN={t("banks.section1.entete.SPAN")}
+          H3={t("banks.section1.entete.H3")}
+          P={t("banks.section1.entete.P")}
+          TEXT="text-[#3a5af9]"
+          BG="bg-[#eff2ff]"
+        />
         <div className="mt-10 flex w-full pl6">
           <div className="flex flex-col w-3/5 gap-4 py-4 rounded-lg">
             {/* Navigation */}
@@ -234,10 +233,11 @@ export default function page() {
                   key={index}
                   onClick={() => setActiveIndex(index)}
                   className={`py-2  w-1/5 text-sm rounded-lg transition hover:cursor-pointer
-              ${index === activeIndex
-                      ? "bg-[#f9fafb] border border-gray-400 font-semibold"
-                      : "bg-transaparent hover:bg-[#f9fafb]"
-                    }`}
+              ${
+                index === activeIndex
+                  ? "bg-[#f9fafb] border border-gray-400 font-semibold"
+                  : "bg-transaparent hover:bg-[#f9fafb]"
+              }`}
                 >
                   {el.titre}
                 </button>
@@ -248,8 +248,12 @@ export default function page() {
             <div className="bg-[#f9fafb] border pt-4 ml-4 pr-4 mt-4 rounded-lg">
               <div className="bg-[#f9fafb] border -ml-4 px-8 py-7 -mb-4 rounded-lg">
                 <div className="w-full h-full">
-                  <h2 className="text-3xl font-meduim mb-6">{activeItem.smallTitle}</h2>
-                  <p className="text-md font-thin leading-8 text-gray-600">{activeItem.texte}</p>
+                  <h2 className="text-3xl font-meduim mb-6">
+                    {activeItem.smallTitle}
+                  </h2>
+                  <p className="text-md font-thin leading-8 text-gray-600">
+                    {activeItem.texte}
+                  </p>
                 </div>
               </div>
             </div>
@@ -257,65 +261,55 @@ export default function page() {
           <div className="mx-auto">
             <span className="w-40 bg-[#fffb9e] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-10 rounded-3xl text-sm text-center">
               <div className="w-2 h-2 rounded-full bg-[#d5ce1c]"></div>
-              {t("brokers.section2.SPAN1")}
+              {t("banks.section1.right.0.span")}
             </span>
 
             <ul className="list-disc list-inside text-xs/6 mt-2 space-y-0">
-              <li>{t("brokers.section2.UL1.0")}</li>
-              <li>{t("brokers.section2.UL1.1")}</li>
-              <li>{t("brokers.section2.UL1.2")}</li>
+              <li>{t("banks.section1.right.0.first")}</li>
+              <li>{t("banks.section1.right.0.second")}</li>
+              <li>{t("banks.section1.right.0.third")}</li>
             </ul>
 
             <span className="w-60 bg-[#e3ffd9] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-5 rounded-3xl text-sm text-center">
               <div className="w-2 h-2 rounded-full bg-[#1c8e12]"></div>
-              {t("brokers.section2.SPAN2")}
+              {t("banks.section1.right.1.span")}
             </span>
             <ul className="list-disc list-inside text-xs/6 mt-2 space-y-0">
-              <li>{t("brokers.section2.UL2.0")}</li>
-              <li>{t("brokers.section2.UL2.1")}</li>
-              <li>{t("brokers.section2.UL2.2")}</li>
+              <li>{t("banks.section1.right.1.first")}</li>
+              <li>{t("banks.section1.right.1.second")}</li>
+              <li>{t("banks.section1.right.1.third")}</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <div className="flex items-center -mt-[100px] w-full min-h-screen bg-[url('/background.svg')] bg-cover">
+      <section className="flex items-center -mt-[100px] w-full min-h-screen bg-[url('/background.svg')] bg-cover">
         <img
           src="/investment2.svg"
           alt="image"
           className="w-full h-full object-cover"
         />
-      </div>
+      </section>
 
-      <div className="flex flex-col min-h-screen bg-black px-8 justify-center">
-        {/* <span className="bg-violet-800/40 text-violet-700 w-45 text-center rounded-3xl py-1 px-2">
-          {t("brokers.section3.SPAN")}
-        </span>
-        <h2 className="text-4xl font-semibold text-white my-10">
-          {t("brokers.section3.H2.0")} <br />
-          {t("brokers.section3.H2.1")} <br />
-          {t("brokers.section3.H2.2")} <br />
-          {t("brokers.section3.H2.3")}
-        </h2>
-        <div className="flex w-full h-30 bg-gray-300">s</div> */}
+      <section className="flex flex-col min-h-screen bg-black px-8 justify-center">
         <ProgressiveTimeline
-          title={t("brokers.section3.H2.0")}
+          span={t("banks.section3.span")}
+          title={t("banks.section3.title")}
           sections={timelineSections}
           autoProgress={true}
           progressInterval={5000}
-          badgeText={"Customer Journey"}
           onSectionChange={(sectionId, index) => {
-            console.log(`Active section: ${sectionId} (${index})`)
+            console.log(`Active section: ${sectionId} (${index})`);
           }}
         />
-      </div>
+      </section>
 
-      <div className="flex flex-col h-[130vh] px-8 my-20">
+      <section className="flex flex-col h-[130vh] px-8 my-20">
         <span className="text-[#3a5af9] bg-[#eff2ff] w-45 text-center rounded-3xl py-1 px-2">
-          {t("brokers.section4.SPAN")}
+          {t("banks.section4.span")}
         </span>
-        <h2 className="text-4xl my-5">{t("brokers.section4.H2")}</h2>
-        <p className="">{t("brokers.section4.P")}</p>
+        <h2 className="text-4xl my-5">{t("banks.section4.h2")}</h2>
+        <p className="">{t("banks.section4.p")}</p>
         <div className="flex w-full my-10">
           <div className="flex flex-col w-2/5 gap-4">
             {/* Hover triggers */}
@@ -325,10 +319,11 @@ export default function page() {
                   key={index}
                   onMouseEnter={() => setActiveIndex(index)}
                   className={`cursor-pointer px-2 py-1 transition text-lg gap-2 flex items-center flex-row 
-              ${index === activeIndex
+                  ${
+                    index === activeIndex
                       ? "font-semibold text-black font-semibold"
                       : "text-gray-700 hover:text-black"
-                    }`}
+                  }`}
                 >
                   <Image
                     alt={`icon ${index}`}
@@ -359,17 +354,17 @@ export default function page() {
             </div>
           </div>
         </div>
-            <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div>
-      </div>
+        <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div>
+      </section>
 
       <CooperationBlock />
 
       <DoubleBlockWithImage
         SPAN={ListeDoubleBlock.SPAN}
         H3={ListeDoubleBlock.H3}
+        P={ListeDoubleBlock.P}
         LEGEND={ListeDoubleBlock.LEGEND}
         BLOCK={ListeDoubleBlock.BLOCK}
-        P={ListeDoubleBlock.P}
       />
 
       <FlexWrapRight
