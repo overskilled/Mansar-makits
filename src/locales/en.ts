@@ -446,60 +446,328 @@ export default {
         P: "Whether you're looking to scale your existing offering or build something new: lemon.markets supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
       },
       left: [
-        {legend: 'B2C Neobank',h2:'Add investing as a product feature',p:'Customers seek a comprehensive, mobile-first banking experience allowing them to manage their finances in one place — where investing money is as simple as spending it.'},
-        {legend: 'B2B Neobank',h2:'Empower corporate clients with integrated investment solutions',p:'Corporate clients seek platforms that offer integrated services, allowing them to handle everything from payments to investments in one place. They value seamless, secure experiences that help them optimize their financial operations while reducing complexity and administrative overhead.'},
-        {legend: 'Traditional Bank',h2:'Integrate cutting-edge API technology into legacy systems',p:'Customers of traditional banks are increasingly seeking modern, digital-first solutions - offering the convenience of newer financial technologies while maintaining the trust and reliability of established institutions. They want a seamless banking experience that allows them to grow their wealth and achieve their financial goals within a single, integrated financial hub.'},
-        {legend: 'Private Bank',h2:'Tailor advanced investment solutions',p:'High-net-worth individuals seek bespoke investment solutions that meet their sophisticated financial needs. They desire personalized portfolio management and a comprehensive suite of financial products to grow their wealth.'},
-        {legend: 'Payment Wallet',h2:'Embed ETFs, Funds, and Stocks directly into your wallet app',p:'Tech-savvy customers are looking for comprehensive financial tools that integrate spending and investing into their daily lives. They seek intuitive ways to invest spare change or rewards directly within their wallet app, promoting passive investment and long-term financial growth.'},
+        {
+          legend: "B2C Neobank",
+          h2: "Add investing as a product feature",
+          p: "Customers seek a comprehensive, mobile-first banking experience allowing them to manage their finances in one place — where investing money is as simple as spending it.",
+        },
+        {
+          legend: "B2B Neobank",
+          h2: "Empower corporate clients with integrated investment solutions",
+          p: "Corporate clients seek platforms that offer integrated services, allowing them to handle everything from payments to investments in one place. They value seamless, secure experiences that help them optimize their financial operations while reducing complexity and administrative overhead.",
+        },
+        {
+          legend: "Traditional Bank",
+          h2: "Integrate cutting-edge API technology into legacy systems",
+          p: "Customers of traditional banks are increasingly seeking modern, digital-first solutions - offering the convenience of newer financial technologies while maintaining the trust and reliability of established institutions. They want a seamless banking experience that allows them to grow their wealth and achieve their financial goals within a single, integrated financial hub.",
+        },
+        {
+          legend: "Private Bank",
+          h2: "Tailor advanced investment solutions",
+          p: "High-net-worth individuals seek bespoke investment solutions that meet their sophisticated financial needs. They desire personalized portfolio management and a comprehensive suite of financial products to grow their wealth.",
+        },
+        {
+          legend: "Payment Wallet",
+          h2: "Embed ETFs, Funds, and Stocks directly into your wallet app",
+          p: "Tech-savvy customers are looking for comprehensive financial tools that integrate spending and investing into their daily lives. They seek intuitive ways to invest spare change or rewards directly within their wallet app, promoting passive investment and long-term financial growth.",
+        },
       ],
-      right:[
-        {span:'Benefits for you',first:'Increase product stickiness, encouraging long-term loyalty',second:'Gain a competitive edge and expand market share',third:'Target a wider customer base seeking both banking and investment solutions'},
-        {span:'Benefits for your customers',first:'All banking and investment needs in one app',second:'Holistic financial overview for making informed decisions',third:'Synergizing daily transactions with wealth building'},
-      ]
+      right: [
+        {
+          span: "Benefits for you",
+          first: "Increase product stickiness, encouraging long-term loyalty",
+          second: "Gain a competitive edge and expand market share",
+          third:
+            "Target a wider customer base seeking both banking and investment solutions",
+        },
+        {
+          span: "Benefits for your customers",
+          first: "All banking and investment needs in one app",
+          second: "Holistic financial overview for making informed decisions",
+          third: "Synergizing daily transactions with wealth building",
+        },
+      ],
     },
     section3: {
-      span: 'Customer Journey',
-      title: 'One infrastructure to give you all the building blocks along your customer journey',
-      block:[
-        {legend:'Account opening',p:'End-to-end digital onboarding for your new customers with comprehensive KYC and security checks (PEP/Sanction Screening & Risk checks). Already have KYC’ed customers? No worries - we support KYC-sharing, so your customers don’t have to start another authentication process. '},
-        {legend:'Account funding',p:'Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.'},
-        {legend:'Order management',p:'Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.'},
-        {legend:'Settlement & Custody',p:"We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing stock splits and mergers, and handling shareholder voting."},
-        {legend:'Taxation and Reporting',p:'Our comprehensive tax and reporting services include the automatic calculation and deduction of settlement and withholding tax, making it easier for you and your customers to stay compliant with tax regulations. We create the tax documents for end customers, and deliver all relevant information to the financial authorities.'}
-      ]
+      span: "Customer Journey",
+      title:
+        "One infrastructure to give you all the building blocks along your customer journey",
+      block: [
+        {
+          legend: "Account opening",
+          p: "End-to-end digital onboarding for your new customers with comprehensive KYC and security checks (PEP/Sanction Screening & Risk checks). Already have KYC’ed customers? No worries - we support KYC-sharing, so your customers don’t have to start another authentication process. ",
+        },
+        {
+          legend: "Account funding",
+          p: "Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
+        },
+        {
+          legend: "Order management",
+          p: "Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
+        },
+        {
+          legend: "Settlement & Custody",
+          p: "We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing stock splits and mergers, and handling shareholder voting.",
+        },
+        {
+          legend: "Taxation and Reporting",
+          p: "Our comprehensive tax and reporting services include the automatic calculation and deduction of settlement and withholding tax, making it easier for you and your customers to stay compliant with tax regulations. We create the tax documents for end customers, and deliver all relevant information to the financial authorities.",
+        },
+      ],
     },
     section4: {
-      span: 'Asset Classes',
-      h2: 'Global asset coverage ranging from ETFs to Stocks',
-      p: 'lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.',
+      span: "Asset Classes",
+      h2: "Global asset coverage ranging from ETFs to Stocks",
+      p: "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
       liste: [
-        {title:'ETFs',h5:'Offer your customers the opportunity to diversify their investments',liste:{first:'Market hours from 8am to 10pm',second:'From sector focus to global coverage',third:'Over 1000+ ETFs'}},
-        {title:'Stocks',h5:'Offer access to a wide range of global stocks through an exchange',liste:{first:'Market hours from 8am to 10pm',second:'From small caps to blue chips',third:'>3000 Stocks'}},
-        {title:'Funds',h5:'Offer bespoke investment strategies to your customers',liste:{first:'Access to mutual funds, MMFs, & more',second:'Professionally managed & diversified portfolios',third:'Flexible investment minimums & schedules'}},
-      ]
+        {
+          title: "ETFs",
+          h5: "Offer your customers the opportunity to diversify their investments",
+          liste: {
+            first: "Market hours from 8am to 10pm",
+            second: "From sector focus to global coverage",
+            third: "Over 1000+ ETFs",
+          },
+        },
+        {
+          title: "Stocks",
+          h5: "Offer access to a wide range of global stocks through an exchange",
+          liste: {
+            first: "Market hours from 8am to 10pm",
+            second: "From small caps to blue chips",
+            third: ">3000 Stocks",
+          },
+        },
+        {
+          title: "Funds",
+          h5: "Offer bespoke investment strategies to your customers",
+          liste: {
+            first: "Access to mutual funds, MMFs, & more",
+            second: "Professionally managed & diversified portfolios",
+            third: "Flexible investment minimums & schedules",
+          },
+        },
+      ],
     },
     doubleBlock: {
-      span:'Regulatory',
-      h3:'Find the right setup with our regulatory & compliance experts',
-      p:'As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.',
-      legend:'Select the right regulatory setup',
+      span: "Regulatory",
+      h3: "Find the right setup with our regulatory & compliance experts",
+      p: "As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
+      legend: "Select the right regulatory setup",
       block: [
-        {title:'Full brokerage service',p:'lemon.markets covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.'},
-        {title:'Modular brokerage service',p:'Partnering with wealth managers, introducing brokers and portfolio managers we cooperate to fulfill all regulatory responsibilities.'},
-        {title:'Brokerage outsourcing service',p:'You maintain full control over the customer relationship, while lemon.markets handles the technical and operational details.'},
-      ]
+        {
+          title: "Full brokerage service",
+          p: "lemon.markets covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
+        },
+        {
+          title: "Modular brokerage service",
+          p: "Partnering with wealth managers, introducing brokers and portfolio managers we cooperate to fulfill all regulatory responsibilities.",
+        },
+        {
+          title: "Brokerage outsourcing service",
+          p: "You maintain full control over the customer relationship, while lemon.markets handles the technical and operational details.",
+        },
+      ],
     },
     flexWrap: {
-      span:'Why work with us',
-      h3:'Offering an investment product finally becomes easy',
-      p:'Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.',
+      span: "Why work with us",
+      h3: "Offering an investment product finally becomes easy",
+      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
       block: [
-        {title:'Customer centricity',content:'Building on our core principles, we always put you first. Leverage our expertise in technology, regulation, and financial services to deliver investment products that consistently exceed expectations.'},
-        {title:'Platform modularity',content:'Our modular platform not only provides 24/7 availability and a high degree of automation, but also adapts to your operating model, empowering you to build what you want, how you want it, securely and reliably.'},
-        {title:'Developer friendly',content:'Offering comprehensive documentation and a ready-to-test sandbox, our API-first infrastructure streamlines development for your team, shortening your build time from months to weeks.'},
-        {title:'Regulatory coverage',content:'Our team, combining deep brokerage and regulatory knowledge, works closely with you, allowing you to scale efficiently without regulatory overhead slowing you down.'},
-      ]
-    }
+        {
+          title: "Customer centricity",
+          content:
+            "Building on our core principles, we always put you first. Leverage our expertise in technology, regulation, and financial services to deliver investment products that consistently exceed expectations.",
+        },
+        {
+          title: "Platform modularity",
+          content:
+            "Our modular platform not only provides 24/7 availability and a high degree of automation, but also adapts to your operating model, empowering you to build what you want, how you want it, securely and reliably.",
+        },
+        {
+          title: "Developer friendly",
+          content:
+            "Offering comprehensive documentation and a ready-to-test sandbox, our API-first infrastructure streamlines development for your team, shortening your build time from months to weeks.",
+        },
+        {
+          title: "Regulatory coverage",
+          content:
+            "Our team, combining deep brokerage and regulatory knowledge, works closely with you, allowing you to scale efficiently without regulatory overhead slowing you down.",
+        },
+      ],
+    },
+  },
+
+  software: {
+    hero: {
+      h2: "Software Companies",
+      p: "Innovate new investment use cases by integrating investing into your customer journey with ease.While we take care of all the technical, operational and regulatory hustle in the back.",
+      b: "start building",
+    },
+    section1: {
+      entete: {
+        SPAN: "Use Cases",
+        H3: "Offer investing in ETFs, Funds, and Stocks to your customers",
+        P: "Whether you're looking to scale your existing offering or build something new: lemon.markets supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
+      },
+      left: [
+        {
+          title: "Tax Servicing",
+          smallTitle: "Enable investment of tax refunds",
+          text: "Savvy customers seek efficient ways to reinvest their tax refunds. They can make their excess money work for them, all within the same app.",
+        },
+        {
+          title: "Everyday Purchases",
+          smallTitle: "Turn everyday purchases into investment opportunities",
+          text: "Customers desire simple and automated ways to invest money as they spend, transforming everyday transactions into opportunities for financial growth. They seek seamless integration into investment features within their existing spending habits.",
+        },
+        {
+          title: "Employee Benefit",
+          smallTitle: "Create long-term value for your employees",
+          text: "Employees seek effective ways to understand and maximise their equity benefits, alleviating stress about saving for major life goals. For that they need tools to efficiently track, exercise, and manage their equity compensation.",
+        },
+        {
+          title: "Customer Loyalty",
+          smallTitle:
+            "Transform customer loyalty into investment opportunities",
+          text: "Customers seek more value from loyalty programs than traditional points and rewards. They desire meaningful engagement and opportunities to build wealth by investing in the brands they love and trust.",
+        },
+        {
+          title: "Asset Management",
+          smallTitle:
+            "Simplify asset management with a unified investment platform",
+          text: "Customers want to invest and track their assets from a single platform. They desire solutions that simplify the management and optimization of their investments, allowing them to grow their portfolio in a single platform.",
+        },
+      ],
+      rigth: [
+        {
+          span: "Benefits for you",
+          list: {
+            first: "Enhance product depth, customer stickiness and engagement",
+            second:
+              "Target a wide customer base, unlocking new revenue streams",
+            third: "Increase competitive edge and expand market share",
+          },
+        },
+        {
+          span: "Benefits for your customers",
+          list: {
+            first:
+              "Customized investment solutions to achieve personal financial goals",
+            second: "Streamlined management of assets all in one place",
+            third: "Unified approach for making informed financial decisions",
+          },
+        },
+      ],
+    },
+    section3: {
+      span: "Customer Journey",
+      title:
+        "One infrastructure to give you all the building blocks along your customer journey",
+      block: [
+        {
+          legend: "Account opening",
+          p: "End-to-end digital onboarding for your new customers with comprehensive KYC and security checks (PEP/Sanction Screening & Risk checks). Already have KYC’ed customers? No worries - we support KYC-sharing, so your customers don’t have to start another authentication process. ",
+        },
+        {
+          legend: "Account funding",
+          p: "Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
+        },
+        {
+          legend: "Order management",
+          p: "Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
+        },
+        {
+          legend: "Settlement & Custody",
+          p: "We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing stock splits and mergers, and handling shareholder voting.",
+        },
+        {
+          legend: "Taxation and Reporting",
+          p: "Our comprehensive tax and reporting services include the automatic calculation and deduction of settlement and withholding tax, making it easier for you and your customers to stay compliant with tax regulations. We create the tax documents for end customers, and deliver all relevant information to the financial authorities.",
+        },
+      ],
+    },
+    section4: {
+      span: "Asset Classes",
+      h2: "Global asset coverage ranging from ETFs to Stocks",
+      p: "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
+      liste: [
+        {
+          title: "ETFs",
+          h5: "Offer your customers the opportunity to diversify their investments",
+          liste: {
+            first: "Market hours from 8am to 10pm",
+            second: "From sector focus to global coverage",
+            third: "Over 1000+ ETFs",
+          },
+        },
+        {
+          title: "Stocks",
+          h5: "Offer access to a wide range of global stocks through an exchange",
+          liste: {
+            first: "Market hours from 8am to 10pm",
+            second: "From small caps to blue chips",
+            third: ">3000 Stocks",
+          },
+        },
+        {
+          title: "Funds",
+          h5: "Offer bespoke investment strategies to your customers",
+          liste: {
+            first: "Access to mutual funds, MMFs, & more",
+            second: "Professionally managed & diversified portfolios",
+            third: "Flexible investment minimums & schedules",
+          },
+        },
+      ],
+    },
+    doubleBlock: {
+      span: "Regulatory",
+      h3: "Find the right setup with our regulatory & compliance experts",
+      p: "As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
+      legend: "Select the right regulatory setup",
+      block: [
+        {
+          title: "Full brokerage service",
+          p: "lemon.markets covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
+        },
+        {
+          title: "Modular brokerage service",
+          p: "Partnering with wealth managers, introducing brokers and portfolio managers we cooperate to fulfill all regulatory responsibilities.",
+        },
+        {
+          title: "Brokerage outsourcing service",
+          p: "You maintain full control over the customer relationship, while lemon.markets handles the technical and operational details.",
+        },
+      ],
+    },
+    flexWrap: {
+      span: "Why work with us",
+      h3: "Offering an investment product finally becomes easy",
+      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      block: [
+        {
+          title: "Customer centricity",
+          content:
+            "Building on our core principles, we always put you first. Leverage our expertise in technology, regulation, and financial services to deliver investment products that consistently exceed expectations.",
+        },
+        {
+          title: "Platform modularity",
+          content:
+            "Our modular platform not only provides 24/7 availability and a high degree of automation, but also adapts to your operating model, empowering you to build what you want, how you want it, securely and reliably.",
+        },
+        {
+          title: "Developer friendly",
+          content:
+            "Offering comprehensive documentation and a ready-to-test sandbox, our API-first infrastructure streamlines development for your team, shortening your build time from months to weeks.",
+        },
+        {
+          title: "Regulatory coverage",
+          content:
+            "Our team, combining deep brokerage and regulatory knowledge, works closely with you, allowing you to scale efficiently without regulatory overhead slowing you down.",
+        },
+      ],
+    },
   },
 
   contactUs: {

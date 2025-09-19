@@ -736,6 +736,7 @@ export default {
       "L'utilisation du site web, des informations, des données, des images et des enregistrements audio fournis par LM, ainsi que tout acte, omission ou manquement relatif à l'utilisation des sites web est régie exclusivement par les lois de la République fédérale d'Allemagne.",
     ],
   },
+
   banks: {
     hero: {
       H2: "Banques & Établissements de Paiement",
@@ -901,6 +902,182 @@ export default {
           title: "Couverture réglementaire",
           content:
             "Notre équipe, combinant une connaissance approfondie du courtage et de la réglementation, travaille en étroite collaboration avec vous, vous permettant de vous développer efficacement sans que la charge réglementaire ne vous ralentisse.",
+        },
+      ],
+    },
+  },
+
+  software: {
+    hero: {
+      h2: "Sociétés de logiciel",
+      p: "Innovez de nouveaux cas d'utilisation d'investissement en intégrant facilement l'investissement dans le parcours de vos clients. Pendant ce temps, nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
+      b: "commencer à construire",
+    },
+    section1: {
+      entete: {
+        SPAN: "Cas d'utilisation",
+        H3: "Proposez l'investissement en ETF, Fonds et Actions à vos clients",
+        P: "Que vous cherchiez à développer votre offre existante ou à construire quelque chose de nouveau : lemon.markets prend en charge un large éventail de cas d'utilisation en matière de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client de premier ordre.",
+      },
+      left: [
+        {
+          title: "Services fiscaux",
+          smallTitle: "Permettre l'investissement des remboursements d'impôts",
+          text: "Les clients avisés recherchent des moyens efficaces de réinvestir leur remboursement d'impôts. Ils peuvent faire travailler leur argent excédentaire pour eux, le tout dans la même application.",
+        },
+        {
+          title: "Achats quotidiens",
+          smallTitle:
+            "Transformez les achats quotidiens en opportunités d'investissement",
+          text: "Les clients désirent des moyens simples et automatisés d'investir de l'argent au fur et à mesure de leurs dépenses, transformant les transactions quotidiennes en opportunités de croissance financière. Ils recherchent une intégration transparente des fonctionnalités d'investissement dans leurs habitudes de dépenses existantes.",
+        },
+        {
+          title: "Avantages salariaux",
+          smallTitle: "Créez de la valeur à long terme pour vos employés",
+          text: "Les employés recherchent des moyens efficaces de comprendre et de maximiser leurs avantages en actions, soulageant le stress lié à l'épargne pour les grands objectifs de vie. Pour cela, ils ont besoin d'outils pour suivre, exercer et gérer efficacement leur rémunération en actions.",
+        },
+        {
+          title: "Fidélité client",
+          smallTitle:
+            "Transformez la fidélité client en opportunités d'investissement",
+          text: "Les clients recherchent plus de valeur dans les programmes de fidélité que les points et récompenses traditionnels. Ils désirent un engagement significatif et des opportunités de constituer un patrimoine en investissant dans les marques qu'ils aiment et auxquelles ils font confiance.",
+        },
+        {
+          title: "Gestion d'actifs",
+          smallTitle:
+            "Simplifiez la gestion d'actifs avec une plateforme d'investissement unifiée",
+          text: "Les clients souhaitent investir et suivre leurs actifs depuis une plateforme unique. Ils désirent des solutions qui simplifient la gestion et l'optimisation de leurs investissements, leur permettant de faire croître leur portefeuille sur une seule plateforme.",
+        },
+      ],
+      rigth: [
+        {
+          span: "Avantages pour vous",
+          list: {
+            first:
+              "Améliorez la profondeur du produit, la fidélisation et l'engagement des clients",
+            second:
+              "Ciblez une large clientèle, en débloquant de nouvelles sources de revenus",
+            third:
+              "Augmentez l'avantage concurrentiel et étendez votre part de marché",
+          },
+        },
+        {
+          span: "Avantages pour vos clients",
+          list: {
+            first:
+              "Solutions d'investissement personnalisées pour atteindre leurs objectifs financiers personnels",
+            second: "Gestion rationalisée de tous leurs actifs au même endroit",
+            third:
+              "Approche unifiée pour prendre des décisions financières éclairées",
+          },
+        },
+      ],
+    },
+    section3: {
+      span: "Parcours client",
+      title:
+        "Une infrastructure pour vous offrir tous les blocs de construction le long de votre parcours client",
+      block: [
+        {
+          legend: "Ouverture de compte",
+          p: "Onboarding numérique de bout en bout pour vos nouveaux clients avec des vérifications complètes de KYC et de sécurité (Vérification PEP/Sanctions & contrôles des risques). Vous avez déjà des clients ayant effectué le KYC ? Aucun souci - nous prenons en charge le partage KYC, ainsi vos clients n'ont pas à recommencer un autre processus d'authentification.",
+        },
+        {
+          legend: "Alimentation du compte",
+          p: "Vos clients recevront un IBAN allemand qui prend en charge différentes méthodes de versement et des retraits flexibles. Les dépôts sont assurés pour chaque compte de trésorerie jusqu'à 100 000 €. Vous fournissez déjà un compte de trésorerie à vos clients ? Aucun souci - nous pouvons nous intégrer à votre plateforme et fonctionner de manière modulaire autour de votre configuration existante.",
+        },
+        {
+          legend: "Gestion des ordres",
+          p: "Offrez un large éventail d'Actions et d'ETF. Prise en charge de multiples types d'ordres comme l'exécution directe, les ordres bloqués et les plans d'épargne pour s'adapter à tous les comportements d'investissement. Les ordres sont acheminés vers une bourse ou directement vers l'émetteur pour assurer la meilleure exécution. Toutes les informations réglementaires requises sur les prix et les coûts sont fournies avant l'exécution d'un ordre.",
+        },
+        {
+          legend: "Règlement & Garde",
+          p: "Nous fournissons les services de garde obligatoires pour assurer la conservation et l'administration des comptes de titres de vos clients. Chez nous, toutes les opérations sur titres sont traitées avec diligence et précision, comme assurer des paiements de dividendes ponctuels et précis, gérer les splits d'actions et les fusions, et traiter le vote des actionnaires.",
+        },
+        {
+          legend: "Fiscalité et Reporting",
+          p: "Nos services complets de fiscalité et de reporting incluent le calcul et la déduction automatiques de la taxe de règlement et de la retenue à la source, vous facilitant, ainsi qu'à vos clients, le respect des réglementations fiscales. Nous créons les documents fiscaux pour les clients finaux, et fournissons toutes les informations pertinentes aux autorités financières.",
+        },
+      ],
+    },
+    section4: {
+      span: "Classes d'actifs",
+      h2: "Couverture d'actifs mondiale allant des ETF aux Actions",
+      p: "lemon.markets offre les produits d'investissement les plus demandés, donnant accès à une large liste d'ISINs de plus de 10 gestionnaires d'actifs. Nous assurons une tarification équitable et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des horaires de marché étendus.",
+      liste: [
+        {
+          title: "ETF",
+          h5: "Offrez à vos clients l'opportunité de diversifier leurs investissements",
+          liste: {
+            first: "Heures de marché de 8h à 22h",
+            second: "De la focalisation sectorielle à la couverture mondiale",
+            third: "Plus de 1000+ ETF",
+          },
+        },
+        {
+          title: "Actions",
+          h5: "Offrez l'accès à un large éventail d'actions mondiales via une bourse",
+          liste: {
+            first: "Heures de marché de 8h à 22h",
+            second: "Des small caps aux blue chips",
+            third: ">3000 Actions",
+          },
+        },
+        {
+          title: "Fonds",
+          h5: "Offrez des stratégies d'investissement sur mesure à vos clients",
+          liste: {
+            first: "Accès aux fonds communs de placement, MMF, & plus",
+            second: "Portefeuilles gérés professionnellement et diversifiés",
+            third: "Seuils d'investissement et calendriers flexibles",
+          },
+        },
+      ],
+    },
+    doubleBlock: {
+      span: "Réglementation",
+      h3: "Trouvez la bonne configuration avec nos experts en réglementation et conformité",
+      p: "En tant que société d'investissement agréée par la BaFin, nous pouvons couvrir la chaîne de valeur complète. En apprenant vos besoins, nous élaborerons la meilleure structure pour votre succès. Nous avons standardisé notre approche, en concluant que la plupart des configurations sont comprises dans l'une des trois options ci-dessous.",
+      legend: "Sélectionnez la bonne configuration réglementaire",
+      block: [
+        {
+          title: "Service de courtage complet",
+          p: "lemon.markets couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous rendant agent lié.",
+        },
+        {
+          title: "Service de courtage modulaire",
+          p: "Partenariat avec des gestionnaires de patrimoine, des courtiers introducteurs et des gestionnaires de portefeuille, nous coopérons pour remplir toutes les responsabilités réglementaires.",
+        },
+        {
+          title: "Service d'externalisation de courtage",
+          p: "Vous maintenez le contrôle total de la relation client, tandis que lemon.markets gère les détails techniques et opérationnels.",
+        },
+      ],
+    },
+    flexWrap: {
+      span: "Pourquoi travailler avec nous",
+      h3: "Offrir un produit d'investissement devient enfin facile",
+      p: "Utilisez l'API de lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou pour améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés des capitaux, permettant finalement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà.",
+      block: [
+        {
+          title: "Centricité client",
+          content:
+            "Fondés sur nos principes fondamentaux, nous vous plaçons toujours en premier. Tirez parti de notre expertise en technologie, réglementation et services financiers pour livrer des produits d'investissement qui dépassent constamment les attentes.",
+        },
+        {
+          title: "Modularité de la plateforme",
+          content:
+            "Notre plateforme modulaire offre non seulement une disponibilité 24/7 et un haut degré d'automatisation, mais s'adapte également à votre modèle opérationnel, vous permettant de construire ce que vous voulez, comme vous le voulez, de manière sécurisée et fiable.",
+        },
+        {
+          title: "Convivialité pour les développeurs",
+          content:
+            "Offrant une documentation complète et un bac à sable prêt à tester, notre infrastructure API-first rationalise le développement pour votre équipe, raccourcissant votre temps de construction de plusieurs mois à quelques semaines.",
+        },
+        {
+          title: "Couverture réglementaire",
+          content:
+            "Notre équipe, alliant une connaissance approfondie du courtage et de la réglementation, travaille en étroite collaboration avec vous, vous permettant de monter en puissance efficacement sans que la charge réglementaire ne vous ralentisse.",
         },
       ],
     },
