@@ -17,7 +17,7 @@ export interface ProgressiveTimelineProps {
     autoProgress?: boolean
     progressInterval?: number
     className?: string
-    badgeText: string,
+    span: string,
     onSectionChange?: (sectionId: string, index: number) => void
 }
 
@@ -27,7 +27,7 @@ export function ProgressiveTimeline({
     autoProgress = true,
     progressInterval = 4000,
     className,
-    badgeText,
+    span,
     onSectionChange,
 }: ProgressiveTimelineProps) {
     const [activeIndex, setActiveIndex] = useState(0)
@@ -70,7 +70,7 @@ export function ProgressiveTimeline({
     return (
         <div className={cn("w-full my-[150px]", className)}>
 
-            <span className={`py-1 px-4 rounded-2xl text-center font-semibold text-sm  bg-[#141c34] text-[#171ca6] `}>{badgeText}</span>
+            <span className={`py-1 px-4 rounded-2xl text-center font-semibold text-sm  bg-[#141c34] text-[#171ca6] `}>{span}</span>
 
             {/* Main Title */}
             <h1 className="text-2xl md:text-3xl mt-5 lg:text-4xl font-semibold text-white mb-16 leading-tight max-w-2xl">{title}</h1>
