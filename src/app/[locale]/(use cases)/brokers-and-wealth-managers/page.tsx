@@ -223,7 +223,7 @@ export default function page() {
     <div className="flex flex-col min-h-screen">
       <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} />
 
-      <section className="w-full my-20 px-8 relative">
+      <section className="w-full my-20 mx-auto px-8 relative">
         <Entete SPAN={t("brokers.section1.SPAN")} H3={t("brokers.section1.h1")} P={t("brokers.section1.P")} TEXT="text-[#3a5af9]" BG="bg-[#eff2ff]" />
         <div className="mt-10 flex w-full pl6">
           <div className="flex flex-col w-3/5 gap-4 py-4 rounded-lg">
@@ -303,7 +303,7 @@ export default function page() {
           sections={timelineSections}
           autoProgress={true}
           progressInterval={5000}
-          badgeText={"Customer Journey"}
+          span={"Customer Journey"}
           onSectionChange={(sectionId, index) => {
             console.log(`Active section: ${sectionId} (${index})`)
           }}

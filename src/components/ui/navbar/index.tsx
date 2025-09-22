@@ -100,6 +100,8 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
     const [isMobile, setIsMobile] = useState(false);
     const containerRef = useRef<HTMLElement>(null);
 
+    const router = useRouter()
+
     const t = useI18n();
 
     // Default navigation links with translations
@@ -259,7 +261,7 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
           {/* Left side - Logo */}
           <div className="flex items-center">
             <button
-              onClick={(e) => e.preventDefault()}
+              onClick={(e) => router.push("/")}
               className="flex items-center space-x-2 py-5  hover:text-primary/90 transition-colors cursor-pointer"
             >
               <div className="text-2xl">

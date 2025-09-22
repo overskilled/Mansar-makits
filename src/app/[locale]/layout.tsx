@@ -47,7 +47,7 @@ export default async function RootLayout({ params, children }: AdminLayoutProps)
         className={`${jost.className} ${poppins.className} antialiased w-full bg-[#ffffff]`}
       >
         <I18nProviderClient locale={locale}>
-          <div className="relative w-full">
+          <div className="relative w-full ">
             <Navbar />
           </div>
           {children}
