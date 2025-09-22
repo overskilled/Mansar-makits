@@ -33,13 +33,13 @@ export default function FlexWrapRight({ SPAN, H3, P, Image, BLOCK }: Receive) {
               className=" border shadow-lg p-2 rounded-md w-[45%]"
               key={index}
             >
-              <Card className="-ml-4 pb-4 -mb-5 gap-2 duration-300 rounded-md h-80 hover:bg-gray-100">
+              <Card className="-ml-4 pb-4 -mb-5 gap-2  duration-300 rounded-md h-80 hover:bg-gray-100">
                 <CardHeader className="gap-2">
                   <img src={el.icone} alt="image" />
                   <h3 className="text-3xl h-20 overflow-hidden bgblack">{el.title}</h3>
                 </CardHeader>
                 <CardContent className="">
-                  <p className="bg-blue500 max-h-35 bgblack max-max-h-35 overflow-y-scroll scrollBar-none">{el.content}</p>
+                  <p className="text-sm">{el.content}</p>
                 </CardContent>
               </Card>
             </Card>

@@ -53,8 +53,7 @@ export default function DoubleBlockWithImage({
                 <div className={`-ml-5 -mb-7 rounded-lg h-45 border duration-500 shadow-none ${activeIndex === index ? 'bg-amber-100' : 'bg-gray-100'
                   }`}>
                   <div className="m-0 p-4">
-                    <h3 className={`text-sm font-semibold w-[20%] text-center rounded-xl px-2 py-0.5 ${activeIndex === index ? 'bg-amber-50' : 'bg-[#ebf3fc]'
-                      }`}>
+                    <h3 className={`text-sm font-semibold w-auto text-left rounded-xl px-2 py-0.5`}>
                       {el.title}
                     </h3>
                   </div>

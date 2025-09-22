@@ -216,7 +216,7 @@ export default function page() {
     <div className="flex flex-col min-h-screen">
       <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} />
 
-      <section className="w-full my-20 px-8 relative">
+      <section className="w-full my-20 px-8 mx-auto relative">
         <Entete
           SPAN={t("banks.section1.entete.SPAN")}
           H3={t("banks.section1.entete.H3")}
