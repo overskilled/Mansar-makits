@@ -1,3 +1,5 @@
+"use client";
+
 import { MoveUpRight } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
 import Entete from "./Entete";
@@ -17,31 +19,34 @@ interface Liste {
 
 export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
   return (
-    <div className="flex flex-col px-8 mb-0 w-full ">
-      <Entete
-        SPAN={SPAN}
-        H3={H3}
-        P={P}
-        TEXT="text-[#6583d2]"
-        BG="bg-[#e9e7db]"
-      />
+    <div className="w-full px-8 md:px-0 mb-12">
+      {/* Header */}
+      <Entete SPAN={SPAN} H3={H3} P={P} TEXT="text-[#6583d2]" BG="bg-[#e9e7db]" />
 
-      <div className="flex flex-wrap justify-between mb-20">
+      {/* Cards container */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
         {BLOCK.map((el, index) => (
           <Card
-            className=" border-none borders shadow-none p-2 rounded-md my-4 w-[32%]"
+            className="border-none shadow-none rounded-md w-full"
             key={index}
           >
-            <Card className="-ml-4 -mb-4 rounded-md h-85 hover:bg-gray-100 shadow-none border-none borders bg-white  justify-between gap-0 duration-200">
-              <CardHeader className="gap-2">
-                <img src={el.image} alt="image" />
-                <h3 className="text-3xl mt-4">{el.title}</h3>
+            <Card className="rounded-md bg-white border-none shadow-md p-4 flex flex-col justify-between h-full duration-200 hover:bg-gray-100">
+              {/* Header */}
+              <CardHeader className="flex flex-col items-start gap-4">
+                <img src={el.image} alt={`icon-${index}`} className="w-16 h-16 object-contain" />
+                <h3 className="text-xl md:text-2xl font-semibold">{el.title}</h3>
               </CardHeader>
-              <CardContent>{el.descript}</CardContent>
-              <CardFooter className="bottom-0 ">
-                <span className="flex gap-4 group hover:text-amber-400 hover:cursor-pointer duration-500">
-                  learn more{" "}
-                  <MoveUpRight className="w-12 duration-500 group-hover:w-14" />
+
+              {/* Content */}
+              <CardContent className="text-sm md:text-base leading-6">
+                {el.descript}
+              </CardContent>
+
+              {/* Footer */}
+              <CardFooter>
+                <span className="flex gap-2 items-center group text-sm md:text-base cursor-pointer hover:text-amber-400 duration-300">
+                  learn more
+                  <MoveUpRight className="w-4 md:w-5 group-hover:w-6 duration-300" />
                 </span>
               </CardFooter>
             </Card>

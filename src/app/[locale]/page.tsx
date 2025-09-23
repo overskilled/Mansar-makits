@@ -28,7 +28,6 @@ export default function Home() {
   const EnteteData = {
     SPAN: t("home.EnteteData.SPAN"),
     H3: t("home.EnteteData.H3"),
-    p: t("home.EnteteData.p"),
   };
   const flexWrapRight = {
     Image: "/gauche.svg",
@@ -109,7 +108,7 @@ export default function Home() {
       {
         title: t("home.ListeDoubleBlock.BLOCK.1.title"),
         content: t("home.ListeDoubleBlock.BLOCK.1.content"),
-        image: "/neoBanck.svg",
+        image: "/investment2.svg",
       },
     ],
   };
@@ -117,8 +116,8 @@ export default function Home() {
   //  const blocks = t("home.flexWrapRight.BLOCK", { returnobject: true })
   return (
     <div className="flex h-screen flex-col relative">
-      <div className="relative py-20 md:py-40 px-6 md:px-12">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+      <div className="relative py-10 md:py-40 px-6 md:px-12">
+        <div className="container mx-auto px-8 md:px-0 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
           {/* Left Content */}
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-light leading-tight">
@@ -139,7 +138,7 @@ export default function Home() {
           </div>
 
           {/* Right Image */}
-          <div className="flex justify-center items-center">
+          <div className="hidden md:flex justify-center items-center">
             <img
               src="https://placehold.co/600x400/000000/FFFFFF/png"
               alt="hero image"
@@ -150,33 +149,43 @@ export default function Home() {
       </div>
 
 
-      <div className="flex flex-col px-8 relative mt-10 mb-30">
-        <Entete
-          SPAN={EnteteData.SPAN}
-          H3={EnteteData.H3}
-          P={EnteteData.p}
-          TEXT="text-[#6583d2]"
-          BG="bg-[#e9e7db]"
-        />
+      <div className="flex flex-col px-6 md:px-0 relative mt-10 mb-30">
+
+        <div className="container mx-auto text-left items-left px-6 w-full text-center mb-12">
+          {/* Span */}
+          <span
+            className="inline-block py-1 px-4 rounded-2xl font-semibold text-sm text-[#6583d2] bg-[#e9e7db]"
+          >
+            {EnteteData.SPAN}
+          </span>
+
+          {/* Title */}
+          <h3 className="text-2xl md:w-[50%] md:text-4xl font-meduim text-gray-800 my-6 md:my-10 leading-snug">
+            {EnteteData.H3}
+          </h3>
+        </div>
 
 
-        <div className="relative bg-[url('/background.svg')] bg-cover bg-no-repeat py-20"></div>
-        <div className="container mx-auto px-6 space-y-24">
+
+        <div className="hidden md:relative bg-[url('/background.svg')] bg-cover bg-no-repeat py-20"></div>
+        <div className="container mx-auto px-6 md:px-0 space-y-24">
           {/* Section 1 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="flex flex-col justify-between group space-y-6">
-              <h4 className="text-2xl md:text-3xl font-semibold duration-150">
+            {/* Text */}
+            <div className="flex flex-col justify-between space-y-6">
+              <h4 className="text-2xl md:text-3xl font-semibold">
                 {t("home.section1.h4")}
               </h4>
-              <p className="text-base md:text-lg text-gray-700 duration-300">
+              <p className="text-base md:text-lg text-gray-700">
                 {t("home.section1.P")}
               </p>
-              <span className="flex items-center gap-2 group cursor-pointer hover:text-yellow-400 duration-500">
+              <span className="flex items-center gap-2 cursor-pointer hover:text-yellow-400 duration-500">
                 {t("learn_more")}
                 <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
               </span>
             </div>
-            <div className="flex justify-center">
+            {/* Image always below text on mobile */}
+            <div className="flex justify-center order-last md:order-none">
               <img
                 src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
                 alt="image"
@@ -187,18 +196,20 @@ export default function Home() {
 
           {/* Section 2 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="flex justify-center">
+            {/* Image always below text on mobile */}
+            <div className="flex justify-center order-last md:order-none">
               <img
                 src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45Z0MqNJQqIJW__image-banks.svg?fit=max&w=1200"
                 alt="image"
                 className="max-w-full h-auto"
               />
             </div>
-            <div className="flex flex-col justify-center group space-y-6">
-              <h4 className="text-2xl md:text-3xl font-semibold duration-150">
+            {/* Text */}
+            <div className="flex flex-col justify-center space-y-6">
+              <h4 className="text-2xl md:text-3xl font-semibold">
                 {t("home.section2.h4")}
               </h4>
-              <p className="text-base md:text-lg text-gray-700 duration-300">
+              <p className="text-base md:text-lg text-gray-700">
                 {t("home.section2.P")}
               </p>
               <span className="flex items-center gap-2 cursor-pointer hover:text-yellow-400 duration-500">
@@ -210,11 +221,12 @@ export default function Home() {
 
           {/* Section 3 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="flex flex-col justify-between group space-y-6">
-              <h4 className="text-2xl md:text-3xl font-semibold duration-150">
+            {/* Text */}
+            <div className="flex flex-col justify-between space-y-6">
+              <h4 className="text-2xl md:text-3xl font-semibold">
                 {t("home.section3.h4")}
               </h4>
-              <p className="text-base md:text-lg text-gray-700 duration-300">
+              <p className="text-base md:text-lg text-gray-700">
                 {t("home.section3.P")}
               </p>
               <span className="flex items-center gap-2 cursor-pointer hover:text-yellow-400 duration-500">
@@ -222,7 +234,8 @@ export default function Home() {
                 <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
               </span>
             </div>
-            <div className="flex justify-center">
+            {/* Image always below text on mobile */}
+            <div className="flex justify-center order-last md:order-none">
               <img
                 src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
                 alt="image"
@@ -231,7 +244,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
       </div>
+
 
 
       <div className="">

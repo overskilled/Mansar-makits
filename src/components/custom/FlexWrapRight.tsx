@@ -17,33 +17,49 @@ interface Receive {
 
 export default function FlexWrapRight({ SPAN, H3, P, Image, BLOCK }: Receive) {
   return (
-    <div className="flex flex-col px-8">
-      <Entete SPAN={SPAN} P={P}  H3={H3} BG="bg-[#e9e7db]" TEXT="text-[#6583d2] " />
-      <div className="flex mt-20 my-10">
-        <div className="w-2/6 min-h-full flex items-center rounded-md overflow-hidden">
-          <img
-            src={Image}
-            alt="image"
-            className="w-full object-cover"
-          />
-        </div>
-        <div className="w-4/6 flex flex-wrap gap-10 justify-end">
-          {BLOCK.map((el, index) => (
-            <Card
-              className=" border shadow-lg p-2 rounded-md w-[45%]"
-              key={index}
-            >
-              <Card className="-ml-4 pb-4 -mb-5 gap-2  duration-300 rounded-md h-80 hover:bg-gray-100">
-                <CardHeader className="gap-2">
-                  <img src={el.icone} alt="image" />
-                  <h3 className="text-3xl h-20 overflow-hidden bgblack">{el.title}</h3>
-                </CardHeader>
-                <CardContent className="">
-                  <p className="text-sm">{el.content}</p>
-                </CardContent>
+    <div className="w-full py-12 px-6 md:px-4">
+      <div className="container mx-auto px-4 md:px-8 flex flex-col">
+        {/* Header */}
+        <Entete
+          SPAN={SPAN}
+          P={P}
+          H3={H3}
+          BG="bg-[#e9e7db]"
+          TEXT="text-[#6583d2]"
+        />
+
+        {/* Content */}
+        <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+          {/* Left Image (hidden on mobile) */}
+          <div className="hidden md:flex items-center rounded-md overflow-hidden">
+            <img
+              src={Image}
+              alt="image"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Cards */}
+          <div className="md:col-span-2 flex flex-wrap gap-6 justify-start md:justify-end">
+            {BLOCK.map((el, index) => (
+              <Card
+                className="border shadow-lg p-2 rounded-md w-full sm:w-[48%] md:w-[45%] lg:w-[30%]"
+                key={index}
+              >
+                <Card className="-ml-2 md:-ml-4 pb-4 -mb-5 gap-2 duration-300 rounded-md h-72 md:h-80 hover:bg-gray-100">
+                  <CardHeader className="gap-2">
+                    <img src={el.icone} alt="icon" className="w-10 h-10 object-contain" />
+                    <h3 className="text-xl md:text-2xl lg:text-3xl h-16 overflow-hidden">
+                      {el.title}
+                    </h3>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm md:text-base text-gray-600">{el.content}</p>
+                  </CardContent>
+                </Card>
               </Card>
-            </Card>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

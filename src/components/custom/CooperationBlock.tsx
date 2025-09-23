@@ -7,30 +7,37 @@ export default function CooperationBlock() {
 
   const liste = ["/p1.avif", "/p4.png", "/p2.avif", "/p3.avif"];
   return (
-    <div className="flex bg-black w-full py-10 items-center my-10 h-[80vh]">
-      <div className="flex flex-col px-8 h-80 w-full">
-        <span className="bg-blue-600/20 rounded-lg px-3 py-1 w-35 text-[#6583d2]">
+    <div className="flex bg-black w-full py-10 items-center my-10 min-h-[80vh]">
+      <div className="flex flex-col px-8 w-full">
+        {/* Heading */}
+        <span className="bg-blue-600/20 rounded-lg px-3 py-1 w-fit text-[#6583d2]">
           {t("CooperationBlock.SPAN")}
         </span>
         <h3 className="text-3xl text-white mt-5 mb-20">
           {t("CooperationBlock.H3")}
         </h3>
+
+        {/* Double card */}
         <Card className="border border-[#3b3d40] rounded-xl p-2 bg-transparent">
-          <Card className="-ml-7 -mb-7 border border-[#3b3d40] rounded-xl p-2 bg-black">
-            <div className="w-[95%] ml-2 h-25 flex justify-around gap-20 bgwhite">
-              {liste.map((el, index) => (
-                <img
+          <Card className="-ml-7 -mb-7 border border-[#3b3d40] rounded-xl p-8 bg-black">
+            <div className="w-[95%] ml-2 grid grid-cols-2 grid-rows-2 gap-6 md:flex md:justify-around md:gap-20">
+              {liste.slice(0, 4).map((el, index) => (
+                <div
                   key={index}
-                  src={el}
-                  alt={`image ${index + 1}`}
-                  className="w-50 object-contain "
-                />
+                  className="flex justify-center items-center"
+                >
+                  <img
+                    src={el}
+                    alt={`logo-${index + 1}`}
+                    className="max-w-[120px] md:max-w-[150px] object-contain"
+                  />
+                </div>
               ))}
-              {/* <img src="/p1.avif" alt="image" className="w-70 object-contain " /> */}
             </div>
           </Card>
         </Card>
       </div>
     </div>
+
   );
 }
