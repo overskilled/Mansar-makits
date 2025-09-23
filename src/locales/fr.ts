@@ -907,6 +907,128 @@ export default {
     },
   },
 
+  verticalBrokerage: {
+    hero: {
+      H2: "Lancez l’investissement comme votre produit principal",
+      P: "Concentrez tous vos efforts sur la création d’un produit d’investissement différencié et sur l’acquisition des bons clients. Pendant que nous nous occupons de toute la partie technique, opérationnelle et réglementaire en arrière-plan.",
+      B: "Commencer à construire",
+    },
+    section1: {
+      SPAN: "Cas d’utilisation",
+      H3: "Proposez l’investissement en actions et ETF à vos clients",
+      P: "lemon.markets prend en charge un large éventail de cas d’utilisation de courtage vertical. Nous aimons collaborer avec les entreprises de services financiers et de technologie qui souhaitent proposer de nouveaux produits d’investissement ou améliorer ceux existants. En suivant un processus clair, nous aidons les entreprises à passer de l’idée au lancement en seulement quelques mois. Nos experts vous accompagnent de la conception du parcours client à la définition des bons tarifs, en passant par l’élaboration de la feuille de route de mise en œuvre.",
+      BLOCK: [
+        {
+          title: "Éducation financière",
+          legend: "Améliorez votre expérience d’apprentissage",
+          content:
+            "Donnez à vos clients les moyens de prendre le contrôle de leurs finances ! Améliorez votre expérience et rendez-la plus accessible et interactive en permettant aux clients de mettre en place des plans d’épargne et d’investir dans des ETF & actions directement sur votre plateforme. Augmentez l’engagement et la fidélité de votre produit et connectez-vous à vos clients d’une manière nouvelle. Démarquez-vous des offres standards en adoptant le ton de voix qui parle le mieux à votre public cible, qu’il s’agisse de nouveaux investisseurs, de membres d’une communauté spécifique ou d’une génération particulière.",
+        },
+        {
+          title: "Neobroker",
+          legend: "Lancez une expérience de courtage de pointe",
+          content:
+            "Offrez à vos clients une expérience de courtage mobile-first qui leur permet d’acheter et de vendre des titres en quelques clics. Rendez l’investissement accessible au grand public : facile à utiliser, avec une interface fluide qui commence dès l’intégration conviviale du client. Proposez une large sélection de produits financiers dans lesquels vos utilisateurs peuvent investir, et hissez votre entreprise vers de nouveaux sommets. Tout cela est possible avec une seule API – plus besoin d’opérations backend complexes, de montages juridiques opaques ou de gros budgets.",
+        },
+        {
+          title: "Investissement social",
+          legend: "Combinez communication et investissement",
+          content:
+            "En tant que plateforme d’investissement social, vous brisez les silos de connaissances et favorisez l’échange d’informations entre pairs, amis et famille. Offrez à vos clients la possibilité d’accéder à un réseau d’experts et d’analystes pour améliorer leur jeu d’investissement, créant ainsi un environnement collaboratif où les utilisateurs peuvent partager leurs connaissances et apprendre les uns des autres. En plaçant la communication et la possibilité d’investir au centre de l’expérience produit, vous proposez une expérience d’investissement sociale unique. Donnez à vos clients la liberté et la flexibilité d’investir dans ce qu’ils veulent, comme ils le veulent, directement dans votre plateforme. Qu’ils souhaitent suivre des stratégies de trading sophistiquées ou acheter les actions tendance choisies par leurs amis, tout est exécuté dans votre produit.",
+        },
+        {
+          title: "Outils d’investissement",
+          legend: "Rendez les données et la recherche exploitables",
+          content:
+            "En proposant une vue plus détaillée des portefeuilles, ainsi que des données de marché et des analyses approfondies, vous pouvez aider les clients expérimentés à garder le contrôle de leurs finances et à améliorer leur prise de décision tout en réduisant leur temps de recherche. Créez dès maintenant une expérience d’investissement de bout en bout que vos clients apprécieront, et réduisez le temps et les efforts nécessaires entre la sélection et l’analyse de leurs titres préférés jusqu’à l’exécution. Exploitez les données et les insights sur vos clients et permettez-leur d’améliorer leur portefeuille directement dans votre produit.",
+        },
+        {
+          title: "Votre idée unique",
+          legend:
+            "Voyez-vous la prochaine grande opportunité d’investissement ?",
+          content:
+            "Avez-vous une idée innovante en tête, avec le potentiel de transformer la manière dont les gens investissent ? Explorez les différentes voies possibles pour résoudre le problème de vos clients et les aider à construire une richesse durable afin d’atteindre leurs objectifs, en leur permettant d’investir directement dans votre produit. Lancez une expérience d’investissement destinée à certaines populations que vous estimez encore sous-représentées sur le marché des capitaux. Ou proposez un nouveau produit d’investissement qui reflète mieux les intérêts de votre public cible. Sans avoir besoin de construire le backend vous-même, vous pouvez vraiment vous concentrer sur le client.",
+        },
+      ],
+    },
+    section2: {
+      span: "Parcours client",
+      title:
+        "Une seule infrastructure pour vous donner tous les blocs de construction le long de votre parcours client",
+    },
+    section3: {
+      span: "Produits",
+      h3: "Couverture mondiale des actions et ETF dès le départ",
+      p: "Au cœur de l’infrastructure de lemon.markets se trouvent les produits d’investissement les plus demandés. Acheminement des ordres vers des bourses et émetteurs réglementés. L’objectif est d’offrir à vos clients des prix équitables et des spreads réduits. Les heures de marché étendues sont naturellement incluses pour offrir l’accès lorsque c’est le plus souhaité.",
+      block: [
+        {
+          title: "Actions",
+          smallTitle:
+            "Offrez l’accès à un large éventail d’actions mondiales via une bourse",
+          liste: {
+            1: "Marché ouvert de 8h à 22h",
+            2: "Des petites capitalisations aux blue chips",
+            3: ">3000 actions",
+          },
+        },
+        {
+          title: "ETFs",
+          smallTitle:
+            "Permettez à vos clients de diversifier leurs investissements via des fonds communs émis par des leaders",
+          liste: {
+            1: "Marché ouvert de 8h à 22h",
+            2: "De la couverture sectorielle à la couverture mondiale",
+            3: ">1000 ETF",
+          },
+        },
+        {
+          title: "Plans d’épargne",
+          smallTitle:
+            "Mettez en place des plans d’épargne pour aider vos clients à construire une richesse à long terme",
+          liste: {
+            1: "À partir de 25 € d’investissement récurrent",
+            2: "Configurables selon vos besoins",
+            3: "Fréquence flexible possible",
+          },
+        },
+      ],
+    },
+    section4: {
+      span: "Conformité",
+      h3: "Trouvez la bonne configuration avec nos experts en réglementation et conformité",
+      pu1: "Modèle de coopération",
+      pu2: "Modèle d’agent lié",
+      p: "Chaque expérience client est différente et déclenche d’autres procédures réglementaires. Avec nos experts, nous examinerons vos actifs existants et l’expérience client souhaitée pour trouver la meilleure configuration réglementaire. Nous établirons le bon modèle de partenariat pour garantir le respect de toutes les normes de conformité. Si vous êtes déjà sous supervision réglementaire, nous mettrons en place une coopération mutuelle afin de garantir la conformité en matière d’externalisation, de lutte contre le blanchiment d’argent et de conformité. Si vous n’êtes pas encore supervisé, nous pouvons vous proposer de devenir un agent lié et d’assumer ensemble la responsabilité réglementaire.",
+    },
+    flexWrap: {
+      span: "Pourquoi travailler avec nous",
+      h3: "Proposer un produit d’investissement devient enfin facile",
+      p: "Utilisez l’API lemon.markets pour lancer un produit d’investissement centré sur le client et conforme, ou pour améliorer vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés de capitaux, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires pour un lancement réussi et au-delà.",
+      block: [
+        {
+          title: "Centré sur le client",
+          content:
+            "En nous appuyant sur nos principes fondamentaux, nous vous mettons toujours au premier plan. Profitez de notre expertise en technologie, réglementation et services financiers pour proposer des produits d’investissement qui dépassent constamment les attentes.",
+        },
+        {
+          title: "Modularité de la plateforme",
+          content:
+            "Notre plateforme modulaire offre non seulement une disponibilité 24/7 et un haut degré d’automatisation, mais elle s’adapte également à votre modèle opérationnel, vous permettant de construire ce que vous voulez, comme vous le voulez, de manière sécurisée et fiable.",
+        },
+        {
+          title: "Adapté aux développeurs",
+          content:
+            "Avec une documentation complète et un bac à sable prêt à tester, notre infrastructure API-first simplifie le développement pour votre équipe, réduisant votre temps de mise en œuvre de plusieurs mois à quelques semaines.",
+        },
+        {
+          title: "Couverture réglementaire",
+          content:
+            "Notre équipe, qui combine une expertise approfondie en courtage et en réglementation, travaille en étroite collaboration avec vous, vous permettant de vous développer efficacement sans que les contraintes réglementaires ne vous ralentissent.",
+        },
+      ],
+    },
+  },
+
   software: {
     hero: {
       h2: "Sociétés de logiciel",

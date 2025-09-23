@@ -164,3 +164,8 @@ h6 {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
+
+.grille {
+    background-image: linear-gradient(rgba(13, 14, 18, 0) 0px, rgb(13, 14, 18) 400px);
+    background-position-x: initial;
+}
