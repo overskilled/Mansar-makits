@@ -23,12 +23,11 @@ import { use, useTransition } from "react";
 export default function Home() {
   const t = useI18n();
   const router = useRouter()
-  
+
 
   const EnteteData = {
     SPAN: t("home.EnteteData.SPAN"),
     H3: t("home.EnteteData.H3"),
-    p: t("home.EnteteData.p"),
   };
   const flexWrapRight = {
     Image: "/gauche.svg",
@@ -109,7 +108,7 @@ export default function Home() {
       {
         title: t("home.ListeDoubleBlock.BLOCK.1.title"),
         content: t("home.ListeDoubleBlock.BLOCK.1.content"),
-        image: "/neoBanck.svg",
+        image: "/investment2.svg",
       },
     ],
   };
@@ -117,110 +116,138 @@ export default function Home() {
   //  const blocks = t("home.flexWrapRight.BLOCK", { returnobject: true })
   return (
     <div className="flex h-screen flex-col relative">
-      <div className="flex pb-20 pt-40 px-8 relative mb-20">
-        <div className="w-3/7 ">
-          <h1 className="text-6xl font-light mb-2.5 md:mb-6">
-            {t("home.hero.H1.0")} <br /> {t("home.hero.H1.1")} <br />{" "}
-            {t("home.hero.H1.2")}
-          </h1>
-          <p className="text-md text-gray-600 font-thin">{t("home.hero.P")}</p>
-          {/* <button className="bg-black rounded-2xl"></button> */}
-          <Button
-            size="lg"
-            className="text-sm font-medium rounded-xl mt-8 hover:cursor-pointer bg-black border border-gray-600 text-white"
-            onClick={() => router.push("/contact")}
-          >
-            {t('home.hero.B')}
-          </Button>
-        </div>
-        <div className="w-4/7 absolute right-0 top-0 h-full flex">
-          <div className="w-full flex justify-center items-center">
+      <div className="relative py-10 md:py-40 px-6 md:px-12">
+        <div className="container mx-auto px-8 md:px-0 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+          {/* Left Content */}
+          <div className="space-y-6">
+            <h1 className="text-4xl md:text-6xl font-light leading-tight">
+              {t("home.hero.H1.0")} <br />
+              {t("home.hero.H1.1")} <br />
+              {t("home.hero.H1.2")}
+            </h1>
+            <p className="text-base md:text-lg text-gray-600 font-thin">
+              {t("home.hero.P")}
+            </p>
+            <Button
+              size="lg"
+              className="text-sm md:text-base font-medium rounded-xl mt-8 hover:cursor-pointer bg-black border border-gray-600 text-white"
+              onClick={() => router.push("/contact")}
+            >
+              {t("home.hero.B")}
+            </Button>
+          </div>
+
+          {/* Right Image */}
+          <div className="hidden md:flex justify-center items-center">
             <img
               src="https://placehold.co/600x400/000000/FFFFFF/png"
-              alt="image"
-              className="w-[600px] h-[400px]"
+              alt="hero image"
+              className="w-full max-w-[600px] h-auto object-contain"
             />
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col px-8 relative mt-10 mb-30">
-        <Entete
-          SPAN={EnteteData.SPAN}
-          H3={EnteteData.H3}
-          P={EnteteData.p}
-          TEXT="text-[#6583d2]"
-          BG="bg-[#e9e7db]"
-        />
 
-        <div className="flex flex-col relative gap-30 bg-[url('/background.svg')] bg-cover min-h-[800px] mb-40">
-          <div className=" bg-[url('/background-marche.svg')] bg-center bg-auto w-full h-[750px]">
-            {/* <div className="absolut  w-full h-full"> */}
-            <div className="flex">
-              <div className="flex flex-col justify-between group *:group-hover:ml-4">
-                <h4 className="text-3xl duration-150">
-                  {t("home.section1.h4")}
-                </h4>
-                <p className="w-3/4 textmd duration-300">
-                  {t("home.section1.P")}
-                </p>
-                <span className="flex gap-2 group hover:text-yellow-400 duration-500 cursor-pointer">
-                  {t("learn_more")}{" "}
-                  <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
-                </span>
-              </div>
+      <div className="flex flex-col px-6 md:px-0 relative mt-10 mb-30">
+
+        <div className="container mx-auto text-left items-left px-6 w-full text-center mb-12">
+          {/* Span */}
+          <span
+            className="inline-block py-1 px-4 rounded-2xl font-semibold text-sm text-[#6583d2] bg-[#e9e7db]"
+          >
+            {EnteteData.SPAN}
+          </span>
+
+          {/* Title */}
+          <h3 className="text-2xl md:w-[50%] md:text-4xl font-meduim text-gray-800 my-6 md:my-10 leading-snug">
+            {EnteteData.H3}
+          </h3>
+        </div>
+
+
+
+        <div className="hidden md:relative bg-[url('/background.svg')] bg-cover bg-no-repeat py-20"></div>
+        <div className="container mx-auto px-6 md:px-0 space-y-24">
+          {/* Section 1 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Text */}
+            <div className="flex flex-col justify-between space-y-6">
+              <h4 className="text-2xl md:text-3xl font-semibold">
+                {t("home.section1.h4")}
+              </h4>
+              <p className="text-base md:text-lg text-gray-700">
+                {t("home.section1.P")}
+              </p>
+              <span className="flex items-center gap-2 cursor-pointer hover:text-yellow-400 duration-500">
+                {t("learn_more")}
+                <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
+              </span>
+            </div>
+            {/* Image always below text on mobile */}
+            <div className="flex justify-center order-last md:order-none">
               <img
                 src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
                 alt="image"
+                className="max-w-full h-auto"
               />
             </div>
-            <div className="flex">
-              <div className="w-4/7">
-                <img
-                  src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45Z0MqNJQqIJW__image-banks.svg?fit=max&w=1200"
-                  alt="image"
-                />
-              </div>
-              <div className="flex justify-center items-center my-20 w-3/7">
-                <div className="flex flex-col justify-between gap-10 right-0 group *:group-hover:pl-4 w-auto ">
-                  <h4 className="text-3xl duration-150">
-                    {t("home.section2.h4")}
-                  </h4>
-                  <p className="textlg lith duration-300">
-                    {t("home.section2.P")}
-                  </p>
-                  <span className="flex gap-2 hover:text-yellow-400 cursor-pointer duration-500">
-                    {" "}
-                    {t("learn_more")}{" "}
-                    <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
-                  </span>
-                </div>
-              </div>
+          </div>
+
+          {/* Section 2 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Image always below text on mobile */}
+            <div className="flex justify-center order-last md:order-none">
+              <img
+                src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45Z0MqNJQqIJW__image-banks.svg?fit=max&w=1200"
+                alt="image"
+                className="max-w-full h-auto"
+              />
             </div>
-            <div className="flex">
-              <div className="flex flex-col justify-between w-4/7 group *:group-hover:pl-4">
-                <h4 className="text-3xl duration-150">
-                  {t("home.section3.h4")}
-                </h4>
-                <p className="w-4/5 textlg duration-300">
-                  {t("home.section3.P")}
-                </p>
-                <span className="flex gap-2 group duration-500 hover:text-yellow-400 cursor-pointer">
-                  {t("learn_more")}{" "}
-                  <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
-                </span>
-              </div>
-              {/* <div className="w-3/7"> */}
+            {/* Text */}
+            <div className="flex flex-col justify-center space-y-6">
+              <h4 className="text-2xl md:text-3xl font-semibold">
+                {t("home.section2.h4")}
+              </h4>
+              <p className="text-base md:text-lg text-gray-700">
+                {t("home.section2.P")}
+              </p>
+              <span className="flex items-center gap-2 cursor-pointer hover:text-yellow-400 duration-500">
+                {t("learn_more")}
+                <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
+              </span>
+            </div>
+          </div>
+
+          {/* Section 3 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Text */}
+            <div className="flex flex-col justify-between space-y-6">
+              <h4 className="text-2xl md:text-3xl font-semibold">
+                {t("home.section3.h4")}
+              </h4>
+              <p className="text-base md:text-lg text-gray-700">
+                {t("home.section3.P")}
+              </p>
+              <span className="flex items-center gap-2 cursor-pointer hover:text-yellow-400 duration-500">
+                {t("learn_more")}
+                <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
+              </span>
+            </div>
+            {/* Image always below text on mobile */}
+            <div className="flex justify-center order-last md:order-none">
               <img
                 src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
                 alt="image"
+                className="max-w-full h-auto"
               />
-              {/* </div> */}
             </div>
-            {/* </div> */}
           </div>
         </div>
+
       </div>
+
+
 
       <div className="">
         <FlexWrapRight

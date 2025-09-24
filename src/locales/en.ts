@@ -16,7 +16,7 @@ export default {
     },
     EnteteData: {
       SPAN: "Use case",
-      H3: "We partner with innovative companies to grow investingopportunities across Europe",
+      H3: "We partner with innovative companies to grow investing opportunities across Europe",
       p: " ",
     },
     section1: {
