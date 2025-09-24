@@ -37,10 +37,12 @@ export default function GetInTouchBlock() {
           </Card>
         </Card>
 
+
         <Card className="border border-[#3b3d40] rounded-xl p-1 bg-transparent w-full md:w-[80%] self-center">
           <Card className="-ml-2 -mb-3 border border-[#3b3d40] rounded-xl p-1 bg-black w-full">
             <CardHeader>
               <h3 className="text-2xl mt-4 text-white flex gap-3 items-center group">
+
                 {t("GetInTouch.section1.H3_2")}
                 <MoveUpRight className="w-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </h3>

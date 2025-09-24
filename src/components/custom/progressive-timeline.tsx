@@ -76,7 +76,7 @@ export function ProgressiveTimeline({
             <h1 className="text-2xl md:text-3xl mt-5 lg:text-4xl font-semibold text-white mb-16 leading-tight max-w-2xl">{title}</h1>
 
             {/* Progress Bars */}
-            <div className="flex gap-2 mb-12">
+            <div className="hidden lg:flex gap-2 mb-12">
                 {sections.map((_, index) => {
                     const isActive = index === activeIndex
                     const isPassed = index < activeIndex
@@ -105,7 +105,7 @@ export function ProgressiveTimeline({
             </div>
 
             {/* Sections Grid */}
-            <div className="flex gap-4">
+            <div className="flex flex-col lg:flex-row gap-4">
                 {sections.map((section, index) => {
                     const isActive = index === activeIndex
                     const isPassed = index < activeIndex
@@ -114,8 +114,8 @@ export function ProgressiveTimeline({
                         <div
                             key={section.id}
                             className={cn(
-                                "transition-all duration-700 cursor-pointer",
-                                isActive ? "flex-[2] opacity-100" : "flex-1 opacity-60 hover:opacity-80",
+                                "transition-all block duration-700 cursor-pointer",
+                                isActive ? "lg:flex-[2] opacity-100" : "flex-1 opacity-60 hover:opacity-80",
                             )}
                             onClick={() => handleSectionClick(index)}
                         >

@@ -24,7 +24,6 @@ interface HoverItem {
 export default function page() {
   const t = useI18n();
 
-
   const timelineSections: TimelineSection[] = [
     {
       id: "account-opening",
@@ -63,7 +62,6 @@ export default function page() {
     },
   ]
 
-
   const hoverItems: HoverItem[] = [
     {
       label: t("brokers.section4.SPANS.0"),
@@ -99,7 +97,6 @@ export default function page() {
       ]
     }
   ];
-
 
   const titleListe = [
     {
@@ -152,6 +149,7 @@ export default function page() {
       },
     ],
   };
+
   const flexWrapRightData = {
     Image: "/gauche.svg",
     SPAN: t("brokers.flexWrapRightData.SPAN"),
@@ -180,11 +178,13 @@ export default function page() {
       },
     ],
   };
+
   const heroData = {
     H2: t("brokers.hero.H2"),
     P: t("brokers.hero.P"),
     B: t("brokers.hero.B"),
   };
+  
   const liste = [
     {
       smallTitle: t("brokers.liste.0.smallTitle"),

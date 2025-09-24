@@ -61,12 +61,18 @@ export default function DoubleBlockWithImage({
                 className={`-ml-6 -mb-6 rounded-lg border p-4 transition-all duration-300 ${activeIndex === index ? "bg-amber-100" : "bg-gray-100"
                   }`}
               >
-                <h3 className="text-sm md:text-base font-semibold mb-2">
-                  {el.title}
-                </h3>
-                <p className="text-sm md:text-base leading-6">
-                  {el.content}
-                </p>
+
+                <div className={`-ml-5 -mb-7 rounded-lg h-45 border duration-500 shadow-none ${activeIndex === index ? 'bg-amber-100' : 'bg-gray-100'
+                  }`}>
+                  <div className="m-0 p-4">
+                    <h3 className={`text-sm font-semibold w-auto text-left rounded-xl px-2 py-0.5`}>
+                      {el.title}
+                    </h3>
+                  </div>
+                  <div className="p-4 h-auto pt-2">
+                    <p className="text-sm leading-6 font-[50]">{el.content}</p>
+                  </div>
+                </div>
               </div>
             </div>
           ))}

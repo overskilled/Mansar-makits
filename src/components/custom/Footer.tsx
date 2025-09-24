@@ -2,21 +2,22 @@
 
 import { useI18n } from "@/locales/client";
 import LanguageSelector from "./LanguageSelector";
+import Link from "next/link";
 
 export default function Footer() {
   const t = useI18n()
   return (
     <div className="flex flex-col px-8 h-screen *:mb-10">
-      <div className="flex">
-        <div className="flex-col flex w-1/3 ">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start">
+        <div className="flex-col flex w-2/3 lg:w-1/3 ">
           <h3 className="text-2xl my-5 uppercase text-gray-800">{t("footer.div1.H3")}</h3>
           <p>{t("footer.div1.P")}</p>
         </div>
-        <div className="flex w-2/3 justify-between *:w-1/4 *:flex-col *:**:my-2 *:pl-8">
+        <div className="flex w-2/3 flex-wrap justify-between *:min-w-40 *:max-w-45 lg::*:w-1/4 *:flex-col *:**:my-2 lg:*:pl-8">
             <div className="flex">
                 <h5 className="font-semibold">{t("footer.div2.H5")}</h5>
                 <ul className="gap-2 text-gray-800 flex flex-col">
-                    <li>{t("footer.div2.UL.0")}</li>
+                    <li><Link href='/verticale-brokerage'>{t("footer.div2.UL.0")}</Link></li>
                     <li>{t("footer.div2.UL.1")}</li>
                     <li>{t("footer.div2.UL.2")}</li>
                 </ul>
@@ -48,11 +49,11 @@ export default function Footer() {
             </div>
         </div>
       </div>
-      <div className="flex h-30 items-center justify-between *:text-gray-800">
+      <div className="flex h-30 items-center px-20 justify-between *:text-gray-800">
         <p>Linkedin</p>
         <LanguageSelector />
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between px-20">
         <p>© Mansar.makit 2025</p>
         <div className="flex gap-4 ">
             <span className="hover:bg-blue-50 bg-gray-50 rounded-3xl hover:cursor-pointer py-0.5 px-4">Data privacy settings</span>
