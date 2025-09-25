@@ -1029,280 +1029,404 @@ export default {
     },
   },
 
-  software: {
+  contextualBrokerage: {
     hero: {
-      h2: "Sociétés de logiciel",
-      p: "Innovez de nouveaux cas d'utilisation d'investissement en intégrant facilement l'investissement dans le parcours de vos clients. Pendant ce temps, nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      b: "commencer à construire",
+      H2: "Donnez un nouveau sens à l’investissement",
+      P: "Innovez avec de nouveaux cas d’usage en intégrant l’investissement dans le parcours client en toute simplicité. Pendant que nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
+      B: "Commencer à construire",
     },
     section1: {
-      entete: {
-        SPAN: "Cas d'utilisation",
-        H3: "Proposez l'investissement en ETF, Fonds et Actions à vos clients",
-        P: "Que vous cherchiez à développer votre offre existante ou à construire quelque chose de nouveau : lemon.markets prend en charge un large éventail de cas d'utilisation en matière de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client de premier ordre.",
-      },
-      left: [
+      SPAN: "Cas d’usage",
+      H3: "Proposez des investissements en actions et ETFs à vos clients",
+      P: "lemon.markets prend en charge un large éventail de cas d’usage de courtage contextuel. Nous aimons collaborer avec les entreprises de services financiers et technologiques qui souhaitent lancer de nouveaux produits d’investissement ou améliorer ceux existants. En suivant un processus clair, nous aidons les entreprises à passer de l’idée au lancement en seulement quelques mois. Nos experts vous accompagnent dans la conception du parcours client, la définition du bon modèle de tarification et l’élaboration de la feuille de route de mise en œuvre.",
+      BLOCK: [
         {
           title: "Services fiscaux",
-          smallTitle: "Permettre l'investissement des remboursements d'impôts",
-          text: "Les clients avisés recherchent des moyens efficaces de réinvestir leur remboursement d'impôts. Ils peuvent faire travailler leur argent excédentaire pour eux, le tout dans la même application.",
+          legend: "Permettez l’investissement des remboursements d’impôt",
+          content:
+            "Offrez à vos clients la possibilité d’investir leur remboursement d’impôt dans leur avenir. En connaissant parfaitement leur situation financière, vous devenez un guide de confiance sur leur chemin vers la liberté financière. Aidez-les à comprendre la fiscalité sur les plus-values et les abattements fiscaux pour eux et leurs familles. Vous renforcez ainsi l’attractivité de votre produit principal tout en ouvrant la voie à une meilleure monétisation grâce à une offre d’investissement.",
         },
         {
-          title: "Achats quotidiens",
-          smallTitle:
-            "Transformez les achats quotidiens en opportunités d'investissement",
-          text: "Les clients désirent des moyens simples et automatisés d'investir de l'argent au fur et à mesure de leurs dépenses, transformant les transactions quotidiennes en opportunités de croissance financière. Ils recherchent une intégration transparente des fonctionnalités d'investissement dans leurs habitudes de dépenses existantes.",
+          title: "Immobilier",
+          legend: "Faites fructifier les dépôts de vos clients",
+          content:
+            "Ne laissez pas les dépôts de vos clients dormir pendant des années sur un compte courant. Différenciez-vous de la concurrence en leur donnant l’opportunité d’investir leurs dépôts. Selon différents portefeuilles, vos clients peuvent soit se protéger contre l’inflation, soit opter pour une stratégie plus orientée actions, avec un potentiel de rendement à long terme. Démarquez-vous et offrez-leur une solution d’investissement intelligente pour développer leur patrimoine.",
         },
         {
-          title: "Avantages salariaux",
-          smallTitle: "Créez de la valeur à long terme pour vos employés",
-          text: "Les employés recherchent des moyens efficaces de comprendre et de maximiser leurs avantages en actions, soulageant le stress lié à l'épargne pour les grands objectifs de vie. Pour cela, ils ont besoin d'outils pour suivre, exercer et gérer efficacement leur rémunération en actions.",
+          title: "Fidélité",
+          legend: "Élevez la fidélisation client à un nouveau niveau",
+          content:
+            "Dans un marché compétitif, un programme de fidélité doit aller au-delà de simples points. Transformez votre programme en une véritable proposition d’investissement et offrez à vos clients la possibilité de constituer un portefeuille en récompense de leur fidélité. Faites en sorte qu’ils ne se sentent pas seulement liés à votre marque, mais qu’ils en deviennent réellement copropriétaires ! En leur donnant la possibilité d’investir dans leurs marques préférées, vous alignez vos intérêts avec les leurs et les incitez à rester de véritables ambassadeurs. Résultat : une base de clients plus fidèle et plus engagée, ainsi qu’une expérience enrichissante et valorisante.",
         },
         {
-          title: "Fidélité client",
-          smallTitle:
-            "Transformez la fidélité client en opportunités d'investissement",
-          text: "Les clients recherchent plus de valeur dans les programmes de fidélité que les points et récompenses traditionnels. Ils désirent un engagement significatif et des opportunités de constituer un patrimoine en investissant dans les marques qu'ils aiment et auxquelles ils font confiance.",
+          title: "Avantages employés",
+          legend: "Créez de la valeur à long terme pour vos employés",
+          content:
+            "En tant qu’expert en paie et avantages sociaux, vous pouvez offrir bien plus que de simples salaires ponctuels et prestations basiques. Imaginez pouvoir réduire le stress de vos clients lié à l’épargne pour un logement, la réalisation de projets personnels ou la préparation de la retraite. En proposant des solutions d’investissement personnalisées adaptées à la situation de chacun, vous allez au-delà des attentes en répondant à leurs préoccupations financières les plus importantes. Avec votre expertise, vous donnez aux employés le pouvoir de prendre en main leur avenir financier et d’atteindre leurs objectifs.",
         },
         {
-          title: "Gestion d'actifs",
-          smallTitle:
-            "Simplifiez la gestion d'actifs avec une plateforme d'investissement unifiée",
-          text: "Les clients souhaitent investir et suivre leurs actifs depuis une plateforme unique. Ils désirent des solutions qui simplifient la gestion et l'optimisation de leurs investissements, leur permettant de faire croître leur portefeuille sur une seule plateforme.",
-        },
-      ],
-      rigth: [
-        {
-          span: "Avantages pour vous",
-          list: {
-            first:
-              "Améliorez la profondeur du produit, la fidélisation et l'engagement des clients",
-            second:
-              "Ciblez une large clientèle, en débloquant de nouvelles sources de revenus",
-            third:
-              "Augmentez l'avantage concurrentiel et étendez votre part de marché",
-          },
-        },
-        {
-          span: "Avantages pour vos clients",
-          list: {
-            first:
-              "Solutions d'investissement personnalisées pour atteindre leurs objectifs financiers personnels",
-            second: "Gestion rationalisée de tous leurs actifs au même endroit",
-            third:
-              "Approche unifiée pour prendre des décisions financières éclairées",
-          },
+          title: "Votre idée de licorne",
+          legend:
+            "Voyez-vous la prochaine grande opportunité d’investissement ?",
+          content:
+            "Avez-vous une idée innovante capable de transformer la façon dont les gens investissent ? Explorez les différentes approches pour résoudre les problèmes de vos clients et les aider à bâtir un patrimoine à long terme, directement au sein de votre produit. Lancez une expérience d’investissement adaptée à des publics encore sous-représentés sur les marchés financiers. Ou proposez un nouveau produit mieux aligné sur les intérêts de votre audience cible. Sans avoir à développer l’infrastructure technique vous-même, vous pouvez vous concentrer pleinement sur l’expérience client.",
         },
       ],
     },
-    section3: {
+    section2: {
       span: "Parcours client",
       title:
-        "Une infrastructure pour vous offrir tous les blocs de construction le long de votre parcours client",
+        "Une seule infrastructure pour vous fournir tous les éléments le long de votre parcours client",
+    },
+    section3: {
+      span: "Produits",
+      h3: "Couverture mondiale des actifs — Actions et ETFs dès le départ",
+      p: "Au cœur de l’infrastructure lemon.markets se trouvent les produits d’investissement les plus demandés. Nous acheminons les ordres vers des bourses et émetteurs régulés, avec pour objectif d’offrir des prix justes et des spreads serrés pour l’exécution de vos clients. Des horaires de marché étendus sont également disponibles, afin de fournir un accès quand vos clients en ont le plus besoin.",
       block: [
         {
-          legend: "Ouverture de compte",
-          p: "Onboarding numérique de bout en bout pour vos nouveaux clients avec des vérifications complètes de KYC et de sécurité (Vérification PEP/Sanctions & contrôles des risques). Vous avez déjà des clients ayant effectué le KYC ? Aucun souci - nous prenons en charge le partage KYC, ainsi vos clients n'ont pas à recommencer un autre processus d'authentification.",
+          title: "Actions",
+          smallTitle:
+            "Offrez un accès à une large gamme d’actions mondiales via une bourse",
+          liste: {
+            1: "Marché ouvert de 8h à 22h",
+            2: "Des small caps aux blue chips",
+            3: ">3000 actions",
+          },
         },
         {
-          legend: "Alimentation du compte",
-          p: "Vos clients recevront un IBAN allemand qui prend en charge différentes méthodes de versement et des retraits flexibles. Les dépôts sont assurés pour chaque compte de trésorerie jusqu'à 100 000 €. Vous fournissez déjà un compte de trésorerie à vos clients ? Aucun souci - nous pouvons nous intégrer à votre plateforme et fonctionner de manière modulaire autour de votre configuration existante.",
+          title: "ETFs",
+          smallTitle:
+            "Permettez à vos clients de diversifier leurs investissements grâce aux fonds d’émetteurs leaders",
+          liste: {
+            1: "Marché ouvert de 8h à 22h",
+            2: "De la couverture sectorielle à mondiale",
+            3: ">1000 ETFs",
+          },
         },
         {
-          legend: "Gestion des ordres",
-          p: "Offrez un large éventail d'Actions et d'ETF. Prise en charge de multiples types d'ordres comme l'exécution directe, les ordres bloqués et les plans d'épargne pour s'adapter à tous les comportements d'investissement. Les ordres sont acheminés vers une bourse ou directement vers l'émetteur pour assurer la meilleure exécution. Toutes les informations réglementaires requises sur les prix et les coûts sont fournies avant l'exécution d'un ordre.",
-        },
-        {
-          legend: "Règlement & Garde",
-          p: "Nous fournissons les services de garde obligatoires pour assurer la conservation et l'administration des comptes de titres de vos clients. Chez nous, toutes les opérations sur titres sont traitées avec diligence et précision, comme assurer des paiements de dividendes ponctuels et précis, gérer les splits d'actions et les fusions, et traiter le vote des actionnaires.",
-        },
-        {
-          legend: "Fiscalité et Reporting",
-          p: "Nos services complets de fiscalité et de reporting incluent le calcul et la déduction automatiques de la taxe de règlement et de la retenue à la source, vous facilitant, ainsi qu'à vos clients, le respect des réglementations fiscales. Nous créons les documents fiscaux pour les clients finaux, et fournissons toutes les informations pertinentes aux autorités financières.",
+          title: "Plans d’épargne",
+          smallTitle:
+            "Mettez en place des plans d’épargne pour aider vos clients à bâtir un patrimoine à long terme",
+          liste: {
+            1: "À partir de 25 € d’investissement récurrent",
+            2: "Configurables selon vos besoins",
+            3: "Fréquence flexible possible",
+          },
         },
       ],
     },
     section4: {
-      span: "Classes d'actifs",
-      h2: "Couverture d'actifs mondiale allant des ETF aux Actions",
-      p: "lemon.markets offre les produits d'investissement les plus demandés, donnant accès à une large liste d'ISINs de plus de 10 gestionnaires d'actifs. Nous assurons une tarification équitable et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des horaires de marché étendus.",
-      liste: [
-        {
-          title: "ETF",
-          h5: "Offrez à vos clients l'opportunité de diversifier leurs investissements",
-          liste: {
-            first: "Heures de marché de 8h à 22h",
-            second: "De la focalisation sectorielle à la couverture mondiale",
-            third: "Plus de 1000+ ETF",
-          },
-        },
-        {
-          title: "Actions",
-          h5: "Offrez l'accès à un large éventail d'actions mondiales via une bourse",
-          liste: {
-            first: "Heures de marché de 8h à 22h",
-            second: "Des small caps aux blue chips",
-            third: ">3000 Actions",
-          },
-        },
-        {
-          title: "Fonds",
-          h5: "Offrez des stratégies d'investissement sur mesure à vos clients",
-          liste: {
-            first: "Accès aux fonds communs de placement, MMF, & plus",
-            second: "Portefeuilles gérés professionnellement et diversifiés",
-            third: "Seuils d'investissement et calendriers flexibles",
-          },
-        },
-      ],
-    },
-    doubleBlock: {
-      span: "Réglementation",
-      h3: "Trouvez la bonne configuration avec nos experts en réglementation et conformité",
-      p: "En tant que société d'investissement agréée par la BaFin, nous pouvons couvrir la chaîne de valeur complète. En apprenant vos besoins, nous élaborerons la meilleure structure pour votre succès. Nous avons standardisé notre approche, en concluant que la plupart des configurations sont comprises dans l'une des trois options ci-dessous.",
-      legend: "Sélectionnez la bonne configuration réglementaire",
-      block: [
-        {
-          title: "Service de courtage complet",
-          p: "lemon.markets couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous rendant agent lié.",
-        },
-        {
-          title: "Service de courtage modulaire",
-          p: "Partenariat avec des gestionnaires de patrimoine, des courtiers introducteurs et des gestionnaires de portefeuille, nous coopérons pour remplir toutes les responsabilités réglementaires.",
-        },
-        {
-          title: "Service d'externalisation de courtage",
-          p: "Vous maintenez le contrôle total de la relation client, tandis que lemon.markets gère les détails techniques et opérationnels.",
-        },
-      ],
+      span: "Conformité",
+      h3: "Trouvez la configuration adaptée avec nos experts en réglementation et conformité",
+      pu1: "Modèle de coopération",
+      pu2: "Modèle d’agent lié",
+      p: "Chaque expérience client est unique et entraîne des exigences réglementaires différentes. Avec nos experts, nous analysons vos actifs existants et l’expérience client souhaitée afin de définir la configuration réglementaire la plus adaptée. Nous établissons le modèle de partenariat qui garantit le respect de toutes les normes de conformité. Si vous êtes déjà sous supervision réglementaire, nous mettons en place une coopération mutuelle pour assurer la conformité en matière d’externalisation, de lutte contre le blanchiment (AFC) et de réglementation. Si vous ne l’êtes pas, nous vous offrons la possibilité de devenir agent lié et d’assumer ensemble la responsabilité réglementaire.",
     },
     flexWrap: {
       span: "Pourquoi travailler avec nous",
-      h3: "Offrir un produit d'investissement devient enfin facile",
-      p: "Utilisez l'API de lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou pour améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés des capitaux, permettant finalement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà.",
+      h3: "Proposer un produit d’investissement devient enfin simple",
+      p: "Utilisez l’API lemon.markets pour lancer un produit d’investissement centré sur le client et conforme, ou pour enrichir vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés financiers, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous accompagnons nos partenaires dans tous les défis opérationnels, techniques et réglementaires, jusqu’au lancement réussi et au-delà.",
       block: [
         {
-          title: "Centricité client",
+          title: "Centré sur le client",
           content:
-            "Fondés sur nos principes fondamentaux, nous vous plaçons toujours en premier. Tirez parti de notre expertise en technologie, réglementation et services financiers pour livrer des produits d'investissement qui dépassent constamment les attentes.",
+            "Fidèles à nos principes fondamentaux, nous vous plaçons toujours au premier plan. Bénéficiez de notre expertise en technologie, réglementation et services financiers pour proposer des produits d’investissement qui dépassent constamment les attentes.",
         },
         {
           title: "Modularité de la plateforme",
           content:
-            "Notre plateforme modulaire offre non seulement une disponibilité 24/7 et un haut degré d'automatisation, mais s'adapte également à votre modèle opérationnel, vous permettant de construire ce que vous voulez, comme vous le voulez, de manière sécurisée et fiable.",
+            "Notre plateforme modulaire offre non seulement une disponibilité 24/7 et un haut degré d’automatisation, mais elle s’adapte aussi à votre modèle opérationnel, vous permettant de construire ce que vous voulez, comme vous le voulez, en toute sécurité et fiabilité.",
         },
         {
-          title: "Convivialité pour les développeurs",
+          title: "Pensé pour les développeurs",
           content:
-            "Offrant une documentation complète et un bac à sable prêt à tester, notre infrastructure API-first rationalise le développement pour votre équipe, raccourcissant votre temps de construction de plusieurs mois à quelques semaines.",
+            "Avec une documentation complète et un bac à sable prêt à l’emploi, notre infrastructure API-first simplifie le développement pour vos équipes et réduit le temps de mise en œuvre de plusieurs mois à quelques semaines.",
         },
         {
           title: "Couverture réglementaire",
           content:
-            "Notre équipe, alliant une connaissance approfondie du courtage et de la réglementation, travaille en étroite collaboration avec vous, vous permettant de monter en puissance efficacement sans que la charge réglementaire ne vous ralentisse.",
+            "Notre équipe, combinant une expertise approfondie en courtage et en réglementation, collabore étroitement avec vous pour vous permettre de scaler efficacement sans que les contraintes réglementaires ne freinent votre croissance.",
         },
       ],
     },
-  },
 
-  CooperationBlock: {
-    SPAN: "Collaborations",
-    H3: "Travailler ensemble avec des institutions de confiance",
-  },
-
-  GetInTouch: {
-    SPAN: "Entrer en Contact",
-    H1: "Partenariat avec nous",
-    P: "Utilisez l'API de MANSAR.MAKITS pour lancer un produit d'investissement centré sur le client et conforme.",
-    B: "Commencer à développer",
-    section1: {
-      H3_1: "À propos de nous",
-      content_1: "Découvrez la vision et les principes de MANSAR.MAKITS",
-      H3_2: "Carrière",
-      content_2: "Libérez votre plein potentiel et grandissez avec nous",
-    },
-  },
-
-  footer: {
-    div1: {
-      H3: "mansar-makits",
-      P: "L'infrastructure alimentant les produits d'investissement. Permettez à vos clients d'investir en bourse. Utilisez l'API de MANSAR.MAKITS pour lancer un produit d'investissement centré sur le client et conforme.",
-    },
-    div2: {
-      H5: "Cas d'Utilisation",
-      UL: {
-        "0": "Courtage Vertical",
-        "1": "Courtage Intégré",
-        "2": "Courtage Contextuel",
+    software: {
+      hero: {
+        h2: "Sociétés de logiciel",
+        p: "Innovez de nouveaux cas d'utilisation d'investissement en intégrant facilement l'investissement dans le parcours de vos clients. Pendant ce temps, nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
+        b: "commencer à construire",
+      },
+      section1: {
+        entete: {
+          SPAN: "Cas d'utilisation",
+          H3: "Proposez l'investissement en ETF, Fonds et Actions à vos clients",
+          P: "Que vous cherchiez à développer votre offre existante ou à construire quelque chose de nouveau : lemon.markets prend en charge un large éventail de cas d'utilisation en matière de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client de premier ordre.",
+        },
+        left: [
+          {
+            title: "Services fiscaux",
+            smallTitle:
+              "Permettre l'investissement des remboursements d'impôts",
+            text: "Les clients avisés recherchent des moyens efficaces de réinvestir leur remboursement d'impôts. Ils peuvent faire travailler leur argent excédentaire pour eux, le tout dans la même application.",
+          },
+          {
+            title: "Achats quotidiens",
+            smallTitle:
+              "Transformez les achats quotidiens en opportunités d'investissement",
+            text: "Les clients désirent des moyens simples et automatisés d'investir de l'argent au fur et à mesure de leurs dépenses, transformant les transactions quotidiennes en opportunités de croissance financière. Ils recherchent une intégration transparente des fonctionnalités d'investissement dans leurs habitudes de dépenses existantes.",
+          },
+          {
+            title: "Avantages salariaux",
+            smallTitle: "Créez de la valeur à long terme pour vos employés",
+            text: "Les employés recherchent des moyens efficaces de comprendre et de maximiser leurs avantages en actions, soulageant le stress lié à l'épargne pour les grands objectifs de vie. Pour cela, ils ont besoin d'outils pour suivre, exercer et gérer efficacement leur rémunération en actions.",
+          },
+          {
+            title: "Fidélité client",
+            smallTitle:
+              "Transformez la fidélité client en opportunités d'investissement",
+            text: "Les clients recherchent plus de valeur dans les programmes de fidélité que les points et récompenses traditionnels. Ils désirent un engagement significatif et des opportunités de constituer un patrimoine en investissant dans les marques qu'ils aiment et auxquelles ils font confiance.",
+          },
+          {
+            title: "Gestion d'actifs",
+            smallTitle:
+              "Simplifiez la gestion d'actifs avec une plateforme d'investissement unifiée",
+            text: "Les clients souhaitent investir et suivre leurs actifs depuis une plateforme unique. Ils désirent des solutions qui simplifient la gestion et l'optimisation de leurs investissements, leur permettant de faire croître leur portefeuille sur une seule plateforme.",
+          },
+        ],
+        rigth: [
+          {
+            span: "Avantages pour vous",
+            list: {
+              first:
+                "Améliorez la profondeur du produit, la fidélisation et l'engagement des clients",
+              second:
+                "Ciblez une large clientèle, en débloquant de nouvelles sources de revenus",
+              third:
+                "Augmentez l'avantage concurrentiel et étendez votre part de marché",
+            },
+          },
+          {
+            span: "Avantages pour vos clients",
+            list: {
+              first:
+                "Solutions d'investissement personnalisées pour atteindre leurs objectifs financiers personnels",
+              second:
+                "Gestion rationalisée de tous leurs actifs au même endroit",
+              third:
+                "Approche unifiée pour prendre des décisions financières éclairées",
+            },
+          },
+        ],
+      },
+      section3: {
+        span: "Parcours client",
+        title:
+          "Une infrastructure pour vous offrir tous les blocs de construction le long de votre parcours client",
+        block: [
+          {
+            legend: "Ouverture de compte",
+            p: "Onboarding numérique de bout en bout pour vos nouveaux clients avec des vérifications complètes de KYC et de sécurité (Vérification PEP/Sanctions & contrôles des risques). Vous avez déjà des clients ayant effectué le KYC ? Aucun souci - nous prenons en charge le partage KYC, ainsi vos clients n'ont pas à recommencer un autre processus d'authentification.",
+          },
+          {
+            legend: "Alimentation du compte",
+            p: "Vos clients recevront un IBAN allemand qui prend en charge différentes méthodes de versement et des retraits flexibles. Les dépôts sont assurés pour chaque compte de trésorerie jusqu'à 100 000 €. Vous fournissez déjà un compte de trésorerie à vos clients ? Aucun souci - nous pouvons nous intégrer à votre plateforme et fonctionner de manière modulaire autour de votre configuration existante.",
+          },
+          {
+            legend: "Gestion des ordres",
+            p: "Offrez un large éventail d'Actions et d'ETF. Prise en charge de multiples types d'ordres comme l'exécution directe, les ordres bloqués et les plans d'épargne pour s'adapter à tous les comportements d'investissement. Les ordres sont acheminés vers une bourse ou directement vers l'émetteur pour assurer la meilleure exécution. Toutes les informations réglementaires requises sur les prix et les coûts sont fournies avant l'exécution d'un ordre.",
+          },
+          {
+            legend: "Règlement & Garde",
+            p: "Nous fournissons les services de garde obligatoires pour assurer la conservation et l'administration des comptes de titres de vos clients. Chez nous, toutes les opérations sur titres sont traitées avec diligence et précision, comme assurer des paiements de dividendes ponctuels et précis, gérer les splits d'actions et les fusions, et traiter le vote des actionnaires.",
+          },
+          {
+            legend: "Fiscalité et Reporting",
+            p: "Nos services complets de fiscalité et de reporting incluent le calcul et la déduction automatiques de la taxe de règlement et de la retenue à la source, vous facilitant, ainsi qu'à vos clients, le respect des réglementations fiscales. Nous créons les documents fiscaux pour les clients finaux, et fournissons toutes les informations pertinentes aux autorités financières.",
+          },
+        ],
+      },
+      section4: {
+        span: "Classes d'actifs",
+        h2: "Couverture d'actifs mondiale allant des ETF aux Actions",
+        p: "lemon.markets offre les produits d'investissement les plus demandés, donnant accès à une large liste d'ISINs de plus de 10 gestionnaires d'actifs. Nous assurons une tarification équitable et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des horaires de marché étendus.",
+        liste: [
+          {
+            title: "ETF",
+            h5: "Offrez à vos clients l'opportunité de diversifier leurs investissements",
+            liste: {
+              first: "Heures de marché de 8h à 22h",
+              second: "De la focalisation sectorielle à la couverture mondiale",
+              third: "Plus de 1000+ ETF",
+            },
+          },
+          {
+            title: "Actions",
+            h5: "Offrez l'accès à un large éventail d'actions mondiales via une bourse",
+            liste: {
+              first: "Heures de marché de 8h à 22h",
+              second: "Des small caps aux blue chips",
+              third: ">3000 Actions",
+            },
+          },
+          {
+            title: "Fonds",
+            h5: "Offrez des stratégies d'investissement sur mesure à vos clients",
+            liste: {
+              first: "Accès aux fonds communs de placement, MMF, & plus",
+              second: "Portefeuilles gérés professionnellement et diversifiés",
+              third: "Seuils d'investissement et calendriers flexibles",
+            },
+          },
+        ],
+      },
+      doubleBlock: {
+        span: "Réglementation",
+        h3: "Trouvez la bonne configuration avec nos experts en réglementation et conformité",
+        p: "En tant que société d'investissement agréée par la BaFin, nous pouvons couvrir la chaîne de valeur complète. En apprenant vos besoins, nous élaborerons la meilleure structure pour votre succès. Nous avons standardisé notre approche, en concluant que la plupart des configurations sont comprises dans l'une des trois options ci-dessous.",
+        legend: "Sélectionnez la bonne configuration réglementaire",
+        block: [
+          {
+            title: "Service de courtage complet",
+            p: "lemon.markets couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous rendant agent lié.",
+          },
+          {
+            title: "Service de courtage modulaire",
+            p: "Partenariat avec des gestionnaires de patrimoine, des courtiers introducteurs et des gestionnaires de portefeuille, nous coopérons pour remplir toutes les responsabilités réglementaires.",
+          },
+          {
+            title: "Service d'externalisation de courtage",
+            p: "Vous maintenez le contrôle total de la relation client, tandis que lemon.markets gère les détails techniques et opérationnels.",
+          },
+        ],
+      },
+      flexWrap: {
+        span: "Pourquoi travailler avec nous",
+        h3: "Offrir un produit d'investissement devient enfin facile",
+        p: "Utilisez l'API de lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou pour améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés des capitaux, permettant finalement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà.",
+        block: [
+          {
+            title: "Centricité client",
+            content:
+              "Fondés sur nos principes fondamentaux, nous vous plaçons toujours en premier. Tirez parti de notre expertise en technologie, réglementation et services financiers pour livrer des produits d'investissement qui dépassent constamment les attentes.",
+          },
+          {
+            title: "Modularité de la plateforme",
+            content:
+              "Notre plateforme modulaire offre non seulement une disponibilité 24/7 et un haut degré d'automatisation, mais s'adapte également à votre modèle opérationnel, vous permettant de construire ce que vous voulez, comme vous le voulez, de manière sécurisée et fiable.",
+          },
+          {
+            title: "Convivialité pour les développeurs",
+            content:
+              "Offrant une documentation complète et un bac à sable prêt à tester, notre infrastructure API-first rationalise le développement pour votre équipe, raccourcissant votre temps de construction de plusieurs mois à quelques semaines.",
+          },
+          {
+            title: "Couverture réglementaire",
+            content:
+              "Notre équipe, alliant une connaissance approfondie du courtage et de la réglementation, travaille en étroite collaboration avec vous, vous permettant de monter en puissance efficacement sans que la charge réglementaire ne vous ralentisse.",
+          },
+        ],
       },
     },
-    div3: {
-      H5: "Entreprise",
-      UL: {
-        "0": "Entreprise",
-        "1": "Carrières",
-        "2": "Presse / Médias",
-      },
-    },
-    div4: {
-      H5: "Développeurs",
-      UL: {
-        "0": "Documentation",
-        "1": "Page de Statut",
-      },
-    },
-    div5: {
-      H5: "Pages Légales",
-      UL: {
-        "0": "Mentions Légales",
-        "1": "Conditions Générales",
-        "2": "Politique de Confidentialité",
-        "3": "Protection des données des candidats",
-      },
-    },
-  },
 
-  navbar: {
-    product: "Produit",
-    productItems: {
-      investmentInfrastructure: "Infrastructure d'Investissement",
-      investmentInfrastructureDesc:
-        "Infrastructure d'investissement axée sur l'API",
+    CooperationBlock: {
+      SPAN: "Collaborations",
+      H3: "Travailler ensemble avec des institutions de confiance",
     },
-    useCases: "Cas d'Utilisation",
-    useCasesItems: {
-      brokersWealthManagers: "Courtiers & Gestionnaires de Patrimoine",
-      brokersWealthManagersDesc:
-        "Gérer le backend de votre expérience d'investissement",
-      banksEmis: "Banques & EMIs",
-      banksEmisDesc: "Alimenter l'investissement intégré dans votre produit",
-      softwareCompanies: "Sociétés de Logiciels",
-      softwareCompaniesDesc: "Intégrer l'investissement dans votre contexte",
+
+    GetInTouch: {
+      SPAN: "Entrer en Contact",
+      H1: "Partenariat avec nous",
+      P: "Utilisez l'API de MANSAR.MAKITS pour lancer un produit d'investissement centré sur le client et conforme.",
+      B: "Commencer à développer",
+      section1: {
+        H3_1: "À propos de nous",
+        content_1: "Découvrez la vision et les principes de MANSAR.MAKITS",
+        H3_2: "Carrière",
+        content_2: "Libérez votre plein potentiel et grandissez avec nous",
+      },
     },
-    developers: "Développeurs",
-    developersItems: {
-      developerHub: "Centre de Développement",
-      developerHubDesc: "Parcourez toutes nos ressources techniques",
-      guides: "Guides",
-      guidesDesc: "Cas d'utilisation démonstratifs basés sur notre API",
-      documentation: "Documentation",
-      documentationDesc: "Détails des endpoints API de notre plateforme",
+
+    footer: {
+      div1: {
+        H3: "mansar-makits",
+        P: "L'infrastructure alimentant les produits d'investissement. Permettez à vos clients d'investir en bourse. Utilisez l'API de MANSAR.MAKITS pour lancer un produit d'investissement centré sur le client et conforme.",
+      },
+      div2: {
+        H5: "Cas d'Utilisation",
+        UL: {
+          "0": "Courtage Vertical",
+          "1": "Courtage Intégré",
+          "2": "Courtage Contextuel",
+        },
+      },
+      div3: {
+        H5: "Entreprise",
+        UL: {
+          "0": "Entreprise",
+          "1": "Carrières",
+          "2": "Presse / Médias",
+        },
+      },
+      div4: {
+        H5: "Développeurs",
+        UL: {
+          "0": "Documentation",
+          "1": "Page de Statut",
+        },
+      },
+      div5: {
+        H5: "Pages Légales",
+        UL: {
+          "0": "Mentions Légales",
+          "1": "Conditions Générales",
+          "2": "Politique de Confidentialité",
+          "3": "Protection des données des candidats",
+        },
+      },
     },
-    company: "Entreprise",
-    companyItems: {
+
+    navbar: {
+      product: "Produit",
+      productItems: {
+        investmentInfrastructure: "Infrastructure d'Investissement",
+        investmentInfrastructureDesc:
+          "Infrastructure d'investissement axée sur l'API",
+      },
+      useCases: "Cas d'Utilisation",
+      useCasesItems: {
+        brokersWealthManagers: "Courtiers & Gestionnaires de Patrimoine",
+        brokersWealthManagersDesc:
+          "Gérer le backend de votre expérience d'investissement",
+        banksEmis: "Banques & EMIs",
+        banksEmisDesc: "Alimenter l'investissement intégré dans votre produit",
+        softwareCompanies: "Sociétés de Logiciels",
+        softwareCompaniesDesc: "Intégrer l'investissement dans votre contexte",
+      },
+      developers: "Développeurs",
+      developersItems: {
+        developerHub: "Centre de Développement",
+        developerHubDesc: "Parcourez toutes nos ressources techniques",
+        guides: "Guides",
+        guidesDesc: "Cas d'utilisation démonstratifs basés sur notre API",
+        documentation: "Documentation",
+        documentationDesc: "Détails des endpoints API de notre plateforme",
+      },
       company: "Entreprise",
-      companyDesc: "Motivé par les opportunités d'investissement croissantes",
-      careers: "Carrières",
-      careersDesc:
-        "Tout ce que vous devez savoir pour devenir un constructeur Mansar",
-      media: "RP/Médias",
-      mediaDesc: "Couverture médiatique et ressources pour votre histoire",
-      blog: "Blog",
-      blogDesc: "Obtenez les dernières nouvelles de Mansar",
+      companyItems: {
+        company: "Entreprise",
+        companyDesc: "Motivé par les opportunités d'investissement croissantes",
+        careers: "Carrières",
+        careersDesc:
+          "Tout ce que vous devez savoir pour devenir un constructeur Mansar",
+        media: "RP/Médias",
+        mediaDesc: "Couverture médiatique et ressources pour votre histoire",
+        blog: "Blog",
+        blogDesc: "Obtenez les dernières nouvelles de Mansar",
+      },
+      signIn: "Se Connecter",
+      getInTouch: "Prendre contact",
+      getStarted: "Commencer",
+      tagline: "Nous vous apportons des actifs d'investissement de qualité",
     },
-    signIn: "Se Connecter",
-    getInTouch: "Prendre contact",
-    getStarted: "Commencer",
-    tagline: "Nous vous apportons des actifs d'investissement de qualité",
   },
 } as const;

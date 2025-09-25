@@ -18,32 +18,32 @@ export default function Footer() {
                 <h5 className="font-semibold">{t("footer.div2.H5")}</h5>
                 <ul className="gap-2 text-gray-800 flex flex-col">
                     <li><Link href='/verticale-brokerage'>{t("footer.div2.UL.0")}</Link></li>
-                    <li>{t("footer.div2.UL.1")}</li>
-                    <li>{t("footer.div2.UL.2")}</li>
+                    <li><Link href="/embedded-brokerage">{t("footer.div2.UL.1")}</Link></li>
+                    <li><Link href="/contextual-brokerage">{t("footer.div2.UL.2")}</Link></li>
                 </ul>
             </div>
             <div className="flex">
                 <h5 className="font-semibold">{t("footer.div3.H5")}</h5>
                 <ul className="gap-2 text-gray-800 flex flex-col">
-                    <li>{t("footer.div3.UL.0")}</li>
-                    <li>{t("footer.div3.UL.1")}</li>
-                    <li>{t("footer.div3.UL.2")}</li>
+                    <li><Link href="">{t("footer.div3.UL.0")}</Link></li>
+                    <li><Link href="">{t("footer.div3.UL.1")}</Link></li>
+                    <li><Link href="">{t("footer.div3.UL.2")}</Link></li>
                 </ul>
             </div>
             <div className="flex">
                 <h5 className="font-semibold">{t("footer.div4.H5")}</h5>
                 <ul className="gap-2 text-gray-800 flex flex-col">
-                    <li>{t("footer.div4.UL.0")}</li>
-                    <li>{t("footer.div4.UL.1")}</li>
+                    <li><Link href="">{t("footer.div4.UL.0")}</Link></li>
+                    <li><Link href="">{t("footer.div4.UL.1")}</Link></li>
                 </ul>
             </div>
             <div className="flex">
                 <h5 className="font-semibold">{t("footer.div5.H5")}</h5>
                 <ul className="gap-2 text-gray-800 flex flex-col">
-                    <li>{t("footer.div5.UL.0")}</li>
-                    <li>{t("footer.div5.UL.1")}</li>
-                    <li>{t("footer.div5.UL.2")}</li>
-                    <li>{t("footer.div5.UL.3")}</li>
+                    <li><Link href="">{t("footer.div5.UL.0")}</Link></li>
+                    <li><Link href="">{t("footer.div5.UL.1")}</Link></li>
+                    <li><Link href="">{t("footer.div5.UL.2")}</Link></li>
+                    <li><Link href="">{t("footer.div5.UL.3")}</Link></li>
                 </ul>
 
             </div>
@@ -53,7 +53,7 @@ export default function Footer() {
         <p>Linkedin</p>
         <LanguageSelector />
       </div>
-      <div className="flex justify-between px-20">
+      <div className="flex flex-col md:flex-row justify-between px-20">
         <p>© Mansar.makit 2025</p>
         <div className="flex gap-4 ">
             <span className="hover:bg-blue-50 bg-gray-50 rounded-3xl hover:cursor-pointer py-0.5 px-4">Data privacy settings</span>

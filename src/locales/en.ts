@@ -1201,6 +1201,118 @@ export default {
       ],
     },
   },
+  
+  contextualBrokerage: {
+    hero: {
+      H2: "Put investing into a new context",
+      P: "Innovate new investment use cases by integrating investing into your customer journey with ease. While we take care of all the technical, operational and regulatory hustle in the back.",
+      B: "Start building",
+    },
+    section1: {
+      SPAN: "Use cases",
+      H3: "Offer investing in Stocks & ETFs to your customers",
+      P: "lemon.markets supports a wide-range of contextual brokerage use cases. We love to partner with financial services and technology companies that aim to offer new investing products or improve their existing ones. Following a clear process we help companies to go from idea to launch in just a few months. Our experts will support you from designing the customer journey, to figuring out the right pricing and building the implementation roadmap.",
+      BLOCK: [
+        {
+          title: "Tax Servicing",
+          legend: "Enable investments of tax refunds",
+          content:"Enable your customers to invest their tax refund in their future. Knowing their financial situation inside out, you can be a trusted guide on their journey to financial freedom. Help customers understand capital gains taxes and tax allowances for them and their families. Increasing stickiness of your core product and allowing for better monetization down the road by offering an investment product.",
+        },
+        {
+          title: "Real Estate",
+          legend: "Let your customers deposits grow",
+          content:"Don't let your customer's deposits sit idle in a checking account for years. Differentiate yourself from competition by offering your customers the opportunity to invest their deposits. Based on different portfolios your customer can either hedge against inflation or choose a more equity heavy strategy that has the potential of long-term returns. Stand out from the crowd and offer your customers a smart investment option that can help them grow their wealth.",
+        },
+        {
+          title: "Loyalty",
+          legend: "Take customer loyalty to a new level",
+          content:"In today's competitive market, loyalty programs need to be more than just offering points. Turn your loyalty program into an investment proposition, and offer your customers to build a portfolio as a reward for their long-time loyalty. Let your customers not only feel like part of your brand, but actually make them brand owners! By providing investment options that allow users to invest in their favourite brands, you can align your interest with your users and incentivize them to remain brand advocates in the future. Create a more valuable and loyal customer base, while also providing a more holistic and rewarding experience.",
+        },
+        {
+          title: "Employee benefit solutions",
+          legend: "Create long-term value for your employees",
+          content:"As an expert in payroll and employee benefits, you have the ability to offer more than just timely payments and basic benefits. Imagine being able to ease the stress your customers feel about saving for a home, achieving their personal aspirations, or planning for their future retirement. By offering customised investment solutions tailored to each individual's unique life situation, you have the opportunity to go above and beyond for your customers by addressing their larger financial concerns. With your expertise, you can empower employees to take control of their financial future and achieve their goals, no matter what they may be.",        },
+        {
+          title: "Your Unicorn Idea",
+          legend: "Do you see the next big investment opportunity? ",
+          content:"Do you have an innovative idea in mind that has the potential to change the way how people are investing? Explore the different routes you can take to solve your customer's problem and help them build long-term wealth to reach their goals by allowing them to invest right within your product. Launch an investment experience to address certain demographics that you believe are still underrepresented in the capital market. Or offer a new investment product that better represents the interests of your target audience. Without the need to build the backend yourself, you can truly focus on the customer. " 
+        },
+      ],
+    },
+    section2: {
+      span: "Customer Journey",
+      title:
+        "One infrastructure to give you all the building blocks along your customer journey",
+    },
+    section3: {
+      span: "Products",
+      h3: "Global asset coverage across Stocks and ETFs from inception",
+      p: "At the core of lemon.markets infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
+      block: [
+        {
+          title: "Stocks",
+          smallTitle: "Offer access to a wide range of global stocks through an exchange",
+          liste: {
+            1: "Market open from 8am to 10pm",
+            2: "From small caps to blue chips",
+            3: ">3000 Stocks",
+          },
+        },
+        {
+          title: "ETFs",
+          smallTitle: "Let your customers diversify their investments through mutual funds from leading issuers",
+          liste: {
+            1: "Market open from 8am to 10pm",
+            2: "From sector to global coverage",
+            3: ">1000 ETFs",
+          },
+        },
+        {
+          title: "Saving plans",
+          smallTitle: "Set up saving plans to help your customers build long-term wealth",
+          liste: {
+            1: "Starting from €25 recurring investment",
+            2: "Configurable after your needs",
+            3: "Flexible cadence possible",
+          },
+        },
+      ],
+    },
+    section4: {
+      span:'Compliance',
+      h3: 'Find the right setup with our regulatory & compliance experts',
+      pu1:'Cooperation Model',
+      pu2:'Tied Agent Model',
+      p: 'Every customer experience is different and triggers other regulatory procedures. Together with our experts, we will examine your existing assets and the desired customer experience for the best regulatory setup. Establishing the right model for our partnership to ensure that all compliance standards are met. If you are already under regulatory oversight, we will establish a mutual cooperation to ensure outsourcing, AFC and compliance standards are met. If you are not under regulatory oversight, we can offer you to become a tied agent and carry out the regulatory responsibility together.',
+    },
+    flexWrap: {
+      span: "Why work with us",
+      h3: "Offering an investment product finally becomes easy",
+      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      block: [
+        {
+          title: "Customer centricity",
+          content:
+            "Building on our core principles, we always put you first. Leverage our expertise in technology, regulation, and financial services to deliver investment products that consistently exceed expectations.",
+        },
+        {
+          title: "Platform modularity",
+          content:
+            "Our modular platform not only provides 24/7 availability and a high degree of automation, but also adapts to your operating model, empowering you to build what you want, how you want it, securely and reliably.",
+        },
+        {
+          title: "Developer friendly",
+          content:
+            "Offering comprehensive documentation and a ready-to-test sandbox, our API-first infrastructure streamlines development for your team, shortening your build time from months to weeks.",
+        },
+        {
+          title: "Regulatory coverage",
+          content:
+            "Our team, combining deep brokerage and regulatory knowledge, works closely with you, allowing you to scale efficiently without regulatory overhead slowing you down.",
+        },
+      ],
+    },
+  },
 
   thermsOfUse: {
     H1: "Terms of use",
