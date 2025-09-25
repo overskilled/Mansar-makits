@@ -17,8 +17,7 @@ interface Receive {
 
 export default function FlexWrapRight({ SPAN, H3, P, Image, BLOCK }: Receive) {
   return (
-
-    <div className="w-full py-12 px-6 md:px-4">
+    <div className="w-full py-12 px6 md:px-0">
       <div className="container mx-auto px-4 md:px-8 flex flex-col">
         {/* Header */}
         <Entete
@@ -30,32 +29,39 @@ export default function FlexWrapRight({ SPAN, H3, P, Image, BLOCK }: Receive) {
         />
 
         {/* Content */}
-        <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        {/* <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 items-start"> */}
+        <div className="mt-10 md:mt-20 flex flex-col lg:flex-row w-full">
           {/* Left Image (hidden on mobile) */}
-          <div className="hidden md:flex items-center rounded-md overflow-hidden">
+          <div className="hidden lg:flex w-[30%] items-center rounded-md overflow-hidden bg-blue500">
             <img
               src={Image}
               alt="image"
-              className="w-full h-full object-cover"
+              className="w-full h-100 object-contain "
             />
           </div>
 
           {/* Cards */}
-          <div className="md:col-span-2 flex flex-wrap gap-6 justify-start md:justify-end">
+          <div className="md:colspan-2 lg:w-[70%] flex  flex-wrap gap-6 justify-start lg:justify-end bg-blue500  ">
             {BLOCK.map((el, index) => (
               <Card
-                className="border shadow-lg p-2 rounded-md w-full sm:w-[48%] md:w-[45%] lg:w-[30%]"
+                className="border shadow-lg p-2 rounded-md w-full sm:w-[48%] md:w-[48%] lg:w[50%]"
                 key={index}
               >
                 <Card className="-ml-2 md:-ml-4 pb-4 -mb-5 gap-2 duration-300 rounded-md h-72 md:h-80 hover:bg-gray-100">
                   <CardHeader className="gap-2">
-                    <img src={el.icone} alt="icon" className="w-10 h-10 object-contain" />
+                    <img
+                      src={el.icone}
+                      alt="icon"
+                      className="w-10 h-10 object-contain"
+                    />
                     <h3 className="text-xl md:text-2xl lg:text-3xl h-16 overflow-hidden">
                       {el.title}
                     </h3>
                   </CardHeader>
-                  <CardContent>
-                    <p className="text-sm md:text-base text-gray-600">{el.content}</p>
+                  <CardContent className="overflow-auto lg:overflow-visible">
+                    <p className="text-sm md:text-base text-gray-600">
+                      {el.content}
+                    </p>
                   </CardContent>
                 </Card>
               </Card>
