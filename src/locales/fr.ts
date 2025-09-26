@@ -1031,48 +1031,43 @@ export default {
 
   contextualBrokerage: {
     hero: {
-      H2: "Donnez un nouveau sens à l’investissement",
-      P: "Innovez avec de nouveaux cas d’usage en intégrant l’investissement dans le parcours client en toute simplicité. Pendant que nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
+      H2: "Intégrez l’investissement dans votre produit",
+      P: "Créez de nouveaux points de contact avec vos clients et intégrez facilement l’investissement dans votre produit existant. Pendant que nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
       B: "Commencer à construire",
     },
     section1: {
       SPAN: "Cas d’usage",
       H3: "Proposez des investissements en actions et ETFs à vos clients",
-      P: "lemon.markets prend en charge un large éventail de cas d’usage de courtage contextuel. Nous aimons collaborer avec les entreprises de services financiers et technologiques qui souhaitent lancer de nouveaux produits d’investissement ou améliorer ceux existants. En suivant un processus clair, nous aidons les entreprises à passer de l’idée au lancement en seulement quelques mois. Nos experts vous accompagnent dans la conception du parcours client, la définition du bon modèle de tarification et l’élaboration de la feuille de route de mise en œuvre.",
+      P: "lemon.markets prend en charge un large éventail de cas d’usage liés au courtage intégré. Nous aimons collaborer avec des entreprises aussi passionnées que nous par l’offre de produits d’investissement. Mettez rapidement votre produit sur le marché, de manière conforme et rentable, en tirant parti de notre infrastructure d’investissement.",
       BLOCK: [
         {
-          title: "Services fiscaux",
-          legend: "Permettez l’investissement des remboursements d’impôt",
+          title: "Néobanque",
+          legend: "Ajoutez l’investissement comme fonctionnalité produit",
           content:
-            "Offrez à vos clients la possibilité d’investir leur remboursement d’impôt dans leur avenir. En connaissant parfaitement leur situation financière, vous devenez un guide de confiance sur leur chemin vers la liberté financière. Aidez-les à comprendre la fiscalité sur les plus-values et les abattements fiscaux pour eux et leurs familles. Vous renforcez ainsi l’attractivité de votre produit principal tout en ouvrant la voie à une meilleure monétisation grâce à une offre d’investissement.",
+            "Pour offrir une expérience bancaire mobile-first, complète et fluide, il est essentiel de proposer un moyen pratique d’investir et de devenir le centre de gestion financière de vos clients. Faites un pas de plus vers une adoption accrue en comblant l’écart de fonctionnalités avec les acteurs traditionnels. Pour rivaliser et aller au-delà, enrichissez votre offre avec une fonctionnalité d’investissement intégrée permettant aux utilisateurs de gérer leurs portefeuilles mondiaux, facilement et de façon visuellement attrayante — directement dans votre produit. En offrant des outils d’investissement bien conçus, vous aidez vos clients à mieux gérer leurs finances et leur proposez une expérience bancaire complète.",
         },
         {
-          title: "Immobilier",
-          legend: "Faites fructifier les dépôts de vos clients",
+          title: "Produits d’investissement alternatifs",
+          legend: "Proposez une offre d’investissement complète",
           content:
-            "Ne laissez pas les dépôts de vos clients dormir pendant des années sur un compte courant. Différenciez-vous de la concurrence en leur donnant l’opportunité d’investir leurs dépôts. Selon différents portefeuilles, vos clients peuvent soit se protéger contre l’inflation, soit opter pour une stratégie plus orientée actions, avec un potentiel de rendement à long terme. Démarquez-vous et offrez-leur une solution d’investissement intelligente pour développer leur patrimoine.",
+            "Pour donner encore plus de pouvoir à vos clients, aidez-les à diversifier leurs portefeuilles en proposant des opportunités d’investissement direct dans des actions, ETFs et bien plus encore. Ainsi, vous évitez les ruptures dans l’expérience utilisateur lorsqu’il souhaite gérer différents types d’actifs. En combinant le meilleur des deux mondes dans votre environnement, vous offrez une expérience fluide et cohérente. Donner aux utilisateurs la liberté de choisir où investir leur offre plus de possibilités pour atteindre leurs objectifs financiers. En libérant le potentiel des investissements alternatifs, vous ouvrez déjà l’accès à des opportunités passionnantes, et élargir encore le choix renforce davantage leurs portefeuilles.",
         },
         {
-          title: "Fidélité",
-          legend: "Élevez la fidélisation client à un nouveau niveau",
+          title: "Plateformes de crypto",
+          legend: "Alliez investissements en crypto et finance traditionnelle",
           content:
-            "Dans un marché compétitif, un programme de fidélité doit aller au-delà de simples points. Transformez votre programme en une véritable proposition d’investissement et offrez à vos clients la possibilité de constituer un portefeuille en récompense de leur fidélité. Faites en sorte qu’ils ne se sentent pas seulement liés à votre marque, mais qu’ils en deviennent réellement copropriétaires ! En leur donnant la possibilité d’investir dans leurs marques préférées, vous alignez vos intérêts avec les leurs et les incitez à rester de véritables ambassadeurs. Résultat : une base de clients plus fidèle et plus engagée, ainsi qu’une expérience enrichissante et valorisante.",
+            "Créez un pont entre le monde décentralisé de la crypto et la finance traditionnelle, et offrez une expérience d’investissement fluide et pratique. Donnez à vos clients la possibilité de trader plusieurs classes d’actifs sur une seule plateforme, de diversifier leurs portefeuilles et de réduire les risques liés à un seul type d’investissement. En simplifiant l’échange FIAT entre crypto et investissements traditionnels, vous leur faites gagner un temps précieux et leur offrez une expérience complète avec plus d’options pour atteindre leurs objectifs financiers.",
         },
         {
-          title: "Avantages employés",
-          legend: "Créez de la valeur à long terme pour vos employés",
-          content:
-            "En tant qu’expert en paie et avantages sociaux, vous pouvez offrir bien plus que de simples salaires ponctuels et prestations basiques. Imaginez pouvoir réduire le stress de vos clients lié à l’épargne pour un logement, la réalisation de projets personnels ou la préparation de la retraite. En proposant des solutions d’investissement personnalisées adaptées à la situation de chacun, vous allez au-delà des attentes en répondant à leurs préoccupations financières les plus importantes. Avec votre expertise, vous donnez aux employés le pouvoir de prendre en main leur avenir financier et d’atteindre leurs objectifs.",
-        },
-        {
-          title: "Votre idée de licorne",
+          title: "Assurances",
           legend:
-            "Voyez-vous la prochaine grande opportunité d’investissement ?",
+            "Créez de nouveaux points de contact grâce à l’investissement",
           content:
-            "Avez-vous une idée innovante capable de transformer la façon dont les gens investissent ? Explorez les différentes approches pour résoudre les problèmes de vos clients et les aider à bâtir un patrimoine à long terme, directement au sein de votre produit. Lancez une expérience d’investissement adaptée à des publics encore sous-représentés sur les marchés financiers. Ou proposez un nouveau produit mieux aligné sur les intérêts de votre audience cible. Sans avoir à développer l’infrastructure technique vous-même, vous pouvez vous concentrer pleinement sur l’expérience client.",
+            "Intégrez l’investissement dans votre offre et permettez à vos clients de se protéger pour l’avenir tout en atteignant leurs objectifs financiers à long terme. Aidez-les à prendre des décisions éclairées qui améliorent leur bien-être, et en retour bénéficiez d’une clientèle plus fidèle et satisfaite, qui apprécie la commodité d’avoir tous ses besoins financiers couverts en un seul endroit. Vous vous positionnez ainsi comme un conseiller et partenaire de confiance, créant un lien plus fort avec vos clients et réduisant le risque qu’ils se tournent vers la concurrence.",
         },
       ],
     },
+
     section2: {
       span: "Parcours client",
       title:
@@ -1150,7 +1145,7 @@ export default {
       ],
     },
   },
-  
+
   embeddedBrokerage: {
     hero: {
       H2: "Donnez un nouveau sens à l’investissement",
