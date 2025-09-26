@@ -173,26 +173,26 @@ export default function page() {
   ];
 
   const flexWrapBlock = [
-      {
-        icone: "/user.svg",
-        title: t("contextualBrokerage.flexWrap.block.0.title"),
-        content: t("contextualBrokerage.flexWrap.block.0.content"),
-      },
-      {
-        icone: "/dashboard.svg",
-        title: t("contextualBrokerage.flexWrap.block.1.title"),
-        content: t("contextualBrokerage.flexWrap.block.1.content"),
-      },
-      {
-        icone: "/balise.svg",
-        title: t("contextualBrokerage.flexWrap.block.2.title"),
-        content: t("contextualBrokerage.flexWrap.block.2.content"),
-      },
-      {
-        icone: "/bank-checkmark.svg",
-        title: t("contextualBrokerage.flexWrap.block.3.title"),
-        content: t("contextualBrokerage.flexWrap.block.3.content"),
-      },
+    {
+      icone: "/user.svg",
+      title: t("contextualBrokerage.flexWrap.block.0.title"),
+      content: t("contextualBrokerage.flexWrap.block.0.content"),
+    },
+    {
+      icone: "/dashboard.svg",
+      title: t("contextualBrokerage.flexWrap.block.1.title"),
+      content: t("contextualBrokerage.flexWrap.block.1.content"),
+    },
+    {
+      icone: "/balise.svg",
+      title: t("contextualBrokerage.flexWrap.block.2.title"),
+      content: t("contextualBrokerage.flexWrap.block.2.content"),
+    },
+    {
+      icone: "/bank-checkmark.svg",
+      title: t("contextualBrokerage.flexWrap.block.3.title"),
+      content: t("contextualBrokerage.flexWrap.block.3.content"),
+    },
   ];
 
   return (
@@ -215,12 +215,14 @@ export default function page() {
         <div className="mt-10 flex w-full">
           <div className="flex flex-col w-full gap-4 py-4 rounded-lg">
             {/* Navigation */}
-            <nav className="flex lg:w-2/3  bg-[#f3f5f7] rounded-xl lg:rounded-2xl lg:justify-center flex-nowrap px-4 py-2 gap-2 lg:ml-5 lg:mr-5 overflow-x-scroll lg:overflow-hidden ">
+            {/* <nav className="flex lg:w-2/3  bg-[#f3f5f7] rounded-xl lg:rounded-2xl lg:justify-center flex-nowrap px-4 py-2 gap-2 lg:ml5 lg:mr-5 overflow-x-scroll lg:overflow-hidden "> */}
+            <nav className="flex flex-nowrap overflow-auto lg:*:float-left gap-4 px-4 bg-gray-100 py-2 rounded-xl w-full lg:w-max ">
               {titleListe.map((el, index) => (
                 <button
                   key={index}
                   onClick={() => setActiveIndex(index)}
-                  className={`py-2 px-2 min-w-40 w-1/5 text-sm rounded-lg transition hover:cursor-pointer
+                  //   className={`py-2 px-2 min-w-40 w-1/5 text-sm rounded-lg transition hover:cursor-pointer
+                  className={`py-3 px-8 min-w-max w1/5 text-sm mx2 rounded-lg transition hover:cursor-pointer
               ${
                 index === activeIndex
                   ? "bg[#f9fafb] bg-white border border-gray400 font-semibold"
@@ -231,7 +233,6 @@ export default function page() {
                 </button>
               ))}
             </nav>
-
             {/* Content */}
             <div className="bg-[#f9fafb] border pt-4 ml-4 pr-4 mt-4 rounded-lg lg:mx-4">
               <div className="bg-[#f9fafb] border -ml-4 px-8 py-7 -mb-4 rounded-lg">
@@ -284,7 +285,10 @@ export default function page() {
         />
         <div className="flex flex-col lg:flex-row items-center w-full gap-8">
           {threeDouble.map((el, index) => (
-            <Card key={index} className="w-full lg:w-1/3 p-0 mx-8 lg:mx-0 shadow-none pt-2 pr-2 ml-2">
+            <Card
+              key={index}
+              className="w-full lg:w-1/3 p-0 mx-8 lg:mx-0 shadow-none pt-2 pr-2 ml-2"
+            >
               <Card className="pl-10 p-0 shadow-none h-76 -ml-2 gap-6 py-6 -mb-2">
                 <CardHeader>
                   <h3 className="text-2xl font-medium">{el.title}</h3>
@@ -306,32 +310,38 @@ export default function page() {
       <section className="w-full my-15">
         <div className="flex flex-col lg:flex-row w-full h-full lg:pb-10 grille lg:pr20 min-h-screen *:w-full lg:*:w-1/2 bg-black gap-30 pt-25">
           <div className="lg:pl-5 text-gray-400 px-20 lg:px-0">
-            <span className="bg-[#171c30] text-[#3a5af9] px-4 text-[14px] py-2 rounded-2xl">{t("contextualBrokerage.section4.span")}</span>
-            <h3 className="text-white mb-15 mt-6 text-3xl">{t("contextualBrokerage.section4.h3")}</h3>
+            <span className="bg-[#171c30] text-[#3a5af9] px-4 text-[14px] py-2 rounded-2xl">
+              {t("contextualBrokerage.section4.span")}
+            </span>
+            <h3 className="text-white mb-15 mt-6 text-3xl">
+              {t("contextualBrokerage.section4.h3")}
+            </h3>
             <div className="flex gap-4 mb-6 items-center">
-                <div className="flex rounded-full w-2 h-2 bg-gray-400"></div>
-                <div>{t("contextualBrokerage.section4.pu1")}</div>
+              <div className="flex rounded-full w-2 h-2 bg-gray-400"></div>
+              <div>{t("contextualBrokerage.section4.pu1")}</div>
             </div>
             <div className="flex gap-4 mb-6 items-center">
-                <div className="flex rounded-full w-2 h-2 bg-gray-400"></div>
-                <div>{t("contextualBrokerage.section4.pu2")}</div>
+              <div className="flex rounded-full w-2 h-2 bg-gray-400"></div>
+              <div>{t("contextualBrokerage.section4.pu2")}</div>
             </div>
-            <p className="text-[16px] leading-7.5">{t("contextualBrokerage.section4.p")}</p>
+            <p className="text-[16px] leading-7.5">
+              {t("contextualBrokerage.section4.p")}
+            </p>
           </div>
           <div className="flex justify-center items-center"></div>
         </div>
       </section>
 
       <section className="w-full my-15">
-          <FlexWrapRight 
-            SPAN={t("contextualBrokerage.flexWrap.span")}
-            H3={t("contextualBrokerage.flexWrap.h3")}
-            P={t("contextualBrokerage.flexWrap.p")}
-            Image="/gauche.svg"
-            BLOCK={flexWrapBlock}
-          />
+        <FlexWrapRight
+          SPAN={t("contextualBrokerage.flexWrap.span")}
+          H3={t("contextualBrokerage.flexWrap.h3")}
+          P={t("contextualBrokerage.flexWrap.p")}
+          Image="/gauche.svg"
+          BLOCK={flexWrapBlock}
+        />
       </section>
-      
+
       <section className="w-full my-15">
         <GetInTouchBlock />
       </section>

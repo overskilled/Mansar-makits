@@ -1314,6 +1314,114 @@ export default {
     },
   },
 
+  embeddedBrokerage: {
+    hero: {
+      H2: "Embed investing into your product",
+      P: "Create new touchpoints with your customers and embed investing into your existing product with ease. While we take care of all the technical, operational and regulatory hustle in the back.",
+      B: "Start building",
+    },
+    section1: {
+      SPAN: "Use cases",
+      H3: "Offer investing in Stocks & ETFs to your customers",
+      P: "lemon.markets supports a wide-range of embedded brokerage use cases. We love to partner with companies, who are equally passionate about offering investment products as we are. Bring your product to market in a fast, compliant and cost-efficient way leveraging our investment infrastructure.",
+      BLOCK: [
+        {
+          title: "Neobank",
+          legend: "Add investing as a product feature",
+          content:"To create a mobile-first banking experience that gives customers a complete and frictionless digital-only experience, it is essential to offer a convenient way to invest and become the central hub for all their finances. Make another step closer to becoming increasingly popular, and bridge the functionalities and features gap to traditional players. To compete on par and above, complete your product offering with an embedded investing feature that enables users to manage their global portfolios, making it easy to understand and visually appealing - all within your product. By offering beautifully built investment tools, you can help your customers better manage their finances and provide a comprehensive banking experience.",
+        },
+        {
+          title: "Alternative Investment Products",
+          legend: "Deliver a full investment offering",
+          content:"To further empower your customers, you can help them diversify their portfolios by offering direct investment opportunities in stocks, ETFs, and more. This way, you avoid breaks in the user experience when the user wants to manage either asset class. By combining the best of both worlds inside your environment, you can provide your users with a seamless experience. Giving users the freedom to choose what they want to invest in provides more options to achieve their financial goals. By unlocking the power of alternative investments, you have already offered customers access to exciting investment opportunities, and expanding investment choices will further strengthen their investment portfolios.",
+        },
+        {
+          title: "Crypto Exchanges",
+          legend: "Combine investments in crypto with traditional finance",
+          content:"Build a bridge between the decentralized world of crypto and traditional finance, and provide a seamless and convenient investment experience. Enable your customers to trade multiple asset classes on a single platform, let them diversify their investment portfolio, and reduce the risk associated with investing in just one asset class. Abstracting away the FIAT exchange in between your customer's crypto and traditional investments helps them to save valuable time and effort, and delivers a comprehensive investment experience with more options to achieve their financial goals.",
+        },
+        {
+          title: "Insurances",
+          legend: "Create new customer touchpoints through investing",
+          content:"Embed investing into your product offering, and allow your customers to take precautions for their life and achieve their long-term financial goals. Help them to make smart financial decisions that benefit their wellbeing, and as a result receive more loyal and satisfied customers who appreciate the convenience of having all their financial needs met in one place. This allows you to position yourself as a trusted advisor and partner, ultimately creating a stronger bond between you and your customer, reducing the likelihood that your customer moves to a competing service.",
+        },
+      ],
+    },
+    section2: {
+      span: "Customer Journey",
+      title:
+        "One infrastructure to give you all the building blocks along your customer journey",
+    },
+    section3: {
+      span: "Products",
+      h3: "Global asset coverage across Stocks and ETFs from inception",
+      p: "At the core of lemon.markets infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
+      block: [
+        {
+          title: "Stocks",
+          smallTitle: "Offer access to a wide range of global stocks through an exchange",
+          liste: {
+            1: "Market open from 8am to 10pm",
+            2: "From small caps to blue chips",
+            3: ">3000 Stocks",
+          },
+        },
+        {
+          title: "ETFs",
+          smallTitle: "Let your customers diversify their investments through mutual funds from leading issuers",
+          liste: {
+            1: "Market open from 8am to 10pm",
+            2: "From sector to global coverage",
+            3: ">1000 ETFs",
+          },
+        },
+        {
+          title: "Saving plans",
+          smallTitle: "Set up saving plans to help your customers build long-term wealth",
+          liste: {
+            1: "Starting from €25 recurring investment",
+            2: "Configurable after your needs",
+            3: "Flexible cadence possible",
+          },
+        },
+      ],
+    },
+    section4: {
+      span:'Compliance',
+      h3: 'Find the right setup with our regulatory & compliance experts',
+      pu1:'Cooperation Model',
+      pu2:'Tied Agent Model',
+      p: 'Every customer experience is different and triggers other regulatory procedures. Together with our experts, we will examine your existing assets and the desired customer experience for the best regulatory setup. Establishing the right model for our partnership to ensure that all compliance standards are met. If you are already under regulatory oversight, we will establish a mutual cooperation to ensure outsourcing, AFC and compliance standards are met. If you are not under regulatory oversight, we can offer you to become a tied agent and carry out the regulatory responsibility together.',
+    },
+    flexWrap: {
+      span: "Why work with us",
+      h3: "Offering an investment product finally becomes easy",
+      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      block: [
+        {
+          title: "Customer centricity",
+          content:
+            "Building on our core principles, we always put you first. Leverage our expertise in technology, regulation, and financial services to deliver investment products that consistently exceed expectations.",
+        },
+        {
+          title: "Platform modularity",
+          content:
+            "Our modular platform not only provides 24/7 availability and a high degree of automation, but also adapts to your operating model, empowering you to build what you want, how you want it, securely and reliably.",
+        },
+        {
+          title: "Developer friendly",
+          content:
+            "Offering comprehensive documentation and a ready-to-test sandbox, our API-first infrastructure streamlines development for your team, shortening your build time from months to weeks.",
+        },
+        {
+          title: "Regulatory coverage",
+          content:
+            "Our team, combining deep brokerage and regulatory knowledge, works closely with you, allowing you to scale efficiently without regulatory overhead slowing you down.",
+        },
+      ],
+    },
+  },
+
   thermsOfUse: {
     H1: "Terms of use",
     H2: "When using this website made available by lemon.markets (hereinafter referred to as LM) please adhere to the following rules (terms of use).",
