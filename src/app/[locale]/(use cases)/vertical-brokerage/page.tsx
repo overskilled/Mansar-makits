@@ -215,12 +215,13 @@ export default function page() {
         <div className="mt-10 flex w-full px-4 lg:px-0">
           <div className="flex flex-col w-full gap-4 py-4 rounded-lg">
             {/* Navigation */}
-            <nav className="flex lg:w-2/3  bg-[#f3f5f7] rounded-xl lg:rounded-2xl lg:justify-center flex-nowrap px-4 py-2 gap-2 ml-5 mr-5 overflow-x-scroll lg:overflow-hidden ">
+            <nav className="flex flex-nowrap overflow-auto lg:*:float-left gap-4 px-4 bg-gray-100 py-2 rounded-xl w-full lg:w-max ">
               {titleListe.map((el, index) => (
                 <button
                   key={index}
                   onClick={() => setActiveIndex(index)}
-                  className={`py-2 px-2 min-w-40 w-1/5 text-sm rounded-lg transition hover:cursor-pointer
+                  //   className={`py-2 px-2 min-w-40 w-1/5 text-sm rounded-lg transition hover:cursor-pointer
+                  className={`py-3 px-8 min-w-max w1/5 text-sm mx2 rounded-lg transition hover:cursor-pointer
               ${
                 index === activeIndex
                   ? "bg[#f9fafb] bg-white border border-gray400 font-semibold"
