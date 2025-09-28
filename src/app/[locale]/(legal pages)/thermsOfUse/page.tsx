@@ -21,15 +21,15 @@ export default function page() {
     ]
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="h-[50vh] flex items-center mb-4">
+      <div className="h-[50vh] flex items-center justify-center lg:justify-start mb-4">
         <h1 className="text-5xl my-auto">{t("thermsOfUse.H1")}</h1>
       </div>
 
-      <h2 className="font-semibold text-3xl my-4">{t("thermsOfUse.H2")}</h2>
+      <h2 className="font-semibold text-3xl mt-4 lg:mb-4 my-10 text-center lg:text-start">{t("thermsOfUse.H2")}</h2>
 
-      <div className="*:w-[95%] ">
+      <div className="flex justify-center items-center lg:items-start flex-col w-full ">
         {Data.map((el, index) => (
-        <p key={index} className="my-4 hover:ml-2 hover:shadow duration-500 hover:bg-amber-50 ">{el}</p>
+        <p key={index} className="my-4 lg:w-[95%] px-4 lg:px-0 lg:hover:pl-2 text-center lg:text-start lg:hover:shadow duration-500 lg:hover:bg-[#1a1a1a] lg:hover:text-gray-200 py-5 rounded-r-xl ">{el}</p>
       ))}
       </div>
 
