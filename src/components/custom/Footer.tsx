@@ -2,6 +2,7 @@
 
 import { useI18n } from "@/locales/client";
 import LanguageSelector from "./LanguageSelector";
+import Link from "next/link";
 
 export default function Footer() {
   const t = useI18n();

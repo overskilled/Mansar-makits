@@ -16,8 +16,9 @@ export default function Hero({ H2, P, B, image1, image2 }: hero) {
       <div className="max-w-6xl mx-auto px-8 lg-px-0  justify-center text-center">
         <h2 className="text-5xl font-meduim mb-2">{H2}</h2>
         <p className="max-w-4xl leading-8">{P}</p>
+
         {B.length > 2 &&
-          <button onClick={() => router.push("/contact")} className="bg-black rounded-xl py-3 px-6 mt-4 hover:cursor-pointer text-white text-lg">{B}</button>}
+          <button onClick={() => router.push("/contact")} className="bg-black rounded-md lg:rounded-xl lg:py-3 lg:px-6 py-1 px-3 mt-4 hover:cursor-pointer text-white text-lg">{B}</button>}
       </div>
       <div
         className="absolute left-0 right-0 -z-10 mt-20 h-[450px] hidden sm:block

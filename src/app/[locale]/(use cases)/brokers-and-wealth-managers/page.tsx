@@ -24,7 +24,6 @@ interface HoverItem {
 export default function page() {
   const t = useI18n();
 
-
   const timelineSections: TimelineSection[] = [
     {
       id: "account-opening",
@@ -63,7 +62,6 @@ export default function page() {
     },
   ]
 
-
   const hoverItems: HoverItem[] = [
     {
       label: t("brokers.section4.SPANS.0"),
@@ -99,7 +97,6 @@ export default function page() {
       ]
     }
   ];
-
 
   const titleListe = [
     {
@@ -152,6 +149,7 @@ export default function page() {
       },
     ],
   };
+
   const flexWrapRightData = {
     Image: "/logo-mansar.webp",
     SPAN: t("brokers.flexWrapRightData.SPAN"),
@@ -180,6 +178,7 @@ export default function page() {
       },
     ],
   };
+
   const heroData = {
     H2: t("brokers.hero.H2"),
     P: t("brokers.hero.P"),
@@ -187,6 +186,7 @@ export default function page() {
     image1: "/brokers-and-wealth-managers/1.svg",
     image2: "/brokers-and-wealth-managers/2.svg",
   };
+  
   const liste = [
     {
       smallTitle: t("brokers.liste.0.smallTitle"),

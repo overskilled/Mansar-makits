@@ -17,8 +17,8 @@ interface Receive {
 
 export default function FlexWrapRight({ SPAN, H3, P, Image, BLOCK }: Receive) {
   return (
-    <div className="w-full py-12 px-6 md:px-4">
-      <div className="container mx-auto px-8 md:px-0 flex flex-col">
+    <div className="w-full py-12 px6 md:px-0">
+      <div className="container mx-auto px-4 md:px-8 lg:px-0 flex flex-col">
         {/* Header */}
         <Entete
           SPAN={SPAN}
@@ -29,21 +29,22 @@ export default function FlexWrapRight({ SPAN, H3, P, Image, BLOCK }: Receive) {
         />
 
         {/* Content */}
-        <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        {/* <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 items-start"> */}
+        <div className="mt-10 md:mt-20 flex flex-col lg:flex-row w-full">
           {/* Left Image (hidden on mobile) */}
-          <div className="hidden md:flex items-center rounded-md overflow-hidden">
+          <div className="hidden lg:flex w-[30%] items-center rounded-md overflow-hidden bg-blue500">
             <img
               src={Image}
               alt="image"
-              className="w-full h-full object-cover"
+              className="w-full h-100 object-contain "
             />
           </div>
 
           {/* Cards */}
-          <div className="col-span-1 md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="md:colspan-2 lg:w-[70%] flex  flex-wrap gap-6 justify-start lg:justify-end bg-blue500  ">
             {BLOCK.map((el, index) => (
               <Card
-                className="border shadow-lg p-2 rounded-md w-full"
+                className="border shadow-lg p-2 rounded-md w-full sm:w-[48%] md:w-[48%] lg:w[50%]"
                 key={index}
               >
                 <Card className="-ml-2 md:-ml-4 pb-4 hover:cursor-pointer -mb-5 pb-4 gap-2 duration-300 rounded-md h-72 md:h-80 hover:bg-gray-100">
