@@ -41,7 +41,7 @@ export default async function RootLayout({ params, children }: AdminLayoutProps)
     <html lang="en">
       <head>
         {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
-        <link rel="icon" type="image/png" sizes="192x192" href="/logo-mansar.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/logo-mansar.webp" />
         {/* <link rel="apple-touch-icon" href="/icon-192x192.png" /> */}
       </head>
       <body
@@ -51,10 +51,12 @@ export default async function RootLayout({ params, children }: AdminLayoutProps)
           <div className="relative w-full ">
             <Navbar />
           </div>
+          <main>
           {children}
-          <div className="relative w-full ">
-            <Footer />
-          </div>
+          </main>
+            
+          
+        
         </I18nProviderClient>
       </body>
     </html>

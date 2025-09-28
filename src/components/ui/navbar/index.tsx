@@ -412,7 +412,7 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
                                 {link.items?.map((item, itemIndex) => (
                                   <li key={itemIndex}>
                                     <button
-                                      onClick={(e) => e.preventDefault()}
+                                      onClick={() => router.push(item.href) }
                                       className="flex w-full items-center rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground cursor-pointer no-underline"
                                     >
                                       {item.label}

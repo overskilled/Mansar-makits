@@ -228,17 +228,16 @@ export default function page() {
                     TEXT="text-[#3a5af9]"
                     BG="bg-[#eff2ff]"
                 />
-                <div className="container mx-auto flex justify-between w-full">
+                <div className="container mx-auto mt-10 flex flex-col lg:flex-row w-full gap-6">
 
-                    <div className="mt-10 flex w-full pr-6">
-                        <div className="flex flex-col w-3/5 gap-4 py-4 rounded-lg">
+                    <div className="flex flex-col w-full lg:w-3/5 gap-4 py-4 rounded-lg">
                             {/* Navigation */}
-                            <nav className="flex w-[90%] justify-center gap-2 ml-5 mr-5 flex-wrap lg:flex-nowrap ">
+                            <nav className="flex flex-wrap lg:flex-nowrap w-full justify-center gap-2">
                                 {titleListe.map((el, index) => (
                                     <button
                                         key={index}
                                         onClick={() => setActiveIndex(index)}
-                                        className={`py-2  w-1/5 text-sm rounded-lg transition hover:cursor-pointer
+                                        className={`py-2 flex-1 text-xs sm:text-sm md:text-base rounded-lg transition hover:cursor-pointer
               ${index === activeIndex
                                                 ? "bg-[#f9fafb] border border-gray-400 font-semibold"
                                                 : "bg-transaparent hover:bg-[#f9fafb]"
@@ -262,32 +261,33 @@ export default function page() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="mx-auto ml-10 w-full max-w-lg">
-                            <span className="inline-flex items-center justify-start gap-2 bg-[#fffb9e] px-2 py-0.5 mb-2 mt-10 rounded-3xl text-sm">
+
+                        
+                    </div>
+                    <div className="w-full lg:w-2/5 flex flex-col items-start">
+                            <span className="w-full sm:w-auto bg-[#fffb9e] flex items-center justify-center gap-2 px-3 py-1 mb-2 mt-4 rounded-3xl text-xs sm:text-sm text-center">
                                 <div className="w-2 h-2 rounded-full bg-[#d5ce1c]"></div>
                                 {t("software.section1.rigth.0.span")}
                             </span>
 
 
-                            <ul className="list-disc list-inside text-xs/5 mt-2 space-y-0">
+                            <ul className="list-disc list-inside text-xs sm:text-sm mt-2 space-y-1">
                                 <li>{t("software.section1.rigth.0.list.first")}</li>
                                 <li>{t("software.section1.rigth.0.list.second")}</li>
                                 <li>{t("software.section1.rigth.0.list.third")}</li>
                             </ul>
 
-                            <span className="inline-flex items-center justify-start gap-2 bg-[#e3ffd9] px-2 py-0.5 mb-2 mt-5 rounded-3xl text-sm">
-                                <div className="w-2 h-2 rounded-full bg-[#1c8e12]"></div>
+                            <span className="w-full sm:w-auto bg-[#fffb9e] flex items-center justify-center gap-2 px-3 py-1 mb-2 mt-4 rounded-3xl text-xs sm:text-sm text-center">
+                                <div className="w-2 h-2 rounded-full bg-green-50"></div>
                                 {t("software.section1.rigth.1.span")}
                             </span>
 
-                            <ul className="list-disc list-inside text-xs/6 mt-2 space-y-0">
+                            <ul className="list-disc list-inside text-xs sm:text-sm mt-2 space-y-1">
                                 <li>{t("software.section1.rigth.1.list.first")}</li>
                                 <li>{t("software.section1.rigth.1.list.second")}</li>
                                 <li>{t("software.section1.rigth.1.list.third")}</li>
                             </ul>
                         </div>
-                    </div>
                 </div>
             </section>
 
@@ -312,16 +312,18 @@ export default function page() {
                 />
             </section>
 
-            <section className="container mx-auto flex flex-col h-[130vh] px-8 my-20">
+            <section className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 my-20">
                 <span className="text-[#3a5af9] bg-[#eff2ff] w-45 text-center rounded-3xl py-1 px-2">
                     {t("software.section4.span")}
                 </span>
                 <h2 className="text-4xl my-5">{t("software.section4.h2")}</h2>
                 <p className="">{t("software.section4.p")}</p>
-                <div className="flex w-full my-10">
-                    <div className="flex flex-col w-2/5 gap-4">
+
+
+                <div className="flex flex-col lg:flex-row w-full my-10 gap-8">
+                    <div className="flex flex-col w-full lg:w-2/5 gap-4">
                         {/* Hover triggers */}
-                        <div className="flex py-2 px-2 justify-center gap-4  w-full">
+                        <div className="flex flex-wrap lg:flex-row py-2 px-2 gap-4 w-full">
                             {hoverItems.map((item, index) => (
                                 <span
                                     key={index}
@@ -334,9 +336,10 @@ export default function page() {
                                 >
                                     <Image
                                         alt={`icon ${index}`}
-                                        width={30}
-                                        height={10}
-                                        src={`/${item.icon}`}
+                    src={`/${item.icon}`}
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 object-contain"
                                     />
                                     {item.label}
                                 </span>
@@ -392,7 +395,7 @@ export default function page() {
             />
 
             <GetInTouchBlock />
-
+                                            <Footer />
         </div>
     );
 }

@@ -3,18 +3,26 @@
 import { useI18n } from "@/locales/client";
 import LanguageSelector from "./LanguageSelector";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const t = useI18n();
 
   return (
-    <footer className="bg-gray-50 text-gray-800">
-      <div className="container mx-auto max-w-screen-xl px-8 md:px-12 lg:px-0 py-10 lg:py-16 space-y-12">
+    <footer className="bg-gray-50 text-gray-800 flex flex-col mx-auto ">
+      <div className="container flex-1 mx-auto max-w-screen-xl px-8 md:px-12 lg:px-0 py-10 lg:py-16 space-y-12">
         {/* Top Section */}
-        <div className="flex flex-col md:flex-row gap-10 lg:gap-20">
+        <div className="flex flex-col mx-auto md:flex-row gap-10 lg:gap-20">
           {/* Left side */}
           <div className="flex flex-col md:w-1/3">
             <h3 className="text-xl lg:text-2xl xl:text-3xl mb-4 uppercase font-bold">
+              <Image
+                src={"/logo-mansar.webp"}
+                alt='Mansar logo'
+                width={200}
+                height={200}
+                className="rounded-lg"
+              />
               {t("footer.div1.H3")}
             </h3>
             <p className="text-sm lg:text-base xl:text-lg leading-relaxed">

@@ -131,18 +131,18 @@ export default function page() {
     LEGEND: t("banks.doubleBlock.legend"),
     BLOCK: [
       {
-        title: t("brokers.ListeDoubleBlock.BLOCK.0.title"),
-        content: t("brokers.ListeDoubleBlock.BLOCK.0.content"),
+        title: t("banks.doubleBlock.block.0.title"),
+        content: t("banks.doubleBlock.block.0.p"),
         image: "/brokers-and-wealth-managers/3.svg",
       },
       {
-        title: t("brokers.ListeDoubleBlock.BLOCK.1.title"),
-        content: t("brokers.ListeDoubleBlock.BLOCK.1.content"),
-        image: "/software-companies/side-two.svg",
+        title: t("banks.doubleBlock.block.1.title"),
+        content: t("banks.doubleBlock.block.1.p"),
+        image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
       },
       {
-        title: t("brokers.ListeDoubleBlock.BLOCK.2.title"),
-        content: t("brokers.ListeDoubleBlock.BLOCK.2.content"),
+        title: t("banks.doubleBlock.block.2.title"),
+        content: t("banks.doubleBlock.block.2.p"),
         image: "/brokers-and-wealth-managers/3.svg",
       },
     ],
@@ -209,10 +209,10 @@ export default function page() {
   const items = liste[0];
 
   const [activeIndex, setActiveIndex] = useState(0);
-  const [activeIndex1, setActiveIndex1] = useState(0);
-
-  const activeItem = titleListe[activeIndex];
-  const activeItem1 = hoverItems[activeIndex];
+    const [activeIndex1, setActiveIndex1] = useState(0);
+  
+    const activeItem = titleListe[activeIndex] ?? null;
+    const activeItem1 = hoverItems[activeIndex1] ?? null;
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -229,15 +229,15 @@ export default function page() {
         <div className="container mx-auto mt-10 flex flex-col lg:flex-row w-full gap-6">
           <div className="flex flex-col mx-auto w-full gap-4 py-4 rounded-lg">
             {/* Navigation */}
-            <nav className="flex w-[90%] justify-center gap-2 ml-5 mr-5 flex-wrap lg:flex-nowrap ">
+            <nav className="flex flex-wrap lg:flex-nowrap w-full justify-center gap-2 ">
               {titleListe.map((el, index) => (
                 <button
                   key={index}
                   onClick={() => setActiveIndex(index)}
-                  className={`py-2  w-1/5 text-sm rounded-lg transition hover:cursor-pointer
-              ${index === activeIndex
+                  className={`py-2 flex-1 text-xs sm:text-sm md:text-base rounded-lg transition hover:cursor-pointer
+            ${index === activeIndex
                       ? "bg-[#f9fafb] border border-gray-400 font-semibold"
-                      : "bg-transaparent hover:bg-[#f9fafb]"
+                      : "bg-transparent hover:bg-[#f9fafb]"
                     }`}
                 >
                   {el.titre}
@@ -305,21 +305,22 @@ export default function page() {
         />
       </section>
 
-      <section className="flex flex-col container mx-auto h-[130vh] px-8 my-20">
+      <section className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 my-20">
         <span className="text-[#3a5af9] bg-[#eff2ff] w-45 text-center rounded-3xl py-1 px-2">
           {t("banks.section4.span")}
         </span>
         <h2 className="text-4xl my-5">{t("banks.section4.h2")}</h2>
         <p className="">{t("banks.section4.p")}</p>
-        <div className="flex w-full my-10">
-          <div className="flex flex-col w-2/5 gap-4">
+
+        <div className="flex flex-col lg:flex-row w-full my-10 gap-8">
+          <div className="flex flex-col w-full lg:w-2/5 gap-4">
             {/* Hover triggers */}
-            <div className="flex py-2 px-2 justify-center gap-4  w-full">
+            <div className="flex flex-wrap lg:flex-row py-2 px-2 gap-4 w-full">
               {hoverItems.map((item, index) => (
                 <span
                   key={index}
                   onMouseEnter={() => setActiveIndex(index)}
-                  className={`cursor-pointer px-2 py-1 transition text-lg gap-2 flex items-center flex-row 
+                  className={`cursor-pointer px-2 py-1 transition text-sm sm:text-lg gap-2 flex items-center
                   ${index === activeIndex
                       ? "font-semibold text-black font-semibold"
                       : "text-gray-700 hover:text-black"
@@ -327,9 +328,10 @@ export default function page() {
                 >
                   <Image
                     alt={`icon ${index}`}
-                    width={30}
-                    height={10}
                     src={`/${item.icon}`}
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 object-contain"
                   />
                   {item.label}
                 </span>
@@ -337,9 +339,9 @@ export default function page() {
             </div>
 
             {/* Card content */}
-            <div className="w-full h-full pl-0 py-2 ml-4">
-              <Card className="p-0 pt-4 shadow-none relative bg-gray-50 h-60">
-                <Card className="shadow-none w-full -ml-4 bg-gray-50 hover:bg-amber-50 absolute duration-500 h-60">
+            <div className="w-full h-auto py-2">
+              <Card className="p-0 pt-4 w-full  shadow-none relative bg-gray-50 min-h-[220px]">
+                <Card className="shadow-none -ml-5 w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 min-h-[220px]">
                   <CardHeader>{activeItem1.header}</CardHeader>
                   <CardContent className="gap-4">
                     <h5>{activeItem1.h5}</h5>
@@ -388,6 +390,7 @@ export default function page() {
 
       <GetInTouchBlock />
 
+      <Footer />
     </div>
   );
 }

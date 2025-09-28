@@ -369,7 +369,7 @@ export default function page() {
             {/* Card content */}
             <div className="w-full h-auto py-2">
               <Card className="p-0 pt-4 shadow-none relative bg-gray-50 min-h-[220px]">
-                <Card className="shadow-none w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 min-h-[220px]">
+                <Card className="shadow-none w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 -ml-5 min-h-[220px]">
                   <CardHeader>{activeItem1.header}</CardHeader>
                   <CardContent className="gap-4">
                     <h5 className="text-base sm:text-lg font-medium">{activeItem1.h5}</h5>
@@ -422,6 +422,7 @@ export default function page() {
 
       <GetInTouchBlock />
 
+                      <Footer />
     </div>
   );
 }
