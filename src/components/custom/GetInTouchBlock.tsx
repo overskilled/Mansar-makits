@@ -10,10 +10,9 @@ export default function GetInTouchBlock() {
     <div className="w-full flex flex-col md:flex-row items-start md:items-center bg-black min-h-screen mb-20 mt-10 px-20 py-20 lg:py-0 md:px-8 gap-8">
       
       {/* Left text */}
-      <div className="md:w-1/2 
-      ">
+      <div className="md:w-1/2 ">
         {/* // flex flex-col */}
-        <span className="py-1 px-4 bg-[#171c30] text-[#6b87e5] rounded-2xl text-center inline-block">
+        <span className="py-1 px-4 bg-[#171c30] text-[#6b87e5] rounded-2xl text-center inline-block w-max">
           {t("GetInTouch.SPAN")}
         </span>
         <h1 className="text-3xl md:text-5xl text-white mt-5">{t("GetInTouch.H1")}</h1>

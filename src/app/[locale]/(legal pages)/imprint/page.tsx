@@ -118,6 +118,7 @@ export default function page() {
               <th>{t("inprint.table.theader.th2")}</th>
             </tr>
           </thead>
+          
           <tbody>
             {liste.map((item, index) => (
               <tr key={index} className="my-6">
@@ -144,6 +145,7 @@ export default function page() {
               </tr>
             ))}
           </tbody>
+
         </table>
       </div>
       <section className="w-full flex flex-col gap-8 py-10">

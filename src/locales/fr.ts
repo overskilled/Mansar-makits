@@ -1544,4 +1544,450 @@ export default {
     getStarted: "Commencer",
     tagline: "Nous vous apportons des actifs d'investissement de qualité",
   },
+
+  privacyPolicy: {
+    H1: "Politique de Confidentialité",
+    section01: {
+      H2: "Politique de confidentialité de lemon.markets GmbH",
+      P1: "Dans cette politique de confidentialité, nous vous informons sur le traitement des données personnelles lors de l'utilisation de notre site web :",
+      P2: "Les données personnelles sont des informations qui se rapportent à une personne identifiée ou identifiable. Cela comprend principalement les informations qui permettent de tirer des conclusions sur votre identité, par exemple, votre nom, votre numéro de téléphone, votre adresse ou votre adresse e-mail. Mais certains identifiants tels que votre adresse IP ou l'ID de l'appareil que vous utilisez appartiennent également aux données personnelles.",
+    },
+    section02: {
+      H2: "Contenu de cette Politique de Confidentialité",
+      liste: [
+        "1. Responsable et Personne de Contact",
+        {
+          "0": "2. Traitement des Données sur Notre Site Web",
+          "1": "2.1. Consultation de Notre Site Web / Données de Connexion",
+          "2": "2.2. Contact",
+          "3": "2.3. Candidatures",
+        },
+        {
+          "0": "3. Utilisation d'Outils sur le Site Web",
+          "1": "3.1. Technologies Utilisées",
+          "2": "3.2. Base Légale et Révocation",
+          "3": "3.3. Outils Nécessaires",
+          "4": "3.4. Outils d'Analyse",
+          "5": "3.5. Outils de Marketing",
+        },
+        "4. Présence en Ligne sur les Réseaux Sociaux",
+        "5. Communication des Données",
+        "6. Transfert de Données vers des Pays Tiers",
+        "7. Durée de Conservation",
+        "8. Vos Droits, en Particulier Révocation et Opposition",
+        "9. Modifications de la Politique de Confidentialité",
+      ],
+    },
+    section1: {
+      H2: "1. Responsable et Personne de Contact",
+      P1: "La personne de contact et le soi-disant responsable du traitement de vos données personnelles lors de la visite de ce site web au sens du Règlement Général sur la Protection des Données (RGPD) est :",
+      P2: {
+        "0": "lemon.markets GmbH",
+        "1": "Kottbusser Damm 79",
+        "2": "10967 Berlin",
+      },
+      P3: "Pour toute question concernant la protection des données en lien avec nos services ou l'utilisation de notre site web, vous pouvez contacter notre Délégué à la Protection des Données (DPO) interne à tout moment via l'adresse e-mail suivante :",
+      P4: "E-mail : ",
+    },
+    section2: {
+      H2: "2. Traitement des Données sur Notre Site Web",
+      H21: "2.1 Consultation de Notre Site Web / Données de Connexion",
+      liste: [
+        "Chaque fois que vous utilisez notre site web, nous traitons les données de connexion que votre navigateur transmet automatiquement pour vous permettre de visiter le site. Ces données de connexion incluent les soi-disant informations d'en-tête HTTP, y compris l'agent utilisateur, et comprennent en particulier :",
+        {
+          "1": "L'adresse IP de l'appareil demandeur ;",
+          "2": "La méthode (par exemple, GET, POST), la date et l'heure de la requête ;",
+          "3": "L'adresse du site web demandé et le chemin du fichier demandé ;",
+          "4": "Le cas échéant, le site web/fichier précédemment consulté (référent HTTP) ;",
+          "5": "La méthode (par exemple, GET, POST), la date et l'heure de la requête ;",
+          "6": "La version du protocole HTTP, le code d'état HTTP, la taille du fichier délivré ;",
+          "7": "Les informations de requête telles que la langue, le type de contenu, l'encodage du contenu, les jeux de caractères ;",
+          "8": "Les cookies du domaine consulté stockés sur l'appareil terminal.",
+        },
+        "Le traitement des données de ces données de connexion est absolument nécessaire pour permettre la visite du site web, assurer le fonctionnement permanent et la sécurité de nos systèmes ainsi que pour la maintenance administrative générale de notre site web. Les données de connexion sont également stockées dans des fichiers journaux internes à des fins décrites ci-dessus, temporairement et limitées au contenu le plus nécessaire, afin, par exemple, de trouver la cause d'appels répétés ou criminels qui menacent la stabilité et la sécurité de notre site web et d'agir contre eux.",
+      ],
+      P11: "La base légale de ce traitement est l'art. 6 (1) lit. b RGPD, dans la mesure où la consultation de la page intervient dans le cadre de l'initiation ou de l'exécution d'un contrat, et sinon l'art. 6 (1) lit. f RGPD en raison de notre intérêt légitime à permettre la consultation du site web et le fonctionnement permanent et la sécurité de nos systèmes. Cependant, la transmission automatique des données de connexion et les fichiers journaux qui en sont tirés ne constituent pas un accès aux informations dans l'appareil terminal au sens des lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne § 25 TTDSG. Pour le reste, cependant, ce serait de toute façon absolument nécessaire.",
+      P12: "Les fichiers journaux sont généralement stockés pendant 60 minutes puis anonymisés. Exceptionnellement, des fichiers journaux individuels et des adresses IP sont stockés plus longtemps afin de prévenir de nouvelles attaques provenant de cette adresse IP en cas de cyberattaques et/ou d'agir contre les attaquants par le biais de poursuites pénales.",
+      H22: "2.2 Contact",
+      P21: "Vous avez la possibilité de nous contacter. Pour cela, vous pouvez utiliser le formulaire de contact. Dans ce contexte, nous traitons vos données exclusivement dans le but de communiquer avec vous.",
+      P22: "La base légale de ce traitement est l'art. 6 (1) lit. b RGPD, dans la mesure où vos informations sont nécessaires pour répondre à votre demande ou pour initier ou exécuter un contrat, et sinon l'art. 6 (1) lit. f RGPD en raison de notre intérêt légitime que vous nous contactiez et que nous puissions répondre à votre demande. Nous ne passons des appels téléphoniques promotionnels que si vous avez donné votre consentement à cet effet. Si vous n'êtes pas un client existant, nous vous enverrons des e-mails promotionnels uniquement sur la base de votre consentement. La base légale dans ces cas est l'art. 6 par. 1 lit. a RGPD en conjonction avec § Section 7 (2) n° 1 ou 2 UWG.",
+      P23: 'Les données collectées par nous lorsque vous nous contactez seront automatiquement supprimées après que nous ayons traité votre demande, à moins que nous n\'ayons encore besoin de votre demande pour remplir des obligations contractuelles ou légales (cf. par. 7 "Durée de Conservation").',
+      H32: "2.3 Candidatures",
+      P31: "Pour des informations sur la façon dont nous traitons les données personnelles en lien avec les candidatures, veuillez consulter nos Informations sur la Protection des Données pour les Candidats.",
+    },
+    section3: {
+      H2: "3. Utilisation d'Outils sur le Site Web",
+      H21: "3.1 Technologies Utilisées",
+      liste: [
+        'Ce site web utilise divers services et applications (collectivement, "Outils") qui sont fournis soit par nous, soit par des tiers. Ceux-ci incluent, en particulier, des outils qui utilisent des technologies pour stocker ou accéder à des informations dans l\'appareil terminal :',
+        {
+          "1": {
+            "0": "Cookies :",
+            "1": "Informations stockées sur l'appareil terminal, consistant notamment en un nom, une valeur, le domaine de stockage et une date d'expiration. Les cookies dits de session (par exemple, PHPSESSID) sont supprimés après la session, tandis que les cookies dits persistants sont supprimés après la date d'expiration spécifiée. Les cookies peuvent également être supprimés manuellement.",
+          },
+          "2": {
+            "0": "Web Storage (Local Storage / Session Storage) :",
+            "1": " Informations stockées sur l'appareil terminal, consistant en un nom et une valeur. Les informations dans le Session Storage sont supprimées après la session, tandis que les informations dans le Local Storage n'ont pas de date d'expiration et restent essentiellement stockées à moins qu'un mécanisme de suppression ait été mis en place (par exemple, stockage d'un Local Storage avec indication de l'heure). Les informations dans le Local et le Session Storage peuvent également être supprimées manuellement.",
+          },
+          "3": {
+            "0": "JavaScript :",
+            "1": " Codes de programmation (scripts) intégrés dans ou appelés depuis le site web qui définissent des cookies et le web storage, par exemple, ou qui collectent activement des informations de l'appareil terminal ou sur le comportement d'utilisation des visiteurs. JavaScript peut être utilisé pour le \"fingerprinting actif\" et la création de profils d'utilisation. JavaScript peut être bloqué par un paramètre dans le navigateur, bien que la plupart des services ne fonctionneront alors plus.",
+          },
+          "4": {
+            "0": "Pixel :",
+            "1": " Miniature graphique chargée automatiquement par un service, qui peut permettre de reconnaître les visiteurs en transmettant automatiquement les données de connexion habituelles (en particulier l'adresse IP, les informations sur le navigateur, le système d'exploitation, la langue, l'adresse appelée et l'heure de l'appel) et de déterminer, par exemple, si un e-mail a été ouvert ou un site web visité. À l'aide des pixels, le \"fingerprinting passif\" et la création de profils d'utilisation peuvent être effectués. L'utilisation de pixels peut être empêchée, par exemple, en bloquant les images, par exemple dans les e-mails, bien que l'affichage soit alors sévèrement restreint.",
+          },
+        },
+        "À l'aide de ces technologies et également par la simple établissement d'une connexion sur une page, des \"empreintes\" (fingerprints) peuvent être créées, c'est-à-dire des profils d'utilisation qui ne nécessitent pas l'utilisation de cookies ou du web storage et peuvent malgré tout reconnaître les visiteurs. Les empreintes basées sur l'établissement de la connexion ne peuvent pas être complètement empêchées manuellement.",
+      ],
+      P11: "La plupart des navigateurs sont paramétrés par défaut pour accepter les cookies, exécuter les scripts et afficher les graphiques. Cependant, vous pouvez généralement ajuster les paramètres de votre navigateur pour refuser tous ou certains cookies ou pour bloquer les scripts et les graphiques. Si vous bloquez complètement le stockage des cookies, l'affichage des graphiques et l'exécution des scripts, il est prévu que nos services ne fonctionnent pas correctement ou pas du tout.",
+      P12: "Dans ce qui suit, nous listons les outils que nous utilisons par catégorie, vous informant en particulier sur les fournisseurs des outils, la durée de conservation des cookies ou des informations dans le local storage et le session storage, et le transfert de données à des tiers. Nous expliquons également dans quels cas nous obtenons votre consentement volontaire pour utiliser les outils et comment vous pouvez le révoquer.",
+
+      H22: "3.2 Base Légale et Révocation",
+      H31: "3.2.1 Base Légale",
+      P21: "Nous utilisons les outils nécessaires au fonctionnement du site web sur la base de notre intérêt légitime conformément à l'art. 6 (1) lit. f RGPD pour fournir les fonctions de base de notre site web. Dans certains cas, ces outils peuvent également être nécessaires à l'exécution d'un contrat ou à la mise en œuvre de mesures précontractuelles, auquel cas le traitement est effectué conformément à l'art. 6 (1) lit. b RGPD. L'accès et le stockage d'informations dans l'appareil terminal sont absolument nécessaires dans ces cas et sont effectués sur la base des lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne selon § 25 al. 2 TTDSG.",
+      P22: "Nous utilisons tous les autres outils non essentiels (facultatifs) qui fournissent des fonctions supplémentaires sur la base de votre consentement conformément à l'art. 6 (1) a RGPD. L'accès et le stockage d'informations dans l'appareil terminal sont alors basés sur les lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne selon l'article 25 (1) TTDSG. Le traitement des données à l'aide de ces outils n'a lieu que si nous avons préalablement reçu votre consentement.",
+      P23: "Si des données personnelles sont transférées vers des pays tiers (par exemple, les États-Unis), nous vous renvoyons, également en ce qui concerne les risques que cela peut entraîner, au par. 6 (\"Transfert de Données vers des Pays Tiers\"). Nous vous informerons s'il existe une décision d'adéquation pour le pays tiers en question ou si des clauses contractuelles types ou d'autres garanties ont été conclues pour l'utilisation de certains outils. Si vous avez donné votre consentement à l'utilisation de certains outils et au transfert associé de vos données personnelles vers des pays tiers, nous (également) transférons les données traitées lors de l'utilisation des outils vers des pays tiers sur la base de ce consentement conformément à l'art. 49 (1) a RGPD.",
+
+      H32: "3.2.2 Obtention de Votre Consentement",
+      P31: "Pour obtenir et gérer vos consentements, nous utilisons l'outil CookieFirst, disponible à l'adresse https://cookiefirst.com. Celui-ci génère une bannière vous informant sur le traitement des données sur notre site web et vous donnant la possibilité de consentir à tous, certains ou aucun traitement de données via des outils facultatifs. Cette bannière apparaîtra la première fois que vous visiterez notre site web et lorsque vous revisitez la sélection de vos préférences pour les modifier ou retirer les consentements. La bannière apparaîtra également lors des visites suivantes sur notre site web, à condition que vous ayez désactivé le stockage des cookies ou que les cookies ou les informations dans le Local Storage de CookieFirst aient été supprimés ou aient expiré.",
+      P32: "Votre consentement ou révocation, votre adresse IP, des informations sur votre navigateur, votre appareil terminal et l'heure de votre visite sont transmis à CookieFirst dans le cadre de votre visite sur le site web. En outre, CookieFirst stocke des informations nécessaires sur votre appareil terminal afin de documenter les consentements et les révocations que vous avez donnés. Les données collectées de cette manière sont stockées jusqu'à ce que vous nous demandiez de les supprimer, que vous supprimiez vous-même le cookie CookieFirst ou que l'objectif du stockage des données ne s'applique plus. Les obligations légales de conservation obligatoires restent inchangées.",
+      P33: "Le traitement des données par CookieFirst est nécessaire pour vous fournir la gestion des consentements légalement requise et pour respecter nos obligations de documentation. La base légale pour l'utilisation de CookieFirst est l'art. 6 (1) lit. f RGPD, justifié par notre intérêt à remplir les exigences légales en matière de gestion des consentements. L'accès et le stockage d'informations dans l'appareil terminal sont absolument nécessaires dans ces cas et ont lieu sur la base des lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne selon § 25 al. 2 TTDSG.",
+
+      H33: "3.2.3 Révocation de Votre Consentement ou Modification de Votre Sélection",
+      P4: "Vous pouvez révoquer votre consentement pour certains outils, c'est-à-dire pour le stockage et l'accès aux informations dans l'appareil terminal, le traitement de vos données personnelles et le transfert de vos données vers des pays tiers, à tout moment avec effet pour l'avenir. Pour ce faire, cliquez sur les Paramètres de confidentialité des données dans le pied de page. Là, vous pouvez également modifier la sélection des outils à l'utilisation desquels vous souhaitez consentir, ainsi qu'obtenir des informations complémentaires sur les outils utilisés. Alternativement, vous pouvez exercer votre révocation pour certains outils directement auprès du fournisseur.",
+
+      H23: "3.3 Outils Nécessaires",
+      P41: 'Nous utilisons certains outils pour permettre les fonctions de base de notre site web ("outils nécessaires"). Ceux-ci incluent, par exemple, des outils pour préparer et afficher le contenu du site web, pour gérer et intégrer des outils, pour fournir des services de traitement des paiements, pour détecter et prévenir la fraude, et pour assurer la sécurité de notre site web. Sans ces outils, nous ne pourrions pas fournir notre service. Par conséquent, les outils nécessaires sont utilisés sans consentement.',
+      P42: "La base légale pour les outils nécessaires est la nécessité de satisfaire à nos intérêts légitimes conformément à l'art. 6 (1) lit. f RGPD dans la fourniture des fonctions de base respectives et le fonctionnement de notre site web. Dans les cas où la fournition des fonctions respectives du site web est nécessaire à l'exécution d'un contrat ou à la mise en œuvre de mesures précontractuelles, la base légale du traitement des données est l'art. 6 (1) lit. b RGPD. L'accès et le stockage d'informations dans l'appareil terminal sont absolument nécessaires dans ces cas et sont effectués sur la base des lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne selon l'article 25 (2) TTDSG.",
+      P43: 'Dans le cas où des données personnelles sont transférées vers des pays tiers (tels que les États-Unis), nous nous référons en plus des informations fournies ci-dessous au par. 6 ("Transfert de Données vers des Pays Tiers").',
+
+      H34: "3.3.1 Google Tag Manager",
+      P51: 'Notre site web utilise Google Tag Manager, un service fourni pour les personnes de l\'Espace Économique Européen et de la Suisse par Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande, et pour toutes les autres personnes par Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (ensemble "Google").',
+      P52: "Le Google Tag Manager est utilisé exclusivement pour gérer les outils du site web en intégrant de soi-disant balises de site web (tags). Une balise est un élément qui est stocké dans le code source de notre site web afin d'exécuter un outil, par exemple, via des scripts. S'il s'agit d'outils facultatifs, ils ne sont intégrés par le Google Tag Manager qu'avec votre consentement. Le Google Tag Manager utilise JavaScript et n'utilise fondamentalement pas de cookies.",
+      P53: "La base légale est l'art. 6 (1) lit. f RGPD, basée sur notre intérêt légitime à inclure et gérer plusieurs balises sur notre site web de manière simple.",
+      P54: "Aux fins d'assurer la stabilité et la fonctionnalité, Google collecte des informations sur les balises intégrées par notre site web dans le cadre de l'utilisation du Google Tag Manager. Cependant, le Google Tag Manager ne stocke aucune donnée personnelle au-delà du simple établissement de la connexion, en particulier, aucune donnée sur le comportement de l'utilisateur ou les pages visitées.",
+      P55: "Nous avons conclu un accord de traitement des données avec Google Ireland Limited. Dans le cas où des données personnelles sont transférées par Google Ireland Limited vers les États-Unis ou d'autres pays tiers, Google Ireland Limited et Google LLC ont conclu des clauses contractuelles types (Décision d'exécution (UE) 2021/914, Module 3) conformément à l'art. 46 (2) lit. c RGPD.",
+      P56: "Pour plus d'informations, voir les informations de Google sur Tag Manager :",
+
+      H24: "3.4 Outils d'Analyse",
+      P61: "Afin d'améliorer notre site web, nous utilisons des outils facultatifs pour la reconnaissance des visiteurs et pour la collecte statistique et l'analyse du comportement d'utilisation général sur la base des données d'accès (\"outils d'analyse\"). Nous utilisons également des services d'analyse pour évaluer l'utilisation de nos différents canaux de marketing. Les informations d'utilisation collectées sont traitées de manière agrégée et nous permettent de suivre les habitudes d'utilisation de nos visiteurs. Cela est utilisé pour adapter et optimiser la conception de notre site web et pour rendre l'expérience utilisateur plus agréable.",
+      P62: "La base légale pour les outils d'analyse est votre consentement conformément à l'art. 6 par. 1 lit. a RGPD. L'accès et le stockage d'informations dans l'appareil terminal sont alors basés sur les lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne selon § 25 par. 1 TTDSG. Pour la révocation de votre consentement, voir 3.2.3 : \"Révocation de Votre Consentement ou Modification de Votre Sélection\".",
+      P63: 'Dans le cas où des données personnelles sont transférées vers des pays tiers (tels que les États-Unis), votre consentement s\'étend expressément au transfert de données (Art. 49 Par. 1 lit. a RGPD). Pour les risques associés, veuillez vous référer au par. 6 ("Transfert de Données vers des Pays Tiers").',
+
+      H35: "3.4.1 Google Analytics 4",
+      P71: 'Notre site web utilise le service Google Analytics 4 ("Google Analytics"), qui est fourni par Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande pour les personnes d\'Europe, du Moyen-Orient et d\'Afrique (EMEA), et par Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (collectivement "Google") pour toutes les autres personnes.',
+      P72: "Google Analytics utilise JavaScript et des pixels pour lire des informations sur votre appareil terminal et des cookies pour stocker des informations sur votre appareil terminal. Ceci est utilisé pour analyser votre comportement d'utilisation et pour améliorer notre site web. Nous traiterons les informations obtenues pour évaluer votre utilisation du site web et pour compiler des rapports sur les activités du site web pour les opérateurs du site. Les données générées dans ce contexte peuvent être transférées par Google vers un serveur aux États-Unis pour évaluation et y être stockées.",
+      P73: "Dans le cadre de l'évaluation, Google Analytics 4 utilise également l'intelligence artificielle telle que l'apprentissage automatique pour l'analyse automatisée et l'enrichissement des données. Cela se fait en particulier pour les métriques de prévision sur le comportement futur des visiteurs basées sur des données d'événement structurées, telles que le chiffre d'affaires prévisionnel, la probabilité d'achat et la probabilité de désabonnement. Les métriques de prévision peuvent également être utilisées pour les audiences cibles prévisionnelles. Pour en savoir plus, visitez : https://support.google.com/analytics/answer/9846734. En outre, Google Analytics 4 modélise les conversions lorsque des données insuffisantes sont disponibles pour optimiser l'analyse et les rapports. Renseignez-vous à l'adresse : https://support.google.com/analytics/answer/10710245. Les évaluations des données sont automatisées à l'aide de l'intelligence artificielle ou sur la base de critères individuels spécifiquement définis. Vous pouvez en savoir plus à ce sujet à l'adresse : https://support.google.com/analytics/answer/9443595.",
+      liste1: [
+        "Nous avons effectué les paramètres de confidentialité suivants pour Google Analytics :",
+        {
+          "1": "Anonymisation de l'IP (raccourcissement de l'adresse IP avant évaluation) ;",
+          "2": "Suppression automatique des anciens journaux de visite en limitant la durée de stockage à 2 mois ;",
+          "3": "Pas de réinitialisation de la période de conservation en cas de nouvelle activité.",
+        },
+        "Les données suivantes sont traitées par Google Analytics :",
+        {
+          "1": "Adresse IP ;",
+          "2": "ID utilisateur ;",
+          "3": "URL du référent (page précédemment visitée) ;",
+          "4": "Pages consultées (date, heure, URL, titre, temps passé) ;",
+          "5": "Fichiers téléchargés ;",
+          "6": "Liens cliqués vers d'autres sites web ;",
+          "7": "Le cas échéant, atteinte d'objectifs spécifiques (conversions) ;",
+          "8": "Informations techniques : Système d'exploitation ; type, version et langue du navigateur ; type, marque, modèle et résolution de l'appareil ;",
+          "9": "Localisation approximative (pays et ville, le cas échéant, sur la base de l'adresse IP anonymisée).",
+        },
+        "Google Analytics définit les cookies suivants pour l'objectif spécifié avec la durée de stockage respective :",
+        {
+          "1": '"_ga" (2 ans), "_gid" (24 heures) : Reconnaissance et différenciation des visiteurs par un ID utilisateur ;',
+          "2": '"ga[GA-ID]" (2 ans) : Conservation des informations de la session en cours ;',
+          "3": '"gac_gb[GA-ID]" (90 jours) : Stockage d\'informations liées aux campagnes et, le cas échéant, liaison avec le suivi des conversions Google Ads.',
+        },
+        "Pour plus d'informations sur les cookies Google Analytics 4, veuillez visiter : https://support.google.com/analytics/answer/11397207?hl=fr.",
+      ],
+      P74: "La base légale de ce traitement de données est votre consentement conformément à l'art. 6 Par. 1 lit. a RGPD. L'accès et le stockage d'informations dans l'appareil terminal sont alors basés sur les lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne selon § 25 par. 1 TTDSG.",
+      P75: "Nous avons conclu un accord de traitement des données avec Google Ireland Limited pour l'utilisation de Google Analytics. Dans le cas où des données personnelles sont transférées par Google Ireland Limited vers les États-Unis, Google Ireland Limited et Google LLC ont conclu des clauses contractuelles types (Décision d'exécution (UE) 2021/914, Module 3) conformément à l'art. 46 (2) lit. c RGPD. En outre, nous obtenons également votre consentement exprès pour le transfert de vos données vers des pays tiers conformément à l'art. 49 (1) a RGPD.",
+      P76: "Pour plus d'informations, veuillez consulter la politique de confidentialité de Google : https://support.google.com/analytics/answer/6004245.",
+
+      H25: "3.5 Outils de Marketing",
+      P81: "Nous utilisons également des outils facultatifs à des fins publicitaires (\"outils de marketing\"). Une partie des données d'accès collectées lors de l'utilisation de notre site web est utilisée pour créer des profils d'utilisation, qui stockent en particulier votre comportement d'utilisation, les publicités que vous avez vues ou sur lesquelles vous avez cliqué, et, sur cette base, la classification en catégories publicitaires, intérêts et préférences. En analysant et en évaluant ces données d'accès, nous sommes en mesure de vous présenter des publicités personnalisées, c'est-à-dire des publicités qui correspondent à vos intérêts et besoins réels, sur notre site web et sur les sites web et services d'autres fournisseurs. Ce faisant, nous analysons également votre comportement d'utilisation afin de vous reconnaître sur d'autres sites et de vous adresser de manière personnalisée sur la base de votre utilisation de notre site (soi-disant retargeting). En outre, nous évaluons l'efficacité et le succès de nos campagnes publicitaires (en particulier les soi-disant conversions et leads).",
+      P82: 'Les outils de marketing incluent également les outils de réseaux sociaux facultatifs utilisés pour partager des publications et du contenu via ces réseaux ("plugins de médias sociaux").',
+      P83: "La base légale pour les outils de marketing est votre consentement conformément à l'art. 6 (1) lit. a RGPD, que vous donnez via la bannière de consentement ou avec l'outil lui-même en autorisant individuellement son utilisation via une bannière (overlay) placée dessus. L'accès et le stockage d'informations dans l'appareil terminal sont alors basés sur les lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne selon § 25 par. 1 TTDSG. Pour la révocation de votre consentement, voir 3.2.3 : \"Révocation de Votre Consentement ou Modification de Votre Sélection\".",
+      P84: 'Dans le cas où des données personnelles sont transférées vers des pays tiers (tels que les États-Unis), votre consentement s\'étend expressément au transfert de données (Art. 49 par. 1 lit. a RGPD). Pour les risques associés, veuillez vous référer au par. 6 ("Transfert de Données vers des Pays Tiers").',
+      liste5: [
+        "Dans la section suivante, nous souhaitons expliquer plus en détail les outils et les fournisseurs utilisés à cette fin. Les données collectées peuvent inclure en particulier :",
+        {
+          "0": "L'adresse IP de l'appareil ;",
+          "1": "Les informations d'un cookie et dans le local ou session storage ;",
+          "2": "L'identifiant de l'appareil des appareils mobiles (par exemple, ID d'appareil, ID publicitaire) ;",
+          "3": "URL du référent (page précédemment visitée) ;",
+          "4": "Pages consultées (date, heure, URL, titre, temps passé) ;",
+          "5": "Fichiers téléchargés ;",
+          "6": "Liens cliqués vers d'autres sites web ;",
+          "7": "Le cas échéant, atteinte d'objectifs spécifiques (conversions) ;",
+          "8": "Informations techniques : Système d'exploitation ; type, version et langue du navigateur ; type, marque, modèle et résolution de l'appareil ;",
+          "9": "Localisation approximative (pays et ville, le cas échéant).",
+        },
+        "Cependant, les données collectées ne sont stockées que sous forme pseudonymisée, de sorte qu'aucune conclusion directe ne peut être tirée sur des personnes.",
+      ],
+      H36: "3.5.1 Microsoft Advertising (anciennement Bing Ads)",
+      P91: "Notre site web utilise Microsoft Advertising, un service fourni par Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Irlande (\"Microsoft\"). Microsoft utilise JavaScript, des cookies et le local storage pour vous présenter des publicités qui vous sont pertinentes. L'utilisation de ces technologies permet à Microsoft et à ses sites partenaires de diffuser des publicités basées sur des visites antérieures sur notre site ou d'autres sites sur Internet. Les données générées dans ce contexte peuvent être transférées par Microsoft vers un serveur aux États-Unis pour analyse et y être stockées.",
+      liste6: [
+        "Les cookies suivants sont définis et lus par Microsoft Advertising pour l'objectif spécifié avec la durée de stockage respective :",
+        {
+          "0": '"_uetsid" (24 heures) : ID de session ;',
+          "1": '"_uetvid" (13 mois) : Reconnaissance des visiteurs, analyse de l\'utilisation, diffusion de publicités personnalisées ;',
+          "2": '"MUID" (13 mois) : Reconnaissance des visiteurs, analyse de l\'utilisation, diffusion de publicités personnalisées.',
+        },
+        "Les informations suivantes dans le Local Storage sont stockées et lues par Microsoft Advertising :",
+        {
+          "0": '"_uetsid", "_uetvid" : mêmes objectifs que les cookies correspondants ;',
+          "1": '"_uetsid_exp", "_uetvid_exp" : Informations sur la date d\'expiration des informations dans le Local Storage.',
+        },
+        "La base légale de ce traitement de données est votre consentement conformément à l'art. 6 Par. 1 lit. a RGPD. L'accès et le stockage d'informations dans l'appareil terminal ont alors lieu sur la base des lois d'implémentation de la directive ePrivacy des États membres de l'UE, en Allemagne conformément à l'article 25 (1) TTDSG. Le transfert de vos données vers les États-Unis et d'autres pays tiers a lieu sur la base de votre consentement exprès conformément à l'art. 49 Par. 1 lit. a RGPD.",
+      ],
+      H26: "4. Présence en Ligne sur les Réseaux Sociaux",
+      p1: "Nous maintenons des présences en ligne sur les réseaux sociaux afin d'y communiquer avec les clients et les personnes intéressées, entre autres, et de fournir des informations sur nos produits et services. Les données des utilisateurs sont généralement traitées par les réseaux sociaux concernés à des fins d'études de marché et de publicité. De cette manière, des profils d'utilisation peuvent être créés sur la base des intérêts des utilisateurs. À cette fin, des cookies et autres identifiants sont stockés sur les ordinateurs des personnes concernées. Sur la base de ces profils d'utilisation, par exemple, des publicités sont ensuite placées dans les réseaux sociaux mais aussi sur des sites web tiers.",
+      p2: "Dans le cadre de l'exploitation de nos présences en ligne, il est possible que nous ayons accès à des informations telles que des statistiques sur l'utilisation de nos présences en ligne fournies par les réseaux sociaux. Ces statistiques sont agrégées et peuvent inclure, en particulier, des informations démographiques (par exemple, âge, sexe, région, pays) ainsi que des données sur l'interaction avec nos présences en ligne (par exemple, likes, abonnement, partage, visualisation d'images et de vidéos) et les publications et contenus diffusés via celles-ci. Cela peut également fournir des informations sur les intérêts des utilisateurs et sur les contenus et sujets qui leur sont particulièrement pertinents. Ces informations peuvent également être utilisées par nous pour adapter la conception et nos activités et contenus sur la présence en ligne et pour l'optimiser pour notre public. Veuillez consulter la liste ci-dessous pour plus de détails et des liens vers les données des réseaux sociaux auxquelles nous, en tant qu'opérateurs de la Présence en Ligne, pouvons avoir accès. La collecte et l'utilisation de ces statistiques sont généralement soumises à une responsabilité conjointe. Lorsque cela s'applique, l'accord pertinent est listé ci-dessous.",
+      p3: "La base légale pour le traitement des données est l'art. 6 (1) lit. f RGPD, basée sur notre intérêt légitime à une information et une communication efficaces avec les utilisateurs, et l'art. 6 (1) lit. b RGPD, afin de rester en contact avec nos clients et de les informer, ainsi que pour effectuer des mesures précontractuelles avec les personnes intéressées.",
+      p4: "Si vous avez un compte sur le réseau social, il est possible que nous puissions voir vos informations et médias publics lorsque nous accédons à votre profil. En outre, le réseau social peut nous permettre de vous contacter. Par exemple, cela peut se faire par des messages directs ou des articles postés. La communication de contenu via le réseau social et le traitement des données de contenu relèvent ainsi de la responsabilité du réseau social en tant que service de messagerie et de plateforme. Dès que nous transférons ou traitons davantage des données personnelles vous concernant dans nos propres systèmes, nous en sommes indépendamment responsables et cela se fait pour effectuer des mesures précontractuelles et pour exécuter un contrat conformément à l'art. 6 (1) lit. b RGPD.",
+      p5: "Pour la base légale des traitements de données effectués par les réseaux sociaux sous leur propre responsabilité, veuillez vous référer aux notices de protection des données du réseau social respectif. Les liens suivants vous fournissent également des informations supplémentaires sur le traitement des données respectif et les options d'opposition.",
+      p6: "Nous tenons à préciser que les demandes de protection des données peuvent être exercées le plus efficacement auprès du fournisseur respectif du réseau social, car seuls ces fournisseurs ont accès aux données et peuvent prendre des mesures appropriées directement. Bien sûr, vous pouvez également nous contacter avec votre demande. Dans ce cas, nous traiterons votre demande et la transmettrons au fournisseur du réseau social.",
+      liste7: [
+        "Voici une liste d'informations sur les réseaux sociaux sur lesquels nous avons des présences en ligne :",
+        {
+          "0": "Facebook (États-Unis et Canada : Meta Platforms Inc., 1601 Willow Road, Menlo Park, Californie 94025, USA ; tous les autres pays : Meta Platforms Ireland Ltd., Serpentine Avenue, Block J, Dublin 4, Irlande)",
+          "1": "Instagram (Meta Platforms Ireland Ltd., Serpentine Avenue, Block J, Dublin 4, Irlande)",
+          "2": "Twitter (Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2, D02 AX07 Irlande)",
+          "3": "LinkedIn (LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2, Irlande)",
+        },
+      ],
+    },
+    section4: {
+      H2: "4. Présence en Ligne sur les Réseaux Sociaux",
+      p1: "Nous maintenons des présences en ligne sur les réseaux sociaux afin d'y communiquer avec les clients et les personnes intéressées, entre autres, et de fournir des informations sur nos produits et services. Les données des utilisateurs sont généralement traitées par les réseaux sociaux concernés à des fins d'études de marché et de publicité. De cette manière, des profils d'utilisation peuvent être créés sur la base des intérêts des utilisateurs. À cette fin, des cookies et autres identifiants sont stockés sur les ordinateurs des personnes concernées. Sur la base de ces profils d'utilisation, par exemple, des publicités sont ensuite placées dans les réseaux sociaux mais aussi sur des sites web tiers.",
+      p2: "Dans le cadre de l'exploitation de nos présences en ligne, il est possible que nous ayons accès à des informations telles que des statistiques sur l'utilisation de nos présences en ligne fournies par les réseaux sociaux. Ces statistiques sont agrégées et peuvent inclure, en particulier, des informations démographiques (par exemple, âge, sexe, région, pays) ainsi que des données sur l'interaction avec nos présences en ligne (par exemple, likes, abonnement, partage, visualisation d'images et de vidéos) et les publications et contenus diffusés via celles-ci. Cela peut également fournir des informations sur les intérêts des utilisateurs et sur les contenus et sujets qui leur sont particulièrement pertinents. Ces informations peuvent également être utilisées par nous pour adapter la conception et nos activités et contenus sur la présence en ligne et pour l'optimiser pour notre public. Veuillez consulter la liste ci-dessous pour plus de détails et des liens vers les données des réseaux sociaux auxquelles nous, en tant qu'opérateurs de la Présence en Ligne, pouvons avoir accès. La collecte et l'utilisation de ces statistiques sont généralement soumises à une responsabilité conjointe. Lorsque cela s'applique, l'accord pertinent est listé ci-dessous.",
+      p3: "La base légale pour le traitement des données est l'art. 6 (1) lit. f RGPD, basée sur notre intérêt légitime à une information et une communication efficaces avec les utilisateurs, et l'art. 6 (1) lit. b RGPD, afin de rester en contact avec nos clients et de les informer, ainsi que pour effectuer des mesures précontractuelles avec les personnes intéressées.",
+      p4: "Si vous avez un compte sur le réseau social, il est possible que nous puissions voir vos informations et médias publics lorsque nous accédons à votre profil. En outre, le réseau social peut nous permettre de vous contacter. Par exemple, cela peut se faire par des messages directs ou des articles postés. La communication de contenu via le réseau social et le traitement des données de contenu relèvent ainsi de la responsabilité du réseau social en tant que service de messagerie et de plateforme. Dès que nous transférons ou traitons davantage des données personnelles vous concernant dans nos propres systèmes, nous en sommes indépendamment responsables et cela se fait pour effectuer des mesures précontractuelles et pour exécuter un contrat conformément à l'art. 6 (1) lit. b RGPD.",
+      p5: "Pour la base légale des traitements de données effectués par les réseaux sociaux sous leur propre responsabilité, veuillez vous référer aux notices de protection des données du réseau social respectif. Les liens suivants vous fournissent également des informations supplémentaires sur le traitement des données respectif et les options d'opposition.",
+      p6: "Nous tenons à préciser que les demandes de protection des données peuvent être exercées le plus efficacement auprès du fournisseur respectif du réseau social, car seuls ces fournisseurs ont accès aux données et peuvent prendre des mesures appropriées directement. Bien sûr, vous pouvez également nous contacter avec votre demande. Dans ce cas, nous traiterons votre demande et la transmettrons au fournisseur du réseau social.",
+      liste1: [
+        "Voici une liste d'informations sur les réseaux sociaux sur lesquels nous avons des présences en ligne :",
+        {
+          "0": "Facebook",
+          "1": "(États-Unis et Canada : Meta Platforms Inc., 1601 Willow Road, Menlo Park, Californie 94025, USA ; tous les autres pays : Meta Platforms Ireland Ltd., Serpentine Avenue, Block J, Dublin 4, Irlande)",
+        },
+        {
+          "0": "Instagram",
+          "1": "(Meta Platforms Ireland Ltd., Serpentine Avenue, Block J, Dublin 4, Irlande)",
+        },
+        {
+          "0": "Twitter",
+          "1": "(Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2, D02 AX07 Irlande)",
+        },
+        {
+          "0": "LinkedIn",
+          "1": "(LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2, Irlande)",
+        },
+      ],
+    },
+    section5: {
+      H2: "5. Communication des Données",
+      liste: [
+        "Les données que nous collectons ne seront communiquées que s'il existe une base légale à cela au sens de la protection des données dans le cas spécifique, en particulier si :",
+        {
+          "0": "Vous avez donné votre consentement exprès à cela conformément à l'art. 6 par. 1 lit. a RGPD,",
+          "1": "La communication est nécessaire pour la assertion, l'exercice ou la défense de droits légaux conformément à l'art. 6 par. 1 lit. f RGPD et il n'y a pas de raison de supposer que vous avez un intérêt légitime prépondérant à ce que vos données ne soient pas communiquées,",
+          "2": "Nous sommes légalement obligés de communiquer des données selon l'art. 6 (1) lit. c RGPD, en particulier si cela est nécessaire pour les poursuites judiciaires ou l'exécution en raison de demandes officielles, de décisions de justice et de procédures légales, ou",
+          "3": "Cela est légalement permissible et nécessaire selon l'art. 6 par. 1 lit. b RGPD pour le traitement des relations contractuelles avec vous ou pour la mise en œuvre de mesures précontractuelles, qui ont lieu à votre demande.",
+        },
+        "Une partie du traitement des données peut être effectuée par nos prestataires de services. Outre les prestataires de services mentionnés dans cette politique de confidentialité, cela peut inclure, en particulier, des centres de données qui stockent notre site web et des bases de données, des fournisseurs de logiciels, des prestataires de services informatiques qui entretiennent nos systèmes, des agences, des sociétés d'études de marché, des sociétés du groupe et des sociétés de conseil. Si nous transmettons des données à nos prestataires de services, ils ne peuvent utiliser les données que pour exécuter leurs tâches. Les prestataires de services ont été soigneusement sélectionnés et mandatés par nous. Ils sont contractuellement liés à nos instructions, ont mis en place des mesures techniques et organisationnelles appropriées pour protéger les droits des personnes concernées et sont régulièrement monitorés par nous.",
+      ],
+    },
+    section6: {
+      H2: "6. Transfert de Données vers des Pays Tiers",
+      P1: "Comme expliqué dans cette Politique de Confidentialité, nous utilisons des services dont les fournisseurs se trouvent en partie dans des pays dits tiers (en dehors de l'Union européenne ou de l'Espace économique européen) ou traitent des données personnelles there, c'est-à-dire des pays dont le niveau de protection des données ne correspond pas à celui de l'Union européenne. Dans la mesure où c'est le cas et que la Commission européenne n'a pas émis de décision d'adéquation (Article 45 RGPD) pour ces pays, nous avons pris les précautions appropriées pour assurer un niveau de protection des données adéquat pour tout transfert de données. Celles-ci incluent, entre autres, les clauses contractuelles types de l'Union européenne ou des règlements internes contraignants en matière de protection des données.",
+      P2: "Là où cela n'est pas possible, nous basons le transfert de données sur des exceptions de l'art. 49 RGPD, en particulier votre consentement explicite ou la nécessité du transfert pour l'exécution du contrat ou pour la mise en œuvre de mesures précontractuelles.",
+      P3: "Si un transfert vers un pays tiers est prévu et qu'aucune décision d'adéquation ou de garanties appropriées n'est en place, il est possible et il existe un risque que les autorités du pays tiers respectif (par exemple, les services de renseignement) puissent accéder aux données transférées pour les collecter et les analyser, et que l'exécutabilité de vos droits des personnes concernées ne puisse être garantie. Lors de l'obtention de votre consentement via la bannière de consentement, vous en serez également informé.",
+    },
+    section7: {
+      H2: "7. Durée de Conservation",
+      P1: "En principe, nous stockons les données personnelles seulement aussi longtemps que nécessaire pour remplir les finalités pour lesquelles nous avons collecté les données. Ensuite, nous supprimons immédiatement les données, à moins que nous n'ayons encore besoin des données jusqu'à l'expiration du délai de prescription légal à des fins de preuve pour des claims de droit civil, en raison d'obligations légales de conservation ou qu'il existe une autre base légale en vertu du droit de la protection des données pour la poursuite du traitement de vos données dans le cas individuel spécifique.",
+      P2: "Même après cela, nous devons encore stocker certaines de vos données pour des raisons comptables. Nous y sommes obligés en raison des exigences légales de documentation qui peuvent découler du Code de commerce allemand, du Code fiscal allemand, de la Loi sur les banques allemande, de la Loi allemande sur le blanchiment d'argent et de la Loi allemande sur les valeurs mobilières. Les périodes qui y sont spécifiées pour la conservation des documents sont de deux à dix ans.",
+    },
+    section8: {
+      H2: "8. Vos Droits, en Particulier Révocation et Opposition",
+      liste: [
+        "Vous avez droit aux droits des personnes concernées formulés dans l'art. 7 (3), art. 15 - 21, art. 77 RGPD à tout moment si les conditions légales respectives sont remplies :",
+        {
+          "0": "Droit de retirer votre consentement (Art. 7 (3) RGPD) ;",
+          "1": "Droit de vous opposer au traitement de vos données personnelles (Art. 21 RGPD) ;",
+          "2": "Droit à l'information sur vos données personnelles traitées par nous (Art. 15 RGPD) ;",
+          "3": "Droit à la rectification de vos données personnelles que nous avons stockées incorrectement (Art. 16 RGPD) ;",
+          "4": "Droit à l'effacement de vos données personnelles (Art. 17 RGPD) ;",
+          "5": "Droit à la limitation du traitement de vos données personnelles (Art. 18 RGPD) ;",
+          "6": "Droit à la portabilité de vos données personnelles (Art. 20 RGPD) ;",
+          "7": "Droit de déposer une plainte auprès d'une autorité de contrôle (Art. 77 RGPD).",
+        },
+        "Pour exercer vos droits décrits ici, vous pouvez nous contacter à tout moment en utilisant les coordonnées ci-dessus. Cela s'applique également si vous souhaitez recevoir des copies de garanties démontrant un niveau de protection des données adéquat. Pour autant que les conditions légales respectives soient remplies, nous satisferons à votre demande de protection des données.",
+      ],
+      P1: "Vos demandes d'exercice des droits en matière de protection des données et nos réponses à celles-ci seront stockées à des fins de documentation pour une période allant jusqu'à trois ans et, dans des cas individuels, pour l'affirmation, l'exercice ou la défense de droits légaux, même plus longtemps. La base légale est l'art. 6 par. 1 lit. f RGPD, basée sur notre intérêt à nous défendre contre d'éventuels recours civils en vertu de l'art. 82 RGPD, à éviter des amendes en vertu de l'art. 83 RGPD et à remplir nos obligations de responsabilité en vertu de l'art. 5 par. 2 RGPD.",
+      P2: "Vous avez le droit de révoquer votre consentement à tout moment. Cela a pour conséquence que nous ne poursuivons pas le traitement des données basé sur ce consentement pour l'avenir. La révocation du consentement n'affecte pas la licéité du traitement effectué sur la base du consentement jusqu'à la révocation.",
+      P3: "Si nous traitons vos données sur la base d'intérêts légitimes, vous avez le droit de vous opposer au traitement de vos données à tout moment pour des raisons tenant à votre situation particulière. S'il s'agit d'une opposition au traitement des données à des fins de marketing direct, vous avez un droit d'opposition général, que nous mettrons également en œuvre sans donner de motifs.",
+      P4: "Si vous souhaitez exercer votre droit de révocation ou d'opposition, il suffit d'envoyer un message informel aux coordonnées ci-dessus.",
+      P5: "Enfin, vous avez le droit de porter plainte auprès d'une autorité de contrôle de la protection des données. Par exemple, vous pouvez exercer ce droit auprès d'une autorité de contrôle dans l'État membre de votre résidence, de votre lieu de travail ou du lieu de l'infraction alléguée. À Berlin, notre siège social, l'autorité compétente est : le Commissaire berlinois à la protection des données et à la liberté d'information, Alt-Moabit 59-61, 10555 Berlin.",
+    },
+    section9: {
+      H2: "9. Modifications de la Politique de Confidentialité",
+      P1: "Nous pouvons occasionnellement mettre à jour cette politique de confidentialité, par exemple, si nous apportons des modifications à notre site web ou si les exigences légales ou réglementaires changent. Toute mise à jour ou modification de cette politique de confidentialité sera publiée sur notre site web à l'adresse https://www.lemon.markets/. Nous vous encourageons à consulter cette page périodiquement pour rester informé de la façon dont nous protégeons vos données personnelles.",
+      P2: "Cette politique de confidentialité est actuellement valide et a le statut du 30 août 2024.",
+    },
+  },
+
+  dataProtection: {
+    H1: "Protection des données pour les candidats",
+    span1: "Version 1 - 01.07.2024",
+
+    P1: "Dans le document suivant, nous souhaitons vous informer sur le traitement de vos données dans le cadre du processus de candidature conformément aux articles 13, 14 et 21 du Règlement Général sur la Protection des Données (RGPD).",
+
+    section1: {
+      H2: "1. Responsable du traitement et contact",
+      P1: 'Si vous postulez à un poste vacant chez lemon.markets GmbH ("LMH") ou lemon.markets brokerage GmbH ("LMB"), le responsable du traitement des données personnelles au sens de l\'art. 4 n° 7 RGPD est lemon.markets GmbH ("LMH"). LMH a son siège social à Kottbusser Damm 79, 10967 Berlin, Allemagne.',
+
+      P2: "Si vous avez des questions concernant la protection des données, veuillez contacter notre Délégué à la Protection des Données à l'adresse e-mail datenschutz@lemon.markets ou à l'adresse postale indiquée ci-dessus. Le contenu de votre communication ne sera pas traité exclusivement par notre Délégué à la Protection des Données. Si vous souhaitez communiquer exclusivement avec notre Délégué à la Protection des Données, veuillez d'abord nous contacter directement via l'adresse e-mail fournie.",
+    },
+
+    section2: {
+      H2: "2. Traitement des données et sources",
+      P: "Nous traitons les données personnelles que nous recevons de votre part dans le cadre du processus de recrutement. Ces données proviennent des fichiers et documents que vous nous envoyez (coordonnées, lettre de motivation, photo d'identité, CV, références).",
+    },
+
+    section3: {
+      H2: "3. Finalité et base légale",
+      P1: "Nous traitons vos données aux fins suivantes :",
+      liste: [
+        "Processus de recrutement (pour les postes annoncés ainsi que pour les candidatures spontanées) ;",
+        "Vérification des données et informations ;",
+        "Contrôle de fiabilité ;",
+        "Défense contre les réclamations en dommages-intérêts et les recours ;",
+        "Preuve d'un traitement correct des données ;",
+      ],
+      P2: "Toutes les données personnelles de votre candidature sont collectées et traitées afin que nous puissions sélectionner le candidat le plus adapté au poste annoncé. Comme vous initiez vous-même le transfert des données personnelles, vous déterminez les données personnelles fournies. Pendant le processus de recrutement, la candidature est également transmise aux employés du département concerné et des notes sont prises pour soutenir la sélection et l'évaluation des candidats.",
+
+      P3: "La base légale pour cela est l'article 26(1) BDSG (nouvelle version) conjointement avec l'art. 6(1)(b) et l'art. 88 RGPD.",
+
+      P4: "Si le consentement pertinent a été obtenu, nous traiterons également vos données personnelles afin de vous inclure dans notre vivier de talents. La base légale ici est l'article 26(2) BDSG (nouvelle version) conjointement avec l'art. 6(1)(a) et l'art. 88 RGPD.",
+
+      P5: "Dans le cas où une relation de travail serait établie entre vous et nous, nous pourrions traiter ultérieurement les données personnelles transmises. Le traitement est alors effectué pour mettre en œuvre ou résilier la relation de travail.",
+
+      P6: "La base légale est l'article 26 BDSG n.F. conjointement avec l'art. 6 par. 1 lit. b) et l'art. 88 RGPD.",
+
+      P7: "LMH ne traitera les catégories particulières de données personnelles que si vous nous les avez fournies afin que nous puissions considérer votre candidature dans sa forme actuelle ou s'il existe une obligation légale de le faire. Ces informations ne seront pas prises en compte pendant le processus de recrutement, sauf s'il existe une obligation légale en ce sens. La base légale est l'art. 9 par. 2 lit. b) et e) RGPD.",
+
+      P8: "Si nécessaire, les données personnelles seront traitées et stockées pour la défense, l'exercice de réclamations et la défense contre des recours. La base légale est l'intérêt légitime conformément à l'art. 6 par. 1 lit. f) RGPD. Pour exercer votre droit d'opposition conformément à l'art. 21 RGPD, vous pouvez nous contacter par e-mail.",
+
+      H2_1: "3.1 Traitement des données",
+
+      H2_1_1: "3.1.1 Processus de candidature",
+      P9: "Les données personnelles pertinentes que nous traitons peuvent inclure, en particulier, les données principales (nom, adresse, numéro de téléphone, adresse e-mail), un CV, les preuves de qualifications (par exemple, certificats, évaluations, attestations d'inscription pour les étudiants travailleurs et autres preuves de formation), l'existence d'un permis de travail (y compris la nationalité), les références, les documents d'identité, le contenu des entretiens d'embauche, les notes internes sur les entretiens d'embauche, un casier judiciaire, une lettre de motivation, la date d'entrée, votre profil Linkedin et, le cas échéant, vos retours sur notre processus de candidature.",
+
+      H2_1_2:
+        "3.1.2 Vérifications des employés et certificat de casier judiciaire",
+      P10: "LMH exige que tous les employés fournissent un extrait de casier judiciaire et peut effectuer une vérification auprès des listes de sanctions internationales. En outre, LMH effectue des vérifications des employés selon les exigences des lois ou réglementations applicables, en fonction du poste. Ces vérifications ne s'appliquent qu'aux employés occupant des postes stratégiquement pertinents avec des droits d'accès à certaines données personnelles. Ces vérifications des antécédents sont généralement effectuées après que vous avez signé un contrat de travail. La base légale est l'art. 6 par. 1 lit. c RGPD.",
+    },
+
+    section4: {
+      H2: "4. Destinataires des données personnelles",
+      H2_1: "4.1 LMB / LMH",
+      P11: "LMH effectue également le processus de recrutement pour LMB. Si vous postulez pour un poste vacant chez LMB, vos données personnelles seront transmises à LMH par LMB. LMB est une filiale à 100% de LMH. Le transfert de données personnelles permet aux employés de LMB (par exemple, votre manager/lead) d'examiner votre candidature et de mener le processus de recrutement.",
+
+      H2_2: "4.2 Outil de recrutement",
+      P12: 'LMH utilise les services de Ashby, Inc (49 Geary Street, Suite 411, San Francisco, CA, 94108, États-Unis), ("Ashby") pour traiter votre candidature. Nous avons conclu un contrat de traitement des données avec Ashby conformément à l\'art. 28 par. 3 RGPD.',
+
+      P13: "Vous pouvez trouver des informations complémentaires à l'adresse :",
+
+      P14: "https://www.ashbyhq.com/resources/gdpr#data-processing-agreement.",
+
+      H2_3: "4.3 Google Calendar",
+      P15: "LMH utilise les services de Google Cloud EMEA Ltd (70 Sir John Rogerson's Quay, Dublin 2, Dublin, Irlande) (\"Google\") pour organiser des réunions en ligne avec vous. Nous avons conclu un contrat de traitement des données avec Google conformément à l'art. 28 par. 3 RGPD.",
+
+      P16: "Vous pouvez trouver des informations complémentaires à l'adresse :",
+
+      P17: "https://cloud.google.com/terms/data-processing-addendum.",
+    },
+
+    section5: {
+      H2: "5. Conservation et suppression des données",
+      P1: "Vivier de talents",
+      P2: "Les données personnelles seront supprimées ou bloquées dès que la finalité du stockage cesse de s'appliquer. Les données peuvent également être stockées si cela est prévu par les législateurs européens ou nationaux dans des règlements de l'UE, des lois ou d'autres dispositions. Le blocage ou la suppression a également lieu lorsqu'une période de stockage prescrite par les normes pertinentes expire, à moins qu'il n'y ait un besoin de stocker davantage les données personnelles pour la conclusion d'un contrat, l'exécution d'un contrat ou une obligation de documentation.",
+
+      P3: "Nous ne conservons pas les données de candidature plus de 6 mois maximum après un refus. Les données personnelles peuvent être stockées au-delà de cette période sur la base d'un consentement ou aux fins de défense contre des réclamations. En cas de consentement, vos données personnelles seront stockées dans notre vivier de talents pendant 6 mois dans le cadre du processus de candidature.",
+    },
+
+    section6: {
+      H2: "6. Transfert vers un pays tiers ou une organisation internationale",
+      P1: "Lorsque LMH transfère des données personnelles à des entités en dehors de l'Espace Économique Européen, LMH a mis en œuvre un ou plusieurs des mécanismes de transfert suivants, en plus des garanties établies dans l'analyse d'impact respective pour les transferts internationaux de données, le cas échéant :",
+      liste: [
+        "Une décision d'adéquation de la Commission européenne conformément à l'art. 45 (1) RGPD ;",
+        "Des clauses types de protection des données, telles qu'adoptées par la Commission européenne conformément à l'art. 46 par. 2 lit.c RGPD.",
+      ],
+      P2: "Des informations complémentaires à ce sujet sont disponibles sur demande via : datenschutz@lemon.markets",
+    },
+
+    section7: {
+      H2: "7. Vos droits en matière de protection des données",
+      P1: "Dans ce qui suit, nous souhaitons également vous informer sur vos droits en vertu du RGPD.",
+      liste: [
+        {
+          title: "Droit à l'information conformément à l'art. 15 RGPD,",
+          text1:
+            "Vous pouvez demander au responsable du traitement des informations sur le traitement de vos données personnelles.",
+        },
+        {
+          title: "Rectification des données",
+          text1:
+            "Vous avez le droit de rectifier les données personnelles conformément à l'art. 16 RGPD si les données personnelles vous concernant sont incorrectes ou incomplètes.",
+        },
+        {
+          title: "Droit à l'effacement",
+          text1:
+            "Vous avez le droit à l'effacement si les conditions de l'art. 17 RGPD sont remplies et qu'il n'y a pas de raisons qui rendent le traitement nécessaire.",
+        },
+        {
+          title: "Droit à la limitation",
+          text1:
+            "Vous avez le droit à la limitation du traitement conformément aux exigences de l'art. 18 RGPD, à condition que le traitement ne serve pas à la assertion, l'exercice ou la défense de droits légaux.",
+        },
+        {
+          title: "Droit à la portabilité des données",
+          text1:
+            "Dans les conditions de l'art. 20 RGPD, vous avez le droit à la portabilité des données.",
+        },
+        {
+          title: "Droit d'opposition",
+          text1:
+            "Vous avez le droit d'opposition conformément à l'art. 21 RGPD, à moins qu'il n'existe des motifs légitimes impérieux et démontrables pour le traitement ou que le traitement serve à la establishment, l'exercice ou la défense de droits légaux.",
+          text2:
+            "Vous avez également la possibilité de déposer une plainte auprès du Délégué à la Protection des Données mentionné ci-dessus ou de l'Autorité de contrôle. Conformément à l'art. 77 RGPD, vous avez le droit de déposer une plainte auprès de l'autorité de contrôle compétente.",
+        },
+      ],
+    },
+    section8: {
+      H2: "8. Décision individuelle automatisée",
+      P: "Notre prise de décision dans le processus de candidature n'est pas basée sur un traitement automatisé conformément à l'article 22 RGPD.",
+    },
+    section9: {
+      H2: "9. Profilage",
+      P: "Vos données personnelles ne seront pas utilisées à des fins de profilage. Le profilage est toute forme de traitement automatisé de données personnelles consistant à utiliser des données personnelles pour analyser ou prédire certains aspects personnels.",
+    },
+    section10: {
+      H2: "10. Mesures techniques et organisationnelles",
+      P: "Nous utilisons des mesures techniques et organisationnelles pour protéger les données personnelles que vous fournissez contre la manipulation, la perte, la destruction accidentelle ou intentionnelle, ou l'accès par des personnes non autorisées. Dans le cas de la collecte et du traitement de vos données personnelles, les informations sont transmises sous forme cryptée pour empêcher l'utilisation abusive des données personnelles par des tiers.",
+    },
+    section11: {
+      H2: "11. Mises à jour et modifications",
+      P: "Nous mettrons à jour ce document de temps à autre pour garantir la conformité aux exigences légales actuelles et aux événements actuels (par exemple, lorsque de nouveaux prestataires de services sont utilisés par nous). Nous vous recommandons de vérifier régulièrement ce document pour d'éventuelles modifications.",
+    },
+  },
 } as const;
