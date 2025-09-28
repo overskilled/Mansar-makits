@@ -3,6 +3,7 @@ import "./globals.css";
 import { Jost, Poppins } from "next/font/google";
 import { Navbar } from "@/components/ui/navbar";
 import { I18nProviderClient } from "@/locales/client";
+import Footer from "@/components/custom/Footer";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
   title: "MANSAR-MAKITS",
   description: "Your investement as a service platform",
   icons: {
-    icon: "/logo-mansar.png"
+    icon: "/logo-mansar.webp"
   }
 };
 
@@ -35,12 +36,12 @@ interface AdminLayoutProps {
 export default async function RootLayout({ params, children }: AdminLayoutProps) {
 
   const { locale } = await params;
-  
+
   return (
     <html lang="en">
       <head>
         {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
-        <link rel="icon" type="image/png" sizes="192x192" href="/logo-mansar.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/logo-mansar.webp" />
         {/* <link rel="apple-touch-icon" href="/icon-192x192.png" /> */}
       </head>
       <body
@@ -50,7 +51,12 @@ export default async function RootLayout({ params, children }: AdminLayoutProps)
           <div className="relative w-full ">
             <Navbar />
           </div>
+          <main>
           {children}
+          </main>
+            
+          
+        
         </I18nProviderClient>
       </body>
     </html>

@@ -30,7 +30,7 @@ export default function Home() {
     H3: t("home.EnteteData.H3"),
   };
   const flexWrapRight = {
-    Image: "/gauche.svg",
+    Image: "/logo-mansar.webp",
     SPAN: t("home.flexWrapRight.SPAN"),
     H3: t("home.flexWrapRight.H3"),
     P: t("home.flexWrapRight.P"),
@@ -116,8 +116,9 @@ export default function Home() {
   //  const blocks = t("home.flexWrapRight.BLOCK", { returnobject: true })
   return (
     <div className="flex h-screen flex-col relative">
-      <div className="relative py-10 md:py-40 px-6 md:px-12">
-        <div className="container mx-auto px-8 md:px-0 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+      <div className="relative py-10 md:py-40 px-4  lg:px-0 md:px-12">
+        <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+        
           {/* Left Content */}
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-light leading-tight">
@@ -149,9 +150,9 @@ export default function Home() {
       </div>
 
 
-      <div className="flex flex-col px-6 md:px-0 relative mt-10 mb-30">
+      <div className="flex flex-col px-4 md:px-0 relative mt-10 mb-30">
 
-        <div className="container mx-auto text-left items-left px-6 w-full text-center mb-12">
+        <div className="container mx-auto text-left items-left px-4 md:px-0 w-full text-center mb-12">
           {/* Span */}
           <span
             className="inline-block py-1 px-4 rounded-2xl font-semibold text-sm text-[#6583d2] bg-[#e9e7db]"
@@ -167,10 +168,18 @@ export default function Home() {
 
 
 
-        <div className="hidden md:relative bg-[url('/background.svg')] bg-cover bg-no-repeat py-20"></div>
-        <div className="container mx-auto px-6 md:px-0 space-y-24">
+        <div className="hidden md:relative bg-[url('/background-marche.svg')] bg-cover bg-no-repeat py-20"></div>
+        <div className="container mx-auto px-4 md:px-0 space-y-24">
+          <div
+          className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
+          style={{ backgroundImage: "url('/background-marche.svg')" }}
+        ></div>
+          <div
+          className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
+          style={{ backgroundImage: "url('/background.svg')" }}
+        ></div>
           {/* Section 1 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center container mx-auto px-4 md:px-0">
             {/* Text */}
             <div className="flex flex-col justify-between space-y-6">
               <h4 className="text-2xl md:text-3xl font-semibold">
@@ -187,7 +196,7 @@ export default function Home() {
             {/* Image always below text on mobile */}
             <div className="flex justify-center order-last md:order-none">
               <img
-                src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
+                src="/Home/image1.svg"
                 alt="image"
                 className="max-w-full h-auto"
               />
@@ -199,7 +208,7 @@ export default function Home() {
             {/* Image always below text on mobile */}
             <div className="flex justify-center order-last md:order-none">
               <img
-                src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45Z0MqNJQqIJW__image-banks.svg?fit=max&w=1200"
+                src="/Home/banks.svg"
                 alt="image"
                 className="max-w-full h-auto"
               />
@@ -237,7 +246,7 @@ export default function Home() {
             {/* Image always below text on mobile */}
             <div className="flex justify-center order-last md:order-none">
               <img
-                src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/aH45W0MqNJQqIJW6_image-broker.svg?fit=max&w=1200"
+                src="/Home/image1.svg"
                 alt="image"
                 className="max-w-full h-auto"
               />
@@ -278,7 +287,7 @@ export default function Home() {
 
       <GetInTouchBlock />
 
-      <Footer />
+    <Footer />
     </div>
   );
 }

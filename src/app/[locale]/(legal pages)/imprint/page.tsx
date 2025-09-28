@@ -187,7 +187,7 @@ export default function page() {
 
       <GetInTouchBlock />
 
-      <Footer />
+            <Footer />
     </div>
   );
 }

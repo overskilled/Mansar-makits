@@ -201,6 +201,7 @@ export default function page() {
         H2={t("contextualBrokerage.hero.H2")}
         P={t("contextualBrokerage.hero.P")}
         B={t("contextualBrokerage.hero.B")}
+        image1={"/"} image2={"/"}
       />
 
       <section className="mt-50 mb-15 px-4 lg:px-0">

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195.58 199.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #141428;
+      }
+
+      .cls-2 {
+        fill: #f4f4f8;
+        stroke: #141428;
+        stroke-linejoin: round;
+        stroke-width: 1.3px;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Warstwa_1-2" data-name="Warstwa 1">
+    <g>
+      <g>
+        <g class="cls-3">
+          <circle class="cls-2" cx="30.82" cy="30.82" r="30.17"/>
+        </g>
+        <ellipse class="cls-1" cx="31.1" cy="78.38" rx="23.9" ry="7.07"/>
+      </g>
+      <g class="cls-3">
+        <polygon class="cls-1" points="137.68 199.3 104.67 181.35 161.92 173.3 194.93 191.26 137.68 199.3"/>
+        <polygon class="cls-2" points="194.93 119.93 194.83 176.74 137.57 184.79 137.68 127.98 194.93 119.93"/>
+        <polygon class="cls-2" points="137.57 184.79 104.56 166.83 104.67 110.02 137.68 127.98 137.57 184.79"/>
+        <polygon class="cls-2" points="137.68 127.98 104.67 110.02 161.92 101.97 194.93 119.93 137.68 127.98"/>
+      </g>
+    </g>
+  </g>
+</svg>

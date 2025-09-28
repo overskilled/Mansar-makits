@@ -45,7 +45,7 @@ export default function DoubleBlockWithImage({
       />
 
       {/* Cards and image container */}
-      <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
+      <div className="flex flex-col container mx-auto md:flex-row items-start md:items-center gap-8">
         {/* Cards */}
         <div className="flex flex-col w-full md:w-3/7">
           <p className="text-center text-lg font-semibold mb-4">{LEGEND}</p>
@@ -58,23 +58,25 @@ export default function DoubleBlockWithImage({
                 }`}
             >
               <div
-                className={`-ml-6 -mb-6 rounded-lg border p-4 transition-all duration-300 ${activeIndex === index ? "bg-amber-100" : "bg-gray-100"
+                className={`-ml-5 -mb-7 rounded-lg border duration-500 shadow-none transition-colors ${activeIndex === index ? "bg-amber-100" : "bg-gray-100"
                   }`}
               >
+                {/* Title */}
+                <div className="m-0 p-4">
+                  <h3 className="text-sm font-semibold w-auto text-left rounded-xl px-2 py-0.5">
+                    {el.title}
+                  </h3>
+                </div>
 
-                <div className={`-ml-5 -mb-7 rounded-lg h-45 border duration-500 shadow-none ${activeIndex === index ? 'bg-amber-100' : 'bg-gray-100'
-                  }`}>
-                  <div className="m-0 p-4">
-                    <h3 className={`text-sm font-semibold w-auto text-left rounded-xl px-2 py-0.5`}>
-                      {el.title}
-                    </h3>
-                  </div>
-                  <div className="p-4 h-auto pt-2">
-                    <p className="text-sm leading-6 font-[50]">{el.content}</p>
-                  </div>
+                {/* Content */}
+                <div className="p-4 pt-2">
+                  <p className="text-sm md:text-base leading-relaxed text-gray-700">
+                    {el.content}
+                  </p>
                 </div>
               </div>
             </div>
+
           ))}
         </div>
 

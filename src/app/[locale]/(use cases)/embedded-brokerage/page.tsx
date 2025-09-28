@@ -160,6 +160,7 @@ export default function page() {
         H2={t("embeddedBrokerage.hero.H2")}
         P={t("embeddedBrokerage.hero.P")}
         B={t("embeddedBrokerage.hero.B")}
+        image1={"/"} image2={"/"}
       />
 
       <section className="mt-50 mb-15 px-4 lg:px-0">

@@ -11,7 +11,7 @@ export default {
         "2": " les produits d'investissement",
       },
       P: "Permettez à vos clients d'investir en bourse. Utilisez l'API de lemon.markets pour lancer un produit d'investissement centré sur le client et conforme.",
-      B: "commencer à développer",
+      B: "Commencer à développer",
     },
     EnteteData: {
       SPAN: "Cas d'utilisation",
@@ -741,7 +741,7 @@ export default {
     hero: {
       H2: "Banques & Établissements de Paiement",
       P: "Tirez parti de l'infrastructure lemon.markets pour intégrer l'investissement en actions et ETF selon vos conditions. Nous travaillons avec votre modèle opérationnel pour créer une expérience client pratique.",
-      B: "commencer à développer",
+      B: "Commencer à développer",
     },
     section1: {
       entete: {
@@ -1272,7 +1272,7 @@ export default {
     hero: {
       h2: "Sociétés de logiciel",
       p: "Innovez de nouveaux cas d'utilisation d'investissement en intégrant facilement l'investissement dans le parcours de vos clients. Pendant ce temps, nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      b: "commencer à construire",
+      b: "Commencer à construire",
     },
     section1: {
       entete: {

@@ -84,7 +84,7 @@ export default function page() {
   };
   return (
     <div className="flex flex-col min-h-screen">
-      <Hero H2={hero.H2} P={hero.P} B={hero.B} />
+      {/* <Hero H2={hero.H2} P={hero.P} B={hero.B} /> */}
 
       <section className="w-full my-10">
         <div className="w-full flex my-15 max-h-80 ">
@@ -375,7 +375,7 @@ export default function page() {
 
       <GetInTouchBlock />
 
-      <Footer />
+          <Footer />
     </div>
   );
 }
