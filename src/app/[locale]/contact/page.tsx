@@ -109,51 +109,47 @@ export default function Page() {
 
         {/* Form block */}
         <div>
-          <form onSubmit={handleSubmit} className="space-y-6">
-            {[
-              { id: "name", type: "text" },
-              { id: "email", type: "email" },
-              { id: "responsability", type: "text" },
-              { id: "companyStage", type: "text" },
-              { id: "description", type: "text" },
-              { id: "license", type: "text" },
-              { id: "country", type: "text" },
-              { id: "planned", type: "text" },
-            ].map((field, i) => (
-              <div
-                key={i}
-                className="flex flex-col border-b pb-3 focus-within:border-amber-400 transition"
-              >
-                <label
-                  htmlFor={field.id}
-                  className="text-sm font-medium text-gray-700"
-                >
-                  {t(`contactUs.section1.Label.${i}`)}
-                </label>
-                <input
-                  type={field.type}
-                  id={field.id}
-                  name={field.id}
-                  className="outline-none mt-2 py-2 px-1 bg-transparent text-gray-900"
-                  placeholder="Enter your text"
-                  required
-                  value={formData[field.id as keyof FormData]}
-                  onChange={handleChange}
-                />
-              </div>
-            ))}
-
-            {/* Extra note */}
-            <div className="pt-6">
-              <h4 className="flex gap-2 items-center text-gray-700 font-semibold">
-                {t("contactUs.section1.H4_3")} <MoveUpRight width={14} />
-              </h4>
+          <form onSubmit={handleSubmit}>
+            <div className="flex flex-col border-b mb-4 pb-4">
+              <label htmlFor="name">{t("contactUs.section1.Label.0")}</label>
+              <input type="text" id="name" name="name" className="outline-none mt-4" placeholder="enter your text" required value={formData.name} onChange={handleChange} />
+            </div> <div className="flex flex-col border-b mb-4 pb-4">
+              <label htmlFor="email">{t("contactUs.section1.Label.1")}</label>
+              <input type="email" id="email" name="email" className="outline-none mt-4" placeholder="enter your text" required value={formData.email} onChange={handleChange} />
             </div>
-
-            {/* Submit */}
-            <Button className="w-full">
-              {t("contactUs.section1.B")} <MoveUpRight />
-            </Button>
+            <div className="flex flex-col border-b mb-4 pb-4">
+              <label htmlFor="responsability">{t("contactUs.section1.Label.2")}</label>
+              <input type="text" id="responsability" name="responsability" className="outline-none mt-4" placeholder="enter your text" required value={formData.responsability} onChange={handleChange} />
+            </div>
+            <div className="flex flex-col border-b mb-4 pb-4"> <label htmlFor="companyStage">{t("contactUs.section1.Label.3")}</label>
+              <input type="text" id="companyStage" name="companyStage" className="outline-none mt-4" placeholder="enter your text" required value={formData.companyStage} onChange={handleChange} />
+            </div>
+            <div className="flex flex-col border-b mb-4 pb-4">
+              <label htmlFor="description">{t("contactUs.section1.Label.4")}</label>
+              <input type="text" id="description" name="description" className="outline-none mt-4" placeholder="enter your text" required value={formData.description} onChange={handleChange} />
+            </div>
+            <div className="flex flex-col border-b mb-4 pb-4">
+              <label htmlFor="license">{t("contactUs.section1.Label.5")}</label>
+              <input type="text" id="license" name="license" className="outline-none mt-4" placeholder="enter your text" required value={formData.licence} onChange={handleChange} />
+            </div>
+            <div className="flex flex-col border-b mb-4 pb-4">
+              <label htmlFor="country">{t("contactUs.section1.Label.6")}</label>
+              <input type="select" id="country" name="country" className="outline-none mt-4" placeholder="enter your text" required value={formData.country} onChange={handleChange} />
+            </div>
+            <div className="flex flex-col border-b mb-4 pb-4">
+              <label htmlFor="planned">{t("contactUs.section1.Label.7")}</label>
+              <input type="text" id="planned" name="planned" className="outline-none mt-4" placeholder="enter your text" required value={formData.planned} onChange={handleChange} />
+            </div>
+            <div className="py-10">
+              <h4 className="flex gap-2 items-center">
+                {t("contactUs.section1.H4_3")}
+                <MoveUpRight width={14} /></h4>
+            </div>
+            <div className="px-2">
+              <Button className="w-full" >
+                {t("contactUs.section1.B")} <MoveUpRight />
+              </Button>
+            </div>
           </form>
         </div>
       </section>

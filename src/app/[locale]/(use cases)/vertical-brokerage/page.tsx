@@ -201,6 +201,7 @@ export default function page() {
         H2={t("verticalBrokerage.hero.H2")}
         P={t("verticalBrokerage.hero.P")}
         B={t("verticalBrokerage.hero.B")}
+        image1={"/"} image2={"/"}
       />
 
       <section className="mt-50 mb-15">
