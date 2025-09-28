@@ -95,13 +95,13 @@ export default function page() {
               </li>
             ))}
           </ul>
-          <p className="mb-8">{t("dataProtection.section3.P2")}</p>
-          <p className="mb-8">{t("dataProtection.section3.P3")}</p>
-          <p className="mb-8">{t("dataProtection.section3.P4")}</p>
-          <p className="mb-8">{t("dataProtection.section3.P5")}</p>
-          <p className="mb-8">{t("dataProtection.section3.P6")}</p>
-          <p className="mb-8">{t("dataProtection.section3.P7")}</p>
-          <p className="mb-8">{t("dataProtection.section3.P8")}</p>
+          <p className="mb-8 text-center lg:text-start">{t("dataProtection.section3.P2")}</p>
+          <p className="mb-8 text-center lg:text-start">{t("dataProtection.section3.P3")}</p>
+          <p className="mb-8 text-center lg:text-start">{t("dataProtection.section3.P4")}</p>
+          <p className="mb-8 text-center lg:text-start">{t("dataProtection.section3.P5")}</p>
+          <p className="mb-8 text-center lg:text-start">{t("dataProtection.section3.P6")}</p>
+          <p className="mb-8 text-center lg:text-start">{t("dataProtection.section3.P7")}</p>
+          <p className="mb-8 text-center lg:text-start">{t("dataProtection.section3.P8")}</p>
         </>
 
         <h3 className="text-lg text-center lg:text-start">
@@ -189,27 +189,27 @@ export default function page() {
         <h2 className="text-xl text-center lg:text-start">
           {t("dataProtection.section8.H2")}
         </h2>
-        <p className="mb-8">{t("dataProtection.section8.P")}</p>
+        <p className="mb-8 text-center lg:text-start">{t("dataProtection.section8.P")}</p>
       </div>
 
       <div className="mt-4 lg:mb-10 my-4 text-sm">
         <h2 className="text-xl text-center lg:text-start">
           {t("dataProtection.section9.H2")}
         </h2>
-        <p className="mb-4">{t("dataProtection.section9.P")}</p>
+        <p className="mb-4 text-center lg:text-start">{t("dataProtection.section9.P")}</p>
       </div>
 
       <div className="mt-4 lg:mb-10 my-4 text-sm ">
         <h2 className="text-xl text-center lg:text-start">
           {t("dataProtection.section10.H2")}
         </h2>
-        <p className="mb-4">{t("dataProtection.section10.P")}</p>
+        <p className="mb-4 text-center lg:text-start">{t("dataProtection.section10.P")}</p>
       </div>
       <div className="mt-4 lg:mb-10 my-4 text-sm">
         <h2 className="text-xl text-center lg:text-start">
           {t("dataProtection.section11.H2")}
         </h2>
-        <p className="mb-4">{t("dataProtection.section11.P")}</p>
+        <p className="mb-4 text-center lg:text-start">{t("dataProtection.section11.P")}</p>
       </div>
 
       <GetInTouchBlock />
