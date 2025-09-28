@@ -138,22 +138,22 @@ export default function page() {
       {
         title: t("brokers.ListeDoubleBlock.BLOCK.0.title"),
         content: t("brokers.ListeDoubleBlock.BLOCK.0.content"),
-        image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
+        image: "/brokers-and-wealth-managers/3.svg",
       },
       {
         title: t("brokers.ListeDoubleBlock.BLOCK.1.title"),
         content: t("brokers.ListeDoubleBlock.BLOCK.1.content"),
-        image: t("brokers.ListeDoubleBlock.BLOCK.1.image"),
+        image: "/software-companies/side-two.svg",
       },
       {
         title: t("brokers.ListeDoubleBlock.BLOCK.2.title"),
         content: t("brokers.ListeDoubleBlock.BLOCK.2.content"),
-        image: t("brokers.ListeDoubleBlock.BLOCK.2.image"),
+        image: "/brokers-and-wealth-managers/3.svg",
       },
     ],
   };
   const flexWrapRightData = {
-    Image: "/gauche.svg",
+    Image: "/logo-mansar.webp",
     SPAN: t("brokers.flexWrapRightData.SPAN"),
     H3: t("brokers.flexWrapRightData.H3"),
     P: t("brokers.flexWrapRightData.P"),
@@ -184,6 +184,8 @@ export default function page() {
     H2: t("brokers.hero.H2"),
     P: t("brokers.hero.P"),
     B: t("brokers.hero.B"),
+    image1: "/brokers-and-wealth-managers/1.svg",
+    image2: "/brokers-and-wealth-managers/2.svg",
   };
   const liste = [
     {
@@ -214,29 +216,30 @@ export default function page() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeIndex1, setActiveIndex1] = useState(0);
 
-  const activeItem = titleListe[activeIndex];
-  const activeItem1 = hoverItems[activeIndex];
+  const activeItem = titleListe[activeIndex] ?? null;
+  const activeItem1 = hoverItems[activeIndex1] ?? null;
 
 
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} />
+      <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} image1={heroData.image1} image2={heroData.image2} />
 
       <section className="w-full my-20 mx-auto px-8 relative">
         <Entete SPAN={t("brokers.section1.SPAN")} H3={t("brokers.section1.h1")} P={t("brokers.section1.P")} TEXT="text-[#3a5af9]" BG="bg-[#eff2ff]" />
-        <div className="mt-10 flex w-full pl6">
-          <div className="flex flex-col w-3/5 gap-4 py-4 rounded-lg">
+        <div className="container mx-auto mt-10 flex flex-col lg:flex-row w-full gap-6 ">
+          {/* Left Section */}
+          <div className="flex flex-col w-full lg:w-3/5 gap-4 py-4 rounded-lg">
             {/* Navigation */}
-            <nav className="flex w-[90%] justify-center gap-2 ml-5 mr-5 flex-wrap lg:flex-nowrap ">
+            <nav className="flex flex-wrap lg:flex-nowrap w-full justify-center gap-2">
               {titleListe.map((el, index) => (
                 <button
                   key={index}
                   onClick={() => setActiveIndex(index)}
-                  className={`py-2  w-1/5 text-sm rounded-lg transition hover:cursor-pointer
-              ${index === activeIndex
+                  className={`py-2 flex-1 text-xs sm:text-sm md:text-base rounded-lg transition hover:cursor-pointer
+            ${index === activeIndex
                       ? "bg-[#f9fafb] border border-gray-400 font-semibold"
-                      : "bg-transaparent hover:bg-[#f9fafb]"
+                      : "bg-transparent hover:bg-[#f9fafb]"
                     }`}
                 >
                   {el.titre}
@@ -245,47 +248,56 @@ export default function page() {
             </nav>
 
             {/* Content */}
-            <div className="bg-[#f9fafb] border pt-4 ml-4 pr-4 mt-4 rounded-lg">
-              <div className="bg-[#f9fafb] border -ml-4 px-8 py-7 -mb-4 rounded-lg">
+            <div className="bg-[#f9fafb] border pt-4 pr-4 rounded-lg">
+              <div className="bg-[#f9fafb] border px-8 -ml-6 -mb-6 rounded-lg">
                 <div className="w-full h-full">
-                  <h2 className="text-3xl font-meduim mb-6">{activeItem.smallTitle}</h2>
-                  <p className="text-md font-thin leading-8 text-gray-600">{activeItem.texte}</p>
+                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-medium mb-4">
+                    {activeItem.smallTitle}
+                  </h2>
+                  <p className="text-sm sm:text-base leading-7 text-gray-600">
+                    {activeItem.texte}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="mx-auto">
-            <span className="w-40 bg-[#fffb9e] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-10 rounded-3xl text-sm text-center">
+
+          {/* Right Section */}
+          <div className="w-full lg:w-2/5 flex flex-col items-start">
+            {/* First Badge + List */}
+            <span className="w-full sm:w-auto bg-[#fffb9e] flex items-center justify-center gap-2 px-3 py-1 mb-2 mt-4 rounded-3xl text-xs sm:text-sm text-center">
               <div className="w-2 h-2 rounded-full bg-[#d5ce1c]"></div>
               {t("brokers.section2.SPAN1")}
             </span>
-
-            <ul className="list-disc list-inside text-xs/6 mt-2 space-y-0">
+            <ul className="list-disc list-inside text-xs sm:text-sm mt-2 space-y-1">
               <li>{t("brokers.section2.UL1.0")}</li>
               <li>{t("brokers.section2.UL1.1")}</li>
               <li>{t("brokers.section2.UL1.2")}</li>
             </ul>
 
-            <span className="w-60 bg-[#e3ffd9] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-5 rounded-3xl text-sm text-center">
+            {/* Second Badge + List */}
+            <span className="w-full sm:w-auto bg-[#e3ffd9] flex items-center justify-center gap-2 px-3 py-1 mb-2 mt-6 rounded-3xl text-xs sm:text-sm text-center">
               <div className="w-2 h-2 rounded-full bg-[#1c8e12]"></div>
               {t("brokers.section2.SPAN2")}
             </span>
-            <ul className="list-disc list-inside text-xs/6 mt-2 space-y-0">
+            <ul className="list-disc list-inside text-xs sm:text-sm mt-2 space-y-1">
               <li>{t("brokers.section2.UL2.0")}</li>
               <li>{t("brokers.section2.UL2.1")}</li>
               <li>{t("brokers.section2.UL2.2")}</li>
             </ul>
           </div>
         </div>
+
       </section>
 
-      <div className="flex items-center -mt-[100px] w-full min-h-screen bg-[url('/background.svg')] bg-cover">
+      <div className="container mx-auto flex items-center justify-center w-full min-h-[400px] bg-[url('/background.svg')] bg-cover bg-center px-4">
         <img
-          src="/investment2.svg"
-          alt="image"
-          className="w-full h-full object-cover"
+          src="/brokers-and-wealth-managers/4.svg"
+          alt="Investment"
+          className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-4xl xl:max-w-5xl h-auto object-contain"
         />
       </div>
+
 
       <div className="flex flex-col min-h-screen bg-black px-8 justify-center">
         {/* <span className="bg-violet-800/40 text-violet-700 w-45 text-center rounded-3xl py-1 px-2">
@@ -310,31 +322,44 @@ export default function page() {
         />
       </div>
 
-      <div className="flex flex-col h-[130vh] px-8 my-20">
-        <span className="text-[#3a5af9] bg-[#eff2ff] w-45 text-center rounded-3xl py-1 px-2">
+      <div className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 my-20">
+        {/* Badge */}
+        <span className="text-[#3a5af9] bg-[#eff2ff] inline-block w-fit text-center rounded-3xl py-1 px-4 text-xs sm:text-sm">
           {t("brokers.section4.SPAN")}
         </span>
-        <h2 className="text-4xl my-5">{t("brokers.section4.H2")}</h2>
-        <p className="">{t("brokers.section4.P")}</p>
-        <div className="flex w-full my-10">
-          <div className="flex flex-col w-2/5 gap-4">
+
+        {/* Heading */}
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl my-5 font-semibold">
+          {t("brokers.section4.H2")}
+        </h2>
+
+        {/* Paragraph */}
+        <p className="text-sm sm:text-base text-gray-700 max-w-prose">
+          {t("brokers.section4.P")}
+        </p>
+
+        {/* Main Flex Section */}
+        <div className="flex flex-col lg:flex-row w-full my-10 gap-8">
+          {/* Left Section */}
+          <div className="flex flex-col w-full lg:w-2/5 gap-4">
             {/* Hover triggers */}
-            <div className="flex py-2 px-2 justify-center gap-4  w-full">
+            <div className="flex flex-wrap lg:flex-row py-2 px-2 gap-4 w-full">
               {hoverItems.map((item, index) => (
                 <span
                   key={index}
-                  onMouseEnter={() => setActiveIndex(index)}
-                  className={`cursor-pointer px-2 py-1 transition text-lg gap-2 flex items-center flex-row 
-              ${index === activeIndex
-                      ? "font-semibold text-black font-semibold"
+                  onMouseEnter={() => setActiveIndex1(index)}
+                  className={`cursor-pointer px-2 py-1 transition text-sm sm:text-lg gap-2 flex items-center 
+              ${index === activeIndex1
+                      ? "font-semibold text-black"
                       : "text-gray-700 hover:text-black"
                     }`}
                 >
                   <Image
                     alt={`icon ${index}`}
-                    width={30}
-                    height={10}
                     src={`/${item.icon}`}
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 object-contain"
                   />
                   {item.label}
                 </span>
@@ -342,13 +367,13 @@ export default function page() {
             </div>
 
             {/* Card content */}
-            <div className="w-full h-full pl-0 py-2 ml-4">
-              <Card className="p-0 pt-4 shadow-none relative bg-gray-50 h-60">
-                <Card className="shadow-none w-full -ml-4 bg-gray-50 hover:bg-amber-50 absolute duration-500 h-60">
+            <div className="w-full h-auto py-2">
+              <Card className="p-0 pt-4 shadow-none relative bg-gray-50 min-h-[220px]">
+                <Card className="shadow-none w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 min-h-[220px]">
                   <CardHeader>{activeItem1.header}</CardHeader>
                   <CardContent className="gap-4">
-                    <h5>{activeItem1.h5}</h5>
-                    <ul className="list-disc pl-4 mt-2">
+                    <h5 className="text-base sm:text-lg font-medium">{activeItem1.h5}</h5>
+                    <ul className="list-disc pl-4 mt-2 space-y-1 text-sm sm:text-base">
                       {activeItem1.ul.map((u, i) => (
                         <li key={i}>{u}</li>
                       ))}
@@ -358,9 +383,24 @@ export default function page() {
               </Card>
             </div>
           </div>
+
+
+
+          <div className="flex flex-col w-full lg:w-3/5 gap-4  w-full lg:-ml-16">
+            <Image
+              src={"/software-companies/side-image.svg"}
+              alt="side-image"
+              width={960}
+              height={520}
+            />
+          </div>
+
         </div>
-            <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div>
+
+        <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div>
+
       </div>
+
 
       <CooperationBlock />
 
@@ -382,7 +422,6 @@ export default function page() {
 
       <GetInTouchBlock />
 
-      <Footer />
     </div>
   );
 }

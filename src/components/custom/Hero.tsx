@@ -5,12 +5,14 @@ interface hero {
   H2: string,
   P: string,
   B: string
+  image1: any,
+  image2: any
 }
 
-export default function Hero({ H2, P, B }: hero) {
+export default function Hero({ H2, P, B, image1, image2 }: hero) {
   const router = useRouter()
   return (
-    <div className="relative flex flex-row items-center pt-32 pb-24 lg-pb-32 lg:pt-64">
+    <div className="relative flex flex-row items-center pt-32 pb-24 gap-10 lg-pb-32 lg:pt-64">
       <div className="max-w-6xl mx-auto px-8 lg-px-0  justify-center text-center">
         <h2 className="text-5xl font-meduim mb-2">{H2}</h2>
         <p className="max-w-4xl leading-8">{P}</p>
@@ -29,10 +31,10 @@ export default function Hero({ H2, P, B }: hero) {
         {/* Left decoration */}
         <div className="absolute -z-10 pointer-events-none left-[5%] bottom-[30px]">
           <Image
-            src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/Z-0VeXdAxsiBwN3F_Group48095971.svg?fit=max&w=384"
+            src={image1}
             alt="Decoration left"
-            width={143}
-            height={135}
+            width={200}
+            height={185}
             priority={false}
           />
         </div>
@@ -40,10 +42,10 @@ export default function Hero({ H2, P, B }: hero) {
         {/* Right decoration */}
         <div className="absolute -z-10 pointer-events-none right-[5%] bottom-[-10px]">
           <Image
-            src="https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/Z-0VeXdAxsiBwN3E_Group48095969.svg?fit=max&w=640"
+            src={image2}
             alt="Decoration right"
-            width={280}
-            height={211}
+            width={200}
+            height={175}
             priority={false}
           />
         </div>

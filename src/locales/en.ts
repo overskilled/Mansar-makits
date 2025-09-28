@@ -148,7 +148,7 @@ export default {
     hero: {
       H2: "Brokers and Wealth Managers",
       P: "Focus all your efforts on building a unique product and attracting theright customers.We'll handle all the technical, operational, andregulatory complexities in the background.",
-      B: " Start building",
+      B: " Start Building",
     },
     liste: [
       {
@@ -437,7 +437,7 @@ export default {
     hero: {
       H2: "Banks & EMIs",
       P: "Leverage the lemon.markets infrastructure to integrate Stock and ETF investing on your terms. We work alongside your operating model to create a convenient customer experience.",
-      B: "start building",
+      B: "Start Building",
     },
     section1: {
       entete: {
@@ -602,7 +602,7 @@ export default {
     hero: {
       h2: "Software Companies",
       p: "Innovate new investment use cases by integrating investing into your customer journey with ease.While we take care of all the technical, operational and regulatory hustle in the back.",
-      b: "start building",
+      b: "Start Building",
     },
     section1: {
       entete: {
@@ -788,13 +788,13 @@ export default {
       P2: "Learn more about our investment infrastructure by exploring our developer hub. Find an extensive documentation, clear guides and all the support you need to get going right away!",
       Label: {
         0: "Name",
-        1: "email",
-        2: "responsability",
+        1: "Email",
+        2: "Responsability",
         3: "company stage",
-        4: "description",
-        5: "licence",
-        6: "country",
-        7: "planned",
+        4: "Description",
+        5: "Licence",
+        6: "Country",
+        7: "Planned",
       },
       H4_3: "Privacy Policy for contact forms",
       B: "submit form",
@@ -926,7 +926,7 @@ export default {
     hero: {
       H2: "Offer investing on your terms",
       P: "Get all necessary functionality to enable your customers to invest in Stocks & ETFs via one API. Tap into a modular, compliant and developer friendly infrastructure designed by experts.",
-      B: "Start building",
+      B: "Start Building",
     },
     ListeDoubleBlock: {
       SPAN: "Regulatory",

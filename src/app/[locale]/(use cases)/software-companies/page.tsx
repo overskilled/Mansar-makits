@@ -131,25 +131,25 @@ export default function page() {
         LEGEND: t("software.doubleBlock.legend"),
         BLOCK: [
             {
-                title: t("software.doubleBlock.block.0.title"),
-                content: t("software.doubleBlock.block.0.p"),
-                image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
+                title: t("brokers.ListeDoubleBlock.BLOCK.0.title"),
+                content: t("brokers.ListeDoubleBlock.BLOCK.0.content"),
+                image: "/brokers-and-wealth-managers/3.svg",
             },
             {
-                title: t("software.doubleBlock.block.1.title"),
-                content: t("software.doubleBlock.block.1.p"),
-                image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
+                title: t("brokers.ListeDoubleBlock.BLOCK.1.title"),
+                content: t("brokers.ListeDoubleBlock.BLOCK.1.content"),
+                image: "/software-companies/side-two.svg",
             },
             {
-                title: t("software.doubleBlock.block.2.title"),
-                content: t("software.doubleBlock.block.2.p"),
-                image: t("brokers.ListeDoubleBlock.BLOCK.0.image"),
+                title: t("brokers.ListeDoubleBlock.BLOCK.2.title"),
+                content: t("brokers.ListeDoubleBlock.BLOCK.2.content"),
+                image: "/brokers-and-wealth-managers/3.svg",
             },
         ],
     };
 
     const flexWrapRightData = {
-        Image: "/gauche.svg",
+        Image: "/logo-mansar.webp",
         SPAN: t("software.flexWrap.span"),
         H3: t("software.flexWrap.h3"),
         P: t("software.flexWrap.p"),
@@ -181,6 +181,8 @@ export default function page() {
         H2: t("software.hero.h2"),
         P: t("software.hero.p"),
         B: t("software.hero.b"),
+        image1: "/software-companies/left.svg",
+        image2: "/software-companies/right.svg",
     };
 
     const liste = [
@@ -216,7 +218,7 @@ export default function page() {
 
     return (
         <div className="">
-            <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} />
+            <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} image1={heroData.image1} image2={heroData.image2} />
 
             <section className=" my-20 max-x-4xl mx-auto px-8 relative">
                 <Entete
@@ -226,7 +228,7 @@ export default function page() {
                     TEXT="text-[#3a5af9]"
                     BG="bg-[#eff2ff]"
                 />
-                <div className="flex justify-between w-full">
+                <div className="container mx-auto flex justify-between w-full">
 
                     <div className="mt-10 flex w-full pr-6">
                         <div className="flex flex-col w-3/5 gap-4 py-4 rounded-lg">
@@ -289,7 +291,7 @@ export default function page() {
                 </div>
             </section>
 
-            <section className="flex items-center -mt-[100px] w-full min-h-screen bg-[url('/background.svg')] bg-cover">
+            <section className="container mx-auto flex items-center -mt-[100px] w-full min-h-screen bg-[url('/background.svg')] bg-cover">
                 <img
                     src="/investment2.svg"
                     alt="image"
@@ -310,7 +312,7 @@ export default function page() {
                 />
             </section>
 
-            <section className="flex flex-col h-[130vh] px-8 my-20">
+            <section className="container mx-auto flex flex-col h-[130vh] px-8 my-20">
                 <span className="text-[#3a5af9] bg-[#eff2ff] w-45 text-center rounded-3xl py-1 px-2">
                     {t("software.section4.span")}
                 </span>
@@ -358,6 +360,15 @@ export default function page() {
                             </Card>
                         </div>
                     </div>
+
+                    <div className="flex flex-col w-full lg:w-3/5 gap-4  w-full lg:-ml-16">
+                                <Image
+                                  src={"/software-companies/side-image.svg"}
+                                  alt="side-image"
+                                  width={960}
+                                  height={520}
+                                />
+                              </div>
                 </div>
                 <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div>
             </section>
@@ -382,7 +393,6 @@ export default function page() {
 
             <GetInTouchBlock />
 
-            <Footer />
         </div>
     );
 }

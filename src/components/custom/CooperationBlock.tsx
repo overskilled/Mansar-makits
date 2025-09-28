@@ -8,7 +8,7 @@ export default function CooperationBlock() {
   const liste = ["/p1.avif", "/p4.png", "/p2.avif", "/p3.avif"];
   return (
     <div className="flex bg-black w-full py-10 items-center my-10 min-h-[80vh]">
-      <div className="flex flex-col px-8 w-full">
+      <div className="flex flex-col px-8 w-full mx-auto max-w-7xl">
         {/* Heading */}
         <span className="bg-blue-600/20 rounded-lg px-3 py-1 w-fit text-[#6583d2]">
           {t("CooperationBlock.SPAN")}

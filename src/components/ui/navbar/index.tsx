@@ -378,6 +378,7 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
               className="text-sm font-medium rounded-xl hover:bg-black hover:text-white hover:cursor-pointer bg-white border border-gray-600 text-black"
               onClick={(e) => {
                 e.preventDefault();
+                router.push("/contact")
                 if (onSignInClick) onSignInClick();
               }}
             >
@@ -404,7 +405,7 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
                         <NavigationMenuItem key={index} className="w-full">
                           {link.submenu ? (
                             <>
-                              <div className="text-muted-foreground px-2 py-1.5 text-xs font-medium">
+                              <div className="text-muted-foreground px-2 py-1.5 text-xs font-medium mt-3">
                                 {link.label}
                               </div>
                               <ul>

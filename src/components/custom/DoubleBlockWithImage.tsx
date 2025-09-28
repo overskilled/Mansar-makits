@@ -45,7 +45,7 @@ export default function DoubleBlockWithImage({
       />
 
       {/* Cards and image container */}
-      <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
+      <div className="flex flex-col container mx-auto md:flex-row items-start md:items-center gap-8">
         {/* Cards */}
         <div className="flex flex-col w-full md:w-3/7">
           <p className="text-center text-lg font-semibold mb-4">{LEGEND}</p>

@@ -19,30 +19,22 @@ interface Liste {
 
 export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
   return (
-    <div className="w-full px-8 md:px-0 mb-12">
+    <div className="px-8 md:px-0 mb-12">
       {/* Header */}
       <Entete SPAN={SPAN} H3={H3} P={P} TEXT="text-[#6583d2]" BG="bg-[#e9e7db]" />
 
       {/* Cards container */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-20">
         {BLOCK.map((el, index) => (
-          <Card
-            className="border-none shadow-none rounded-md w-full"
-            key={index}
-          >
-            <Card className="rounded-md bg-white border-none shadow-md p-4 flex flex-col justify-between h-full duration-200 hover:bg-gray-100">
-              {/* Header */}
+          <Card key={index} className="border shadow-lg p-2 rounded-md w-full">
+            <Card className="-ml-2 md:-ml-4 hover:cursor-pointer -mb-5 pb-4 gap-2 duration-300 rounded-md h-72 md:h-80 hover:bg-gray-100">
               <CardHeader className="flex flex-col items-start gap-4">
                 <img src={el.image} alt={`icon-${index}`} className="w-16 h-16 object-contain" />
                 <h3 className="text-xl md:text-2xl font-semibold">{el.title}</h3>
               </CardHeader>
-
-              {/* Content */}
               <CardContent className="text-sm md:text-base leading-6">
                 {el.descript}
               </CardContent>
-
-              {/* Footer */}
               <CardFooter>
                 <span className="flex gap-2 items-center group text-sm md:text-base cursor-pointer hover:text-amber-400 duration-300">
                   learn more
@@ -54,5 +46,6 @@ export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
         ))}
       </div>
     </div>
+
   );
 }

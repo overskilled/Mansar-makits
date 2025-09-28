@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.23 184.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f3f7;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #141428;
+        stroke-linejoin: round;
+        stroke-width: 1.3px;
+      }
+
+      .cls-2 {
+        fill: #141428;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Warstwa_1-2" data-name="Warstwa 1">
+    <g>
+      <g class="cls-3">
+        <polygon class="cls-1" points="46.94 20.49 46.83 135.83 37.12 137.19 37.23 21.85 46.94 20.49"/>
+        <polygon class="cls-1" points="37.12 137.19 .65 117.35 .76 2.01 37.23 21.85 37.12 137.19"/>
+        <polygon class="cls-1" points="37.23 21.85 .76 2.01 10.47 .65 46.94 20.49 37.23 21.85"/>
+        <polygon class="cls-2" points="37.23 151.49 .76 131.65 10.47 130.29 46.94 150.13 37.23 151.49"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="109.81 183.95 93.62 175.14 119.39 171.52 135.58 180.33 109.81 183.95"/>
+        <polygon class="cls-1" points="135.58 99.44 135.53 174.11 109.77 177.73 109.81 103.06 135.58 99.44"/>
+        <polygon class="cls-1" points="109.77 177.73 93.58 168.93 93.62 94.25 109.81 103.06 109.77 177.73"/>
+        <polygon class="cls-1" points="109.81 103.06 93.62 94.25 119.39 90.63 135.58 99.44 109.81 103.06"/>
+      </g>
+    </g>
+  </g>
+</svg>

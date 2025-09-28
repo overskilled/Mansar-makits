@@ -131,7 +131,7 @@ export default function page() {
     ],
   };
   const dataBlock1 = {
-    Image: '/gauche.svg',
+    Image: '/logo-mansar.webp',
     SPAN: t("product.dataBlock1.SPAN"),
     H3: t("product.dataBlock1.H3"),
     P: t("product.dataBlock1.P"),
@@ -164,11 +164,11 @@ export default function page() {
   };
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="w-full h-screen flex flex-col justify-center items-center ">
+      <div className="max-w-7xl mx-auto px-8 lg-px-0 h-screen flex flex-col justify-center items-center ">
         <div className="w-full gap-8 bg-transparent justify-center flex flex-col items-center *:text-center">
           <h2 className="text-5xl w-1/2 font-seibold mb-2">{t("product.hero.H2")}</h2>
-          <p className="w-[60%] leading-8 font-[50] text-md text-gray-600">{t("product.hero.P")}</p>
-          <Button variant="basic" size="xl" className="rounded-xl" >
+          <p className="w-[75%] leading-8 font-[50] text-md text-gray-600">{t("product.hero.P")}</p>
+          <Button variant="basic" size="xl" className="rounded-xl font-light text-lg" >
             {t("product.hero.B")}
           </Button>
         </div>
@@ -212,7 +212,7 @@ export default function page() {
         P={ListeDoubleBlock.P}
       />
 
-      <div className="my-10 px-8">
+      <div className="my-10 px-4 lg:px-0 mx-auto w-full container">
         <span className="bg-[#ebf3fc] text-[#4c6cfc] px-4 py-0.5 rounded-3xl">
           {t("product.section1.SPAN")}
         </span>
@@ -252,31 +252,45 @@ export default function page() {
           TEXT="text-blue-700"
         />
 
-        <div className="flex lg:flex-col flex-col-reverse mt-10">
-          <div className="w-full flex gap-4">
-            <div className="w-1/4 lg:flex hidden">
+        <div className="flex flex-col-reverse lg:flex-col mt-10">
+          {/* Wrapper */}
+          <div className="w-full flex flex-col lg:flex-row gap-4">
+
+            {/* Left image (hidden on small, visible on large) */}
+            <div className="hidden lg:flex lg:w-1/4">
               <img
                 src="/stimulation.png"
                 alt="image"
-                className="w-full h-full bg-cover bg-no-repeat"
+                className="w-full h-auto object-cover rounded-md"
               />
             </div>
-            <div className="p-0 lg:w-3/4 flex w-full flex-row bg-no-repeat bg-contain mx-4 shadow-none rounded-md pt-2">
-              <div className="w-full h-full bg-image rounded-lg flex items-center justify-between">
-                <div className="w-1/2 pl-5 *:my-5 ml-4">
-                  <img src="/p4.png" alt="image" />
-                  <p className="text-white">{t("product.section2.P")}</p>
-                  <span className="text-white">{t("product.section2.SPAN")}</span>
-                  <button className="p-2 flex items-center gap-2 px-4 bg-white rounded-2xl border my-4">
+
+            {/* Right content */}
+            <div className="flex flex-col lg:flex-row w-full lg:w-3/4 mx-0 lg:mx-4 shadow-none rounded-md pt-2">
+              <div className="w-full h-full bg-image rounded-lg flex flex-col lg:flex-row items-center justify-between p-4">
+
+                {/* Text Section */}
+                <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
+                  <img src="/p4.png" alt="image" className="mx-auto lg:mx-0" />
+                  <p className="text-black">{t("product.section2.P")}</p>
+                  <span className="text-white block">{t("product.section2.SPAN")}</span>
+                  <button className="p-2 px-4 flex items-center justify-center gap-2 bg-white rounded-2xl border my-4 mx-auto lg:mx-0">
                     {t("product.section2.B")} <ChevronRight className="h-4 w-4" />
                   </button>
                 </div>
-                <div className="flex h-full rounded-tr-md rounded-br-md">
-                  <img src="/phone.png" alt="image" className="object-cover" />
+
+                {/* Phone Image */}
+                <div className="flex justify-center lg:justify-end w-full lg:w-1/2 mt-6 lg:mt-0">
+                  <img
+                    src="/phone.png"
+                    alt="phone"
+                    className="object-contain max-h-80 w-auto"
+                  />
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -290,7 +304,6 @@ export default function page() {
 
       <GetInTouchBlock />
 
-      <Footer />
     </div>
   );
 }
