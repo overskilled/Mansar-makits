@@ -28,25 +28,25 @@ export default function FlexWrapRight({ SPAN, H3, P, Image, BLOCK }: Receive) {
           TEXT="text-[#6583d2]"
         />
 
-        {/* Content */}
-        <div className="mt-10 md:mt-20 flex flex-col lg:flex-row w-full">
-          {/* Left Image (hidden on mobile) */}
-          <div className="hidden lg:flex w-[30%] items-center rounded-md overflow-hidden">
-            <img
-              src={Image}
-              alt="image"
-              className="w-full h-auto object-contain"
-            />
+        <div className="flex w-full justify-end ">
+          <div className="hidden lg:block absolute left-0 -z-10 bg-[url('/rotation.svg')] w-1/2 -ml-30 px-20 py-15 bg-blue400 h-full flex justify-end">
+            <div className="bg-[url('/rotation.svg')] w-full bg-green400 px-20 py-17 h-full flex items-center justify-center">
+              <div className="bg-[url('/rotation.svg')] w-full bg-green400 rounded-full h-full flex items-center justify-center">
+                <img
+                  src={Image}
+                  alt="image"
+                  className="h-auto object-contain bg[url('/rotation.svg')] bg-contain"
+                />
+              </div>
+            </div>
           </div>
-
-          {/* Cards */}
-          <div className="lg:w-[70%] flex flex-wrap gap-6 justify-start lg:justify-end">
+          <div className="w-full lg:w-[70%] flex flex-wrap gap-6 justify-start lg:justify-end">
             {BLOCK.map((el, index) => (
               <Card
                 className="border shadow-lg p-2 rounded-md w-full sm:w-[48%] md:w-[48%] lg:w-[45%] flex"
                 key={index}
               >
-                <Card className="flex flex-col flex-1 -ml-4 -mb-4 gap-4 duration-300 rounded-md hover:cursor-pointer hover:bg-gray-100 p-4">
+                <Card className="flex flex-col flex-1 lg:py-10 -ml-4 -mb-4 gap-4 duration-300 rounded-md hover:cursor-pointer hover:bg-gray-100 px-4">
                   <CardHeader className="gap-3">
                     <img
                       src={el.icone}

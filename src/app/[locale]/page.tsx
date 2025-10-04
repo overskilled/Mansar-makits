@@ -22,8 +22,7 @@ import { use, useTransition } from "react";
 
 export default function Home() {
   const t = useI18n();
-  const router = useRouter()
-
+  const router = useRouter();
 
   const EnteteData = {
     SPAN: t("home.EnteteData.SPAN"),
@@ -63,32 +62,32 @@ export default function Home() {
     P: t("home.FunctionnalityBlockData.P"),
     BLOCK: [
       {
-        image: '/userText.svg',
+        image: "/userText.svg",
         title: t("home.FunctionnalityBlockData.BLOCK.0.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.0.descript"),
       },
       {
-        image: '/doubleCamera.svg',
+        image: "/doubleCamera.svg",
         title: t("home.FunctionnalityBlockData.BLOCK.1.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.1.descript"),
       },
       {
-        image: '/programming.svg',
+        image: "/programming.svg",
         title: t("home.FunctionnalityBlockData.BLOCK.2.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.2.descript"),
       },
       {
-        image: '/table-edit-chart.svg',
+        image: "/table-edit-chart.svg",
         title: t("home.FunctionnalityBlockData.BLOCK.3.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.3.descript"),
       },
       {
-        image: '/list.svg',
+        image: "/list.svg",
         title: t("home.FunctionnalityBlockData.BLOCK.4.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.4.descript"),
       },
       {
-        image: '/dashboard.svg',
+        image: "/dashboard.svg",
         title: t("home.FunctionnalityBlockData.BLOCK.5.title"),
         descript: t("home.FunctionnalityBlockData.BLOCK.5.descript"),
       },
@@ -118,7 +117,6 @@ export default function Home() {
     <div className="flex h-screen flex-col relative">
       <div className="relative py-10 md:py-40 px-4  lg:px-0 md:px-12">
         <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
-        
           {/* Left Content */}
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-light leading-tight">
@@ -149,14 +147,10 @@ export default function Home() {
         </div>
       </div>
 
-
       <div className="flex flex-col px-4 md:px-0 relative mt-10 mb-30">
-
         <div className="container mx-auto text-left items-left px-4 md:px-0 w-full text-center mb-12">
           {/* Span */}
-          <span
-            className="inline-block py-1 px-4 rounded-2xl font-semibold text-sm text-[#6583d2] bg-[#e9e7db]"
-          >
+          <span className="inline-block py-1 px-4 rounded-2xl font-semibold text-sm text-[#6583d2] bg-[#e9e7db]">
             {EnteteData.SPAN}
           </span>
 
@@ -166,18 +160,16 @@ export default function Home() {
           </h3>
         </div>
 
-
-
         <div className="hidden md:relative bg-[url('/background-marche.svg')] bg-cover bg-no-repeat py-20"></div>
         <div className="container mx-auto px-4 md:px-0 space-y-24">
           <div
-          className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
-          style={{ backgroundImage: "url('/background-marche.svg')" }}
-        ></div>
+            className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
+            style={{ backgroundImage: "url('/background-marche.svg')" }}
+          ></div>
           <div
-          className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
-          style={{ backgroundImage: "url('/background.svg')" }}
-        ></div>
+            className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
+            style={{ backgroundImage: "url('/background.svg')" }}
+          ></div>
           {/* Section 1 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center container mx-auto px-4 md:px-0">
             {/* Text */}
@@ -253,10 +245,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </div>
-
-
 
       <div className="">
         <FlexWrapRight
@@ -287,7 +276,7 @@ export default function Home() {
 
       <GetInTouchBlock />
 
-    <Footer />
+      <Footer />
     </div>
   );
 }

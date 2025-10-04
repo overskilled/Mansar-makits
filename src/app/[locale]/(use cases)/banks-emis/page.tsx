@@ -7,6 +7,7 @@ import FlexWrapRight from "@/components/custom/FlexWrapRight";
 import Footer from "@/components/custom/Footer";
 import GetInTouchBlock from "@/components/custom/GetInTouchBlock";
 import Hero from "@/components/custom/Hero";
+import HoverChange from "@/components/custom/HoverChange";
 import {
   ProgressiveTimeline,
   TimelineSection,
@@ -176,6 +177,7 @@ export default function page() {
       },
     ],
   };
+
   const heroData = {
     H2: t("banks.hero.H2"),
     P: t("banks.hero.P"),
@@ -183,6 +185,7 @@ export default function page() {
     image1: "/banks-emis/bank1.svg",
     image2: "/banks-emis/bank2.svg",
   };
+
   const liste = [
     {
       smallTitle: t("brokers.liste.0.smallTitle"),
@@ -209,14 +212,20 @@ export default function page() {
   const items = liste[0];
 
   const [activeIndex, setActiveIndex] = useState(0);
-    const [activeIndex1, setActiveIndex1] = useState(0);
-  
-    const activeItem = titleListe[activeIndex] ?? null;
-    const activeItem1 = hoverItems[activeIndex1] ?? null;
+  const [activeIndex1, setActiveIndex1] = useState(0);
+
+  const activeItem = titleListe[activeIndex] ?? null;
+  const activeItem1 = hoverItems[activeIndex1] ?? null;
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} image1={heroData.image1} image2={heroData.image2} />
+      <Hero
+        H2={heroData.H2}
+        P={heroData.P}
+        B={heroData.B}
+        image1={heroData.image1}
+        image2={heroData.image2}
+      />
 
       <section className="w-full my-20 px-8 mx-auto relative">
         <Entete
@@ -227,7 +236,7 @@ export default function page() {
           BG="bg-[#eff2ff]"
         />
         <div className="container mx-auto mt-10 flex flex-col lg:flex-row w-full gap-6">
-          <div className="flex flex-col mx-auto w-full gap-4 py-4 rounded-lg">
+          <div className="flex flex-col mx-auto w-full gap-4 py-4 rounded-lg w-[60%]">
             {/* Navigation */}
             <nav className="flex flex-wrap lg:flex-nowrap w-full justify-center gap-2 ">
               {titleListe.map((el, index) => (
@@ -235,10 +244,11 @@ export default function page() {
                   key={index}
                   onClick={() => setActiveIndex(index)}
                   className={`py-2 flex-1 text-xs sm:text-sm md:text-base rounded-lg transition hover:cursor-pointer
-            ${index === activeIndex
-                      ? "bg-[#f9fafb] border border-gray-400 font-semibold"
-                      : "bg-transparent hover:bg-[#f9fafb]"
-                    }`}
+            ${
+              index === activeIndex
+                ? "bg-[#f9fafb] border border-gray-400 font-semibold"
+                : "bg-transparent hover:bg-[#f9fafb]"
+            }`}
                 >
                   {el.titre}
                 </button>
@@ -259,8 +269,8 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className="mx-auto">
-            <span className="w-40 bg-[#fffb9e] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-10 rounded-3xl text-sm text-center">
+          <div className="mx-auto w-[40%]">
+            <span className="bg-[#fffb9e] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-10 max-w-max rounded-3xl text-sm text-center">
               <div className="w-2 h-2 rounded-full bg-[#d5ce1c]"></div>
               {t("banks.section1.right.0.span")}
             </span>
@@ -271,7 +281,7 @@ export default function page() {
               <li>{t("banks.section1.right.0.third")}</li>
             </ul>
 
-            <span className="w-60 bg-[#e3ffd9] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-5 rounded-3xl text-sm text-center">
+            <span className="max-w-max bg-[#e3ffd9] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-5 rounded-3xl text-sm text-center">
               <div className="w-2 h-2 rounded-full bg-[#1c8e12]"></div>
               {t("banks.section1.right.1.span")}
             </span>
@@ -302,73 +312,17 @@ export default function page() {
           onSectionChange={(sectionId, index) => {
             console.log(`Active section: ${sectionId} (${index})`);
           }}
+          className="lg:h-screen"
         />
       </section>
 
-      <section className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 my-20">
-        <span className="text-[#3a5af9] bg-[#eff2ff] w-45 text-center rounded-3xl py-1 px-2">
-          {t("banks.section4.span")}
-        </span>
-        <h2 className="text-4xl my-5">{t("banks.section4.h2")}</h2>
-        <p className="">{t("banks.section4.p")}</p>
-
-        <div className="flex flex-col lg:flex-row w-full my-10 gap-8">
-          <div className="flex flex-col w-full lg:w-2/5 gap-4">
-            {/* Hover triggers */}
-            <div className="flex flex-wrap lg:flex-row py-2 px-2 gap-4 w-full">
-              {hoverItems.map((item, index) => (
-                <span
-                  key={index}
-                  onMouseEnter={() => setActiveIndex(index)}
-                  className={`cursor-pointer px-2 py-1 transition text-sm sm:text-lg gap-2 flex items-center
-                  ${index === activeIndex
-                      ? "font-semibold text-black font-semibold"
-                      : "text-gray-700 hover:text-black"
-                    }`}
-                >
-                  <Image
-                    alt={`icon ${index}`}
-                    src={`/${item.icon}`}
-                    width={32}
-                    height={32}
-                    className="w-8 h-8 object-contain"
-                  />
-                  {item.label}
-                </span>
-              ))}
-            </div>
-
-            {/* Card content */}
-            <div className="w-full h-auto py-2">
-              <Card className="p-0 pt-4 w-full  shadow-none relative bg-gray-50 min-h-[220px]">
-                <Card className="shadow-none -ml-5 w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 min-h-[220px]">
-                  <CardHeader>{activeItem1.header}</CardHeader>
-                  <CardContent className="gap-4">
-                    <h5>{activeItem1.h5}</h5>
-                    <ul className="list-disc pl-4 mt-2">
-                      {activeItem1.ul.map((u, i) => (
-                        <li key={i}>{u}</li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              </Card>
-            </div>
-          </div>
-
-          <div className="flex flex-col w-full lg:w-3/5 gap-4  w-full lg:-ml-16">
-            <Image
-              src={"/software-companies/side-image.svg"}
-              alt="side-image"
-              width={960}
-              height={520}
-            />
-          </div>
-
-        </div>
-
-        <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div>
-      </section>
+      <HoverChange 
+        titleListe={titleListe}
+        hoverItems={hoverItems}
+        text={t("banks.section4.p")}
+        title={t("banks.section4.h2")}
+        span= {t("banks.section4.span")}
+      />
 
       <CooperationBlock />
 

@@ -1,9 +1,50 @@
-import { SP } from "next/dist/shared/lib/utils";
-
 export default {
   hello: "Hello",
   learn_more: "Learn more",
   Read_more: "Read more",
+
+  navbar: {
+    product: "Product",
+    productItems: {
+      investmentInfrastructure: "Investment Infrastructure",
+      investmentInfrastructureDesc: "API first investment infrastructure",
+    },
+    useCases: "Use Cases",
+    useCasesItems: {
+      brokersWealthManagers: "Brokers & Wealth Managers",
+      brokersWealthManagersDesc:
+        "Running the backend of your investment experience",
+      banksEmis: "Banks & EMIs",
+      banksEmisDesc: "Powering investing embedded into your product",
+      softwareCompanies: "Software Companies",
+      softwareCompaniesDesc: "Bringing investing into your context",
+    },
+    developers: "Developers",
+    developersItems: {
+      developerHub: "Developer Hub",
+      developerHubDesc: "Browse all our technical resources",
+      guides: "Guides",
+      guidesDesc: "Demonstrative use cases in top of our API",
+      documentation: "Documentation",
+      documentationDesc: "Details of our platform's API endpoints",
+    },
+    company: "Company",
+    companyItems: {
+      company: "Company",
+      companyDesc: "Driven by growing investing opportunities",
+      careers: "Careers",
+      careersDesc: "All you need to know to become a Mansar builder",
+      media: "PR/Media",
+      mediaDesc: "Media coverage and assets for your story",
+      blog: "Blog",
+      blogDesc: "Get the latest news from Mansar",
+    },
+    signIn: "Sign In",
+    getInTouch: "Get in Touch",
+    getStarted: "Get Started",
+    tagline: "We bring to you quality investment assets",
+  },
+
   home: {
     hero: {
       H1: {
@@ -1457,105 +1498,6 @@ export default {
     },
   },
 
-  CooperationBlock: {
-    SPAN: "Cooperations",
-    H3: "Working together with trusted institutions",
-  },
-
-  GetInTouch: {
-    SPAN: "Get in Touch",
-    H1: "Partner with us",
-    P: "Use the lemon.markets API to launch a customer-centric and compliant investment product.",
-    B: "Start building",
-    section1: {
-      H3_1: "About us",
-      content_1: "Discover the vision and principles of MANSAR.MAKITS",
-      H3_2: "Carrer",
-      content_2: "Unclock your full potential and grow with us",
-    },
-  },
-
-  footer: {
-    div1: {
-      H3: "mansar-makits",
-      P: "The infrastructure powering investment products. Enable your customers to invest in the stock market. Use the lemon.markets API to launch a customer-centric and compliant investment product.",
-    },
-    div2: {
-      H5: "Use Cases",
-      UL: {
-        0: "Vertical Brokerage",
-        1: "Embedded Brokerage",
-        2: "Contextual Brokerage",
-      },
-    },
-    div3: {
-      H5: "Company",
-      UL: {
-        0: "Company",
-        1: "Careers",
-        2: "PR / Media",
-      },
-    },
-    div4: {
-      H5: "Developers",
-      UL: {
-        0: "Documentation",
-        1: "Status Page",
-      },
-    },
-    div5: {
-      H5: "Legal Pages",
-      UL: {
-        0: "Imprint",
-        1: "Terms & Conditions",
-        2: "Privacy Policy",
-        3: "Data protection for applicants",
-      },
-    },
-  },
-
-  navbar: {
-    product: "Product",
-    productItems: {
-      investmentInfrastructure: "Investment Infrastructure",
-      investmentInfrastructureDesc: "API first investment infrastructure",
-    },
-    useCases: "Use Cases",
-    useCasesItems: {
-      brokersWealthManagers: "Brokers & Wealth Managers",
-      brokersWealthManagersDesc:
-        "Running the backend of your investment experience",
-      banksEmis: "Banks & EMIs",
-      banksEmisDesc: "Powering investing embedded into your product",
-      softwareCompanies: "Software Companies",
-      softwareCompaniesDesc: "Bringing investing into your context",
-    },
-    developers: "Developers",
-    developersItems: {
-      developerHub: "Developer Hub",
-      developerHubDesc: "Browse all our technical resources",
-      guides: "Guides",
-      guidesDesc: "Demonstrative use cases in top of our API",
-      documentation: "Documentation",
-      documentationDesc: "Details of our platform's API endpoints",
-    },
-    company: "Company",
-    companyItems: {
-      company: "Company",
-      companyDesc: "Driven by growing investing opportunities",
-      careers: "Careers",
-      careersDesc: "All you need to know to become a Mansar builder",
-      media: "PR/Media",
-      mediaDesc: "Media coverage and assets for your story",
-      blog: "Blog",
-      blogDesc: "Get the latest news from Mansar",
-    },
-    signIn: "Sign In",
-    getInTouch: "Get in Touch",
-    getStarted: "Get Started",
-    tagline: "We bring to you quality investment assets",
-  },
-
   privacyPolicy: {
     H1: "Privacy Policy",
     section01: {
@@ -1979,21 +1921,78 @@ export default {
         },
       ],
     },
-      section8: {
-        H2: `8 Automated Individual Decision Making`,
-        P: `Our decision-making in the application process is not based on automated processing in accordance with Article 22 GDPR.`,
-      },
-      section9: {
-        H2: `9 Profiling`,
-        P: `Your personal data will not be used for profiling. Profiling is any form of automated processing of personal data consisting of the use of personal data to analyze or predict certain personal aspects.`,
-      },
-      section10: {
-        H2: `10 Technical and Organizational Measures`,
-        P: `We use technical and organizational measures to protect the personal data you provide against accidental or intentional manipulation, loss, destruction, or access by unauthorized persons. In the event of the collection and processing of your personal data, the information is transmitted in encrypted form to prevent misuse of the personal data by third parties.`,
-      },
-      section11: {
-        H2: `11 Updates and Changes`,
-        P: `We will update this document from time to time to ensure compliance with current legal requirements and current events (e.g. when new service providers are used by us). We recommend that you check this document regularly for possible changes.`,
+    section8: {
+      H2: `8 Automated Individual Decision Making`,
+      P: `Our decision-making in the application process is not based on automated processing in accordance with Article 22 GDPR.`,
+    },
+    section9: {
+      H2: `9 Profiling`,
+      P: `Your personal data will not be used for profiling. Profiling is any form of automated processing of personal data consisting of the use of personal data to analyze or predict certain personal aspects.`,
+    },
+    section10: {
+      H2: `10 Technical and Organizational Measures`,
+      P: `We use technical and organizational measures to protect the personal data you provide against accidental or intentional manipulation, loss, destruction, or access by unauthorized persons. In the event of the collection and processing of your personal data, the information is transmitted in encrypted form to prevent misuse of the personal data by third parties.`,
+    },
+    section11: {
+      H2: `11 Updates and Changes`,
+      P: `We will update this document from time to time to ensure compliance with current legal requirements and current events (e.g. when new service providers are used by us). We recommend that you check this document regularly for possible changes.`,
+    },
+  },
+
+  GetInTouch: {
+    SPAN: "Get in Touch",
+    H1: "Partner with us",
+    P: "Use the lemon.markets API to launch a customer-centric and compliant investment product.",
+    B: "Start building",
+    section1: {
+      H3_1: "About us",
+      content_1: "Discover the vision and principles of MANSAR.MAKITS",
+      H3_2: "Carrer",
+      content_2: "Unclock your full potential and grow with us",
+    },
+  },
+
+  CooperationBlock: {
+    SPAN: "Cooperations",
+    H3: "Working together with trusted institutions",
+  },
+
+  footer: {
+    div1: {
+      H3: "mansar-makits",
+      P: "The infrastructure powering investment products. Enable your customers to invest in the stock market. Use the lemon.markets API to launch a customer-centric and compliant investment product.",
+    },
+    div2: {
+      H5: "Use Cases",
+      UL: {
+        0: "Vertical Brokerage",
+        1: "Embedded Brokerage",
+        2: "Contextual Brokerage",
       },
     },
+    div3: {
+      H5: "Company",
+      UL: {
+        0: "Company",
+        1: "Careers",
+        2: "PR / Media",
+      },
+    },
+    div4: {
+      H5: "Developers",
+      UL: {
+        0: "Documentation",
+        1: "Status Page",
+      },
+    },
+    div5: {
+      H5: "Legal Pages",
+      UL: {
+        0: "Imprint",
+        1: "Terms & Conditions",
+        2: "Privacy Policy",
+        3: "Data protection for applicants",
+      },
+    },
+  },
 } as const;

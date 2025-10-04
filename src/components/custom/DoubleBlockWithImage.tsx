@@ -45,7 +45,7 @@ export default function DoubleBlockWithImage({
       />
 
       {/* Cards and image container */}
-      <div className="flex flex-col container mx-auto md:flex-row items-start md:items-center gap-8">
+      <div className="flex flex-col container h-screen mx-auto md:flex-row items-start md:items-center gap-8 bg-[url('/background.svg')] bg-center bg-cover">
         {/* Cards */}
         <div className="flex flex-col w-full md:w-3/7">
           <p className="text-center text-lg font-semibold mb-4">{LEGEND}</p>
@@ -81,7 +81,7 @@ export default function DoubleBlockWithImage({
         </div>
 
         {/* Image */}
-        <div className="w-full md:w-4/7 flex justify-center md:justify-end mt-6 md:mt-0">
+        <div className="w-full md:w-4/7 flex min-h-full justify-center md:justify-end mt-6 md:mt-0">
           <img
             src={limage}
             alt="Product visualization"

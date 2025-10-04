@@ -243,22 +243,41 @@ export default {
       },
     },
     section4: {
-      SPAN: "Classes d'Actifs",
-      H2: "Couverture d'actifs mondiale allant des ETF aux Actions",
-      P: "lemon.markets offre les produits d'investissement les plus demandés, fournissant l'accès à une large liste d'ISINs provenant de plus de 10 gestionnaires d'actifs. Nous assurons des prix équitables et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des heures de marché étendues.",
-      SPANS: {
-        "0": "ETF",
-        "1": "Actions",
-        "2": "Fonds",
-      },
-      CardHeader: "Fonds",
-      H5: "Proposez des stratégies d'investissement sur mesure à vos clients",
-      UL: {
-        "0": "Accès aux fonds communs de placement, MMF, etc.",
-        "1": "Portefeuilles gérés professionnellement et diversifiés",
-        "2": "Seuils d'investissement et calendriers flexibles",
-      },
+  SPAN: "Classes d’actifs",
+  H2: "Couverture mondiale des actifs allant des ETF aux actions",
+  P: "lemon.markets propose les produits d’investissement les plus demandés, donnant accès à une large liste d’ISIN provenant de plus de 10 gestionnaires d’actifs. Nous garantissons des prix équitables et des écarts serrés pour vos clients, soutenus par une forte liquidité et des horaires de marché étendus.",
+  SPANS: ["ETF", "Actions", "Fonds"],
+  CARDS: [
+    {
+      CardHeader: "ETF",
+      H5: "Offrez à vos clients la possibilité de diversifier leurs investissements",
+      UL: [
+        "Horaires de marché de 8h à 22h",
+        "De la spécialisation sectorielle à la couverture mondiale",
+        "Plus de 1000 ETF disponibles",
+      ],
     },
+    {
+      CardHeader: "Actions",
+      H5: "Donnez accès à une large gamme d’actions mondiales via une bourse",
+      UL: [
+        "Horaires de marché de 8h à 22h",
+        "Des petites capitalisations aux grandes entreprises",
+        "Plus de 3000 actions",
+      ],
+    },
+    {
+      CardHeader: "Fonds",
+      H5: "Proposez des stratégies d’investissement sur mesure à vos clients",
+      UL: [
+        "Accès aux fonds communs de placement, aux MMF et plus encore",
+        "Portefeuilles gérés professionnellement et diversifiés",
+        "Montants d’investissement et calendriers flexibles",
+      ],
+    },
+  ],
+    },
+    
     ListeDoubleBlock: {
       SPAN: "Réglementaire",
       H3: "Trouvez la bonne configuration avec nos experts réglementaires et conformité",

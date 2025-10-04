@@ -7,7 +7,10 @@ import FlexWrapRight from "@/components/custom/FlexWrapRight";
 import Footer from "@/components/custom/Footer";
 import GetInTouchBlock from "@/components/custom/GetInTouchBlock";
 import Hero from "@/components/custom/Hero";
-import { ProgressiveTimeline, TimelineSection } from "@/components/custom/progressive-timeline";
+import {
+  ProgressiveTimeline,
+  TimelineSection,
+} from "@/components/custom/progressive-timeline";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { useI18n } from "@/locales/client";
 import Image from "next/image";
@@ -15,7 +18,7 @@ import { useState } from "react";
 
 interface HoverItem {
   label: string;
-  icon: string
+  icon: string;
   header: string;
   h5: string;
   ul: string[];
@@ -60,7 +63,7 @@ export default function page() {
       description:
         "Our comprehensive tax and reporting services include the automatic calculation and deduction of settlement and withholding tax, making it easier for you and your customers to stay compliant with tax regulations. We create the tax documents for end customers, and deliver all relevant information to the financial authorities.",
     },
-  ]
+  ];
 
   const hoverItems: HoverItem[] = [
     {
@@ -71,8 +74,8 @@ export default function page() {
       ul: [
         t("brokers.section4.CARDS.0.UL.0"),
         t("brokers.section4.CARDS.0.UL.1"),
-        t("brokers.section4.CARDS.0.UL.2")
-      ]
+        t("brokers.section4.CARDS.0.UL.2"),
+      ],
     },
     {
       label: t("brokers.section4.SPANS.1"),
@@ -82,8 +85,8 @@ export default function page() {
       ul: [
         t("brokers.section4.CARDS.1.UL.0"),
         t("brokers.section4.CARDS.1.UL.1"),
-        t("brokers.section4.CARDS.1.UL.2")
-      ]
+        t("brokers.section4.CARDS.1.UL.2"),
+      ],
     },
     {
       label: t("brokers.section4.SPANS.2"),
@@ -93,9 +96,9 @@ export default function page() {
       ul: [
         t("brokers.section4.CARDS.2.UL.0"),
         t("brokers.section4.CARDS.2.UL.1"),
-        t("brokers.section4.CARDS.2.UL.2")
-      ]
-    }
+        t("brokers.section4.CARDS.2.UL.2"),
+      ],
+    },
   ];
 
   const titleListe = [
@@ -157,22 +160,22 @@ export default function page() {
     P: t("brokers.flexWrapRightData.P"),
     BLOCK: [
       {
-        icone: '/user.svg',
+        icone: "/user.svg",
         title: t("brokers.flexWrapRightData.BLOCK.0.title"),
         content: t("brokers.flexWrapRightData.BLOCK.0.content"),
       },
       {
-        icone: '/dashboard.svg',
+        icone: "/dashboard.svg",
         title: t("brokers.flexWrapRightData.BLOCK.1.title"),
         content: t("brokers.flexWrapRightData.BLOCK.1.content"),
       },
       {
-        icone: '/balise.svg',
+        icone: "/balise.svg",
         title: t("brokers.flexWrapRightData.BLOCK.2.title"),
         content: t("brokers.flexWrapRightData.BLOCK.2.content"),
       },
       {
-        icone: '/bank-checkmark.svg',
+        icone: "/bank-checkmark.svg",
         title: t("brokers.flexWrapRightData.BLOCK.3.title"),
         content: t("brokers.flexWrapRightData.BLOCK.3.content"),
       },
@@ -186,7 +189,7 @@ export default function page() {
     image1: "/brokers-and-wealth-managers/1.svg",
     image2: "/brokers-and-wealth-managers/2.svg",
   };
-  
+
   const liste = [
     {
       smallTitle: t("brokers.liste.0.smallTitle"),
@@ -212,21 +215,30 @@ export default function page() {
 
   const items = liste[0];
 
-
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeIndex1, setActiveIndex1] = useState(0);
 
   const activeItem = titleListe[activeIndex] ?? null;
   const activeItem1 = hoverItems[activeIndex1] ?? null;
 
-
-
   return (
     <div className="flex flex-col min-h-screen">
-      <Hero H2={heroData.H2} P={heroData.P} B={heroData.B} image1={heroData.image1} image2={heroData.image2} />
+      <Hero
+        image1={heroData.image1}
+        H2={heroData.H2}
+        P={heroData.P}
+        B={heroData.B}
+        image2={heroData.image2}
+        />
 
       <section className="w-full my-20 mx-auto px-8 relative">
-        <Entete SPAN={t("brokers.section1.SPAN")} H3={t("brokers.section1.h1")} P={t("brokers.section1.P")} TEXT="text-[#3a5af9]" BG="bg-[#eff2ff]" />
+        <Entete
+          SPAN={t("brokers.section1.SPAN")}
+          H3={t("brokers.section1.h1")}
+          P={t("brokers.section1.P")}
+          TEXT="text-[#3a5af9]"
+          BG="bg-[#eff2ff]"
+        />
         <div className="container mx-auto mt-10 flex flex-col lg:flex-row w-full gap-6 ">
           {/* Left Section */}
           <div className="flex flex-col w-full lg:w-3/5 gap-4 py-4 rounded-lg">
@@ -237,10 +249,11 @@ export default function page() {
                   key={index}
                   onClick={() => setActiveIndex(index)}
                   className={`py-2 flex-1 text-xs sm:text-sm md:text-base rounded-lg transition hover:cursor-pointer
-            ${index === activeIndex
-                      ? "bg-[#f9fafb] border border-gray-400 font-semibold"
-                      : "bg-transparent hover:bg-[#f9fafb]"
-                    }`}
+            ${
+              index === activeIndex
+                ? "bg-[#f9fafb] border border-gray-400 font-semibold"
+                : "bg-transparent hover:bg-[#f9fafb]"
+            }`}
                 >
                   {el.titre}
                 </button>
@@ -287,7 +300,6 @@ export default function page() {
             </ul>
           </div>
         </div>
-
       </section>
 
       <div className="container mx-auto flex items-center justify-center w-full min-h-[400px] bg-[url('/background.svg')] bg-cover bg-center px-4">
@@ -298,18 +310,7 @@ export default function page() {
         />
       </div>
 
-
       <div className="flex flex-col min-h-screen bg-black px-8 justify-center">
-        {/* <span className="bg-violet-800/40 text-violet-700 w-45 text-center rounded-3xl py-1 px-2">
-          {t("brokers.section3.SPAN")}
-        </span>
-        <h2 className="text-4xl font-semibold text-white my-10">
-          {t("brokers.section3.H2.0")} <br />
-          {t("brokers.section3.H2.1")} <br />
-          {t("brokers.section3.H2.2")} <br />
-          {t("brokers.section3.H2.3")}
-        </h2>
-        <div className="flex w-full h-30 bg-gray-300">s</div> */}
         <ProgressiveTimeline
           title={t("brokers.section3.H2.0")}
           sections={timelineSections}
@@ -317,12 +318,12 @@ export default function page() {
           progressInterval={5000}
           span={"Customer Journey"}
           onSectionChange={(sectionId, index) => {
-            console.log(`Active section: ${sectionId} (${index})`)
+            console.log(`Active section: ${sectionId} (${index})`);
           }}
         />
       </div>
 
-      <div className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 my-20">
+      <div className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 mt-10 pb-40 bg-[url('/background.svg')] bg-cover bg-end bgblue-400">
         {/* Badge */}
         <span className="text-[#3a5af9] bg-[#eff2ff] inline-block w-fit text-center rounded-3xl py-1 px-4 text-xs sm:text-sm">
           {t("brokers.section4.SPAN")}
@@ -334,12 +335,12 @@ export default function page() {
         </h2>
 
         {/* Paragraph */}
-        <p className="text-sm sm:text-base text-gray-700 max-w-prose">
+        <p className="text-sm sm:text-base text-gray-700">
           {t("brokers.section4.P")}
         </p>
 
         {/* Main Flex Section */}
-        <div className="flex flex-col lg:flex-row w-full my-10 gap-8">
+        <div className="flex flex-col lg:flex-row w-full mt-10 gap-8">
           {/* Left Section */}
           <div className="flex flex-col w-full lg:w-2/5 gap-4">
             {/* Hover triggers */}
@@ -349,10 +350,11 @@ export default function page() {
                   key={index}
                   onMouseEnter={() => setActiveIndex1(index)}
                   className={`cursor-pointer px-2 py-1 transition text-sm sm:text-lg gap-2 flex items-center 
-              ${index === activeIndex1
-                      ? "font-semibold text-black"
-                      : "text-gray-700 hover:text-black"
-                    }`}
+              ${
+                index === activeIndex1
+                  ? "font-semibold text-black"
+                  : "text-gray-700 hover:text-black"
+              }`}
                 >
                   <Image
                     alt={`icon ${index}`}
@@ -372,7 +374,9 @@ export default function page() {
                 <Card className="shadow-none w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 -ml-5 min-h-[220px]">
                   <CardHeader>{activeItem1.header}</CardHeader>
                   <CardContent className="gap-4">
-                    <h5 className="text-base sm:text-lg font-medium">{activeItem1.h5}</h5>
+                    <h5 className="text-base sm:text-lg font-medium">
+                      {activeItem1.h5}
+                    </h5>
                     <ul className="list-disc pl-4 mt-2 space-y-1 text-sm sm:text-base">
                       {activeItem1.ul.map((u, i) => (
                         <li key={i}>{u}</li>
@@ -384,8 +388,6 @@ export default function page() {
             </div>
           </div>
 
-
-
           <div className="flex flex-col w-full lg:w-3/5 gap-4  w-full lg:-ml-16">
             <Image
               src={"/software-companies/side-image.svg"}
@@ -394,15 +396,14 @@ export default function page() {
               height={520}
             />
           </div>
-
         </div>
 
-        <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div>
-
+        {/* <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div> */}
       </div>
 
-
+      <div className="-mt-10">
       <CooperationBlock />
+      </div>
 
       <DoubleBlockWithImage
         SPAN={ListeDoubleBlock.SPAN}
@@ -422,7 +423,7 @@ export default function page() {
 
       <GetInTouchBlock />
 
-                      <Footer />
+      <Footer />
     </div>
   );
 }

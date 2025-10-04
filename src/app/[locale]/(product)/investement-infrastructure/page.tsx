@@ -98,65 +98,61 @@ export default function page() {
     BLOCK: [
       {
         image:
-          "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/dc7ae402-3d09-473d-a8bf-dc32f154d22c_user-document.svg?fit=max&w=96",
+          "/userText.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.0.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.0.descript"),
       },
       {
-        image: "/balise.svg",
+        image: "/doubleCamera.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.1.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.1.descript"),
       },
       {
-        image: "/dashboard.svg",
+        image: "/programming.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.2.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.2.descript"),
       },
       {
         image:
-          "	https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/eb140aa0-1bb2-4e5b-8b2e-41caefdd9d5a_table-edit-chart.svg?fit=max&w=96",
+          "/table-edit-chart.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.3.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.3.descript"),
       },
       {
-        image: "/doubleCamera.svg",
+        image: "/list.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.4.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.4.descript"),
       },
       {
-        image: "/bank-checkmark.svg",
+        image: "/dashboard.svg",
         title: t("product.FunctionnalityBlockData.BLOCK.5.title"),
         descript: t("product.FunctionnalityBlockData.BLOCK.5.descript"),
       },
     ],
   };
   const dataBlock1 = {
-    Image: '/logo-mansar.webp',
+    Image: "/logo-mansar.webp",
     SPAN: t("product.dataBlock1.SPAN"),
     H3: t("product.dataBlock1.H3"),
     P: t("product.dataBlock1.P"),
     BLOCK: [
       {
-        icone:
-          "/icons/user-profile-change-refresh.svg",
+        icone: "/icons/user-profile-change-refresh.svg",
         title: t("product.dataBlock1.BLOCK.0.title"),
         content: t("product.dataBlock1.BLOCK.0.content"),
       },
       {
-        icone:
-          "/icons/programming-code-window-terminal.svg",
+        icone: "/icons/programming-code-window-terminal.svg",
         title: t("product.dataBlock1.BLOCK.1.title"),
         content: t("product.dataBlock1.BLOCK.1.content"),
       },
       {
-        icone:
-          "/icons/programming-code-terminal.svg",
+        icone: "/icons/programming-code-terminal.svg",
         title: t("product.dataBlock1.BLOCK.2.title"),
         content: t("product.dataBlock1.BLOCK.2.content"),
       },
       {
-        icone:
-          "/icons/bank-checkmark.svg",
+        icone: "/icons/bank-checkmark.svg",
         title: t("product.dataBlock1.BLOCK.3.title"),
         content: t("product.dataBlock1.BLOCK.3.content"),
       },
@@ -166,9 +162,17 @@ export default function page() {
     <div className="flex flex-col min-h-screen">
       <div className="max-w-7xl mx-auto px-8 lg-px-0 h-screen flex flex-col justify-center items-center ">
         <div className="w-full gap-8 bg-transparent justify-center flex flex-col items-center *:text-center">
-          <h2 className="text-5xl w-1/2 font-seibold mb-2">{t("product.hero.H2")}</h2>
-          <p className="w-[75%] leading-8 font-[50] text-md text-gray-600">{t("product.hero.P")}</p>
-          <Button variant="basic" size="xl" className="rounded-xl font-light text-lg" >
+          <h2 className="text-5xl w-1/2 font-seibold mb-2">
+            {t("product.hero.H2")}
+          </h2>
+          <p className="w-[75%] leading-8 font-[50] text-md text-gray-600">
+            {t("product.hero.P")}
+          </p>
+          <Button
+            variant="basic"
+            size="xl"
+            className="rounded-xl font-light text-lg"
+          >
             {t("product.hero.B")}
           </Button>
         </div>
@@ -203,7 +207,6 @@ export default function page() {
         </div>
       </div>
 
-
       <DoubleBlockWithImage
         SPAN={ListeDoubleBlock.SPAN}
         H3={ListeDoubleBlock.H3}
@@ -226,7 +229,9 @@ export default function page() {
                 <span
                   className={`rounded-3xl px-4 py-1 relative flex items-center gap-2 ${el.color}`}
                 >
-                  <span className={`w-1.5 h-1.5 rounded-full ${el.bulletColor}`} ></span>
+                  <span
+                    className={`w-1.5 h-1.5 rounded-full ${el.bulletColor}`}
+                  ></span>
                   <span className="text-xs">{el.statut}</span>
                 </span>
               </div>
@@ -255,7 +260,6 @@ export default function page() {
         <div className="flex flex-col-reverse lg:flex-col mt-10">
           {/* Wrapper */}
           <div className="w-full flex flex-col lg:flex-row gap-4">
-
             {/* Left image (hidden on small, visible on large) */}
             <div className="hidden lg:flex lg:w-1/4">
               <img
@@ -266,31 +270,38 @@ export default function page() {
             </div>
 
             {/* Right content */}
-            <div className="flex flex-col lg:flex-row w-full lg:w-3/4 mx-0 lg:mx-4 shadow-none rounded-md pt-2">
-              <div className="w-full h-full bg-image rounded-lg flex flex-col lg:flex-row items-center justify-between p-4">
+            <Card className="p-0 flex relative flex-col lg:flex-row w-full lg:w-3/4 mx-0 lg:mx-4 relative shadow-none -pb-4 pr-2 rounded-md max-h-full mb-2 pt-2">
+              <Card className="p-0 -ml-2 -mb-4 absolute bg-[url('/grandient.png')] bg-cover h-full border mr-2">
+                <div className="w-full h-full bg-image rounded-lg flex flex-col lg:flex-row items-center justify-between p-4">
+                  {/* Text Section */}
+                  <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
+                    <img
+                      src="/p4.png"
+                      alt="image"
+                      className="mx-auto lg:mx-0"
+                    />
+                    <p className="text-black">{t("product.section2.P")}</p>
+                    <span className="text-white block">
+                      {t("product.section2.SPAN")}
+                    </span>
+                    <button className="p-2 px-4 flex items-center justify-center gap-2 bg-white rounded-2xl border my-4 mx-auto lg:mx-0">
+                      {t("product.section2.B")}{" "}
+                      <ChevronRight className="h-4 w-4" />
+                    </button>
+                  </div>
 
-                {/* Text Section */}
-                <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
-                  <img src="/p4.png" alt="image" className="mx-auto lg:mx-0" />
-                  <p className="text-black">{t("product.section2.P")}</p>
-                  <span className="text-white block">{t("product.section2.SPAN")}</span>
-                  <button className="p-2 px-4 flex items-center justify-center gap-2 bg-white rounded-2xl border my-4 mx-auto lg:mx-0">
-                    {t("product.section2.B")} <ChevronRight className="h-4 w-4" />
-                  </button>
+                  {/* Phone Image */}
+                  <div className="flex justify-center lg:justify-end w-full lg:w-1/2 mt-6 lg:mt-0">
+                    <img
+                      src="/phone.png"
+                      alt="phone"
+                      className="object-contain max-h-80 w-auto "
+                    />
+                  </div>
                 </div>
-
-                {/* Phone Image */}
-                <div className="flex justify-center lg:justify-end w-full lg:w-1/2 mt-6 lg:mt-0">
-                  <img
-                    src="/phone.png"
-                    alt="phone"
-                    className="object-contain max-h-80 w-auto"
-                  />
-                </div>
-              </div>
-            </div>
+              </Card>
+            </Card>
           </div>
-
         </div>
       </div>
 
@@ -304,7 +315,7 @@ export default function page() {
 
       <GetInTouchBlock />
 
-          <Footer />
+      <Footer />
     </div>
   );
 }

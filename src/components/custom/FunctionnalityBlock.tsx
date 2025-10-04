@@ -30,10 +30,10 @@ export default function FunctionnalityBlock({ SPAN, H3, P, BLOCK }: Liste) {
         {BLOCK.map((el, index) => (
           <Card
             key={index}
-            className="border shadow-lg p-2 rounded-md w-full transition-all duration-300 bg-gray-100"
+            className="border shadow-lg p-2 rounded-md w-full transition-all duration-300"
           >
             <Card
-              className="-ml-4 md:-ml-4 -mb-5 pb-4 gap-2 duration-300 rounded-md hover:cursor-pointer bg-gray-100 
+              className="-ml-4 md:-ml-4 -mb-5 pb-4 gap-2 duration-300 rounded-md hover:cursor-pointer hover:bg-gray-100 
                h-auto md:h-90" // mobile expands, desktop fixed
             >
               <CardHeader className="flex flex-col items-start gap-4">
