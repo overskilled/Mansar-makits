@@ -7,6 +7,7 @@ import FlexWrapRight from "@/components/custom/FlexWrapRight";
 import Footer from "@/components/custom/Footer";
 import GetInTouchBlock from "@/components/custom/GetInTouchBlock";
 import Hero from "@/components/custom/Hero";
+import HoverChange from "@/components/custom/HoverChange";
 import {
   ProgressiveTimeline,
   TimelineSection,
@@ -229,7 +230,7 @@ export default function page() {
         P={heroData.P}
         B={heroData.B}
         image2={heroData.image2}
-        />
+      />
 
       <section className="w-full my-20 mx-auto px-8 relative">
         <Entete
@@ -323,86 +324,16 @@ export default function page() {
         />
       </div>
 
-      <div className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 mt-10 pb-40 bg-[url('/background.svg')] bg-cover bg-end bgblue-400">
-        {/* Badge */}
-        <span className="text-[#3a5af9] bg-[#eff2ff] inline-block w-fit text-center rounded-3xl py-1 px-4 text-xs sm:text-sm">
-          {t("brokers.section4.SPAN")}
-        </span>
-
-        {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl my-5 font-semibold">
-          {t("brokers.section4.H2")}
-        </h2>
-
-        {/* Paragraph */}
-        <p className="text-sm sm:text-base text-gray-700">
-          {t("brokers.section4.P")}
-        </p>
-
-        {/* Main Flex Section */}
-        <div className="flex flex-col lg:flex-row w-full mt-10 gap-8">
-          {/* Left Section */}
-          <div className="flex flex-col w-full lg:w-2/5 gap-4">
-            {/* Hover triggers */}
-            <div className="flex flex-wrap lg:flex-row py-2 px-2 gap-4 w-full">
-              {hoverItems.map((item, index) => (
-                <span
-                  key={index}
-                  onMouseEnter={() => setActiveIndex1(index)}
-                  className={`cursor-pointer px-2 py-1 transition text-sm sm:text-lg gap-2 flex items-center 
-              ${
-                index === activeIndex1
-                  ? "font-semibold text-black"
-                  : "text-gray-700 hover:text-black"
-              }`}
-                >
-                  <Image
-                    alt={`icon ${index}`}
-                    src={`/${item.icon}`}
-                    width={32}
-                    height={32}
-                    className="w-8 h-8 object-contain"
-                  />
-                  {item.label}
-                </span>
-              ))}
-            </div>
-
-            {/* Card content */}
-            <div className="w-full h-auto py-2">
-              <Card className="p-0 pt-4 shadow-none relative bg-gray-50 min-h-[220px]">
-                <Card className="shadow-none w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 -ml-5 min-h-[220px]">
-                  <CardHeader>{activeItem1.header}</CardHeader>
-                  <CardContent className="gap-4">
-                    <h5 className="text-base sm:text-lg font-medium">
-                      {activeItem1.h5}
-                    </h5>
-                    <ul className="list-disc pl-4 mt-2 space-y-1 text-sm sm:text-base">
-                      {activeItem1.ul.map((u, i) => (
-                        <li key={i}>{u}</li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              </Card>
-            </div>
-          </div>
-
-          <div className="flex flex-col w-full lg:w-3/5 gap-4  w-full lg:-ml-16">
-            <Image
-              src={"/software-companies/side-image.svg"}
-              alt="side-image"
-              width={960}
-              height={520}
-            />
-          </div>
-        </div>
-
-        {/* <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div> */}
-      </div>
+      <HoverChange
+        titleListe={titleListe}
+        hoverItems={hoverItems}
+        text={t("banks.section4.p")}
+        title={t("banks.section4.h2")}
+        span={t("banks.section4.span")}
+      />
 
       <div className="-mt-10">
-      <CooperationBlock />
+        <CooperationBlock />
       </div>
 
       <DoubleBlockWithImage
@@ -427,3 +358,80 @@ export default function page() {
     </div>
   );
 }
+// {/* <div className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 mt-10 pb-40 bg-[url('/background.svg')] bg-cover bg-end bgblue-400">
+//   {/* Badge */}
+//   <span className="text-[#3a5af9] bg-[#eff2ff] inline-block w-fit text-center rounded-3xl py-1 px-4 text-xs sm:text-sm">
+//     {t("brokers.section4.SPAN")}
+//   </span>
+
+//   {/* Heading */}
+//   <h2 className="text-2xl sm:text-3xl lg:text-4xl my-5 font-semibold">
+//     {t("brokers.section4.H2")}
+//   </h2>
+
+//   {/* Paragraph */}
+//   <p className="text-sm sm:text-base text-gray-700">
+//     {t("brokers.section4.P")}
+//   </p>
+
+//   {/* Main Flex Section */}
+//   <div className="flex flex-col lg:flex-row w-full mt-10 gap-8">
+//     {/* Left Section */}
+//     <div className="flex flex-col w-full lg:w-2/5 gap-4">
+//       {/* Hover triggers */}
+//       <div className="flex flex-wrap lg:flex-row py-2 px-2 gap-4 w-full">
+//         {hoverItems.map((item, index) => (
+//           <span
+//             key={index}
+//             onMouseEnter={() => setActiveIndex1(index)}
+//             className={`cursor-pointer px-2 py-1 transition text-sm sm:text-lg gap-2 flex items-center 
+//               ${
+//                 index === activeIndex1
+//                   ? "font-semibold text-black"
+//                   : "text-gray-700 hover:text-black"
+//               }`}
+//           >
+//             <Image
+//               alt={`icon ${index}`}
+//               src={`/${item.icon}`}
+//               width={32}
+//               height={32}
+//               className="w-8 h-8 object-contain"
+//             />
+//             {item.label}
+//           </span>
+//         ))}
+//       </div>
+
+//       {/* Card content */}
+//       <div className="w-full h-auto py-2">
+//         <Card className="p-0 pt-4 shadow-none relative bg-gray-50 min-h-[220px]">
+//           <Card className="shadow-none w-full bg-gray-50 hover:bg-amber-50 absolute duration-500 -ml-5 min-h-[220px]">
+//             <CardHeader>{activeItem1.header}</CardHeader>
+//             <CardContent className="gap-4">
+//               <h5 className="text-base sm:text-lg font-medium">
+//                 {activeItem1.h5}
+//               </h5>
+//               <ul className="list-disc pl-4 mt-2 space-y-1 text-sm sm:text-base">
+//                 {activeItem1.ul.map((u, i) => (
+//                   <li key={i}>{u}</li>
+//                 ))}
+//               </ul>
+//             </CardContent>
+//           </Card>
+//         </Card>
+//       </div>
+//     </div>
+
+//     <div className="flex flex-col w-full lg:w-3/5 gap-4  w-full lg:-ml-16">
+//       <Image
+//         src={"/software-companies/side-image.svg"}
+//         alt="side-image"
+//         width={960}
+//         height={520}
+//       />
+//     </div>
+//   </div>
+
+//   {/* <div className="flex items-center -mt-[370px] w-full min-h-screen bg-[url('/background.svg')] bg-cover"></div> */}
+// </div>; */}

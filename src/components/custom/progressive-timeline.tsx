@@ -67,7 +67,7 @@ export function ProgressiveTimeline({
   }
 
   return (
-    <div className={cn("w-full my-[100px]", className)}>
+    <div className={cn("w-full my-[100px] h-screen", className)}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Tag/Span */}
         <span className="inline-block py-1 px-4 rounded-2xl text-center font-semibold text-xs sm:text-sm bg-[#141c34] text-[#171ca6]">

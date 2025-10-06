@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/carousel";
 import { useI18n } from "@/locales/client";
 import { MoveDownRight, MoveUpRight } from "lucide-react";
+import { useState } from "react";
 
 export default function page() {
   const t = useI18n();
@@ -76,20 +77,98 @@ export default function page() {
       role: t("company.carouselData.4.role"),
     },
   ];
-  const listeImage = ["/andy.jpg", "/andy.jpg", "/andy.jpg"];
+  const listeImage = ["/image.png", "/image.png", "/image.png"];
   const EnteteData = {
     SPAN: t("company.EnteteData.SPAN"),
     H3: t("company.EnteteData.H3"),
     P: t("company.EnteteData.P"),
   };
+  const listeChange = [
+    [
+      {
+        date: "07 August 2025",
+        text: "DWPbank Acquires Brokerage-as-a-Service Platform LemonMarkets",
+        article: "article",
+      },
+      {
+        date: "07 August 2025",
+        text: "dwpbank acquires Berlin-based fintech lemon.markets to expand digital brokerage services",
+        article: "article",
+      },
+      {
+        date: "07 August 2025",
+        text: "dwpbank Acquires lemon.markets to Boost Digital Brokerage Services",
+        article: "article",
+      },
+      {
+        date: "07 August 2025",
+        text: "Fintech Lemon.Markets Acquisition Boosts Dwpbank’s Brokerage Capabilities",
+        article: "article",
+      },
+    ],
+    [
+      {
+        date: "06 August 2025",
+        text: "Das sagt Max Linden zum Exit",
+        article: "article",
+      },
+      {
+        date: "06 August 2025",
+        text: "DWP Bank übernimmt Berliner Fintech",
+        article: "article",
+      },
+      {
+        date: "06 August 2025",
+        text: "Wertpapierdepot: Kampf gegen Neobroker – Depotbank der Volksbanken und Sparkassen kauft Fintech Lemon Markets",
+        article: "article",
+      },
+      {
+        date: "06 August 2025",
+        text: "dwpbank übernimmt Fintech lemon.markets",
+        article: "article",
+      },
+    ],
+    [
+      {
+        date: "27 August 2025",
+        text: "lemon.markets and Pleo partner to launch ‘Pleo Investment Account’: Embedded treasury accounts now live for German businesses",
+        article: "",
+      },
+      {
+        date: "06 August 2025",
+        text: "Fintech lemon.markets becomes part of the dwpbank Group",
+        article: "",
+      },
+      {
+        date: "05 May 2025",
+        text: "lemon.markets powers Optio Incentives' equity compensation solution for publicly listed companies, including a DAX-listed company",
+        article: "",
+      },
+      {
+        date: "19 December 2024",
+        text: "lemon.markets strengthens leadership team for upcoming growth in 2025",
+        article: "",
+      },
+    ],
+  ];
+
+  const [index, setIndex] = useState<number>(0);
+  const liste = listeChange[index];
   return (
     <div className="flex flex-col min-h-screen">
-      {/* <Hero H2={hero.H2} P={hero.P} B={hero.B} /> */}
+      <Hero
+        H2={hero.H2}
+        P={hero.P}
+        B={hero.B}
+        image2={"/company/aboutus_1.svg"}
+        image1={"/company/aboutus_2_1.svg"}
+      />
 
       <section className="w-full my-10">
-        <div className="w-full flex my-15 max-h-80 ">
-          <div className="float-left w-1/2">
-            <div className="h-full pr-30 group *:group-hover:ml-4">
+        {/* <div className="w-full p-10 flex bgblack ">
+          
+          <div className="float-left w-1/2 px-10 bg-blue500">
+            <div className="h-full group *:group-hover:ml-4">
               <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl duration-150">
                 {t("company.section1.SPAN1")}
               </span>
@@ -99,23 +178,43 @@ export default function page() {
               <p className="duration-500 w-full">{t("company.section1.P1")}</p>
             </div>
           </div>
-          <div className="float-right w-1/2 flex justify-end ">
+
+          <div className="float-right w-1/2 flex max-h-80 justify-end p-4 bg-pink400">
             <img
-              src="/andy.jpg"
+              src="/company/block1.svg"
               alt="yess"
-              className="mx-2 bg-gray-50 w-full h-full object-cover rounded-lg"
+              className="bg-cover bgblack"
+            />
+          </div>
+        </div> */}
+        <div className="w-full flex flex-col lg:flex-row justify-arround group *:w-[80%] md:p-10 lg:px-20 ">
+          <div className="bg-blue500 *:w-[75%] pr20">
+            <Entete
+              SPAN={t("company.section1.SPAN1")}
+              H3={t("company.section1.H13")}
+              P={t("company.section1.P1")}
+              BG="bg-indigo-100"
+              TEXT="text-indigo-500"
+            />
+          </div>
+          <div className="flex justify-center bg-green500 ">
+            <img
+              src="/company/block1.svg"
+              alt="yess"
+              className="bg-cover max-h-80 group-hover:scale-105 group-hover:shadow-md my-auto duration-300 bgblack"
             />
           </div>
         </div>
-        <div className="w-full flex my-15 max-h-80 ">
-          <div className="float-right w-1/2 pr-4 flex justify-start">
+
+        {/* <div className="w-full flex bg-blue-400 px-10">
+          <div className="float-right w-1/2 flex justifycenter px-10">
             <img
-              src="/andy.jpg"
+              src="/company/block2.svg"
               alt="yess"
-              className="mx-2 bg-gray-50 w-full h-full object-cover rounded-lg"
+              className="bg-cover max-h-80 bg-black"
             />
           </div>
-          <div className="float-left w-1/2 flex flex-col items-center pl-30">
+          <div className="float-left w-1/2 flex flex-col items-center pl-10 bg-green-500">
             <div className="h-full group *:group-hover:-ml-4">
               <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl duration-150">
                 {t("company.section1.SPAN2")}
@@ -126,8 +225,27 @@ export default function page() {
               <p className="duration-500">{t("company.section1.P2")}</p>
             </div>
           </div>
+        </div> */}
+        <div className="w-full flex flex-col lg:flex-row justify-arround group *:w-[80%] md:p-10 lg:px-20 ">
+          <div className="flex justifycenter bg-green500 ">
+            <img
+              src="/company/block1.svg"
+              alt="yess"
+              className="bg-cover max-h-80 group-hover:scale-105 group-hover:shadow-md my-auto duration-300 bgblack"
+            />
+          </div>
+          <div className="bg-blue500 pl-5 *:w-[75%] flex justify-center">
+            <Entete
+              SPAN={t("company.section1.SPAN2")}
+              H3={t("company.section1.H23")}
+              P={t("company.section1.P2")}
+              BG="bg-indigo-100"
+              TEXT="text-indigo-500"
+            />
+          </div>
         </div>
-        <div className="w-full flex my-15 max-h-80">
+
+        {/* <div className="w-full flex my-15 max-h-80">
           <div className="float-left w-1/2 flex flex-col items-center pr-30">
             <div className="h-full group *:group-hover:ml-4">
               <span className="px-4 py-0.5 bg-indigo-100 text-shadow-md text-indigo-500 rounded-3xl duration-150">
@@ -139,11 +257,25 @@ export default function page() {
               <p className="duration-500">{t("company.section1.P3")}</p>
             </div>
           </div>
-          <div className="float-right w-1/2 flex justify-end ">
+          <div className="float-right w-1/2 flex justify-center p-4">
+            <img src="/company/block3.svg" alt="yess" className="bg-cover " />
+          </div>
+        </div> */}
+        <div className="w-full flex flex-col lg:flex-row justify-arround group *:w-[80%] md:p-10 lg:px-20 ">
+          <div className="bg-blue500 *:w-[75%] pr20">
+            <Entete
+              SPAN={t("company.section1.SPAN3")}
+              H3={t("company.section1.H33")}
+              P={t("company.section1.P3")}
+              BG="bg-indigo-100"
+              TEXT="text-indigo-500"
+            />
+          </div>
+          <div className="flex justify-center bg-green500 ">
             <img
-              src="/andy.jpg"
+              src="/company/block3.svg"
               alt="yess"
-              className="mx-2 bg-gray-50 w-full h-full object-cover rounded-lg"
+              className="bg-cover max-h-80 group-hover:scale-105 group-hover:shadow-md my-auto duration-300 bgblack"
             />
           </div>
         </div>
@@ -226,9 +358,9 @@ export default function page() {
         </Carousel>
       </section>
 
-      <div className="flex flex-col w-full my-10 relative">
+      <div className="flex flex-col w-full my-10 relative xl:px-20">
         <div className="flex w-full justify-between h-full">
-          <div className="w-1/2">
+          <div className="w-1/2 pr-10">
             <span className="bg-indigo-300 text-indigo-600 px-4 py-0.5 rounded-3xl">
               {t("company.section5.SPAN")}
             </span>
@@ -242,7 +374,7 @@ export default function page() {
             </button>
           </div>
           <img
-            src="/andy.jpg"
+            src="/image.png"
             alt="image"
             className="object-cover w-1/2 h-90 rounded-md"
           />
@@ -269,7 +401,7 @@ export default function page() {
           <p className="text-gray-600">{t("company.section6.P")}</p>
         </div>
       </div>
-      
+
       <div className="w-full mt-20">
         <Entete
           SPAN={EnteteData.SPAN}
@@ -280,13 +412,13 @@ export default function page() {
         />
 
         {/* section 4 */}
-        <div className="bg-gray-100 w2 max-w-3/5 wauto border rounded-2xl items-center p-4 flex justify-around *:w-1/3 *:px2 *:hover:bg-white *:py-2 *:rounded-md *:text-center">
-          <p>{t("company.section4.P1")}</p>
-          <p>{t("company.section4.P2")}</p>
-          <p>{t("company.section4.P3")}</p>
+        <div className="bg-gray-100 w2 max-w-3/5 wauto border rounded-2xl items-center p-4 flex justify-around *:w-1/3 mb-10 *:px2 *:hover:bg-white *:py-2 *:rounded-md *:text-center">
+          <p onClick={() => setIndex(0)} className={`${index == 0 ? "bg-white":''}`}>{t("company.section4.P1")}</p>
+          <p onClick={() => setIndex(1)} className={`${index == 1 ? "bg-white":''}`}>{t("company.section4.P2")}</p>
+          <p onClick={() => setIndex(2)} className={`${index == 2 ? "bg-white":''}`}>{t("company.section4.P3")}</p>
         </div>
 
-        <div className="flex flex-col w-full mt-10">
+        {/* <div className="flex flex-col w-full mt-10">
           <div className="w-full *:py-4 *:my-5 *:flex">
             <div className="w-full">
               <span className="w-1/5">
@@ -366,7 +498,20 @@ export default function page() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        {liste.map((el, i) => (
+          <div className="w-[90%] flex py-5 border-b border-bottom ">
+            <div className="h-full leading-10 min-w80 w-[20%] textcenter">
+              {el.date}
+            </div>
+            <div className="w-[80%] bgblack ">
+              <p className="text-xl leading-10 text-blue-500 hover:text-black duration-300 mb-4">
+                {el.text}
+              </p>
+              {el.article.length > 0 ? <span className="bg-gray-100 text-shadow-md rounded-2xl px-3 py-1 mt4">{el.article}</span>:<></>}
+            </div>
+          </div>
+        ))}
 
         <span className="hover:underline flex gap-4 text-lg mx-65 cursor-pointer my-10">
           {t("Read_more")} <MoveDownRight className="w-5" />
@@ -375,7 +520,7 @@ export default function page() {
 
       <GetInTouchBlock />
 
-          <Footer />
+      <Footer />
     </div>
   );
 }

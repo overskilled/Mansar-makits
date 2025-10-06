@@ -82,8 +82,8 @@ export default function Page() {
       {/* Section 1: Info + Form */}
       <section className="my-16 container mx-auto max-w-screen-xl px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Info block */}
-        <Card className="p-8 shadow-sm bg-gray-50">
-          <div className="space-y-10">
+        <Card className="p-8 shadow-sm bg-gray-50 max-h-max p-0 pr-6 pt-6">
+          <Card className="space-y-10 -ml-6 -mb-6 px-6 pt-30 pb-40 bg-gray-50 hover:bg-white duration-300">
             <div>
               <h4 className="text-xl lg:text-2xl mb-4 font-semibold">
                 {t("contactUs.section1.H4_1")}
@@ -104,7 +104,7 @@ export default function Page() {
                 {t("contactUs.section1.P2")}
               </p>
             </div>
-          </div>
+          </Card>
         </Card>
 
         {/* Form block */}

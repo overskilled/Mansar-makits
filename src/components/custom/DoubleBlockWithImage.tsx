@@ -81,7 +81,7 @@ export default function DoubleBlockWithImage({
         </div>
 
         {/* Image */}
-        <div className="w-full md:w-4/7 flex min-h-full justify-center md:justify-end mt-6 md:mt-0">
+        <div className="w-full md:w-4/7 flex min-h-full justify-center md:justify-end mt-6 p-20 md:mt-0">
           <img
             src={limage}
             alt="Product visualization"

@@ -31,16 +31,12 @@ export default function HoverChange({ hoverItems, titleListe, span, title, text 
     const [activeIndex, setActiveIndex] = useState(0);
     const [activeIndex1, setActiveIndex1] = useState(0);
   
-    const activeItem = titleListe[activeIndex] ?? null;
-    const activeItem1 = hoverItems[activeIndex1] ?? null;
+    const activeItem = titleListe[activeIndex];
+    const activeItem1 = hoverItems[activeIndex1];
+    
   return (
     <>
-      <section className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 my-20">
-        {/* <span className="text-[#3a5af9] bg-[#eff2ff] w-45 text-center rounded-3xl py-1 px-2">
-          {t("banks.section4.span")}
-        </span>
-        <h2 className="text-4xl my-5">{t("banks.section4.h2")}</h2>
-        <p className="">{t("banks.section4.p")}</p> */}
+      <section className="container mx-auto flex flex-col px-4 sm:px-6 lg:px-0 mt-20">
         <Entete 
             SPAN={span}
             H3={title}
@@ -48,7 +44,7 @@ export default function HoverChange({ hoverItems, titleListe, span, title, text 
             TEXT="text-[#3a5af9]"
             BG="bg-[#eff2ff]"
         />
-        <div className="flex flex-col lg:flex-row w-full my-10 gap-8">
+        <div className="flex flex-col lg:flex-row w-full my-10 gap-8  bg-[url('/background.svg')] bg-cover bg-bottom pb-40">
           <div className="flex flex-col w-full lg:w-2/5 gap-4">
             {/* Hover triggers */}
             <div className="flex flex-wrap lg:flex-row py-2 px-2 gap-4 w-full">

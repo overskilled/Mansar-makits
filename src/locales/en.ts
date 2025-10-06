@@ -387,9 +387,9 @@ export default {
 
   company: {
     hero: {
-      H2: "Courtiers et Gestionnaires de Patrimoine",
-      P: "Concentrez tous vos efforts sur la construction d'un produit unique et l'attraction des bons clients. Nous nous occupons de toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan.",
-      B: "Commencer à développer",
+      H2: "On a mission to grow investing opportunities",
+      P: "We build the infrastructure to allow every company to launch an investment product. Because we envision a future where anyone is an investor.",
+      B: "Get in Touch",
     },
     ListeDOubleData: {
       text1: "Put the customer first",
@@ -472,6 +472,9 @@ export default {
       H3: "Our backing",
       P: "We are excited to be entering a second phase in our growth, having joined forces with dwpbank. While we are undergoing our transition, you can read more on the latest news in our Media section.",
     },
+    change:{
+      
+    }
   },
 
   banks: {
