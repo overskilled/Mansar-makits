@@ -128,10 +128,10 @@ export default function Page() {
               <label htmlFor="description">{t("contactUs.section1.Label.4")}</label>
               <input type="text" id="description" name="description" className="outline-none mt-4" placeholder="enter your text" required value={formData.description} onChange={handleChange} />
             </div>
-            <div className="flex flex-col border-b mb-4 pb-4">
+            {/* <div className="flex flex-col border-b mb-4 pb-4">
               <label htmlFor="license">{t("contactUs.section1.Label.5")}</label>
               <input type="text" id="license" name="license" className="outline-none mt-4" placeholder="enter your text" required value={formData.licence} onChange={handleChange} />
-            </div>
+            </div> */}
             <div className="flex flex-col border-b mb-4 pb-4">
               <label htmlFor="country">{t("contactUs.section1.Label.6")}</label>
               <input type="select" id="country" name="country" className="outline-none mt-4" placeholder="enter your text" required value={formData.country} onChange={handleChange} />

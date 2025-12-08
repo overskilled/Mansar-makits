@@ -24,43 +24,38 @@ interface HoverItem {
 export default function page() {
   const t = useI18n();
 
-  const timelineSections: TimelineSection[] = [
+    const timelineSections: TimelineSection[] = [
     {
-      id: "account-opening",
+      id: t("banks.section3.block.0.legend"),
       number: "01",
-      title: "Account opening",
-      description:
-        "End-to-end digital onboarding for your new customers with comprehensive KYC and security checks (PEP/Sanction Screening & Risk checks). Already have KYC’ed customers? No worries - we support KYC-sharing, so your customers don’t have to start another authentication process.",
+      title: t("banks.section3.block.0.legend"),
+      description: t("banks.section3.block.0.p"),
     },
     {
-      id: "account-funding",
+      id: t("banks.section3.block.1.legend"),
       number: "02",
-      title: "Account funding",
-      description:
-        "Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
+      title: t("banks.section3.block.1.legend"),
+      description: t("banks.section3.block.1.p"),
     },
     {
-      id: "order-management",
+      id: t("banks.section3.block.2.legend"),
       number: "03",
-      title: "Order management",
-      description:
-        "Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
+      title: t("banks.section3.block.2.legend"),
+      description: t("banks.section3.block.2.p"),
     },
     {
-      id: "settlement-custody",
+      id: t("banks.section3.block.3.legend"),
       number: "04",
-      title: "Settlement & Custody",
-      description:
-        "We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing stock splits and mergers, and handling shareholder voting.",
+      title: t("banks.section3.block.3.legend"),
+      description: t("banks.section3.block.3.p"),
     },
     {
-      id: "taxation-reporting",
+      id: t("banks.section3.block.4.legend"),
       number: "05",
-      title: "Taxation and Reporting",
-      description:
-        "Our comprehensive tax and reporting services include the automatic calculation and deduction of settlement and withholding tax, making it easier for you and your customers to stay compliant with tax regulations. We create the tax documents for end customers, and deliver all relevant information to the financial authorities.",
+      title: t("banks.section3.block.4.legend"),
+      description: t("banks.section3.block.4.p"),
     },
-  ]
+  ];
 
   const hoverItems: HoverItem[] = [
     {

@@ -69,13 +69,13 @@ export default function page() {
       color: "bg-[#e3ffd9]",
       statut: t("product.ListeOtherManagerSystem.3.statut"),
     },
-    {
-      title: t("product.ListeOtherManagerSystem.4.title"),
-      descript: t("product.ListeOtherManagerSystem.4.descript"),
-      statut: t("product.ListeOtherManagerSystem.4.statut"),
-      color: "bg-[#fffb9e]",
-      bulletColor: "bg-[#d3cc17]",
-    },
+    // {
+    //   title: t("product.ListeOtherManagerSystem.4.title"),
+    //   descript: t("product.ListeOtherManagerSystem.4.descript"),
+    //   statut: t("product.ListeOtherManagerSystem.4.statut"),
+    //   color: "bg-[#fffb9e]",
+    //   bulletColor: "bg-[#d3cc17]",
+    // }, 
     {
       title: t("product.ListeOtherManagerSystem.5.title"),
       descript: t("product.ListeOtherManagerSystem.5.descript"),
@@ -83,13 +83,13 @@ export default function page() {
       color: "bg-[#fffb9e]",
       bulletColor: "bg-[#d3cc17]",
     },
-    {
-      title: t("product.ListeOtherManagerSystem.6.title"),
-      descript: t("product.ListeOtherManagerSystem.6.descript"),
-      statut: t("product.ListeOtherManagerSystem.6.statut"),
-      color: "bg-[#fffb9e]",
-      bulletColor: "bg-[#d3cc17]",
-    },
+    // {
+    //   title: t("product.ListeOtherManagerSystem.6.title"),
+    //   descript: t("product.ListeOtherManagerSystem.6.descript"),
+    //   statut: t("product.ListeOtherManagerSystem.6.statut"),
+    //   color: "bg-[#fffb9e]",
+    //   bulletColor: "bg-[#d3cc17]",
+    // },
   ];
   const FunctionnalityBlockData = {
     SPAN: t("product.FunctionnalityBlockData.SPAN"),

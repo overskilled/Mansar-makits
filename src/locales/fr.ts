@@ -10,12 +10,12 @@ export default {
         "1": " alimentant",
         "2": " les produits d'investissement",
       },
-      P: "Permettez à vos clients d'investir en bourse. Utilisez l'API de lemon.markets pour lancer un produit d'investissement centré sur le client et conforme.",
-      B: "Commencer à développer",
+      P: "Permettez à vos clients d'investir sur le marché obligataire. Utilisez l'API de Mansar pour lancer un produit d'investissement centré sur le client et conforme.",
+      B: "commencez à développer",
     },
     EnteteData: {
       SPAN: "Cas d'utilisation",
-      H3: "Nous collaborons avec des entreprises innovantes pour développer les opportunités d'investissement à travers l'Europe",
+      H3: "Nous collaborons avec des entreprises innovantes pour développer les opportunités d'investissement à travers l'Afrique Centrale",
       P: "",
     },
     section1: {
@@ -30,15 +30,15 @@ export default {
     },
     section3: {
       h4: "Sociétés de Logiciels",
-      P: "Créez de nouveaux cas d'utilisation pour l'investissement en intégrant des fonctionnalités d'investissement dans votre logiciel. Débloquez de nouvelles sources de revenus tout en améliorant le bien-être financier de vos clients, en tirant parti des insights uniques de votre relation existante.",
+      P: "Créez de nouveaux cas d'utilisation pour l'investissement en intégrant des fonctionnalités d'investissement dans votre logiciel. Débloquez de nouvelles sources de revenus tout en améliorant le bien-être financier de vos clients, en tirant parti des informations uniques issues de votre relation existante.",
       SPAN: "En savoir plus",
     },
     flexWrapRight: {
       Image:
-        "https://www.lemon.markets/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
+        "https://www.Mansar.makits/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
       SPAN: "Cas d'utilisation",
       H3: "Offrir un produit d'investissement devient enfin facile",
-      P: "Utilisez l'API lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés financiers, permettant ultimement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà",
+      P: "Utilisez l'API de Mansar pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés financiers, permettant ultimement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà",
       BLOCK: [
         {
           icone:
@@ -77,16 +77,16 @@ export default {
       LEGEND: "Sélectionnez la configuration de produit appropriée",
       BLOCK: [
         {
-          title: "Démantelé (Unbundled)",
+          title: "Démantelé",
           content:
             "Vous voulez apporter vos propres comptes de trésorerie ou utiliser un tiers ? Aucun problème. Nous vous aiderons à intégrer cela facilement et couvrirons tout ce qui concerne l'investissement pour vous, de la fourniture d'un compte titres à la gestion réglementaire - le tout adapté aux licences que vous détenez.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…stJ984vu_bundledoperatingmodel.svg?fit=max&w=1200",
         },
         {
-          title: "Groupé (Bundled)",
+          title: "Groupé",
           content:
-            "Construisez votre produit d'investissement de bout en bout avec lemon.markets. Nous gérons toutes les complexités réglementaires, techniques et opérationnelles, fournissant à la fois des comptes titres et des comptes de trésorerie, afin que vous puissiez vous concentrer sur la construction de la solution d'investissement best-in-class pour vos clients.",
+            "Construisez votre produit d'investissement de bout en bout avec Mansar.makits. Nous gérons toutes les complexités réglementaires, techniques et opérationnelles, fournissant à la fois des comptes titres et des comptes de trésorerie, afin que vous puissiez vous concentrer sur la création de la meilleure solution d'investissement pour vos clients.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…stJ984vu_bundledoperatingmodel.svg?fit=max&w=1200",
         },
@@ -116,7 +116,7 @@ export default {
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…ing-code-document-list-checkmark.svg?fit=max&w=96",
           title: "Gestion & exécution des ordres",
           descript:
-            "Accédez à une large gamme d'ETF, de Fonds et d'Actions, grâce à notre système de gestion d'ordres de pointe.",
+            "Accédez à une large gamme de Fonds et de Bons, grâce à notre système de gestion d'ordres de pointe.",
         },
         {
           image:
@@ -147,7 +147,7 @@ export default {
     hero: {
       H2: "Courtiers et Gestionnaires de Patrimoine",
       P: "Concentrez tous vos efforts sur la construction d'un produit unique et l'attraction des bons clients. Nous nous occupons de toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan.",
-      B: " Commencer à développer",
+      B: " commencez à développer",
     },
     liste: [
       {
@@ -181,8 +181,8 @@ export default {
     ],
     section1: {
       SPAN: "Cas d'utilisation",
-      h1: "Proposez l'investissement en ETF, Fonds et Actions à vos clients",
-      P: "Que vous cherchiez à faire évoluer votre offre existante ou à construire quelque chose de nouveau : lemon.markets prend en charge un large éventail de cas d'utilisation de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client best-in-class.",
+      h1: "Proposez l'investissement en Fonds et Bonds à vos clients",
+      P: "Que vous cherchiez à faire évoluer votre offre existante ou à construire quelque chose de nouveau : Mansar.makits prend en charge un large éventail de cas d'utilisation de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client best-in-class.",
       titleListe: [
         {
           titre: "Néobrokers",
@@ -245,7 +245,7 @@ export default {
     section4: {
       SPAN: "Classes d'Actifs",
       H2: "Couverture d'actifs mondiale allant des ETF aux Actions",
-      P: "lemon.markets offre les produits d'investissement les plus demandés, fournissant l'accès à une large liste d'ISINs provenant de plus de 10 gestionnaires d'actifs. Nous assurons des prix équitables et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des heures de marché étendues.",
+      P: "Mansar.makits offre les produits d'investissement les plus demandés, fournissant l'accès à une large liste d'ISINs provenant de plus de 10 gestionnaires d'actifs. Nous assurons des prix équitables et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des heures de marché étendues.",
       SPANS: {
         "0": "ETF",
         "1": "Actions",
@@ -268,7 +268,7 @@ export default {
         {
           title: "Service de courtage complet",
           content:
-            "lemon.markets couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous rendant agent lié.",
+            "Mansar.makits couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous rendant agent lié.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/Z-0jF3dAxsiBwOAE_image-bpo.svg?fit=max&w=1920",
         },
@@ -282,7 +282,7 @@ export default {
         {
           title: "Service d'externalisation de courtage",
           content:
-            "Vous maintenez le contrôle total de la relation client, tandis que lemon.markets gère les détails techniques et opérationnels.",
+            "Vous maintenez le contrôle total de la relation client, tandis que Mansar.makits gère les détails techniques et opérationnels.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/Z-0jF3dAxsiBwOAE_image-bpo.svg?fit=max&w=1920",
         },
@@ -290,10 +290,10 @@ export default {
     },
     flexWrapRightData: {
       Image:
-        "https://www.lemon.markets/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
+        "https://www.Mansar.makits/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
       SPAN: "Cas d'utilisation",
       H3: "Offrir un produit d'investissement devient enfin facile",
-      P: "Utilisez l'API lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés financiers, permettant ultimement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà",
+      P: "Utilisez l'API Mansar.makits pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés financiers, permettant ultimement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà",
       BLOCK: [
         {
           icone:
@@ -331,7 +331,7 @@ export default {
     hero: {
       H2: "Courtiers et Gestionnaires de Patrimoine",
       P: "Concentrez tous vos efforts sur la construction d'un produit unique et l'attraction des bons clients. Nous nous occupons de toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan.",
-      B: "Commencer à développer",
+      B: "commencez à développer",
     },
     ListeDOubleData: {
       text1: "Mettre le client en premier",
@@ -382,7 +382,7 @@ export default {
     section2: {
       SPAN: "Principes",
       H3: "Nous sommes guidés par un ensemble commun de principes",
-      P: "Nous suivons des principes clairs au quotidien dans la construction de lemon.markets. Cela nous permet de construire une entreprise durable, permettant à tous les lemoneers d'atteindre leurs meilleurs résultats. Ce cadre est basé sur la conviction que chaque personne a un ensemble de valeurs existantes, mais qu'au travail, les préférences personnelles doivent être mises de côté pour s'unir autour d'une seule façon de travailler. Parce qu'en utilisant la puissance du travail d'équipe, nous accomplirons plus que ce que chacun de nous pourrait faire individuellement.",
+      P: "Nous suivons des principes clairs au quotidien dans la construction de Mansar.makits. Cela nous permet de construire une entreprise durable, permettant à tous les lemoneers d'atteindre leurs meilleurs résultats. Ce cadre est basé sur la conviction que chaque personne a un ensemble de valeurs existantes, mais qu'au travail, les préférences personnelles doivent être mises de côté pour s'unir autour d'une seule façon de travailler. Parce qu'en utilisant la puissance du travail d'équipe, nous accomplirons plus que ce que chacun de nous pourrait faire individuellement.",
       H5: "Un lemoneer va",
     },
     section3: {
@@ -408,7 +408,7 @@ export default {
         "1": " le cœur de Berlin",
       },
       P: "Notre siège social est situé dans la zone animée entre Kreuzberg et Neukölln. Le bureau de rêve de chaque start-up, rempli de vie, de rires, de tableaux blancs et de citronniers. C'est ici que nous célébrons notre culture, organisons nos lemon.talks et travaillons à permettre un écosystème florissant de produits d'investissement.",
-      B: "Explorez travailler chez lemon.markets",
+      B: "Explorez travailler chez Mansar.makits",
     },
     section6: {
       H3: "Notre soutien",
@@ -418,7 +418,7 @@ export default {
 
   contactUs: {
     DataHero: {
-      H2: "Commencez avec lemon.markets",
+      H2: "Commencez avec Mansar.makits",
       P: "Vous avez des questions sur la construction de la prochaine génération d'expérience de courtage ? Remplissez le formulaire de contact ci-dessous et l'un de nos experts vous contactera.",
       B: " ",
     },
@@ -431,7 +431,7 @@ export default {
         "3": "Le début d'un partenariat à long terme",
       },
       H4_2: "Explorez le hub développeur",
-      P2: "Apprenez-en plus sur notre infrastructure d'investissement en explorant notre hub développeur. Trouvez une documentation extensive, des guides clairs et tout le soutien dont vous avez besoin pour commencer tout de suite !",
+      P2: "Apprenez-en plus sur notre infrastructure d'investissement en explorant notre hub développeur. Trouvez une documentation extensive, des guides clairs et tout le soutien dont vous avez besoin pour commencez tout de suite !",
       Label: {
         "0": "Nom",
         "1": "Email",
@@ -466,13 +466,13 @@ export default {
       tbody: [
         [
           {
-            title: "lemon.markets GmbH",
+            title: "Mansar.makits GmbH",
             first: "Kottbusser Damm 79",
             second: "10967 Berlin",
             third: "",
           },
           {
-            title: "lemon.markets brokerage GmbH",
+            title: "Mansar.makits brokerage GmbH",
             first: "Kottbusser Damm 79",
             second: "10967 Berlin",
             third: "",
@@ -495,15 +495,15 @@ export default {
         [
           {
             title: "Contact",
-            first: "Email : support@lemon.markets",
-            second: "Site web : https://lemon.markets",
-            third: "Contactez-nous : https://www.lemon.markets/fr/contact",
+            first: "Email : support@Mansar.makits",
+            second: "Site web : https://Mansar.makits",
+            third: "Contactez-nous : https://www.Mansar.makits/fr/contact",
           },
           {
             title: "Contact",
-            first: "Email : info@lemon.markets",
-            second: "Site web : https://lemon.markets",
-            third: "Contactez-nous : https://www.lemon.markets/fr/contact",
+            first: "Email : info@Mansar.makits",
+            second: "Site web : https://Mansar.makits",
+            third: "Contactez-nous : https://www.Mansar.makits/fr/contact",
           },
         ],
         [
@@ -526,12 +526,12 @@ export default {
             first:
               "Responsable du contenu conformément au § 18 para. 2 MStV est",
             second:
-              "Maximilian Linden, lemon.markets GmbH, Kottbusser Damm 79, 10967 Berlin",
+              "Maximilian Linden, Mansar.makits GmbH, Kottbusser Damm 79, 10967 Berlin",
           },
           {
             title: "",
             first:
-              "lemon.markets brokerage GmbH est supervisée par la Bundesanstalt für",
+              "Mansar.makits brokerage GmbH est supervisée par la Bundesanstalt für",
             second:
               "Finanzdienstleistungsaufsicht (BaFin) et est agréée sous le German Investment",
             third: "Firms Act (WpIG).",
@@ -560,10 +560,10 @@ export default {
       P4: "La Commission européenne fournit une plateforme pour le règlement en ligne des litiges (OS), disponible à l'adresse https://ec.europa.eu/consumers/odr. Nous ne participons pas à des procédures de règlement des litiges devant tout autre organisme d'arbitrage des consommateurs. Vous pouvez trouver notre adresse e-mail ci-dessus.",
     },
     link: {
-      "0": "Hub Développeur : https://developer.lemon.markets/",
+      "0": "Hub Développeur : https://developer.Mansar.makits/",
       "1": "LinkedIn : https://www.linkedin.com/company/lemon-markets/",
-      "2": "Instagram : https://www.instagram.com/lemon.markets/",
-      "3": "Facebook : https://www.facebook.com/lemon.markets/",
+      "2": "Instagram : https://www.instagram.com/Mansar.makits/",
+      "3": "Facebook : https://www.facebook.com/Mansar.makits/",
       "4": "Twitter : https://twitter.com/lemon_markets",
     },
   },
@@ -571,8 +571,8 @@ export default {
   product: {
     hero: {
       H2: "Proposez l'investissement selon vos conditions",
-      P: "Obtenez toutes les fonctionnalités nécessaires pour permettre à vos clients d'investir dans des Actions et des ETF via une seule API. Accédez à une infrastructure modulaire, conforme et adaptée aux développeurs conçue par des experts.",
-      B: "Commencer à développer",
+      P: "Obtenez toutes les fonctionnalités nécessaires pour permettre à vos clients d'investir dans des Fonds Communs de Placement et des Bons d'emprunts obligataires via une seule API. Accédez à une infrastructure modulaire, conforme et adaptée aux développeurs conçue par des experts.",
+      B: "Commencez à développer",
     },
     ListeDoubleBlock: {
       SPAN: "Réglementaire",
@@ -590,7 +590,7 @@ export default {
         {
           title: "Groupé (Bundled)",
           content:
-            "Construisez votre produit d'investissement de bout en bout avec lemon.markets. Nous gérons toutes les complexités réglementaires, techniques et opérationnelles, fournissant à la fois des comptes titres et des comptes de trésorerie, afin que vous puissiez vous concentrer sur la construction de la solution d'investissement best-in-class pour vos clients.",
+            "Construisez votre produit d'investissement de bout en bout avec Mansar.makits. Nous gérons toutes les complexités réglementaires, techniques et opérationnelles, fournissant à la fois des comptes titres et des comptes de trésorerie, afin que vous puissiez vous concentrer sur la construction de la solution d'investissement best-in-class pour vos clients.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…3KHopbqstJ984vv_unbundledmodel.svg?fit=max&w=1200",
         },
@@ -603,39 +603,39 @@ export default {
     },
     ListeOtherManagerSystem: [
       {
-        title: "Acheter & Vendre des Actions",
+        title: "Acheter & Vendre des  Bons Assimilables du trésor (BAT)",
         descript:
-          "Permettez à vos clients de passer des ordres au marché et à cours limité sur des ETF diversifiés",
+          "Permettez à vos clients de passer des ordres au marché et à cours limité sur des BAT diversifiés",
         statut: "en cours",
       },
       {
-        title: "Acheter & Vendre des ETF",
+        title: "Acheter & Vendre des Offres du Trésor Assimilables (OTA)",
         descript:
-          "Permettez à vos clients de passer des ordres au marché et à cours limité sur des ETF diversifiés",
-        statut: "portée de go-Live",
+          "Permettez à vos clients de passer des ordres au marché et à cours limité sur des OTA diversifiés",
+        statut: "Portée de la mise en service",
       },
       {
         title: "Acheter & Vendre des Fonds",
         descript:
-          "Fournissez à vos clients l'accès aux fonds communs de placement, aux fonds indiciels, etc.",
-        statut: "portée de go-Live",
+          "Fournissez à vos clients l'accès aux fonds communs de placement, etc.",
+        statut: "Portée de la mise en service",
       },
       {
-        title: "Plans d'épargne ETF",
+        title: "Plans d'épargne BAT ou OTA",
         descript:
-          "Permettez à vos clients de faire de l'investissement une habitude en configurant des plans d'épargne récurrents pour les ETF",
-        statut: "portée de go-Live",
+          "Permettez à vos clients de faire de l'investissement une habitude en configurant des plans d'épargne récurrents pour les BAT ou OTA",
+        statut: "Portée de la mise en service",
       },
       {
         title: "Plans d'épargne en Actions",
         descript:
           "Permettez à vos clients de faire de l'investissement une habitude en configurant des plans d'épargne récurrents pour leurs actions préférées",
-        statut: "portée de go-Live",
+        statut: "Portée de la mise en service",
       },
       {
         title: "Trading fractionné",
         descript:
-          "Permettez à vos clients d'investir dans leurs actions favorites à partir de 1€",
+          "Permettez à vos clients d'investir dans leurs BAT ou OTA favorites à partir de 1 000 FCFA",
         statut: "en cours",
       },
       {
@@ -685,17 +685,17 @@ export default {
     dataEntete: {
       SPAN: "Approche partenariale",
       H3: "Partenariat pour nous signifie : fournir une expérience du domaine et des opérations",
-      P: "L'équipe lemon.markets combine une expérience opérationnelle provenant de prestataires de services de titres traditionnels et modernes, couvrant chaque aspect de la chaîne de valeur. Cela nous permet de vraiment comprendre vos besoins et de livrer la bonne solution pour votre phase de croissance. En tant que solution clé en main, nous savons exactement ce que nous faisons, conduisant l'efficacité opérationnelle à travers tous les points de contact et suivant notre approche client-first.",
+      P: "L'équipe Mansar.makits combine une expérience opérationnelle provenant de prestataires de services de titres traditionnels et modernes, couvrant chaque aspect de la chaîne de valeur. Cela nous permet de vraiment comprendre vos besoins et de livrer la bonne solution pour votre phase de croissance. En tant que solution clé en main, nous savons exactement ce que nous faisons, conduisant l'efficacité opérationnelle à travers tous les points de contact et suivant notre approche client-first.",
     },
     section2: {
-      P: "Le partenariat avec lemon.markets a accéléré notre croissance. Ils nous ont accompagnés à travers les différentes étapes du cycle de vie et leur hub complet pour les développeurs, les chefs de produit et les spécialistes des opérations nous a fourni les ressources dont nous avions besoin pour travailler plus rapidement et avec plus de concentration.",
+      P: "Le partenariat avec Mansar.makits a accéléré notre croissance. Ils nous ont accompagnés à travers les différentes étapes du cycle de vie et leur hub complet pour les développeurs, les chefs de produit et les spécialistes des opérations nous a fourni les ressources dont nous avions besoin pour travailler plus rapidement et avec plus de concentration.",
       SPAN: "Julia Kruslin, CEO & Co-Fondatrice, beatvest",
       B: "lire l'histoire complète",
     },
     dataBlock1: {
       SPAN: "Cas d'utilisation",
       H3: "Offrir un produit d'investissement devient enfin facile",
-      P: "Utilisez l'API lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés financiers, permettant ultimement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà",
+      P: "Utilisez l'API Mansar.makits pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés financiers, permettant ultimement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà",
       BLOCK: [
         {
           title: "Centricité client",
@@ -723,7 +723,7 @@ export default {
 
   thermsOfUse: {
     H1: "Conditions d'utilisation",
-    H2: "Lors de l'utilisation de ce site web mis à disposition par lemon.markets (ci-après dénommé LM), veuillez respecter les règles suivantes (conditions d'utilisation).",
+    H2: "Lors de l'utilisation de ce site web mis à disposition par Mansar.makits (ci-après dénommé LM), veuillez respecter les règles suivantes (conditions d'utilisation).",
     Data: [
       "Ces conditions d'utilisation sont actuellement valides et ont été mises à jour pour la dernière fois le 31 mars 2023",
       "LM met à disposition des informations et des données sur son site web et donne aux clients et aux parties intéressées l'accès à des sites web tiers par l'utilisation de liens (hyperliens). Les informations fournies sur ce site web ne sont pas destinées à la publication ou à la distribution à toute personne ou entité dans toute juridiction ou pays où une telle publication d'informations ou distribution de produits et services serait contraire à la loi ou à la réglementation en raison de la nationalité, de la résidence ou autre de la personne. L'utilisation du site web par des personnes soumises à de telles restrictions est interdite.",
@@ -740,14 +740,14 @@ export default {
   banks: {
     hero: {
       H2: "Banques & Établissements de Paiement",
-      P: "Tirez parti de l'infrastructure lemon.markets pour intégrer l'investissement en actions et ETF selon vos conditions. Nous travaillons avec votre modèle opérationnel pour créer une expérience client pratique.",
-      B: "Commencer à développer",
+      P: "Tirez parti de l'infrastructure Mansar.makits pour intégrer l'investissement en actions et ETF selon vos conditions. Nous travaillons avec votre modèle opérationnel pour créer une expérience client pratique.",
+      B: "commencez à développer",
     },
     section1: {
       entete: {
         SPAN: "Cas d'utilisation",
         H3: "Proposez l'investissement en ETF, fonds et actions à vos clients",
-        P: "Que vous cherchiez à développer votre offre existante ou à créer quelque chose de nouveau : lemon.markets prend en charge un large éventail de cas d'utilisation liés à la richesse, à l'épargne et à l'investissement. Nous vous offrons une solution clé en main pour lancer et exploiter votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client d'excellence.",
+        P: "Que vous cherchiez à développer votre offre existante ou à créer quelque chose de nouveau : Mansar.makits prend en charge un large éventail de cas d'utilisation liés à la richesse, à l'épargne et à l'investissement. Nous vous offrons une solution clé en main pour lancer et exploiter votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client d'excellence.",
       },
       left: [
         {
@@ -804,7 +804,7 @@ export default {
       block: [
         {
           legend: "Ouverture de compte",
-          p: "Onboarding numérique de bout en bout pour vos nouveaux clients avec des vérifications complètes de KYC et de sécurité (screening PEP/sanctions et vérifications des risques). Vous avez déjà des clients ayant passé le KYC ? Aucun problème - nous prenons en charge le partage de KYC, afin que vos clients n'aient pas à recommencer un autre processus d'authentification.",
+          p: "Onboarding numérique de bout en bout pour vos nouveaux clients avec des vérifications complètes de KYC et de sécurité (screening PEP/sanctions et vérifications des risques). Vous avez déjà des clients ayant passé le KYC ? Aucun problème - nous prenons en charge le partage de KYC, afin que vos clients n'aient pas à recommencez un autre processus d'authentification.",
         },
         {
           legend: "Alimentation du compte",
@@ -827,7 +827,7 @@ export default {
     section4: {
       span: "Classes d'actifs",
       h2: "Couverture d'actifs mondiale allant des ETF aux Actions",
-      p: "lemon.markets offre les produits d'investissement les plus demandés, fournissant l'accès à une large liste d'ISIN de plus de 10 gestionnaires d'actifs. Nous assurons une tarification équitable et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des horaires de marché étendus.",
+      p: "Mansar.makits offre les produits d'investissement les plus demandés, fournissant l'accès à une large liste d'ISIN de plus de 10 gestionnaires d'actifs. Nous assurons une tarification équitable et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des horaires de marché étendus.",
       liste: [
         {
           title: "ETF",
@@ -866,7 +866,7 @@ export default {
       block: [
         {
           title: "Service de courtage complet",
-          p: "lemon.markets couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous faisant devenir un agent lié.",
+          p: "Mansar.makits couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous faisant devenir un agent lié.",
         },
         {
           title: "Service de courtage modulaire",
@@ -874,14 +874,14 @@ export default {
         },
         {
           title: "Service d'externalisation de courtage",
-          p: "Vous conservez le contrôle total de la relation client, tandis que lemon.markets gère les détails techniques et opérationnels.",
+          p: "Vous conservez le contrôle total de la relation client, tandis que Mansar.makits gère les détails techniques et opérationnels.",
         },
       ],
     },
     flexWrap: {
       span: "Pourquoi travailler avec nous",
       h3: "Offrir un produit d'investissement devient enfin facile",
-      p: "Utilisez l'API lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés des capitaux, permettant finalement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà.",
+      p: "Utilisez l'API Mansar.makits pour lancer un produit d'investissement centré sur le client et conforme ou améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés des capitaux, permettant finalement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà.",
       block: [
         {
           title: "Centricité client",
@@ -911,12 +911,12 @@ export default {
     hero: {
       H2: "Lancez l’investissement comme votre produit principal",
       P: "Concentrez tous vos efforts sur la création d’un produit d’investissement différencié et sur l’acquisition des bons clients. Pendant que nous nous occupons de toute la partie technique, opérationnelle et réglementaire en arrière-plan.",
-      B: "Commencer à construire",
+      B: "commencez à construire",
     },
     section1: {
       SPAN: "Cas d’utilisation",
       H3: "Proposez l’investissement en actions et ETF à vos clients",
-      P: "lemon.markets prend en charge un large éventail de cas d’utilisation de courtage vertical. Nous aimons collaborer avec les entreprises de services financiers et de technologie qui souhaitent proposer de nouveaux produits d’investissement ou améliorer ceux existants. En suivant un processus clair, nous aidons les entreprises à passer de l’idée au lancement en seulement quelques mois. Nos experts vous accompagnent de la conception du parcours client à la définition des bons tarifs, en passant par l’élaboration de la feuille de route de mise en œuvre.",
+      P: "Mansar.makits prend en charge un large éventail de cas d’utilisation de courtage vertical. Nous aimons collaborer avec les entreprises de services financiers et de technologie qui souhaitent proposer de nouveaux produits d’investissement ou améliorer ceux existants. En suivant un processus clair, nous aidons les entreprises à passer de l’idée au lancement en seulement quelques mois. Nos experts vous accompagnent de la conception du parcours client à la définition des bons tarifs, en passant par l’élaboration de la feuille de route de mise en œuvre.",
       BLOCK: [
         {
           title: "Éducation financière",
@@ -959,7 +959,7 @@ export default {
     section3: {
       span: "Produits",
       h3: "Couverture mondiale des actions et ETF dès le départ",
-      p: "Au cœur de l’infrastructure de lemon.markets se trouvent les produits d’investissement les plus demandés. Acheminement des ordres vers des bourses et émetteurs réglementés. L’objectif est d’offrir à vos clients des prix équitables et des spreads réduits. Les heures de marché étendues sont naturellement incluses pour offrir l’accès lorsque c’est le plus souhaité.",
+      p: "Au cœur de l’infrastructure de Mansar.makits se trouvent les produits d’investissement les plus demandés. Acheminement des ordres vers des bourses et émetteurs réglementés. L’objectif est d’offrir à vos clients des prix équitables et des spreads réduits. Les heures de marché étendues sont naturellement incluses pour offrir l’accès lorsque c’est le plus souhaité.",
       block: [
         {
           title: "Actions",
@@ -1003,7 +1003,7 @@ export default {
     flexWrap: {
       span: "Pourquoi travailler avec nous",
       h3: "Proposer un produit d’investissement devient enfin facile",
-      p: "Utilisez l’API lemon.markets pour lancer un produit d’investissement centré sur le client et conforme, ou pour améliorer vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés de capitaux, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires pour un lancement réussi et au-delà.",
+      p: "Utilisez l’API Mansar.makits pour lancer un produit d’investissement centré sur le client et conforme, ou pour améliorer vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés de capitaux, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires pour un lancement réussi et au-delà.",
       block: [
         {
           title: "Centré sur le client",
@@ -1033,12 +1033,12 @@ export default {
     hero: {
       H2: "Intégrez l’investissement dans votre produit",
       P: "Créez de nouveaux points de contact avec vos clients et intégrez facilement l’investissement dans votre produit existant. Pendant que nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      B: "Commencer à construire",
+      B: "commencez à construire",
     },
     section1: {
       SPAN: "Cas d’usage",
       H3: "Proposez des investissements en actions et ETFs à vos clients",
-      P: "lemon.markets prend en charge un large éventail de cas d’usage liés au courtage intégré. Nous aimons collaborer avec des entreprises aussi passionnées que nous par l’offre de produits d’investissement. Mettez rapidement votre produit sur le marché, de manière conforme et rentable, en tirant parti de notre infrastructure d’investissement.",
+      P: "Mansar.makits prend en charge un large éventail de cas d’usage liés au courtage intégré. Nous aimons collaborer avec des entreprises aussi passionnées que nous par l’offre de produits d’investissement. Mettez rapidement votre produit sur le marché, de manière conforme et rentable, en tirant parti de notre infrastructure d’investissement.",
       BLOCK: [
         {
           title: "Néobanque",
@@ -1076,7 +1076,7 @@ export default {
     section3: {
       span: "Produits",
       h3: "Couverture mondiale des actifs — Actions et ETFs dès le départ",
-      p: "Au cœur de l’infrastructure lemon.markets se trouvent les produits d’investissement les plus demandés. Nous acheminons les ordres vers des bourses et émetteurs régulés, avec pour objectif d’offrir des prix justes et des spreads serrés pour l’exécution de vos clients. Des horaires de marché étendus sont également disponibles, afin de fournir un accès quand vos clients en ont le plus besoin.",
+      p: "Au cœur de l’infrastructure Mansar.makits se trouvent les produits d’investissement les plus demandés. Nous acheminons les ordres vers des bourses et émetteurs régulés, avec pour objectif d’offrir des prix justes et des spreads serrés pour l’exécution de vos clients. Des horaires de marché étendus sont également disponibles, afin de fournir un accès quand vos clients en ont le plus besoin.",
       block: [
         {
           title: "Actions",
@@ -1120,7 +1120,7 @@ export default {
     flexWrap: {
       span: "Pourquoi travailler avec nous",
       h3: "Proposer un produit d’investissement devient enfin simple",
-      p: "Utilisez l’API lemon.markets pour lancer un produit d’investissement centré sur le client et conforme, ou pour enrichir vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés financiers, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous accompagnons nos partenaires dans tous les défis opérationnels, techniques et réglementaires, jusqu’au lancement réussi et au-delà.",
+      p: "Utilisez l’API Mansar.makits pour lancer un produit d’investissement centré sur le client et conforme, ou pour enrichir vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés financiers, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous accompagnons nos partenaires dans tous les défis opérationnels, techniques et réglementaires, jusqu’au lancement réussi et au-delà.",
       block: [
         {
           title: "Centré sur le client",
@@ -1150,12 +1150,12 @@ export default {
     hero: {
       H2: "Donnez un nouveau sens à l’investissement",
       P: "Innovez avec de nouveaux cas d’usage en intégrant l’investissement dans le parcours client en toute simplicité. Pendant que nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      B: "Commencer à construire",
+      B: "commencez à construire",
     },
     section1: {
       SPAN: "Cas d’usage",
       H3: "Proposez des investissements en actions et ETFs à vos clients",
-      P: "lemon.markets prend en charge un large éventail de cas d’usage de courtage contextuel. Nous aimons collaborer avec les entreprises de services financiers et technologiques qui souhaitent lancer de nouveaux produits d’investissement ou améliorer ceux existants. En suivant un processus clair, nous aidons les entreprises à passer de l’idée au lancement en seulement quelques mois. Nos experts vous accompagnent dans la conception du parcours client, la définition du bon modèle de tarification et l’élaboration de la feuille de route de mise en œuvre.",
+      P: "Mansar.makits prend en charge un large éventail de cas d’usage de courtage contextuel. Nous aimons collaborer avec les entreprises de services financiers et technologiques qui souhaitent lancer de nouveaux produits d’investissement ou améliorer ceux existants. En suivant un processus clair, nous aidons les entreprises à passer de l’idée au lancement en seulement quelques mois. Nos experts vous accompagnent dans la conception du parcours client, la définition du bon modèle de tarification et l’élaboration de la feuille de route de mise en œuvre.",
       BLOCK: [
         {
           title: "Services fiscaux",
@@ -1198,7 +1198,7 @@ export default {
     section3: {
       span: "Produits",
       h3: "Couverture mondiale des actifs — Actions et ETFs dès le départ",
-      p: "Au cœur de l’infrastructure lemon.markets se trouvent les produits d’investissement les plus demandés. Nous acheminons les ordres vers des bourses et émetteurs régulés, avec pour objectif d’offrir des prix justes et des spreads serrés pour l’exécution de vos clients. Des horaires de marché étendus sont également disponibles, afin de fournir un accès quand vos clients en ont le plus besoin.",
+      p: "Au cœur de l’infrastructure Mansar.makits se trouvent les produits d’investissement les plus demandés. Nous acheminons les ordres vers des bourses et émetteurs régulés, avec pour objectif d’offrir des prix justes et des spreads serrés pour l’exécution de vos clients. Des horaires de marché étendus sont également disponibles, afin de fournir un accès quand vos clients en ont le plus besoin.",
       block: [
         {
           title: "Actions",
@@ -1242,7 +1242,7 @@ export default {
     flexWrap: {
       span: "Pourquoi travailler avec nous",
       h3: "Proposer un produit d’investissement devient enfin simple",
-      p: "Utilisez l’API lemon.markets pour lancer un produit d’investissement centré sur le client et conforme, ou pour enrichir vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés financiers, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous accompagnons nos partenaires dans tous les défis opérationnels, techniques et réglementaires, jusqu’au lancement réussi et au-delà.",
+      p: "Utilisez l’API Mansar.makits pour lancer un produit d’investissement centré sur le client et conforme, ou pour enrichir vos offres existantes. Notre mission est de créer de meilleures opportunités d’investissement sur les marchés financiers, afin de donner aux clients le pouvoir de prendre en main leur bien-être financier. Nous accompagnons nos partenaires dans tous les défis opérationnels, techniques et réglementaires, jusqu’au lancement réussi et au-delà.",
       block: [
         {
           title: "Centré sur le client",
@@ -1272,13 +1272,13 @@ export default {
     hero: {
       h2: "Sociétés de logiciel",
       p: "Innovez de nouveaux cas d'utilisation d'investissement en intégrant facilement l'investissement dans le parcours de vos clients. Pendant ce temps, nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      b: "Commencer à construire",
+      b: "commencez à construire",
     },
     section1: {
       entete: {
         SPAN: "Cas d'utilisation",
         H3: "Proposez l'investissement en ETF, Fonds et Actions à vos clients",
-        P: "Que vous cherchiez à développer votre offre existante ou à construire quelque chose de nouveau : lemon.markets prend en charge un large éventail de cas d'utilisation en matière de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client de premier ordre.",
+        P: "Que vous cherchiez à développer votre offre existante ou à construire quelque chose de nouveau : Mansar.makits prend en charge un large éventail de cas d'utilisation en matière de patrimoine, d'épargne et d'investissement. Nous vous offrons une solution clé en main pour lancer et opérer votre produit d'investissement en quelques semaines. Laissez-nous gérer toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan, afin que vous puissiez vous concentrer sur la fourniture d'une expérience client de premier ordre.",
       },
       left: [
         {
@@ -1341,7 +1341,7 @@ export default {
       block: [
         {
           legend: "Ouverture de compte",
-          p: "Onboarding numérique de bout en bout pour vos nouveaux clients avec des vérifications complètes de KYC et de sécurité (Vérification PEP/Sanctions & contrôles des risques). Vous avez déjà des clients ayant effectué le KYC ? Aucun souci - nous prenons en charge le partage KYC, ainsi vos clients n'ont pas à recommencer un autre processus d'authentification.",
+          p: "Onboarding numérique de bout en bout pour vos nouveaux clients avec des vérifications complètes de KYC et de sécurité (Vérification PEP/Sanctions & contrôles des risques). Vous avez déjà des clients ayant effectué le KYC ? Aucun souci - nous prenons en charge le partage KYC, ainsi vos clients n'ont pas à recommencez un autre processus d'authentification.",
         },
         {
           legend: "Alimentation du compte",
@@ -1364,7 +1364,7 @@ export default {
     section4: {
       span: "Classes d'actifs",
       h2: "Couverture d'actifs mondiale allant des ETF aux Actions",
-      p: "lemon.markets offre les produits d'investissement les plus demandés, donnant accès à une large liste d'ISINs de plus de 10 gestionnaires d'actifs. Nous assurons une tarification équitable et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des horaires de marché étendus.",
+      p: "Mansar.makits offre les produits d'investissement les plus demandés, donnant accès à une large liste d'ISINs de plus de 10 gestionnaires d'actifs. Nous assurons une tarification équitable et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des horaires de marché étendus.",
       liste: [
         {
           title: "ETF",
@@ -1403,7 +1403,7 @@ export default {
       block: [
         {
           title: "Service de courtage complet",
-          p: "lemon.markets couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous rendant agent lié.",
+          p: "Mansar.makits couvre toutes les interactions réglementaires liées à l'investissement avec le client, soit directement, soit en vous rendant agent lié.",
         },
         {
           title: "Service de courtage modulaire",
@@ -1411,14 +1411,14 @@ export default {
         },
         {
           title: "Service d'externalisation de courtage",
-          p: "Vous maintenez le contrôle total de la relation client, tandis que lemon.markets gère les détails techniques et opérationnels.",
+          p: "Vous maintenez le contrôle total de la relation client, tandis que Mansar.makits gère les détails techniques et opérationnels.",
         },
       ],
     },
     flexWrap: {
       span: "Pourquoi travailler avec nous",
       h3: "Offrir un produit d'investissement devient enfin facile",
-      p: "Utilisez l'API de lemon.markets pour lancer un produit d'investissement centré sur le client et conforme ou pour améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés des capitaux, permettant finalement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà.",
+      p: "Utilisez l'API de Mansar.makits pour lancer un produit d'investissement centré sur le client et conforme ou pour améliorer les offres existantes. Notre mission est de créer de meilleures opportunités d'investissement sur les marchés des capitaux, permettant finalement aux clients de prendre le contrôle de leur bien-être financier. Nous guidons nos partenaires à travers tous les défis opérationnels, techniques et réglementaires vers un lancement réussi et au-delà.",
       block: [
         {
           title: "Centricité client",
@@ -1453,7 +1453,7 @@ export default {
     SPAN: "Entrer en Contact",
     H1: "Partenariat avec nous",
     P: "Utilisez l'API de MANSAR.MAKITS pour lancer un produit d'investissement centré sur le client et conforme.",
-    B: "Commencer à développer",
+    B: "commencez à développer",
     section1: {
       H3_1: "À propos de nous",
       content_1: "Découvrez la vision et les principes de MANSAR.MAKITS",
@@ -1541,14 +1541,14 @@ export default {
     },
     signIn: "Se Connecter",
     getInTouch: "Prendre contact",
-    getStarted: "Commencer",
+    getStarted: "commencez",
     tagline: "Nous vous apportons des actifs d'investissement de qualité",
   },
 
   privacyPolicy: {
     H1: "Politique de Confidentialité",
     section01: {
-      H2: "Politique de confidentialité de lemon.markets GmbH",
+      H2: "Politique de confidentialité de Mansar.makits GmbH",
       P1: "Dans cette politique de confidentialité, nous vous informons sur le traitement des données personnelles lors de l'utilisation de notre site web :",
       P2: "Les données personnelles sont des informations qui se rapportent à une personne identifiée ou identifiable. Cela comprend principalement les informations qui permettent de tirer des conclusions sur votre identité, par exemple, votre nom, votre numéro de téléphone, votre adresse ou votre adresse e-mail. Mais certains identifiants tels que votre adresse IP ou l'ID de l'appareil que vous utilisez appartiennent également aux données personnelles.",
     },
@@ -1582,7 +1582,7 @@ export default {
       H2: "1. Responsable et Personne de Contact",
       P1: "La personne de contact et le soi-disant responsable du traitement de vos données personnelles lors de la visite de ce site web au sens du Règlement Général sur la Protection des Données (RGPD) est :",
       P2: {
-        "0": "lemon.markets GmbH",
+        "0": "Mansar.makits GmbH",
         "1": "Kottbusser Damm 79",
         "2": "10967 Berlin",
       },
@@ -1840,7 +1840,7 @@ export default {
     },
     section9: {
       H2: "9. Modifications de la Politique de Confidentialité",
-      P1: "Nous pouvons occasionnellement mettre à jour cette politique de confidentialité, par exemple, si nous apportons des modifications à notre site web ou si les exigences légales ou réglementaires changent. Toute mise à jour ou modification de cette politique de confidentialité sera publiée sur notre site web à l'adresse https://www.lemon.markets/. Nous vous encourageons à consulter cette page périodiquement pour rester informé de la façon dont nous protégeons vos données personnelles.",
+      P1: "Nous pouvons occasionnellement mettre à jour cette politique de confidentialité, par exemple, si nous apportons des modifications à notre site web ou si les exigences légales ou réglementaires changent. Toute mise à jour ou modification de cette politique de confidentialité sera publiée sur notre site web à l'adresse https://www.Mansar.makits/. Nous vous encourageons à consulter cette page périodiquement pour rester informé de la façon dont nous protégeons vos données personnelles.",
       P2: "Cette politique de confidentialité est actuellement valide et a le statut du 30 août 2024.",
     },
   },
@@ -1853,9 +1853,9 @@ export default {
 
     section1: {
       H2: "1. Responsable du traitement et contact",
-      P1: 'Si vous postulez à un poste vacant chez lemon.markets GmbH ("LMH") ou lemon.markets brokerage GmbH ("LMB"), le responsable du traitement des données personnelles au sens de l\'art. 4 n° 7 RGPD est lemon.markets GmbH ("LMH"). LMH a son siège social à Kottbusser Damm 79, 10967 Berlin, Allemagne.',
+      P1: 'Si vous postulez à un poste vacant chez Mansar.makits GmbH ("LMH") ou Mansar.makits brokerage GmbH ("LMB"), le responsable du traitement des données personnelles au sens de l\'art. 4 n° 7 RGPD est Mansar.makits GmbH ("LMH"). LMH a son siège social à Kottbusser Damm 79, 10967 Berlin, Allemagne.',
 
-      P2: "Si vous avez des questions concernant la protection des données, veuillez contacter notre Délégué à la Protection des Données à l'adresse e-mail datenschutz@lemon.markets ou à l'adresse postale indiquée ci-dessus. Le contenu de votre communication ne sera pas traité exclusivement par notre Délégué à la Protection des Données. Si vous souhaitez communiquer exclusivement avec notre Délégué à la Protection des Données, veuillez d'abord nous contacter directement via l'adresse e-mail fournie.",
+      P2: "Si vous avez des questions concernant la protection des données, veuillez contacter notre Délégué à la Protection des Données à l'adresse e-mail datenschutz@Mansar.makits ou à l'adresse postale indiquée ci-dessus. Le contenu de votre communication ne sera pas traité exclusivement par notre Délégué à la Protection des Données. Si vous souhaitez communiquer exclusivement avec notre Délégué à la Protection des Données, veuillez d'abord nous contacter directement via l'adresse e-mail fournie.",
     },
 
     section2: {
@@ -1932,7 +1932,7 @@ export default {
         "Une décision d'adéquation de la Commission européenne conformément à l'art. 45 (1) RGPD ;",
         "Des clauses types de protection des données, telles qu'adoptées par la Commission européenne conformément à l'art. 46 par. 2 lit.c RGPD.",
       ],
-      P2: "Des informations complémentaires à ce sujet sont disponibles sur demande via : datenschutz@lemon.markets",
+      P2: "Des informations complémentaires à ce sujet sont disponibles sur demande via : datenschutz@Mansar.makits",
     },
 
     section7: {

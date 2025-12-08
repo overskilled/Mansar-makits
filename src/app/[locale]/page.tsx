@@ -242,7 +242,7 @@ export default function Home() {
                 {t("learn_more")}
                 <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
               </span>
-            </div>
+            </div>  
             {/* Image always below text on mobile */}
             <div className="flex justify-center order-last md:order-none">
               <img

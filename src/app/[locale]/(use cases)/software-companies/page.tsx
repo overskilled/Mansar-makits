@@ -277,7 +277,7 @@ export default function page() {
                                 <li>{t("software.section1.rigth.0.list.third")}</li>
                             </ul>
 
-                            <span className="w-full sm:w-auto bg-[#fffb9e] flex items-center justify-center gap-2 px-3 py-1 mb-2 mt-4 rounded-3xl text-xs sm:text-sm text-center">
+                            <span className="w-full sm:w-auto bg-[#e3ffd9] flex items-center justify-center gap-2 px-3 py-1 mb-2 mt-4 rounded-3xl text-xs sm:text-sm text-center">
                                 <div className="w-2 h-2 rounded-full bg-green-50"></div>
                                 {t("software.section1.rigth.1.span")}
                             </span>
@@ -293,7 +293,7 @@ export default function page() {
 
             <section className="container mx-auto flex items-center -mt-[100px] w-full min-h-screen bg-[url('/background.svg')] bg-cover">
                 <img
-                    src="/investment2.svg"
+                    src="/brokers-and-wealth-managers/4.svg"
                     alt="image"
                     className="w-full h-full object-cover"
                 />

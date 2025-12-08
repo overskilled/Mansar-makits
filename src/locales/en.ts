@@ -11,12 +11,12 @@ export default {
         1: " powering",
         2: " investment products",
       },
-      P: "Enable your customers to invest in the stock market. Use the lemon.markets API to launch a customer-centric and compliant investment product.",
+      P: "Enable your customers to invest in the bond market. Use the Mansar API to launch a customer-centric and compliant investment product.",
       B: "Start Building",
     },
     EnteteData: {
       SPAN: "Use case",
-      H3: "We partner with innovative companies to grow investing opportunities across Europe",
+      H3: "We partner with innovative companies to grow investing opportunities across Central Africa",
       p: " ",
     },
     section1: {
@@ -36,10 +36,10 @@ export default {
     },
     flexWrapRight: {
       Image:
-        "https://www.lemon.markets/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
+        "https://www.Mansar.makits/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
       SPAN: "Use cases",
       H3: "Offering an investment product finally becomes easy",
-      P: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond",
+      P: "Use the Mansar API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond",
       BLOCK: [
         {
           icone:
@@ -87,7 +87,7 @@ export default {
         {
           title: "Bundled",
           content:
-            "Build your investment product end-to-end with lemon.markets. We handle all regulatory, technical, and operational complexities, providing both securities and cash accounts, so you can focus on building the best-in-class investment solution for your customers.",
+            "Build your investment product end-to-end with Mansar.makits. We handle all regulatory, technical, and operational complexities, providing both securities and cash accounts, so you can focus on building the best-in-class investment solution for your customers.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…stJ984vu_bundledoperatingmodel.svg?fit=max&w=1200",
         },
@@ -117,7 +117,7 @@ export default {
             "	https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…ing-code-document-list-checkmark.svg?fit=max&w=96",
           title: "Order management & execution",
           descript:
-            "Access a wide range of ETFs, Funds, and Stocks, through our state-of-the-art order management system.",
+            "Access a wide range of BATs, Funds, and Stocks, through our state-of-the-art order management system.",
         },
         {
           image:
@@ -147,7 +147,7 @@ export default {
   brokers: {
     hero: {
       H2: "Brokers and Wealth Managers",
-      P: "Focus all your efforts on building a unique product and attracting theright customers.We'll handle all the technical, operational, andregulatory complexities in the background.",
+      P: "Focus all your efforts on building a unique product and attracting the right customers. We'll handle all the technical, operational, and regulatory complexities in the background.",
       B: " Start Building",
     },
     liste: [
@@ -171,7 +171,7 @@ export default {
         smallTitle:
           "Simplify wealth creation with comprehensive investment solutions",
         texte:
-          "Customers want a straightforward path to grow their wealth through investments in ETFs, Funds, and Stocks. They look for expert-built strategies and automated portfolio management, which integrates with investment offerings tailored to their financial goals.",
+          "Customers want a straightforward path to grow their wealth through investments in BATs, Funds, and Stocks. They look for expert-built strategies and automated portfolio management, which integrates with investment offerings tailored to their financial goals.",
       },
       {
         smallTitle: "Optimize corporate treasury management",
@@ -181,8 +181,8 @@ export default {
     ],
     section1: {
       SPAN: "Use Cases",
-      h1: "Offer investing in ETFs, Funds, and Stocks to your customers",
-      P: "Whether you're looking to scale your existing offering or build something new: lemon.markets supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
+      h1: "Offer investing in Funds and Bonds to your customers",
+      P: "Whether you're looking to scale your existing offering or build something new: Mansar.makits supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
       titleListe: [
         {
           titre: "Neobrokers",
@@ -208,7 +208,7 @@ export default {
           smallTitle:
             "Simplify wealth creation with comprehensive investment solutions",
           texte:
-            "Customers want a straightforward path to grow their wealth through investments in ETFs, Funds, and Stocks. They look for expert-built strategies and automated portfolio management, which integrates with investment offerings tailored to their financial goals.",
+            "Customers want a straightforward path to grow their wealth through investments in Treasury Assimilable Bonds (BAT) and Assimilable Treasury Offers (OTA) They look for expert-built strategies and automated portfolio management, which integrates with investment offerings tailored to their financial goals.",
         },
         {
           titre: "Treasury Platforms",
@@ -228,7 +228,7 @@ export default {
       SPAN2: "Benefits for your customers",
       UL2: {
         0: "Access to a broad universe of assets",
-        1: "QSmooth and efficient onboarding",
+        1: "Smooth and efficient onboarding",
         2: "Safe, fully compliant processing at every step",
       },
     },
@@ -243,26 +243,26 @@ export default {
     },
     section4: {
       SPAN: "Asset Classes",
-      H2: "Global asset coverage ranging from ETFs to Stocks",
-      P: "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
-      SPANS: ["ETFs", "Stocks", "Funds"],
+      H2: "Investement asset coverage ranging from Assimilable Treasury Bonds (BATs) to (OTAs)",
+      P: "Mansar.makits offers the most in-demand investment products, providing access to a large list of offers from 5+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
+      SPANS: ["BATs", "OTAs", "Funds"],
       CARDS: [
         {
-          CardHeader: "ETFs",
+          CardHeader: "BATs",
           H5: "Offer your customers the opportunity to diversify their investments",
           UL: [
             "Market hours from 8am to 10pm",
             "From sector focus to global coverage",
-            "Over 1000+ ETFs",
+            "Over 50+ BATs",
           ],
         },
         {
-          CardHeader: "Stocks",
-          H5: "Offer access to a wide range of global stocks through an exchange",
+          CardHeader: "OTAs",
+          H5: "Offer access to a wide range of global OTAs through an exchange",
           UL: [
             "Market hours from 8am to 10pm",
             "From small caps to blue chips",
-            ">3000 Stocks",
+            ">100 OTAs",
           ],
         },
         {
@@ -279,13 +279,13 @@ export default {
     ListeDoubleBlock: {
       SPAN: "Regulatory",
       H3: "Find the right setup with our regulatory & compliance experts",
-      P: "As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
+      P: "As a FinTech partner of investment firms we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
       LEGEND: "Select the right regulatory setup",
       BLOCK: [
         {
           title: "Full brokerage service",
           content:
-            "lemon.markets covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
+            "Mansar.makits covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/Z-0jF3dAxsiBwOAE_image-bpo.svg?fit=max&w=1920",
         },
@@ -299,7 +299,7 @@ export default {
         {
           title: "Brokerage outsourcing service",
           content:
-            "You maintain full control over the customer relationship, while lemon.markets handles the technical and operational details.",
+            "You maintain full control over the customer relationship, while Mansar.makits handles the technical and operational details.",
           image:
             "https://lemonmarkets2.cdn.prismic.io/lemonmarkets2/Z-0jF3dAxsiBwOAE_image-bpo.svg?fit=max&w=1920",
         },
@@ -307,10 +307,10 @@ export default {
     },
     flexWrapRightData: {
       Image:
-        "https://www.lemon.markets/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
+        "https://www.Mansar.makits/_next/image?url=%2Fasset…ages%2Flogo-emblem-lm-big-squared.svg&w=1920&q=75",
       SPAN: "Use cases",
       H3: "Offering an investment product finally becomes easy",
-      P: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond",
+      P: "Use the Mansar.makits API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond",
       BLOCK: [
         {
           icone:
@@ -399,7 +399,7 @@ export default {
     section2: {
       SPAN: "Principles",
       H3: "We are guided by a common set of principles",
-      P: "We follow clear principles in the day-to-day of building lemon.markets. Doing so allows us to build an enduring company, enabling all lemoneers to achieve their best results. This framework is based on the belief that every person has an existing set of values, but at work personal preferences need to be put aside to unite around one way of working. Because using the power of teamwork, we will achieve more than each of us could individually.",
+      P: "We follow clear principles in the day-to-day of building Mansar.makits. Doing so allows us to build an enduring company, enabling all lemoneers to achieve their best results. This framework is based on the belief that every person has an existing set of values, but at work personal preferences need to be put aside to unite around one way of working. Because using the power of teamwork, we will achieve more than each of us could individually.",
       H5: "A lemoneer will",
     },
     section3: {
@@ -408,7 +408,7 @@ export default {
     },
     section4: {
       P1: "international publication",
-      P2: "german publication",
+      P2: "Cameroun publication",
       P3: "press releases",
       tableau: [
         {
@@ -425,7 +425,7 @@ export default {
         1: " the heart of Berlin",
       },
       P: "Our HQ is located in the lively area between Kreuzberg and  Neukölln. Every start-up’s dream office filled with life, laugh, white boards and lemon trees. This is were we celebrate our culture, host our lemon.talks and work on empowering a thriving ecosystem of investment products.",
-      B: "Explore working at lemon.markets",
+      B: "Explore working at Mansar.makits",
     },
     section6: {
       H3: "Our backing",
@@ -436,14 +436,14 @@ export default {
   banks: {
     hero: {
       H2: "Banks & EMIs",
-      P: "Leverage the lemon.markets infrastructure to integrate Stock and ETF investing on your terms. We work alongside your operating model to create a convenient customer experience.",
+      P: "Leverage the Mansar.makits infrastructure to integrate Assimilable Treasury Bonds (BATs) and OTAs investing on your terms. We work alongside your operating model to create a convenient customer experience.",
       B: "Start Building",
     },
     section1: {
       entete: {
         SPAN: "Use Cases",
-        H3: "Offer investing in ETFs, Funds, and Stocks to your customers",
-        P: "Whether you're looking to scale your existing offering or build something new: lemon.markets supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
+        H3: "Offer investing in Treasury Assimilable Bonds (BAT) and OTA to your customers",
+        P: "Whether you're looking to scale your existing offering or build something new: Mansar.makits supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
       },
       left: [
         {
@@ -468,7 +468,7 @@ export default {
         },
         {
           legend: "Payment Wallet",
-          h2: "Embed ETFs, Funds, and Stocks directly into your wallet app",
+          h2: "Embed BATs, Funds, and OTAs directly into your wallet app",
           p: "Tech-savvy customers are looking for comprehensive financial tools that integrate spending and investing into their daily lives. They seek intuitive ways to invest spare change or rewards directly within their wallet app, promoting passive investment and long-term financial growth.",
         },
       ],
@@ -499,15 +499,15 @@ export default {
         },
         {
           legend: "Account funding",
-          p: "Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
+          p: "Your customers will receive a IBAN that supports different pay-in methods and flexible pay-outs. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
         },
         {
           legend: "Order management",
-          p: "Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
+          p: "Offer a wide range of BATs and OTAs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
         },
         {
           legend: "Settlement & Custody",
-          p: "We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing stock splits and mergers, and handling shareholder voting.",
+          p: "We provide the mandatory custody services to ensure the safekeeping and administration of your customers' securities accounts. With us, all corporate actions are taken care of with diligence and precision, such as ensuring timely and accurate dividend payments, managing BAT and OTA splits and mergers, and handling shareholder voting.",
         },
         {
           legend: "Taxation and Reporting",
@@ -517,25 +517,25 @@ export default {
     },
     section4: {
       span: "Asset Classes",
-      h2: "Global asset coverage ranging from ETFs to Stocks",
-      p: "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
+      h2: "Investement asset coverage ranging from Assimilable Treasury Bonds (BATs) to (OTAs)",
+      p: "Mansar.makits offers the most in-demand investment products, providing access to a large list of offers from 5+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
       liste: [
         {
-          title: "ETFs",
+          title: "BATs",
           h5: "Offer your customers the opportunity to diversify their investments",
           liste: {
             first: "Market hours from 8am to 10pm",
             second: "From sector focus to global coverage",
-            third: "Over 1000+ ETFs",
+            third: "Over 50+ BATs",
           },
         },
         {
-          title: "Stocks",
+          title: "OTAs",
           h5: "Offer access to a wide range of global stocks through an exchange",
           liste: {
             first: "Market hours from 8am to 10pm",
             second: "From small caps to blue chips",
-            third: ">3000 Stocks",
+            third: ">100 OTAs",
           },
         },
         {
@@ -552,12 +552,12 @@ export default {
     doubleBlock: {
       span: "Regulatory",
       h3: "Find the right setup with our regulatory & compliance experts",
-      p: "As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
+      p: "As a FinTech partner of investment firms we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
       legend: "Select the right regulatory setup",
       block: [
         {
           title: "Full brokerage service",
-          p: "lemon.markets covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
+          p: "Mansar.makits covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
         },
         {
           title: "Modular brokerage service",
@@ -565,14 +565,14 @@ export default {
         },
         {
           title: "Brokerage outsourcing service",
-          p: "You maintain full control over the customer relationship, while lemon.markets handles the technical and operational details.",
+          p: "You maintain full control over the customer relationship, while Mansar.makits handles the technical and operational details.",
         },
       ],
     },
     flexWrap: {
       span: "Why work with us",
       h3: "Offering an investment product finally becomes easy",
-      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      p: "Use the Mansar.makits API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
       block: [
         {
           title: "Customer centricity",
@@ -601,14 +601,14 @@ export default {
   software: {
     hero: {
       h2: "Software Companies",
-      p: "Innovate new investment use cases by integrating investing into your customer journey with ease.While we take care of all the technical, operational and regulatory hustle in the back.",
+      p: "Innovate new investment use cases by integrating investing into your customer journey with ease. While we take care of all the technical, operational and regulatory hustle in the back.",
       b: "Start Building",
     },
     section1: {
       entete: {
         SPAN: "Use Cases",
-        H3: "Offer investing in ETFs, Funds, and Stocks to your customers",
-        P: "Whether you're looking to scale your existing offering or build something new: lemon.markets supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
+        H3: "Offer investing in BATs, Funds, and OTAs to your customers",
+        P: "Whether you're looking to scale your existing offering or build something new: Mansar.makits supports a wide range of wealth, savings and investing use cases. We offer you a one-stop-shop to launch and operate your investment product within weeks. Let us handle all technical, operational, and regulatory complexities in the back, so you can focus on delivering a best-in-class customer experience.",
       },
       left: [
         {
@@ -671,11 +671,11 @@ export default {
         },
         {
           legend: "Account funding",
-          p: "Your customers will receive a German IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
+          p: "Your customers will receive a Cameroun IBAN that supports different pay-in methods and flexible pay-outs. Deposits are ensured for each cash account of up to €100,000. You already provide your customers with a cash account? No worries - we can integrate into your platform and operate modular around your existing setup.",
         },
         {
           legend: "Order management",
-          p: "Offer a wide range of Stocks and ETFs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
+          p: "Offer a wide range of Stocks and BATs. Supporting multiple order types like direct execution, block orders and savings plans to accommodate any investing behaviour. Orders are routed to an exchange or the issuer directly to ensure best execution. All regulatory required price and cost information is provided before an order is executed.",
         },
         {
           legend: "Settlement & Custody",
@@ -689,25 +689,25 @@ export default {
     },
     section4: {
       span: "Asset Classes",
-      h2: "Global asset coverage ranging from ETFs to Stocks",
-      p: "lemon.markets offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
+      h2: "Investment asset coverage ranging from BATs to OTA",
+      p: "Mansar.makits offers the most in-demand investment products, providing access to a large list of ISINs from 10+ asset managers. We ensure fair pricing and tight spreads for your customers, supported by high liquidity and extended market hours.",
       liste: [
         {
-          title: "ETFs",
+          title: "BATs",
           h5: "Offer your customers the opportunity to diversify their investments",
           liste: {
             first: "Market hours from 8am to 10pm",
             second: "From sector focus to global coverage",
-            third: "Over 1000+ ETFs",
+            third: "Over 50+ BATs",
           },
         },
         {
-          title: "Stocks",
-          h5: "Offer access to a wide range of global stocks through an exchange",
+          title: "OTAs",
+          h5: "Offer access to a wide range of OTAs through an exchange",
           liste: {
             first: "Market hours from 8am to 10pm",
             second: "From small caps to blue chips",
-            third: ">3000 Stocks",
+            third: ">100 OTAs",
           },
         },
         {
@@ -724,12 +724,12 @@ export default {
     doubleBlock: {
       span: "Regulatory",
       h3: "Find the right setup with our regulatory & compliance experts",
-      p: "As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
+      p: "As a FinTech partner of investment firms we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
       legend: "Select the right regulatory setup",
       block: [
         {
           title: "Full brokerage service",
-          p: "lemon.markets covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
+          p: "Mansar.makits covers all investment related regulatory interactions with the customer, either directly or by making you a tied agent.",
         },
         {
           title: "Modular brokerage service",
@@ -737,14 +737,14 @@ export default {
         },
         {
           title: "Brokerage outsourcing service",
-          p: "You maintain full control over the customer relationship, while lemon.markets handles the technical and operational details.",
+          p: "You maintain full control over the customer relationship, while Mansar.makits handles the technical and operational details.",
         },
       ],
     },
     flexWrap: {
       span: "Why work with us",
       h3: "Offering an investment product finally becomes easy",
-      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      p: "Use the Mansar.makits API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
       block: [
         {
           title: "Customer centricity",
@@ -772,7 +772,7 @@ export default {
 
   contactUs: {
     DataHero: {
-      H2: "Get started with lemon.markets",
+      H2: "Get started with Mansar.makits",
       P: "Do you have questions about building the next generation of brokerage experience? Fill out the contact form below and one of our experts will reach out to you.",
       B: " ",
     },
@@ -789,12 +789,12 @@ export default {
       Label: {
         0: "Name",
         1: "Email",
-        2: "Responsability",
-        3: "company stage",
-        4: "Description",
+        2: "Position",
+        3: "Company name",
+        4: "Description of your product/service",
         5: "Licence",
         6: "Country",
-        7: "Planned",
+        7: "When do you plan to launch your product",
       },
       H4_3: "Privacy Policy for contact forms",
       B: "submit form",
@@ -820,13 +820,13 @@ export default {
       tbody: [
         [
           {
-            title: "lemon.markets GmbH",
+            title: "Mansar.makits GmbH",
             first: "Kottbusser Damm 79",
             second: "10967 Berlin",
             third: " ",
           },
           {
-            title: "lemon.markets brokerage GmbH",
+            title: "Mansar.makits brokerage GmbH",
             first: "Kottbusser Damm 79",
             second: "10967 Berlin",
             third: " ",
@@ -849,15 +849,15 @@ export default {
         [
           {
             title: "Contact",
-            first: "Email: support@lemon.markets",
-            second: "Website: https://lemon.markets",
-            third: "Contact us: https://www.lemon.markets/en-de/contact",
+            first: "Email: support@Mansar.makits",
+            second: "Website: https://Mansar.makits",
+            third: "Contact us: https://www.Mansar.makits/en-de/contact",
           },
           {
             title: "Contact",
-            first: "Email: info@lemon.markets",
-            second: "Website: https://lemon.markets",
-            third: "Contact us: https://www.lemon.markets/en-de/contact",
+            first: "Email: info@Mansar.makits",
+            second: "Website: https://Mansar.makits",
+            third: "Contact us: https://www.Mansar.makits/en-de/contact",
           },
         ],
         [
@@ -880,14 +880,14 @@ export default {
             first:
               "Responsible for the content according to § 18 para. 2 MStV is",
             second:
-              "Maximilian Linden, lemon.markets GmbH, Kottbusser Damm 79, 10967 Berlin",
+              "Maximilian Linden, Mansar.makits GmbH, Kottbusser Damm 79, 10967 Berlin",
           },
           {
             title: " ",
             first:
-              "lemon.markets brokerage GmbH is supervised by the Bundesanstalt für",
+              "Mansar.makits brokerage GmbH is supervised by the Bundesanstalt für",
             second:
-              "Finanzdienstleistungsaufsicht (BaFin) and is licensed under the German Investment",
+              "Finanzdienstleistungsaufsicht (BaFin) and is licensed under the Cameroun Investment",
             third: "Firms Act (WpIG).",
           },
         ],
@@ -897,7 +897,7 @@ export default {
             title: "Supervisory Authority",
             first: "Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)",
             second: "Marie-Curie-Straße 24-28",
-            third: "60439 Frankfurt am Main Germany",
+            third: "60439 Frankfurt am Main Camerouny",
           },
         ],
       ],
@@ -909,22 +909,22 @@ export default {
       H4_2: "‍Validity",
       P2: "The imprint also applies to the following online presences:",
       H4_3: "Copyright",
-      P3: "Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law, every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are only allowed for private use. The materials from these pages are copyrighted, and any unauthorized use may violate copyright laws.",
+      P3: "Our web pages and their contents are subject to Cameroun copyright law. Unless expressly permitted by law, every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are only allowed for private use. The materials from these pages are copyrighted, and any unauthorized use may violate copyright laws.",
       H4_4: "‍Dispute Resolution",
       P4: "The European Commission provides a platform for online dispute resolution (OS), which is available at https://ec.europa.eu/consumers/odr. We do not participate in dispute resolution proceedings before any other consumer arbitration body. You can find our email address above.",
     },
     link: {
-      0: "Developer Hub: https://developer.lemon.markets/",
+      0: "Developer Hub: https://developer.Mansar.makits/",
       1: "LinkedIn: https://www.linkedin.com/company/lemon-markets/",
-      2: "Instagram: https://www.instagram.com/lemon.markets/",
-      3: "Facebook: https://www.facebook.com/lemon.markets/",
+      2: "Instagram: https://www.instagram.com/Mansar.makits/",
+      3: "Facebook: https://www.facebook.com/Mansar.makits/",
       4: "Twitter: https://twitter.com/lemon_markets",
     },
   },
 
   thermsOfUse: {
     H1: "Terms of use",
-    H2: "When using this website made available by lemon.markets (hereinafter referred to as LM) please adhere to the following rules (terms of use).",
+    H2: "When using this website made available by Mansar.makits (hereinafter referred to as LM) please adhere to the following rules (terms of use).",
     Data: [
       "These terms of use are currently valid and were last updated on the 31st of March 2023",
       "LM makes information and data available on its website and gives customers and interested parties access to third-party websites through the use of links (hyperlinks). The information provided on this website is not intended for publication or distribution to any person or entity in any jurisdiction or country where such publication of information or distribution of products and services would be contrary to law or regulation on the grounds of the person's nationality, residence or otherwise. The use of the website by persons who are subject to such restrictions is prohibited.",
@@ -934,20 +934,20 @@ export default {
       "Where the website of LM offers the option to participate in discussion forums and chats, LM hereby advises that any content and opinions shared by the users are not checked by LM, and therefore, LM does not accept any liability for such content. Users who take part in discussion forums and chats hereby undertake not to upload any content contrary to law or that is pornographic in nature or glorifies violence or to use any software that can harm other users or the LM, for example, through viruses. LM has the right to exclude users at any time and to remove individual content from discussion forums and chats where the behaviour of a user is contrary to the principles of reasonable behaviour or otherwise affects the legitimate interests of LM.",
       "LM reserves the right to change, suspend or close down the website, including any services, information, functions and features offered on the websites. LM, furthermore, reserves the right to limit the use of individual functions and features or services to limit and to restrict access to parts of the website without prior notice. Users of the website also hereby agree that LM may edit or remove published information and data at any time. The LM is under no obligation to maintain the content on its website.",
       "The content and structure of the website provided by LM are protected by copyright. The reproduction, modification and distribution of information or data, and in particular, the use of texts, text parts or images and audio recordings requires the prior consent of LM.",
-      "The use of the website, information, data, images, and audio recordings provided by LM, as well as any act, omission or failure to act relating to the use of the websites is governed exclusively by the laws of the Federal Republic of Germany.",
+      "The use of the website, information, data, images, and audio recordings provided by LM, as well as any act, omission or failure to act relating to the use of the websites is governed exclusively by the laws of the Federal Republic of Camerouny.",
     ],
   },
 
   product: {
     hero: {
       H2: "Offer investing on your terms",
-      P: "Get all necessary functionality to enable your customers to invest in Stocks & ETFs via one API. Tap into a modular, compliant and developer friendly infrastructure designed by experts.",
+      P: "Get all the features you need to enable your customers to invest in mutual funds and bond certificates via a single API. Tap into a modular, compliant and developer friendly infrastructure designed by experts.",
       B: "Start Building",
     },
     ListeDoubleBlock: {
       SPAN: "Regulatory",
       H3: "Find the right setup with our regulatory & compliance experts",
-      P: "As a BaFin-licensed investment firm we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
+      P: "As a FinTech partner of investment firms we can cover the full value chain. Learning about your needs we will work out the best structure for your success. We have standardized our approach, concluding that most set-ups are comprised by one of the three options below.",
       LEGEND: "Select the right regulatory setup",
       BLOCK: [
         {
@@ -960,7 +960,7 @@ export default {
         {
           title: "Bundled",
           content:
-            "Build your investment product end-to-end with lemon.markets. We handle all regulatory, technical, and operational complexities, providing both securities and cash accounts, so you can focus on building the best-in-class investment solution for your customers.",
+            "Build your investment product end-to-end with Mansar.makits. We handle all regulatory, technical, and operational complexities, providing both securities and cash accounts, so you can focus on building the best-in-class investment solution for your customers.",
           image:
             "	https://lemonmarkets2.cdn.prismic.io/lemonmarkets2…3KHopbqstJ984vv_unbundledmodel.svg?fit=max&w=1200",
         },
@@ -974,27 +974,27 @@ export default {
 
     ListeOtherManagerSystem: [
       {
-        title: "Buy & Sell Stocks",
+        title: "Buying & Selling Treasury Assimilable Bonds (BAT)",
         descript:
-          "Allow your customers to place market and limit orders for their favorite stocks",
+          "Enable your clients to place market and limit orders on diversified BATs",
         statut: "Go-Live Scope",
       },
       {
-        title: "Buy & Sell ETFs",
+        title: "Buying & Selling Assimilable Treasury Offers (OTA)",
         descript:
-          "Allow your customers to place market and limit orders in diversified ETFs",
+          "Enable your clients to place market and limit orders on diversified OTAs.",
         statut: "Go-Live Scope",
       },
       {
         title: "Buy & Sell Funds",
         descript:
-          "Provide your customers with access to mutual funds, index funds, & more",
+          "Provide your customers with access to mutual funds & more",
         statut: "Go-Live Scope",
       },
       {
-        title: "ETF savings plans",
+        title: "BAT or OTA savings plans",
         descript:
-          "Allow your customers to make investing a habit by setting up recurring savings plans for ETFs",
+          "Enable your customers to make investing a habit by setting up recurring savings plans for BAT or OTA.",
         statut: "Go-Live Scope",
       },
       {
@@ -1006,7 +1006,7 @@ export default {
       {
         title: "Fractional trading",
         descript:
-          "Allow your customers to invest in their favorites stocks starting with 1€",
+          "Allow your customers to invest in their favourite BATs or OTAs starting from 1 000 CFA francs.",
         statut: "In progress",
       },
       {
@@ -1037,7 +1037,7 @@ export default {
         {
           title: "Order management & execution",
           descript:
-            "Access a wide range of ETFs, Funds, and Stocks, through our state-of-the-art order management system.",
+            "Access a wide range of BATs, Funds, and Stocks, through our state-of-the-art order management system.",
         },
         {
           title: "Custody & asset servicing",
@@ -1062,11 +1062,11 @@ export default {
     dataEntete: {
       SPAN: "Partnership approach",
       H3: "Partnership to us means: providing domain & operations experience",
-      P: "The lemon.markets team combines operating experience from both traditional and modern security service providers, covering every aspect of the value chain. This allows us to truly understand your needs and deliver the right solution for your phase of growth. As a one-stop-shop, we know exactly what we do, driving operational efficiency across all touchpoints and following our customer-first approach.",
+      P: "The Mansar.makits team combines operating experience from both traditional and modern security service providers, covering every aspect of the value chain. This allows us to truly understand your needs and deliver the right solution for your phase of growth. As a one-stop-shop, we know exactly what we do, driving operational efficiency across all touchpoints and following our customer-first approach.",
     },
 
     section2: {
-      P: "The partnership with lemon.markets accelerated our growth. They accompanied us through the different lifecycle stages and their comprehensive hub for developers, product managers, and operations specialists provided us with the resources we needed to work faster and with greater focus.",
+      P: "The partnership with Mansar.makits accelerated our growth. They accompanied us through the different lifecycle stages and their comprehensive hub for developers, product managers, and operations specialists provided us with the resources we needed to work faster and with greater focus.",
       SPAN: "Julia Kruslin, CEO & Co-Founder, beatvest",
       B: "Real the full story",
     },
@@ -1074,7 +1074,7 @@ export default {
     dataBlock1: {
       SPAN: "Use cases",
       H3: "Offering an investment product finally becomes easy",
-      P: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond",
+      P: "Use the Mansar.makits API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond",
       BLOCK: [
         {
           title: "Customer centricity",
@@ -1108,14 +1108,14 @@ export default {
     },
     section1: {
       SPAN: "Use cases",
-      H3: "Offer investing in Stocks & ETFs to your customers",
-      P: "lemon.markets supports a wide-range of vertical brokerage use cases. We love to partner with financial services and technology companies that aim to offer new investing products or improve their existing ones. Following a clear process we help companies to go from idea to launch in just a few months. Our experts will support you from designing the customer journey, to figuring out the right pricing and building the implementation roadmap.",
+      H3: "Offer investing in Stocks & BATs to your customers",
+      P: "Mansar.makits supports a wide-range of vertical brokerage use cases. We love to partner with financial services and technology companies that aim to offer new investing products or improve their existing ones. Following a clear process we help companies to go from idea to launch in just a few months. Our experts will support you from designing the customer journey, to figuring out the right pricing and building the implementation roadmap.",
       BLOCK: [
         {
           title: "Financial Education",
           legend: "Take your learning experience to the next level",
           content:
-            "Empower your customer to take control of their finances! Enhance your experience and make it more accessible and interactive by enabling customers to set up savings plans and invest in ETFs & Stocks directly on your platform. Increase the engagement and stickiness of your product and connect to your customers in new ways. Differentiate from standard offerings by embracing the tone of voice that best speaks to your target audience, whether they are new investors, members of a specific community, or a certain generation.",
+            "Empower your customer to take control of their finances! Enhance your experience and make it more accessible and interactive by enabling customers to set up savings plans and invest in BATs & Stocks directly on your platform. Increase the engagement and stickiness of your product and connect to your customers in new ways. Differentiate from standard offerings by embracing the tone of voice that best speaks to your target audience, whether they are new investors, members of a specific community, or a certain generation.",
         },
         {
           title: "Neobroker",
@@ -1150,8 +1150,8 @@ export default {
     },
     section3: {
       span: "Products",
-      h3: "Global asset coverage across Stocks and ETFs from inception",
-      p: "At the core of lemon.markets infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
+      h3: "Global asset coverage across Stocks and BATs from inception",
+      p: "At the core of Mansar.makits infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
       block: [
         {
           title: "Stocks",
@@ -1164,13 +1164,13 @@ export default {
           },
         },
         {
-          title: "ETFs",
+          title: "BATs",
           smallTitle:
             "Let your customers diversify their investments through mutual funds from leading issuers",
           liste: {
             1: "Market open from 8am to 10pm",
             2: "From sector to global coverage",
-            3: ">1000 ETFs",
+            3: ">1000 BATs",
           },
         },
         {
@@ -1195,7 +1195,7 @@ export default {
     flexWrap: {
       span: "Why work with us",
       h3: "Offering an investment product finally becomes easy",
-      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      p: "Use the Mansar.makits API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
       block: [
         {
           title: "Customer centricity",
@@ -1229,8 +1229,8 @@ export default {
     },
     section1: {
       SPAN: "Use cases",
-      H3: "Offer investing in Stocks & ETFs to your customers",
-      P: "lemon.markets supports a wide-range of contextual brokerage use cases. We love to partner with financial services and technology companies that aim to offer new investing products or improve their existing ones. Following a clear process we help companies to go from idea to launch in just a few months. Our experts will support you from designing the customer journey, to figuring out the right pricing and building the implementation roadmap.",
+      H3: "Offer investing in Stocks & BATs to your customers",
+      P: "Mansar.makits supports a wide-range of contextual brokerage use cases. We love to partner with financial services and technology companies that aim to offer new investing products or improve their existing ones. Following a clear process we help companies to go from idea to launch in just a few months. Our experts will support you from designing the customer journey, to figuring out the right pricing and building the implementation roadmap.",
       BLOCK: [
         {
           title: "Tax Servicing",
@@ -1271,8 +1271,8 @@ export default {
     },
     section3: {
       span: "Products",
-      h3: "Global asset coverage across Stocks and ETFs from inception",
-      p: "At the core of lemon.markets infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
+      h3: "Global asset coverage across Stocks and BATs from inception",
+      p: "At the core of Mansar.makits infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
       block: [
         {
           title: "Stocks",
@@ -1285,13 +1285,13 @@ export default {
           },
         },
         {
-          title: "ETFs",
+          title: "BATs",
           smallTitle:
             "Let your customers diversify their investments through mutual funds from leading issuers",
           liste: {
             1: "Market open from 8am to 10pm",
             2: "From sector to global coverage",
-            3: ">1000 ETFs",
+            3: ">1000 BATs",
           },
         },
         {
@@ -1316,7 +1316,7 @@ export default {
     flexWrap: {
       span: "Why work with us",
       h3: "Offering an investment product finally becomes easy",
-      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      p: "Use the Mansar.makits API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
       block: [
         {
           title: "Customer centricity",
@@ -1350,8 +1350,8 @@ export default {
     },
     section1: {
       SPAN: "Use cases",
-      H3: "Offer investing in Stocks & ETFs to your customers",
-      P: "lemon.markets supports a wide-range of embedded brokerage use cases. We love to partner with companies, who are equally passionate about offering investment products as we are. Bring your product to market in a fast, compliant and cost-efficient way leveraging our investment infrastructure.",
+      H3: "Offer investing in Stocks & BATs to your customers",
+      P: "Mansar.makits supports a wide-range of embedded brokerage use cases. We love to partner with companies, who are equally passionate about offering investment products as we are. Bring your product to market in a fast, compliant and cost-efficient way leveraging our investment infrastructure.",
       BLOCK: [
         {
           title: "Neobank",
@@ -1363,7 +1363,7 @@ export default {
           title: "Alternative Investment Products",
           legend: "Deliver a full investment offering",
           content:
-            "To further empower your customers, you can help them diversify their portfolios by offering direct investment opportunities in stocks, ETFs, and more. This way, you avoid breaks in the user experience when the user wants to manage either asset class. By combining the best of both worlds inside your environment, you can provide your users with a seamless experience. Giving users the freedom to choose what they want to invest in provides more options to achieve their financial goals. By unlocking the power of alternative investments, you have already offered customers access to exciting investment opportunities, and expanding investment choices will further strengthen their investment portfolios.",
+            "To further empower your customers, you can help them diversify their portfolios by offering direct investment opportunities in stocks, BATs, and more. This way, you avoid breaks in the user experience when the user wants to manage either asset class. By combining the best of both worlds inside your environment, you can provide your users with a seamless experience. Giving users the freedom to choose what they want to invest in provides more options to achieve their financial goals. By unlocking the power of alternative investments, you have already offered customers access to exciting investment opportunities, and expanding investment choices will further strengthen their investment portfolios.",
         },
         {
           title: "Crypto Exchanges",
@@ -1386,8 +1386,8 @@ export default {
     },
     section3: {
       span: "Products",
-      h3: "Global asset coverage across Stocks and ETFs from inception",
-      p: "At the core of lemon.markets infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
+      h3: "Global asset coverage across Stocks and BATs from inception",
+      p: "At the core of Mansar.makits infrastructure are the most requested investment products. Routing orders to regulated exchanges and issuers. Aiming to provide fair prices and tight spreads for your customers execution. Extended market hours come along naturally to provide access, when it is most wanted.",
       block: [
         {
           title: "Stocks",
@@ -1400,13 +1400,13 @@ export default {
           },
         },
         {
-          title: "ETFs",
+          title: "BATs",
           smallTitle:
             "Let your customers diversify their investments through mutual funds from leading issuers",
           liste: {
             1: "Market open from 8am to 10pm",
             2: "From sector to global coverage",
-            3: ">1000 ETFs",
+            3: ">1000 BATs",
           },
         },
         {
@@ -1431,7 +1431,7 @@ export default {
     flexWrap: {
       span: "Why work with us",
       h3: "Offering an investment product finally becomes easy",
-      p: "Use the lemon.markets API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
+      p: "Use the Mansar.makits API to launch a customer-centric and compliant investment product or enhance existing offerings. Our mission is to create better opportunities for investing in capital markets, ultimately empowering customers to take control of their financial wellbeing. We guide our partners through all operational, technical, and regulatory challenges on the way to a successful launch and beyond.",
       block: [
         {
           title: "Customer centricity",
@@ -1465,7 +1465,7 @@ export default {
   GetInTouch: {
     SPAN: "Get in Touch",
     H1: "Partner with us",
-    P: "Use the lemon.markets API to launch a customer-centric and compliant investment product.",
+    P: "Use the Mansar.makits API to launch a customer-centric and compliant investment product.",
     B: "Start building",
     section1: {
       H3_1: "About us",
@@ -1478,7 +1478,7 @@ export default {
   footer: {
     div1: {
       H3: "mansar-makits",
-      P: "The infrastructure powering investment products. Enable your customers to invest in the stock market. Use the lemon.markets API to launch a customer-centric and compliant investment product.",
+      P: "The infrastructure powering investment products. Enable your customers to invest in the stock market. Use the Mansar.makits API to launch a customer-centric and compliant investment product.",
     },
     div2: {
       H5: "Use Cases",
@@ -1559,7 +1559,7 @@ export default {
   privacyPolicy: {
     H1: "Privacy Policy",
     section01: {
-      H2: "Privacy policy lemon.markets GmbH",
+      H2: "Privacy policy Mansar.makits GmbH",
       P1: "In this privacy policy, we inform you about the processing of personal data when using our website:",
       P2: "Personal data is information that relates to an identified or identifiable person. This primarily includes information that allows conclusions to be drawn about your identity, for example, your name, your telephone number, your address, or e-mail address. But also certain identifiers such as your IP address or the device ID of your used end device belong to personal data.",
     },
@@ -1593,7 +1593,7 @@ export default {
       H2: "1. Responsible Person and Contact Person",
       P1: "The contact person and so-called controller for the processing of your personal data when visiting this website within the meaning of the General Data Protection Regulation (GDPR) is:",
       P2: {
-        0: "lemon.markets GmbH",
+        0: "Mansar.makits GmbH",
         1: "Kottbusser Damm 79",
         2: "10967 Berlin",
       },
@@ -1617,7 +1617,7 @@ export default {
         },
         "The data processing of this connection data is absolutely necessary to enable the visit of the website, to ensure the permanent operability and security of our systems as well as for the general administrative maintenance of our website. The connection data is also stored in internal log files for the purposes described above, temporarily and limited to the most necessary content, in order, for example, to find the cause of repeated or criminal calls that endanger the stability and security of our website and to take action against them.",
       ],
-      P11: "The legal basis for this processing is Art. 6 (1) lit. b DSGVO, insofar as the page call occurs in the course of the initiation or execution of a contract, and otherwise Art. 6 (1) lit. f DSGVO due to our legitimate interest in enabling the website call and permanent functionality and security of our systems. However, the automatic transmission of the connection data and the log files developed from it do not constitute access to the information in the end device in the sense of the implementation laws of the ePrivacy Directive of the EU member states, in Germany § 25 TTDSG. For the rest, however, it would be absolutely necessary anyway.",
+      P11: "The legal basis for this processing is Art. 6 (1) lit. b DSGVO, insofar as the page call occurs in the course of the initiation or execution of a contract, and otherwise Art. 6 (1) lit. f DSGVO due to our legitimate interest in enabling the website call and permanent functionality and security of our systems. However, the automatic transmission of the connection data and the log files developed from it do not constitute access to the information in the end device in the sense of the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny § 25 TTDSG. For the rest, however, it would be absolutely necessary anyway.",
       P12: "The log files are generally stored for 60 minutes and then anonymized. Exceptionally, individual log files and IP addresses are stored longer in order to prevent further attacks from this IP address in the event of cyber attacks and/or to take action against the attackers by way of criminal prosecution.",
       H22: "2.2 Contact",
       P21: "You have the possibility to get in contact with us. For this purpose, you can use the contact form. In this context, we process your data exclusively for the purpose of communicating with you.",
@@ -1657,21 +1657,21 @@ export default {
 
       H22: "3.2 Legal Basis and Revocation",
       H31: "3.2.1 Legal Basis",
-      P21: "We use tools necessary for website operation based on our legitimate interest pursuant to Art. 6 (1) lit. f DSGVO to provide the basic functions of our website. In certain cases, these tools may also be necessary for the performance of a contract or for the implementation of pre-contractual measures, in which case the processing is carried out in accordance with Art. 6 (1) lit. b DSGVO. Access to and storage of information in the terminal device is absolutely necessary in these cases and is carried out on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Germany according to § 25 para. 2 TTDSG.",
-      P22: "We use all other non-essential (optional) tools that provide additional functions based on your consent pursuant to Art. 6 (1) a DSGVO. Access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Germany according to Section 25 (1) TTDSG. Data processing using these tools only takes place if we have received your consent for this in advance.",
+      P21: "We use tools necessary for website operation based on our legitimate interest pursuant to Art. 6 (1) lit. f DSGVO to provide the basic functions of our website. In certain cases, these tools may also be necessary for the performance of a contract or for the implementation of pre-contractual measures, in which case the processing is carried out in accordance with Art. 6 (1) lit. b DSGVO. Access to and storage of information in the terminal device is absolutely necessary in these cases and is carried out on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny according to § 25 para. 2 TTDSG.",
+      P22: "We use all other non-essential (optional) tools that provide additional functions based on your consent pursuant to Art. 6 (1) a DSGVO. Access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny according to Section 25 (1) TTDSG. Data processing using these tools only takes place if we have received your consent for this in advance.",
       P23: `If personal data is transferred to third countries (e.g., the USA), we refer you, also with regard to the risks that this may entail, to para. 6 ("Data Transfer to Third Countries"). We will inform you if an adequacy decision exists for the third country in question or if standard contractual clauses or other guarantees have been concluded for the use of certain tools. If you have given your consent to the use of certain tools and to the associated transfer of your personal data to third countries, we (also) transfer the data processed when using the tools to third countries on the basis of this consent pursuant to Art. 49 (1) a DSGVO.`,
 
       H32: "3.2.2 Obtaining Your Consent",
       P31: "To obtain and manage your consents, we use the tool CookieFirst, available at https://cookiefirst.com. This generates a banner informing you about data processing on our website and giving you the option to consent to all, some, or no data processing through optional tools. This banner will appear the first time you visit our website and when you revisit the selection of your preferences to change them or withdraw consents. The banner will also appear on subsequent visits to our website, provided that you have disabled the storage of cookies or the cookies or information in CookieFirst's Local Storage have been deleted or have expired.",
       P32: "Your consent or revocation, your IP address, information about your browser, your terminal device, and the time of your visit are transmitted to CookieFirst as part of your website visit. In addition, CookieFirst stores necessary information on your terminal device in order to document the consents and revocations you have given. The data collected in this way is stored until you request us to delete it, delete the CookieFirst cookie yourself, or the purpose for storing the data no longer applies. Mandatory legal storage obligations remain unaffected.",
-      P33: "The data processing by CookieFirst is necessary to provide you with the legally required consent management and to comply with our documentation obligations. The legal basis for the use of CookieFirst is Art. 6 (1) lit. f DSGVO, justified by our interest in fulfilling the legal requirements for consent management. The access to and storage of information in the end device is absolutely necessary in these cases and takes place on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Germany according to § 25 para. 2 TTDSG.",
+      P33: "The data processing by CookieFirst is necessary to provide you with the legally required consent management and to comply with our documentation obligations. The legal basis for the use of CookieFirst is Art. 6 (1) lit. f DSGVO, justified by our interest in fulfilling the legal requirements for consent management. The access to and storage of information in the end device is absolutely necessary in these cases and takes place on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny according to § 25 para. 2 TTDSG.",
 
       H33: "3.2.3 Revocation of Your Consent or Change of Your Selection",
       P4: "You can revoke your consent for certain tools, i.e., for the storage and access to information in the terminal device, the processing of your personal data, and the transfer of your data to third countries, at any time with effect for the future. To do so, click on the Data Privacy Settings in the footer. There you can also change the selection of tools to whose use you wish to consent, as well as obtain supplementary information on the tools used. Alternatively, you can assert your revocation for certain tools directly with the provider.",
 
       H23: "3.3 Necessary Tools",
       P41: `We use certain tools to enable the basic functions of our website ("necessary tools"). These include, for example, tools to prepare and display website content, to manage and integrate tools, to provide payment processing services, to detect and prevent fraud, and to ensure the security of our website. Without these tools, we could not provide our service. Therefore, necessary tools are used without consent.`,
-      P42: `The legal basis for necessary tools is the necessity to fulfill our legitimate interests pursuant to Art. 6 (1) lit. f DSGVO in the provision of the respective basic functions and the operation of our website. In cases where the provision of the respective website functions is necessary for the fulfillment of a contract or for the performance of pre-contractual measures, the legal basis for data processing is Art. 6 (1) lit. b DSGVO. Access to and storage of information in the terminal device is absolutely necessary in these cases and is carried out on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Germany according to Section 25 (2) TTDSG.`,
+      P42: `The legal basis for necessary tools is the necessity to fulfill our legitimate interests pursuant to Art. 6 (1) lit. f DSGVO in the provision of the respective basic functions and the operation of our website. In cases where the provision of the respective website functions is necessary for the fulfillment of a contract or for the performance of pre-contractual measures, the legal basis for data processing is Art. 6 (1) lit. b DSGVO. Access to and storage of information in the terminal device is absolutely necessary in these cases and is carried out on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny according to Section 25 (2) TTDSG.`,
       P43: `In the event that personal data is transferred to third countries (such as the USA), we refer in addition to the information provided below to para. 6 ("Data Transfer to Third Countries").`,
 
       H34: "3.3.1 Google Tag Manager",
@@ -1684,7 +1684,7 @@ export default {
 
       H24: "3.4 Analysis Tools",
       P61: `In order to improve our website, we use optional tools for the recognition of visitors and for the statistical collection and analysis of general usage behavior based on access data ("analysis tools"). We also use analytics services to evaluate the use of our various marketing channels. The usage information collected is processed in aggregated form and enables us to track usage habits of our visitors. This is used to adapt and optimize the design of our website and to make the user experience more pleasant.`,
-      P62: `The legal basis for the analysis tools is your consent according to Art. 6 para. 1 lit. a DSGVO. The access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Germany according to § 25 para. 1 TTDSG. For revocation of your consent, see 3.2.3: "Revoking Your Consent or Changing Your Selection".`,
+      P62: `The legal basis for the analysis tools is your consent according to Art. 6 para. 1 lit. a DSGVO. The access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny according to § 25 para. 1 TTDSG. For revocation of your consent, see 3.2.3: "Revoking Your Consent or Changing Your Selection".`,
       P63: `In the event that personal data is transferred to third countries (such as the USA), your consent expressly extends to the transfer of data (Art. 49 Para. 1 lit. a DSGVO). For the associated risks, please refer to para. 6 ("Data Transfer to Third Countries").`,
 
       H35: "3.4.1 Google Analytics 4",
@@ -1718,14 +1718,14 @@ export default {
         },
         `For more information about Google Analytics 4 cookies, please visit: https://support.google.com/analytics/answer/11397207?hl=de.`,
       ],
-      P74: `The legal basis for this data processing is your consent pursuant to Art. 6 Para. 1 lit. a DSGVO. Access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Germany according to § 25 para. 1 TTDSG.`,
+      P74: `The legal basis for this data processing is your consent pursuant to Art. 6 Para. 1 lit. a DSGVO. Access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny according to § 25 para. 1 TTDSG.`,
       P75: `We have concluded an order processing agreement with Google Ireland Limited for the use of Google Analytics. In the event that personal data is transferred by Google Ireland Limited to the USA, Google Ireland Limited and Google LLC have concluded standard contractual clauses (Implementing Decision (EU) 2021/914, Module 3) pursuant to Art. 46 (2) lit. c DSGVO. In addition, we also obtain your express consent for the transfer of your data to third countries in accordance with Art. 49 (1) a DSGVO.`,
       P76: `For more information, please see Google's privacy policy: https://support.google.com/analytics/answer/6004245.`,
 
       H25: "3.5 Marketing Tools",
       P81: `We also use optional tools for advertising purposes ("marketing tools"). Some of the access data collected when using our website is used to create usage profiles, which store in particular your usage behavior, the advertisements you have viewed or clicked on, and, based on this, the classification into advertising categories, interests, and preferences. By analyzing and evaluating this access data, we are able to present you with personalized advertising, i.e., advertising that corresponds to your actual interests and needs, on our website and on the websites and services of other providers. In doing so, we also analyze your usage behavior in order to recognize you on other sites and to address you in a personalized manner based on your use of our site (so-called retargeting). In addition, we evaluate the effectiveness and success of our advertising campaigns (especially so-called conversions and leads).`,
       P82: `Marketing tools also include optional social network tools used to share posts and content through these networks ("social media plugins").`,
-      P83: `The legal basis for the marketing tools is your consent pursuant to Art. 6 (1) lit. a DSGVO, which you give via the consent banner or with the respective tool itself by individually allowing its use via a banner (overlay) placed over it. The access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Germany according to § 25 para. 1 TTDSG. For revocation of your consent see 3.2.3: "Revoking Your Consent or Changing Your Selection".`,
+      P83: `The legal basis for the marketing tools is your consent pursuant to Art. 6 (1) lit. a DSGVO, which you give via the consent banner or with the respective tool itself by individually allowing its use via a banner (overlay) placed over it. The access to and storage of information in the terminal device is then based on the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny according to § 25 para. 1 TTDSG. For revocation of your consent see 3.2.3: "Revoking Your Consent or Changing Your Selection".`,
       P84: `In the event that personal data is transferred to third countries (such as the USA), your consent expressly extends to the data transfer (Art. 49 para. 1 lit. a DSGVO). For the associated risks, please refer to para. 6 ("Data Transfer to Third Countries").`,
       liste5: [
         `In the following section, we would like to explain the tools and the providers used for this purpose in more detail. The data collected may include in particular:`,
@@ -1757,7 +1757,7 @@ export default {
           0: `"_uetsid", "_uetvid": same purposes as the corresponding cookies;`,
           1: `"_uetsid_exp", "_uetvid_exp": Information about the expiration date of the information in the Local Storage.`,
         },
-        `The legal basis for this data processing is your consent pursuant to Art. 6 Para. 1 lit. a DSGVO. Access to and storage of information in the terminal device then takes place on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Germany in accordance with Section 25 (1) TTDSG. The transfer of your data to the USA and other third countries takes place on the basis of your express consent in accordance with Art. 49 Para. 1 lit. a DSGVO.`,
+        `The legal basis for this data processing is your consent pursuant to Art. 6 Para. 1 lit. a DSGVO. Access to and storage of information in the terminal device then takes place on the basis of the implementation laws of the ePrivacy Directive of the EU member states, in Camerouny in accordance with Section 25 (1) TTDSG. The transfer of your data to the USA and other third countries takes place on the basis of your express consent in accordance with Art. 49 Para. 1 lit. a DSGVO.`,
       ],
       H26: "4. Online Presence in Social Networks",
       p1: `We maintain online presences in social networks in order to communicate there with customers and interested parties, among others, and to provide information about our products and services. The users' data is generally processed by the social networks concerned for market research and advertising purposes. In this way, usage profiles can be created based on the interests of the users. For this purpose, cookies and other identifiers are stored on the computers of the data subjects. Based on these usage profiles, for example, advertisements are then placed within the social networks but also on third-party websites.`,
@@ -1828,7 +1828,7 @@ export default {
     section7: {
       H2: `7. Storage Duration`,
       P1: `In principle, we store personal data only as long as necessary to fulfill the purposes for which we collected the data. Thereafter, we delete the data immediately, unless we still need the data until the expiry of the statutory limitation period for evidence purposes for civil law claims, due to statutory retention obligations or there is another legal basis under data protection law for the continued processing of your data in the specific individual case.`,
-      P2: `Even after this, we still have to store some of your data for accounting reasons. We are obliged to do so because of legal documentation requirements that may arise from the German Commercial Code, the German Fiscal Code, the German Banking Act, the German Money Laundering Act, and the German Securities Trading Act. The periods specified there for the retention of documents are two to ten years.`,
+      P2: `Even after this, we still have to store some of your data for accounting reasons. We are obliged to do so because of legal documentation requirements that may arise from the Cameroun Commercial Code, the Cameroun Fiscal Code, the Cameroun Banking Act, the Cameroun Money Laundering Act, and the Cameroun Securities Trading Act. The periods specified there for the retention of documents are two to ten years.`,
     },
     section8: {
       H2: `8. Your Rights, in Particular Revocation and Objection`,
@@ -1854,7 +1854,7 @@ export default {
     },
     section9: {
       H2: `9. Changes to the Privacy Policy`,
-      P1: `We may occasionally update this privacy policy, for example, if we make changes to our website or if legal or regulatory requirements change. Any updates or changes to this privacy policy will be published on our website at https://www.lemon.markets/. We encourage you to review this page periodically to stay informed about how we are protecting your personal data.`,
+      P1: `We may occasionally update this privacy policy, for example, if we make changes to our website or if legal or regulatory requirements change. Any updates or changes to this privacy policy will be published on our website at https://www.Mansar.makits/. We encourage you to review this page periodically to stay informed about how we are protecting your personal data.`,
       P2: `This privacy policy is currently valid and has the status of 30 August 2024.`,
     },
   },
@@ -1867,9 +1867,9 @@ export default {
 
     section1: {
       H2: "1 Controller and Contact",
-      P1: `If you apply for a vacant position at lemon.markets GmbH ("LMH") or lemon.markets brokerage GmbH ("LMB"), the controller for the processing of personal data pursuant to Art. 4 No. 7 GDPR is lemon.markets GmbH ("LMH"). LMH has its registered office at Kottbusser Damm 79, 10967 Berlin, Germany.`,
+      P1: `If you apply for a vacant position at Mansar.makits GmbH ("LMH") or Mansar.makits brokerage GmbH ("LMB"), the controller for the processing of personal data pursuant to Art. 4 No. 7 GDPR is Mansar.makits GmbH ("LMH"). LMH has its registered office at Kottbusser Damm 79, 10967 Berlin, Camerouny.`,
 
-      P2: `If you have any questions about data protection, please contact our Data Protection Officer at the e-mail address datenschutz@lemon.markets or at the above provided postal address. The content of your communication will not be processed exclusively by our Data Protection Officer. If you would like to communicate exclusively with our Data Protection Officer, please first contact us directly via the e-mail address provided.`,
+      P2: `If you have any questions about data protection, please contact our Data Protection Officer at the e-mail address datenschutz@Mansar.makits or at the above provided postal address. The content of your communication will not be processed exclusively by our Data Protection Officer. If you would like to communicate exclusively with our Data Protection Officer, please first contact us directly via the e-mail address provided.`,
     },
 
     section2: {
@@ -1945,7 +1945,7 @@ export default {
         `An adequacy decision of the European Commission pursuant to Art. 45 (1) GDPR;`,
         `Standard data protection clauses, as adopted by the European Commission pursuant to Art. 46 para. 2 lit.c GDPR.`,
       ],
-      P2: `Further information on this is available upon request via: datenschutz@lemon.markets`,
+      P2: `Further information on this is available upon request via: datenschutz@Mansar.makits`,
     },
 
     section7: {
