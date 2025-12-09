@@ -103,12 +103,12 @@ export default function Home() {
       {
         title: t("home.ListeDoubleBlock.BLOCK.0.title"),
         content: t("home.ListeDoubleBlock.BLOCK.0.content"),
-        image: "/investment.svg",
+        image: "/Home/securities-account.svg",
       },
       {
         title: t("home.ListeDoubleBlock.BLOCK.1.title"),
         content: t("home.ListeDoubleBlock.BLOCK.1.content"),
-        image: "/investment2.svg",
+        image: "/Home/cash-acccount.svg",
       },
     ],
   };
@@ -116,9 +116,9 @@ export default function Home() {
   //  const blocks = t("home.flexWrapRight.BLOCK", { returnobject: true })
   return (
     <div className="flex h-screen flex-col relative">
-      <div className="relative py-10 md:py-40 px-4  lg:px-0 md:px-12">
+      <div className="relative py-10 md:py-20 px-4  lg:px-0 md:px-12">
         <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
-        
+
           {/* Left Content */}
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-light leading-tight">
@@ -140,12 +140,16 @@ export default function Home() {
 
           {/* Right Image */}
           <div className="hidden md:flex justify-center items-center">
-            <img
-              src="https://placehold.co/600x400/000000/FFFFFF/png"
-              alt="hero image"
+            <video
+              src="/banner-video.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
               className="w-full max-w-[600px] h-auto object-contain"
             />
           </div>
+
         </div>
       </div>
 
@@ -171,13 +175,13 @@ export default function Home() {
         <div className="hidden md:relative bg-[url('/background-marche.svg')] bg-cover bg-no-repeat py-20"></div>
         <div className="container mx-auto px-4 md:px-0 space-y-24">
           <div
-          className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
-          style={{ backgroundImage: "url('/background-marche.svg')" }}
-        ></div>
+            className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[140px] mr-[60px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
+            style={{ backgroundImage: "url('/background-marche.svg')" }}
+          ></div>
           <div
-          className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
-          style={{ backgroundImage: "url('/background.svg')" }}
-        ></div>
+            className="hidden md:absolute left-0 right-0 -z-10 top-1/2 -translate-y-1/2 h-[800px] mt-[125px] bg-no-repeat bg-cover 2xl:bg-contain bg-bottom hidden lg:block"
+            style={{ backgroundImage: "url('/background.svg')" }}
+          ></div>
           {/* Section 1 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center container mx-auto px-4 md:px-0">
             {/* Text */}
@@ -198,7 +202,7 @@ export default function Home() {
               <img
                 src="/Home/image1.svg"
                 alt="image"
-                className="max-w-full h-auto"
+                className="max-w-lg h-auto"
               />
             </div>
           </div>
@@ -210,7 +214,7 @@ export default function Home() {
               <img
                 src="/Home/banks.svg"
                 alt="image"
-                className="max-w-full h-auto"
+                className="max-w-lg h-auto"
               />
             </div>
             {/* Text */}
@@ -242,13 +246,13 @@ export default function Home() {
                 {t("learn_more")}
                 <MoveUpRight className="w-4 group-hover:w-5 duration-500" />
               </span>
-            </div>  
+            </div>
             {/* Image always below text on mobile */}
             <div className="flex justify-center order-last md:order-none">
               <img
                 src="/Home/image1.svg"
                 alt="image"
-                className="max-w-full h-auto"
+                className="max-w-lg h-auto"
               />
             </div>
           </div>
@@ -287,7 +291,7 @@ export default function Home() {
 
       <GetInTouchBlock />
 
-    <Footer />
+      <Footer />
     </div>
   );
 }

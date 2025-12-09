@@ -165,7 +165,7 @@ export default function Page() {
         />
         <div className="mt-10">
           {/* Mobile: scroll, Desktop: grid */}
-          <div className="flex overflow-x-auto md:grid md:grid-cols-4 gap-8 items-center justify-center py-6 scrollbar-hide">
+          <div className="flex overflow-x-auto bg-black md:grid md:grid-cols-4 gap-8 items-center justify-center py-6 scrollbar-hide">
             {list.map((img, index) => (
               <img
                 key={index}

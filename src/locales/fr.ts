@@ -247,11 +247,40 @@ export default {
       H2: "Couverture d'actifs mondiale allant des ETF aux Actions",
       P: "Mansar.makits offre les produits d'investissement les plus demandés, fournissant l'accès à une large liste d'ISINs provenant de plus de 10 gestionnaires d'actifs. Nous assurons des prix équitables et des spreads serrés pour vos clients, soutenus par une liquidité élevée et des heures de marché étendues.",
       SPANS: {
-        "0": "ETF",
-        "1": "Actions",
+        "0": "BATs",
+        "1": "OTAs",
         "2": "Fonds",
       },
-      CardHeader: "Fonds",
+      CARDS: [
+        {
+          CardHeader: "BATs",
+          H5: "Offrez à vos clients la possibilité de diversifier leurs investissements",
+          UL: [
+            "Heures de marché de 8h à 22h",
+            "D’une orientation sectorielle à une couverture globale",
+            "Plus de 50+ BATs",
+          ],
+        },
+        {
+          CardHeader: "OTAs",
+          H5: "Offrez un accès à une large gamme d’OTAs mondiales via une bourse",
+          UL: [
+            "Heures de marché de 8h à 22h",
+            "Des small caps aux blue chips",
+            ">100 OTAs",
+          ],
+        },
+        {
+          CardHeader: "Fonds",
+          H5: "Proposez des stratégies d’investissement personnalisées à vos clients",
+          UL: [
+            "Accès aux fonds communs, aux MMF, et plus encore",
+            "Portefeuilles gérés professionnellement et diversifiés",
+            "Minimums et calendriers d’investissement flexibles",
+          ],
+        },
+      ],
+
       H5: "Proposez des stratégies d'investissement sur mesure à vos clients",
       UL: {
         "0": "Accès aux fonds communs de placement, MMF, etc.",

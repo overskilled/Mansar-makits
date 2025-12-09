@@ -30,14 +30,13 @@ export default function page() {
       {
         title: t("home.ListeDoubleBlock.BLOCK.1.title"),
         content: t("home.ListeDoubleBlock.BLOCK.1.content"),
-        image: "/investment.svg",
+        image: "/Home/securities-account.svg",
       },
       {
         title: t("home.ListeDoubleBlock.BLOCK.0.title"),
         content: t("home.ListeDoubleBlock.BLOCK.0.content"),
-        image: "/investment2.svg",
+        image: "/Home/cash-acccount.svg",
       },
-      // "You want to bring your own cash accounts or use a third-party? No problem. We will help you integrate
     ],
   };
   const ListeOtherManagerSystem = [
@@ -272,7 +271,7 @@ export default function page() {
                 {/* Text Section */}
                 <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
                   <img src="/p4.png" alt="image" className="mx-auto lg:mx-0" />
-                  <p className="text-black">{t("product.section2.P")}</p>
+                  <p className="text-white">{t("product.section2.P")}</p>
                   <span className="text-white block">{t("product.section2.SPAN")}</span>
                   <button className="p-2 px-4 flex items-center justify-center gap-2 bg-white rounded-2xl border my-4 mx-auto lg:mx-0">
                     {t("product.section2.B")} <ChevronRight className="h-4 w-4" />

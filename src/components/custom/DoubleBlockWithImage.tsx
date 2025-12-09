@@ -54,11 +54,11 @@ export default function DoubleBlockWithImage({
             <div
               key={index}
               onMouseEnter={() => handleImage(index)}
-              className={`border shadow-none p-4 rounded-lg mb-10 cursor-pointer transition-all duration-300 ${activeIndex === index ? "bg-amber-50" : "bg-gray-100"
+              className={`border shadow-none p-2 rounded-lg mb-10 cursor-pointer transition-all duration-300 ${activeIndex === index ? "bg-amber-50" : "bg-gray-100"
                 }`}
             >
               <div
-                className={`-ml-5 -mb-7 rounded-lg border duration-500 shadow-none transition-colors ${activeIndex === index ? "bg-amber-100" : "bg-gray-100"
+                className={`-ml-6 -mb-4 rounded-lg border duration-500 shadow-none transition-colors ${activeIndex === index ? "bg-amber-100" : "bg-gray-100"
                   }`}
               >
                 {/* Title */}
@@ -69,8 +69,8 @@ export default function DoubleBlockWithImage({
                 </div>
 
                 {/* Content */}
-                <div className="p-4 pt-2">
-                  <p className="text-sm md:text-base leading-relaxed text-gray-700">
+                <div className="px-4 py-2 pt-2">
+                  <p className="text-sm md:text-sm leading-relaxed text-gray-700">
                     {el.content}
                   </p>
                 </div>
@@ -81,11 +81,11 @@ export default function DoubleBlockWithImage({
         </div>
 
         {/* Image */}
-        <div className="w-full md:w-4/7 flex justify-center md:justify-end mt-6 md:mt-0">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-center mt-6 md:mt-0">
           <img
             src={limage}
             alt="Product visualization"
-            className="w-full max-w-md md:max-w-full h-auto object-contain transition-all duration-500"
+            className="w-3/4 max-w-md md:max-w-full h-auto object-contain transition-all duration-500"
           />
         </div>
       </div>

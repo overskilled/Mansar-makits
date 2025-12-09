@@ -176,25 +176,25 @@ export const Navbar = React.forwardRef<HTMLElement, NavbarProps>(
         type: 'icon',
         items: [
           {
-            href: '/company',
+            href: '#',
             label: t('navbar.companyItems.company'),
             description: t('navbar.companyItems.companyDesc'),
             icon: '/nav/company.svg'
           },
           {
-            href: '/careers',
+            href: '#',
             label: t('navbar.companyItems.careers'),
             description: t('navbar.companyItems.careersDesc'),
             icon: '/nav/careers.svg'
           },
           {
-            href: '/media',
+            href: '#',
             label: t('navbar.companyItems.media'),
             description: t('navbar.companyItems.mediaDesc'),
             icon: '/nav/media.svg'
           },
           {
-            href: '/blog',
+            href: '#',
             label: t('navbar.companyItems.blog'),
             description: t('navbar.companyItems.blogDesc'),
             icon: '/nav/blog.svg'

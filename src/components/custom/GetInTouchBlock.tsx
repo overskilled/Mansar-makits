@@ -8,7 +8,7 @@ export default function GetInTouchBlock() {
   const t = useI18n();
 
   return (
-    <div className="relative bg-black px-4 py-10 mb-20">
+    <div className="relative bg-black px-4 py-10 ">
       {/* Background grid pattern */}
       <div
         className="absolute inset-0 h-full w-full opacity-20 pointer-events-none"

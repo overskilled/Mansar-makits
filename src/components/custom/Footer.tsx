@@ -9,7 +9,7 @@ export default function Footer() {
   const t = useI18n();
 
   return (
-    <footer className="bg-gray-50 text-gray-800 flex flex-col mx-auto ">
+    <footer className="bg-gray-50 text-gray-800 flex flex-col ">
       <div className="container flex-1 mx-auto max-w-screen-xl px-8 md:px-12 lg:px-0 py-10 lg:py-16 space-y-12">
         {/* Top Section */}
         <div className="flex flex-col mx-auto md:flex-row gap-10 lg:gap-20">
