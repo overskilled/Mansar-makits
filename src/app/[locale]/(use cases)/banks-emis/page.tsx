@@ -259,6 +259,7 @@ export default function page() {
               </div>
             </div>
           </div>
+          
           <div className="mx-auto">
             <span className="w-40 bg-[#fffb9e] flex items-center justify-center gap-2 px-2 py-0.5 mb-2 mt-10 rounded-3xl text-sm text-center">
               <div className="w-2 h-2 rounded-full bg-[#d5ce1c]"></div>

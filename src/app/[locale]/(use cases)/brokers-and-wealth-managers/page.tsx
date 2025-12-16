@@ -244,12 +244,12 @@ export default function page() {
 
             {/* Content */}
             <div className="bg-[#f9fafb] border pt-4 pr-4 rounded-lg">
-              <div className="bg-[#f9fafb] border px-8 -ml-6 -mb-6 rounded-lg">
+              <div className="bg-[#f9fafb] border px-8 py-7 -ml-6 -mb-6 rounded-lg">
                 <div className="w-full h-full">
-                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-medium mb-4">
+                  <h2 className="text-3xl font-meduim mb-6">
                     {activeItem.smallTitle}
                   </h2>
-                  <p className="text-sm sm:text-base leading-7 text-gray-600">
+                  <p className="text-md font-thin leading-8 text-gray-600">
                     {activeItem.texte}
                   </p>
                 </div>
@@ -306,7 +306,7 @@ export default function page() {
         </h2>
         <div className="flex w-full h-30 bg-gray-300">s</div> */}
         <ProgressiveTimeline
-          title={t("brokers.section3.H2.0")}
+          title={t("banks.section3.title")}
           sections={timelineSections}
           autoProgress={true}
           progressInterval={5000}

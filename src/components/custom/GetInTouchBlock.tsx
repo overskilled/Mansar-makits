@@ -25,9 +25,9 @@ export default function GetInTouchBlock() {
       <div className="relative w-full container mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-20 mt-10 px-4 md:px-8">
         {/* Left text */}
         <div className="flex flex-col">
-          <span className="py-1 px-4 bg-[#171c30] w-[150px] text-[#6b87e5] rounded-2xl text-center inline-block">
-            {t("GetInTouch.SPAN")}
-          </span>
+            <span className="inline-flex items-center justify-center px-4 py-1 bg-white/20 max-w-[200px] w-[100%] h-8 text-[#f0bc04] whitespace-nowrap rounded-2xl text-center leading-none">
+              {t("GetInTouch.SPAN")}
+            </span>
           <h1 className="text-3xl md:text-4xl lg:text-5xl text-white mt-5 leading-snug">
             {t("GetInTouch.H1")}
           </h1>

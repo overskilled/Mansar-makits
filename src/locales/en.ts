@@ -980,7 +980,7 @@ export default {
         statut: "Go-Live Scope",
       },
       {
-        title: "Buying & Selling Assimilable Treasury Offers (OTA)",
+        title: "Buying & Selling Assimilable Treasury Obligations (OTA)",
         descript:
           "Enable your clients to place market and limit orders on diversified OTAs.",
         statut: "Go-Live Scope",

@@ -11,7 +11,7 @@ export default {
         "2": " les produits d'investissement",
       },
       P: "Permettez à vos clients d'investir sur le marché obligataire. Utilisez l'API de Mansar pour lancer un produit d'investissement centré sur le client et conforme.",
-      B: "commencez à développer",
+      B: "Commencez à développer",
     },
     EnteteData: {
       SPAN: "Cas d'utilisation",
@@ -147,7 +147,7 @@ export default {
     hero: {
       H2: "Courtiers et Gestionnaires de Patrimoine",
       P: "Concentrez tous vos efforts sur la construction d'un produit unique et l'attraction des bons clients. Nous nous occupons de toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan.",
-      B: " commencez à développer",
+      B: " Commencez à développer",
     },
     liste: [
       {
@@ -360,7 +360,7 @@ export default {
     hero: {
       H2: "Courtiers et Gestionnaires de Patrimoine",
       P: "Concentrez tous vos efforts sur la construction d'un produit unique et l'attraction des bons clients. Nous nous occupons de toutes les complexités techniques, opérationnelles et réglementaires en arrière-plan.",
-      B: "commencez à développer",
+      B: "Commencez à développer",
     },
     ListeDOubleData: {
       text1: "Mettre le client en premier",
@@ -638,7 +638,7 @@ export default {
         statut: "en cours",
       },
       {
-        title: "Acheter & Vendre des Offres du Trésor Assimilables (OTA)",
+        title: "Acheter & Vendre des Obligation du Trésor Assimilables (OTA)",
         descript:
           "Permettez à vos clients de passer des ordres au marché et à cours limité sur des OTA diversifiés",
         statut: "Portée de la mise en service",
@@ -770,7 +770,7 @@ export default {
     hero: {
       H2: "Banques & Établissements de Paiement",
       P: "Tirez parti de l'infrastructure Mansar.makits pour intégrer l'investissement en actions et ETF selon vos conditions. Nous travaillons avec votre modèle opérationnel pour créer une expérience client pratique.",
-      B: "commencez à développer",
+      B: "Commencez à développer",
     },
     section1: {
       entete: {
@@ -940,7 +940,7 @@ export default {
     hero: {
       H2: "Lancez l’investissement comme votre produit principal",
       P: "Concentrez tous vos efforts sur la création d’un produit d’investissement différencié et sur l’acquisition des bons clients. Pendant que nous nous occupons de toute la partie technique, opérationnelle et réglementaire en arrière-plan.",
-      B: "commencez à construire",
+      B: "Commencez à construire",
     },
     section1: {
       SPAN: "Cas d’utilisation",
@@ -1062,7 +1062,7 @@ export default {
     hero: {
       H2: "Intégrez l’investissement dans votre produit",
       P: "Créez de nouveaux points de contact avec vos clients et intégrez facilement l’investissement dans votre produit existant. Pendant que nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      B: "commencez à construire",
+      B: "Commencez à construire",
     },
     section1: {
       SPAN: "Cas d’usage",
@@ -1179,7 +1179,7 @@ export default {
     hero: {
       H2: "Donnez un nouveau sens à l’investissement",
       P: "Innovez avec de nouveaux cas d’usage en intégrant l’investissement dans le parcours client en toute simplicité. Pendant que nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      B: "commencez à construire",
+      B: "Commencez à construire",
     },
     section1: {
       SPAN: "Cas d’usage",
@@ -1301,7 +1301,7 @@ export default {
     hero: {
       h2: "Sociétés de logiciel",
       p: "Innovez de nouveaux cas d'utilisation d'investissement en intégrant facilement l'investissement dans le parcours de vos clients. Pendant ce temps, nous nous occupons de tous les aspects techniques, opérationnels et réglementaires en arrière-plan.",
-      b: "commencez à construire",
+      b: "Commencez à construire",
     },
     section1: {
       entete: {
@@ -1480,9 +1480,9 @@ export default {
 
   GetInTouch: {
     SPAN: "Entrer en Contact",
-    H1: "Partenariat avec nous",
+    H1: "Devenez notre partenaire",
     P: "Utilisez l'API de MANSAR.MAKITS pour lancer un produit d'investissement centré sur le client et conforme.",
-    B: "commencez à développer",
+    B: "Commencez à développer",
     section1: {
       H3_1: "À propos de nous",
       content_1: "Découvrez la vision et les principes de MANSAR.MAKITS",
@@ -1570,7 +1570,7 @@ export default {
     },
     signIn: "Se Connecter",
     getInTouch: "Prendre contact",
-    getStarted: "commencez",
+    getStarted: "Commencez",
     tagline: "Nous vous apportons des actifs d'investissement de qualité",
   },
 

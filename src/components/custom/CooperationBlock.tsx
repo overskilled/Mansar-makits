@@ -5,12 +5,12 @@ import { Card } from "../ui/card";
 export default function CooperationBlock() {
   const t = useI18n();
 
-  const liste = ["/p1.avif", "/p4.png", "/p2.avif", "/p3.avif"];
+  const liste = ["/partners/digiasset.webp", "/partners/stoneshed.webp", "/partners/elite capital.webp", "/partners/EDC.webp"];
   return (
     <div className="flex bg-black w-full py-10 items-center my-10 min-h-[80vh]">
       <div className="flex flex-col px-8 w-full mx-auto max-w-7xl">
         {/* Heading */}
-        <span className="bg-blue-600/20 rounded-lg px-3 py-1 w-fit text-[#6583d2]">
+        <span className="bg-white/20 rounded-lg px-3 py-1 w-fit text-[#f0bc04]">
           {t("CooperationBlock.SPAN")}
         </span>
         <h3 className="text-3xl text-white mt-5 mb-20">
