@@ -141,7 +141,7 @@ export default function Home() {
           {/* Right Image */}
           <div className="hidden md:flex justify-center items-center">
             <video
-              src="/banner-video.mp4"
+              src="/makits.mp4"
               autoPlay
               loop
               muted
